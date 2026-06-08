@@ -32,6 +32,18 @@ export function availableForOpenSlots(draft, SQUADS, club, year) {
     .map(x => x.player);
 }
 
+// All non-drafted players in this squad, each tagged with `available: boolean`.
+// A player is available only when a slot of their EXACT position is still open
+// (no cross-line placement). Disabled players are shown but cannot be selected.
+export function allPlayersForSquad(draft, SQUADS, club, year) {
+  const squad = SQUADS[`${club}|${year}`] || [];
+  const open = openSlots(filledIds(draft));
+  const openPositions = new Set(open.map(s => s.pos));
+  return squad
+    .filter(pl => !draft.draftedKeys.has(playerKey(club, year, pl)))
+    .map(pl => ({ ...pl, available: openPositions.has(pl.pos) }));
+}
+
 function playerKey(club, year, player) {
   return `${club}|${year}|${player.name}`;
 }

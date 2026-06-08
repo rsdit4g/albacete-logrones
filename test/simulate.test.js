@@ -54,7 +54,40 @@ test("five-year sim returns 5 ordered seasons", () => {
 
 test("aging makes an old XI decline across the five years", () => {
   const res = simulateFiveYears(weakXI, 1994, { SEASONS }, 7);
-  assert.ok(res[4].position >= res[0].position - 1);
+  // Relegation (Segunda, null position) is the ultimate decline — treat as worst.
+  const finalRank = res[4].inSegunda ? Infinity : res[4].position;
+  assert.ok(finalRank >= res[0].position - 1);
+});
+
+test("every season result exposes relegation + Supercopa fields", () => {
+  const res = simulateFiveYears(strongXI, 1994, { SEASONS }, 7);
+  for (const r of res) {
+    assert.equal(typeof r.relegated, "boolean");
+    assert.ok(r.relegationSpots === 3 || r.relegationSpots === 4);
+    assert.ok(r.supercopa === null || r.supercopa === "Campeón" || r.supercopa === "Subcampeón");
+  }
+});
+
+test("a relegated team plays out remaining years in Segunda with 0 points", () => {
+  const res = simulateFiveYears(weakXI, 1994, { SEASONS }, 7);
+  const firstDown = res.findIndex(r => r.relegated);
+  if (firstDown === -1) return; // not relegated this seed — nothing to assert
+  // Every season after the first relegation is a Segunda placeholder worth 0 pts.
+  for (let i = firstDown + 1; i < res.length; i++) {
+    assert.equal(res[i].inSegunda, true);
+    assert.equal(res[i].position, null);
+    assert.equal(res[i].record.Pts, 0);
+    assert.deepEqual(res[i].table, []);
+  }
+});
+
+test("winning the league or cup triggers a Supercopa result", () => {
+  const res = simulateFiveYears(strongXI, 1994, { SEASONS }, 7);
+  for (const r of res) {
+    const qualified = r.honours.includes("La Liga") || r.copaRound === "Campeón";
+    if (qualified) assert.ok(r.supercopa === "Campeón" || r.supercopa === "Subcampeón");
+    else assert.equal(r.supercopa, null);
+  }
 });
 
 test("simulation is deterministic for a fixed seed", () => {

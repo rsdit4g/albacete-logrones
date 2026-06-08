@@ -1,0 +1,2178 @@
+{
+  "Real Sociedad|1990": [
+    {
+      "name": "González",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 62,
+      "resistencia": 68,
+      "agresividad": 63,
+      "calidad": 64
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 58,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Górriz",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 57,
+      "resistencia": 74,
+      "agresividad": 73,
+      "calidad": 67
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Gajate",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 55,
+      "resistencia": 68,
+      "agresividad": 69,
+      "calidad": 61
+    },
+    {
+      "name": "Lasa",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 60
+    },
+    {
+      "name": "Richardson",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Lumbreras",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 62,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 62
+    },
+    {
+      "name": "Agirre",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 65,
+      "calidad": 63
+    },
+    {
+      "name": "Martínez",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 64,
+      "resistencia": 68,
+      "agresividad": 64,
+      "calidad": 61
+    },
+    {
+      "name": "Atkinson",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 84,
+      "resistencia": 74,
+      "agresividad": 69,
+      "calidad": 76
+    },
+    {
+      "name": "Aldridge",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 75,
+      "calidad": 80
+    },
+    {
+      "name": "Mentxaka",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 62
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 72,
+      "resistencia": 65,
+      "agresividad": 62,
+      "calidad": 60
+    }
+  ],
+  "Real Sociedad|1991": [
+    {
+      "name": "Yubero",
+      "pos": "GK",
+      "age": 20,
+      "velocidad": 60,
+      "resistencia": 65,
+      "agresividad": 61,
+      "calidad": 62
+    },
+    {
+      "name": "González",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 61,
+      "resistencia": 67,
+      "agresividad": 62,
+      "calidad": 65
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 57,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Górriz",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 55,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 65
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 67,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 62
+    },
+    {
+      "name": "Alaba",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 64,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 61
+    },
+    {
+      "name": "Lumbreras",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 60,
+      "resistencia": 69,
+      "agresividad": 65,
+      "calidad": 62
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 70,
+      "resistencia": 68,
+      "agresividad": 63,
+      "calidad": 63
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Océano",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 71,
+      "calidad": 67
+    },
+    {
+      "name": "Kodro",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Atkinson",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 83,
+      "resistencia": 73,
+      "agresividad": 68,
+      "calidad": 74
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 71,
+      "resistencia": 66,
+      "agresividad": 63,
+      "calidad": 61
+    }
+  ],
+  "Real Sociedad|1992": [
+    {
+      "name": "Yubero",
+      "pos": "GK",
+      "age": 21,
+      "velocidad": 62,
+      "resistencia": 66,
+      "agresividad": 62,
+      "calidad": 63
+    },
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 63,
+      "resistencia": 67,
+      "agresividad": 63,
+      "calidad": 66
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 55,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 68,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 63
+    },
+    {
+      "name": "Alaba",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 63,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 61
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 74,
+      "resistencia": 71,
+      "agresividad": 65,
+      "calidad": 65
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 70,
+      "resistencia": 69,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 69,
+      "calidad": 71
+    },
+    {
+      "name": "Océano",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 71,
+      "calidad": 67
+    },
+    {
+      "name": "Carlos Xavier",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Kodro",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 75
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 71,
+      "resistencia": 66,
+      "agresividad": 63,
+      "calidad": 62
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 71,
+      "resistencia": 68,
+      "agresividad": 64,
+      "calidad": 65
+    }
+  ],
+  "Real Sociedad|1993": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 64,
+      "resistencia": 68,
+      "agresividad": 63,
+      "calidad": 68
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Uría",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 62,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 60
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 69,
+      "agresividad": 65,
+      "calidad": 65
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 69,
+      "calidad": 72
+    },
+    {
+      "name": "Océano",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 71,
+      "calidad": 67
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 77,
+      "resistencia": 72,
+      "agresividad": 66,
+      "calidad": 72
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 71,
+      "resistencia": 69,
+      "agresividad": 65,
+      "calidad": 67
+    },
+    {
+      "name": "Kodro",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 71,
+      "resistencia": 66,
+      "agresividad": 63,
+      "calidad": 62
+    },
+    {
+      "name": "Cuyami",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 64,
+      "calidad": 61
+    }
+  ],
+  "Real Sociedad|1994": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 65,
+      "resistencia": 70,
+      "agresividad": 64,
+      "calidad": 70
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 73,
+      "agresividad": 67,
+      "calidad": 69
+    },
+    {
+      "name": "Alguacil",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 69,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 62
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 65
+    },
+    {
+      "name": "Karpin",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 77,
+      "resistencia": 73,
+      "agresividad": 67,
+      "calidad": 74
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 68
+    },
+    {
+      "name": "Kodro",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 71,
+      "calidad": 82
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 67,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "Cuyami",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 64,
+      "calidad": 60
+    },
+    {
+      "name": "Lumbreras",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 56,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 59
+    }
+  ],
+  "Real Sociedad|1995": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 71,
+      "agresividad": 64,
+      "calidad": 71
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 62
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 71
+    },
+    {
+      "name": "Albistegui",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 59,
+      "resistencia": 67,
+      "agresividad": 68,
+      "calidad": 61
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 66
+    },
+    {
+      "name": "Karpin",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 79,
+      "resistencia": 77,
+      "agresividad": 71,
+      "calidad": 80
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 67,
+      "calidad": 75
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 69
+    },
+    {
+      "name": "Craioveanu",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 73
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 68,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "De Paula",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 74,
+      "resistencia": 69,
+      "agresividad": 65,
+      "calidad": 63
+    },
+    {
+      "name": "Gracia",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 64
+    }
+  ],
+  "Real Sociedad|1996": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 65,
+      "calidad": 73
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 61
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 75,
+      "agresividad": 69,
+      "calidad": 73
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 71,
+      "agresividad": 67,
+      "calidad": 65
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 66
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 76
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 65,
+      "calidad": 69
+    },
+    {
+      "name": "Juan Gómez",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 69,
+      "resistencia": 71,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Craioveanu",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 73
+    },
+    {
+      "name": "Pérez L.",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 68,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "De Paula",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 69,
+      "agresividad": 66,
+      "calidad": 64
+    }
+  ],
+  "Real Sociedad|1997": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 66,
+      "calidad": 74
+    },
+    {
+      "name": "Olabe",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 58,
+      "resistencia": 64,
+      "agresividad": 60,
+      "calidad": 62
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 60,
+      "resistencia": 66,
+      "agresividad": 65,
+      "calidad": 60
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 62,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 79,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 75
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Imaz",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 71,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 79,
+      "resistencia": 75,
+      "agresividad": 68,
+      "calidad": 78
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Mild",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 65,
+      "calidad": 71
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 80
+    },
+    {
+      "name": "Craioveanu",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 73,
+      "resistencia": 70,
+      "agresividad": 69,
+      "calidad": 72
+    },
+    {
+      "name": "De Paula",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Real Sociedad|1998": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 66,
+      "calidad": 75
+    },
+    {
+      "name": "Olabe",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 57,
+      "resistencia": 63,
+      "agresividad": 59,
+      "calidad": 62
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 58,
+      "resistencia": 64,
+      "agresividad": 65,
+      "calidad": 59
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 61,
+      "resistencia": 69,
+      "agresividad": 71,
+      "calidad": 64
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 79,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 75
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Antía",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 69,
+      "agresividad": 67,
+      "calidad": 62
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 79,
+      "resistencia": 75,
+      "agresividad": 68,
+      "calidad": 78
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Juan Gómez",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 69,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 81
+    },
+    {
+      "name": "Sá Pinto",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 73
+    },
+    {
+      "name": "De Paula",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Real Sociedad|1999": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 67,
+      "resistencia": 73,
+      "agresividad": 66,
+      "calidad": 75
+    },
+    {
+      "name": "Iker Álvarez",
+      "pos": "GK",
+      "age": 22,
+      "velocidad": 62,
+      "resistencia": 65,
+      "agresividad": 62,
+      "calidad": 63
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 35,
+      "velocidad": 56,
+      "resistencia": 62,
+      "agresividad": 64,
+      "calidad": 57
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 60,
+      "resistencia": 68,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 79,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Antía",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 69,
+      "agresividad": 67,
+      "calidad": 62
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 75,
+      "agresividad": 68,
+      "calidad": 77
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Khokhlov",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 67,
+      "calidad": 70
+    },
+    {
+      "name": "Barkero",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 70,
+      "resistencia": 69,
+      "agresividad": 64,
+      "calidad": 63
+    },
+    {
+      "name": "Sá Pinto",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 72
+    },
+    {
+      "name": "Jankauskas",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    }
+  ],
+  "Real Sociedad|2000": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 65,
+      "calidad": 74
+    },
+    {
+      "name": "Asper",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 63,
+      "resistencia": 67,
+      "agresividad": 63,
+      "calidad": 65
+    },
+    {
+      "name": "Fuentes",
+      "pos": "DF",
+      "age": 36,
+      "velocidad": 54,
+      "resistencia": 60,
+      "agresividad": 63,
+      "calidad": 55
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Loren",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 59,
+      "resistencia": 67,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 75,
+      "agresividad": 70,
+      "calidad": 75
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Jáuregi",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 77
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 71,
+      "resistencia": 71,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Aranburu",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 73,
+      "resistencia": 72,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Jankauskas",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Demetradze",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 75,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "De Paula",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 73,
+      "resistencia": 69,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Real Sociedad|2001": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 65,
+      "resistencia": 71,
+      "agresividad": 65,
+      "calidad": 74
+    },
+    {
+      "name": "Westerveld",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 77
+    },
+    {
+      "name": "Kvarme",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 69,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 68
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 75
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 75,
+      "resistencia": 73,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Pikabea",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 67,
+      "agresividad": 68,
+      "calidad": 63
+    },
+    {
+      "name": "Jáuregi",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Xabi Alonso",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 74,
+      "resistencia": 77,
+      "agresividad": 70,
+      "calidad": 80
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 77
+    },
+    {
+      "name": "Aranburu",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 67,
+      "calidad": 70
+    },
+    {
+      "name": "Idiákez",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 79
+    },
+    {
+      "name": "Nihat",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Llorente J.",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 73,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    }
+  ],
+  "Real Sociedad|2002": [
+    {
+      "name": "Westerveld",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 79
+    },
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 64,
+      "resistencia": 70,
+      "agresividad": 64,
+      "calidad": 73
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 71,
+      "calidad": 76
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 69
+    },
+    {
+      "name": "Jáuregi",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Schürrer",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 67
+    },
+    {
+      "name": "Kvarme",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 67
+    },
+    {
+      "name": "Xabi Alonso",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 76,
+      "resistencia": 80,
+      "agresividad": 73,
+      "calidad": 84
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 78
+    },
+    {
+      "name": "Aranburu",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 75,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Karpin",
+      "pos": "MF",
+      "age": 34,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 74
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 73,
+      "calidad": 82
+    },
+    {
+      "name": "Nihat",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 86
+    },
+    {
+      "name": "Llorente J.",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 70
+    }
+  ],
+  "Real Sociedad|2003": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 34,
+      "velocidad": 63,
+      "resistencia": 69,
+      "agresividad": 63,
+      "calidad": 72
+    },
+    {
+      "name": "Westerveld",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 77
+    },
+    {
+      "name": "Aranzábal",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 75,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 75
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 69
+    },
+    {
+      "name": "Jáuregi",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Schürrer",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 63,
+      "resistencia": 69,
+      "agresividad": 71,
+      "calidad": 66
+    },
+    {
+      "name": "Kvarme",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Xabi Alonso",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 77,
+      "resistencia": 81,
+      "agresividad": 74,
+      "calidad": 86
+    },
+    {
+      "name": "De Pedro",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 76,
+      "resistencia": 73,
+      "agresividad": 68,
+      "calidad": 77
+    },
+    {
+      "name": "Karpin",
+      "pos": "MF",
+      "age": 34,
+      "velocidad": 71,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 73
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 66
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 75,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 80
+    },
+    {
+      "name": "Nihat",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 81,
+      "resistencia": 75,
+      "agresividad": 71,
+      "calidad": 83
+    },
+    {
+      "name": "Xabi Prieto",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 77,
+      "resistencia": 73,
+      "agresividad": 65,
+      "calidad": 72
+    }
+  ],
+  "Real Sociedad|2004": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 35,
+      "velocidad": 61,
+      "resistencia": 67,
+      "agresividad": 62,
+      "calidad": 70
+    },
+    {
+      "name": "Riesgo",
+      "pos": "GK",
+      "age": 21,
+      "velocidad": 64,
+      "resistencia": 67,
+      "agresividad": 63,
+      "calidad": 65
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Jáuregi",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Labaka",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Rossato",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Luiz Alberto",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Aranburu",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 67,
+      "calidad": 71
+    },
+    {
+      "name": "Karpin",
+      "pos": "MF",
+      "age": 35,
+      "velocidad": 69,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 71
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 34,
+      "velocidad": 67,
+      "resistencia": 69,
+      "agresividad": 67,
+      "calidad": 65
+    },
+    {
+      "name": "Xabi Prieto",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 66,
+      "calidad": 74
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 73,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Nihat",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 71,
+      "calidad": 80
+    },
+    {
+      "name": "Gari Uranga",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 65
+    }
+  ],
+  "Real Sociedad|2005": [
+    {
+      "name": "Alberto",
+      "pos": "GK",
+      "age": 36,
+      "velocidad": 59,
+      "resistencia": 65,
+      "agresividad": 61,
+      "calidad": 68
+    },
+    {
+      "name": "Riesgo",
+      "pos": "GK",
+      "age": 22,
+      "velocidad": 65,
+      "resistencia": 68,
+      "agresividad": 64,
+      "calidad": 67
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Labaka",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Brechet",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Jáuregi",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 67,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Garrido",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 66,
+      "calidad": 65
+    },
+    {
+      "name": "Aranburu",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 67,
+      "calidad": 72
+    },
+    {
+      "name": "Mikel Alonso",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Xabi Prieto",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 79,
+      "resistencia": 74,
+      "agresividad": 66,
+      "calidad": 76
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 71,
+      "agresividad": 65,
+      "calidad": 66
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 71,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 76
+    },
+    {
+      "name": "Nihat",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 79,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Gari Uranga",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 64
+    }
+  ],
+  "Real Sociedad|2006": [
+    {
+      "name": "Riesgo",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 66,
+      "resistencia": 69,
+      "agresividad": 65,
+      "calidad": 68
+    },
+    {
+      "name": "Claudio Bravo",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 72
+    },
+    {
+      "name": "Rekarte",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Labaka",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 69,
+      "agresividad": 66,
+      "calidad": 62
+    },
+    {
+      "name": "Ansotegi",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 69,
+      "calidad": 63
+    },
+    {
+      "name": "Garrido",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 77,
+      "resistencia": 72,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Mikel González",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 69,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 63
+    },
+    {
+      "name": "Aranburu",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 73,
+      "resistencia": 72,
+      "agresividad": 67,
+      "calidad": 71
+    },
+    {
+      "name": "Mikel Alonso",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 67
+    },
+    {
+      "name": "Xabi Prieto",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 80,
+      "resistencia": 75,
+      "agresividad": 67,
+      "calidad": 77
+    },
+    {
+      "name": "Garitano",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 67,
+      "calidad": 66
+    },
+    {
+      "name": "Kovačević",
+      "pos": "AT",
+      "age": 33,
+      "velocidad": 68,
+      "resistencia": 68,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Gari Uranga",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 69,
+      "agresividad": 66,
+      "calidad": 63
+    },
+    {
+      "name": "Díaz de Cerio",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 68,
+      "agresividad": 65,
+      "calidad": 61
+    }
+  ]
+}

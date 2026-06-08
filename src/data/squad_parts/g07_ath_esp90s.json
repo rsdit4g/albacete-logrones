@@ -1,0 +1,3714 @@
+{
+  "Athletic Club|1990": [
+    {
+      "name": "Iñaki Lafuente",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Óscar Esnaola",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Larrazabal",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Andrinúa",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Lasa",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Goikoetxea",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 66,
+      "resistencia": 82,
+      "agresividad": 88,
+      "calidad": 74
+    },
+    {
+      "name": "Manu Sarabia",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Núñez",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Lertxundi",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Aldana",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 76
+    }
+  ],
+  "Athletic Club|1991": [
+    {
+      "name": "Iñaki Lafuente",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Óscar Esnaola",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Larrazabal",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Andrinúa",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Lasa",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Goikoetxea",
+      "pos": "MF",
+      "age": 34,
+      "velocidad": 64,
+      "resistencia": 80,
+      "agresividad": 86,
+      "calidad": 72
+    },
+    {
+      "name": "Manu Sarabia",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Núñez",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Lertxundi",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Aldana",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    }
+  ],
+  "Athletic Club|1992": [
+    {
+      "name": "Iñaki Lafuente",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 22,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Larrazabal",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "Andrinúa",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Manu Sarabia",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Núñez",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Lertxundi",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Goikoetxea",
+      "pos": "MF",
+      "age": 35,
+      "velocidad": 62,
+      "resistencia": 78,
+      "agresividad": 86,
+      "calidad": 72
+    }
+  ],
+  "Athletic Club|1993": [
+    {
+      "name": "Iñaki Lafuente",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 68,
+      "calidad": 74
+    },
+    {
+      "name": "Larrazabal",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Andrinúa",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Núñez",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 18,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Manu Sarabia",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    }
+  ],
+  "Athletic Club|1994": [
+    {
+      "name": "Iñaki Lafuente",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Larrazabal",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 62,
+      "resistencia": 80,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Urruticoechea CB",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Andrinúa",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Núñez",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 18,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    }
+  ],
+  "Athletic Club|1995": [
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Iñaki Lafuente",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Urruticoechea CB",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Larrainzar",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Larrazabal",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 60,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 84,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    }
+  ],
+  "Athletic Club|1996": [
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 54,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Urruticoechea CB",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Larrainzar",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Arzalluz",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 86,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 84
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 76
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 76
+    },
+    {
+      "name": "Patxi Salinas",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    }
+  ],
+  "Athletic Club|1997": [
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 54,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Urruticoechea CB",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Larrainzar",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Arzalluz",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 88,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 86
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 78
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 76
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Alkiza",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 70
+    }
+  ],
+  "Athletic Club|1998": [
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 54,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Larrainzar",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 82,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Arzalluz",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Urruticoechea CB",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 88,
+      "resistencia": 82,
+      "agresividad": 82,
+      "calidad": 88
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 80
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 76
+    },
+    {
+      "name": "Sancet",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    }
+  ],
+  "Athletic Club|1999": [
+    {
+      "name": "Gorka Larrea",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 54,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Larrainzar",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Arzalluz",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 88,
+      "resistencia": 82,
+      "agresividad": 82,
+      "calidad": 88
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 82,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 80
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 19,
+      "velocidad": 66,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 64
+    }
+  ],
+  "Athletic Club|2000": [
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 54,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 20,
+      "velocidad": 60,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 66
+    },
+    {
+      "name": "Larrainzar",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 88,
+      "resistencia": 82,
+      "agresividad": 82,
+      "calidad": 88
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 82,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 80
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 18,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Ziganda",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 72
+    }
+  ],
+  "Athletic Club|2001": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 21,
+      "velocidad": 60,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 80
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 52,
+      "resistencia": 76,
+      "agresividad": 68,
+      "calidad": 76
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 19,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 78
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 82,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 80
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 86,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 86
+    },
+    {
+      "name": "Tiko",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    }
+  ],
+  "Athletic Club|2002": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 22,
+      "velocidad": 60,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Suances",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 52,
+      "resistencia": 74,
+      "agresividad": 66,
+      "calidad": 74
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 80
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 86,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 86
+    },
+    {
+      "name": "Tiko",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    }
+  ],
+  "Athletic Club|2003": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 60,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 21,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Karanka",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 84,
+      "calidad": 78
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 84,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 84
+    },
+    {
+      "name": "Tiko",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    }
+  ],
+  "Athletic Club|2004": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 60,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 22,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Sarriugarte",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 78
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Tiko",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "De Marcos",
+      "pos": "DF",
+      "age": 18,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    }
+  ],
+  "Athletic Club|2005": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 60,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Sarriugarte",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Dani Vivero",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 33,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 82,
+      "calidad": 76
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Tiko",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "De Marcos",
+      "pos": "DF",
+      "age": 19,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 66
+    }
+  ],
+  "Athletic Club|2006": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 60,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 84,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Sarriugarte",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "De Marcos",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Urzaiz",
+      "pos": "AT",
+      "age": 34,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 80,
+      "calidad": 74
+    },
+    {
+      "name": "Susaeta",
+      "pos": "MF",
+      "age": 18,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Aitor Ocio",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    }
+  ],
+  "Athletic Club|2007": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 60,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 84,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Sarriugarte",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Aitor Ocio",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Susaeta",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "De Marcos",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Toquero",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    }
+  ],
+  "Athletic Club|2008": [
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 60,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 82
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 84,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Aitor Ocio",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "De Marcos",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Susaeta",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 82,
+      "agresividad": 82,
+      "calidad": 80
+    },
+    {
+      "name": "Toquero",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Muniain",
+      "pos": "AT",
+      "age": 15,
+      "velocidad": 82,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    }
+  ],
+  "Athletic Club|2009": [
+    {
+      "name": "Gorka Iraizoz",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 60,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 84
+    },
+    {
+      "name": "Aranzubia",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 60,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Gurpegi",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 84,
+      "agresividad": 84,
+      "calidad": 72
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Aitor Ocio",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "De Marcos",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Susaeta",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Yeste",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 78
+    },
+    {
+      "name": "Guridi",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Orbaiz",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 82,
+      "agresividad": 82,
+      "calidad": 80
+    },
+    {
+      "name": "Toquero",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 84,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Muniain",
+      "pos": "AT",
+      "age": 16,
+      "velocidad": 84,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 74
+    },
+    {
+      "name": "Etxeberria",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 74
+    }
+  ],
+  "Espanyol|1990": [
+    {
+      "name": "Andoni Cedrún",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Gorriz Arriola",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Serna",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Lambea",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Guerrero MF",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 78
+    },
+    {
+      "name": "Losada Delantero",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Quico",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 68
+    }
+  ],
+  "Espanyol|1991": [
+    {
+      "name": "Andoni Cedrún",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Gorriz Arriola",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Serna",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Lambea",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Guerrero MF",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 78
+    },
+    {
+      "name": "Losada Delantero",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Quico",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 68
+    }
+  ],
+  "Espanyol|1992": [
+    {
+      "name": "Andoni Cedrún",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 82,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 72
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Serna",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Lambea",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Guerrero MF",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 78
+    },
+    {
+      "name": "Losada Delantero",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Quico",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 17,
+      "velocidad": 78,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 72
+    }
+  ],
+  "Espanyol|1994": [
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 82
+    },
+    {
+      "name": "Andoni Cedrún",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 80,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 72
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Lambea",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guerrero MF",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 82,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 78
+    },
+    {
+      "name": "Losada Delantero",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 82,
+      "resistencia": 72,
+      "agresividad": 76,
+      "calidad": 72
+    }
+  ],
+  "Espanyol|1995": [
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Andoni Cedrún",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 52,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 60,
+      "resistencia": 78,
+      "agresividad": 84,
+      "calidad": 70
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 72
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Lambea",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Guerrero MF",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 80
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 78
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 84,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Nieto",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    }
+  ],
+  "Espanyol|1996": [
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Toni Jiménez",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 58,
+      "resistencia": 76,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 64,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Lambea",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Nieto",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 82
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 84,
+      "resistencia": 74,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    }
+  ],
+  "Espanyol|1997": [
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Toni Jiménez",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 62,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Nieto",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Higuera",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Giovanni",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 84,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 84
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Soldevilla",
+      "pos": "DF",
+      "age": 35,
+      "velocidad": 56,
+      "resistencia": 72,
+      "agresividad": 80,
+      "calidad": 64
+    }
+  ],
+  "Espanyol|1998": [
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Toni Jiménez",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Manzano",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 60,
+      "resistencia": 76,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 60,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Nieto",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Higuera",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "De la Peña",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 82
+    },
+    {
+      "name": "Goñi",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 62,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 84
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 84,
+      "resistencia": 76,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "Ferreira",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Pochettino",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 72
+    }
+  ],
+  "Espanyol|1999": [
+    {
+      "name": "Carlos Roa",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 84
+    },
+    {
+      "name": "Toni Jiménez",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 78
+    },
+    {
+      "name": "Pochettino",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 72
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez CB",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 58,
+      "resistencia": 76,
+      "agresividad": 80,
+      "calidad": 66
+    },
+    {
+      "name": "Nieto",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Higuera",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "De la Peña",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 84
+    },
+    {
+      "name": "Jarque",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Raúl Tamudo",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 82,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 84
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 84,
+      "resistencia": 76,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "Ernesto Valverde",
+      "pos": "AT",
+      "age": 35,
+      "velocidad": 70,
+      "resistencia": 68,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Roger García",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 76
+    }
+  ]
+}

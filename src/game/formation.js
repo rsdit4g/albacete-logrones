@@ -14,6 +14,22 @@ export const FORMATION_442 = [
   { id: "AT2", pos: "AT", x: 39, y: 18 },
 ];
 
+// Landscape layout (wider than tall): attack on left (x≈22%), GK on right (x≈90%).
+// Same slot IDs as FORMATION_442 so picks match correctly.
+export const FORMATION_442_LANDSCAPE = [
+  { id: "GK",  pos: "GK", x: 90, y: 50 },
+  { id: "DF1", pos: "DF", x: 74, y: 16 },
+  { id: "DF2", pos: "DF", x: 74, y: 38 },
+  { id: "DF3", pos: "DF", x: 74, y: 62 },
+  { id: "DF4", pos: "DF", x: 74, y: 84 },
+  { id: "MF1", pos: "MF", x: 52, y: 16 },
+  { id: "MF2", pos: "MF", x: 52, y: 38 },
+  { id: "MF3", pos: "MF", x: 52, y: 62 },
+  { id: "MF4", pos: "MF", x: 52, y: 84 },
+  { id: "AT1", pos: "AT", x: 22, y: 36 },
+  { id: "AT2", pos: "AT", x: 22, y: 64 },
+];
+
 export const POSITIONS = ["GK", "DF", "MF", "AT"];
 
 // Fit of a player's bucket in a slot's bucket.

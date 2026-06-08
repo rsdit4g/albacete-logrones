@@ -1,4 +1,4 @@
-import { SQUADS } from "./squads.js";
+import { SQUADS } from "./squads.js?v=31";
 
 // Draftable [club, year] pairs derived from whatever squads exist.
 export const COMBOS = Object.keys(SQUADS).map(k => {

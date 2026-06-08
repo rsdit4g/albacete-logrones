@@ -1,0 +1,7307 @@
+{
+  "Real Valladolid|1990": [
+    {
+      "name": "Gonzalo",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 60,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Stiévanin",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 72
+    },
+    {
+      "name": "Esteban Vigo",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Moya",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 66
+    },
+    {
+      "name": "Pesquera",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "Paquito",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Nando",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Carreño",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 73,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "López Rekarte",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Quevedo",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Míchel Platini",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Biri Biri",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 82,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|1991": [
+    {
+      "name": "Gonzalo",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 60,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Stiévanin",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 73
+    },
+    {
+      "name": "Esteban Vigo",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Moya",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 67
+    },
+    {
+      "name": "Pesquera",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 65
+    },
+    {
+      "name": "Paquito",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 71,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Nando",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 73,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 69
+    },
+    {
+      "name": "Carreño",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 73,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "López Rekarte",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Quevedo",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Míchel Platini",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 73
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 71
+    },
+    {
+      "name": "Biri Biri",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Borja",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 62
+    },
+    {
+      "name": "Fuertes",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|1993": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Stiévanin",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 74
+    },
+    {
+      "name": "Carballo",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Moya",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 67
+    },
+    {
+      "name": "Pesquera",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Nando",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Carreño",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Quevedo",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Jiménez",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 77,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Alen Peternac",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Biri Biri",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 60
+    }
+  ],
+  "Real Valladolid|1994": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 59,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Stiévanin",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 77,
+      "agresividad": 79,
+      "calidad": 74
+    },
+    {
+      "name": "Carballo",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Moya",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 67
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 63
+    },
+    {
+      "name": "Nando",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 77,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Jiménez",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Rubén Baraja",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Edu",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Alen Peternac",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Biri Biri",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 69
+    },
+    {
+      "name": "Jesús Pérez",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|1995": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 59,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Stiévanin",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Carballo",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 65
+    },
+    {
+      "name": "Celestini",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Rubén Baraja",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Edu",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Stoichkov",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 86,
+      "resistencia": 80,
+      "agresividad": 88,
+      "calidad": 88
+    },
+    {
+      "name": "Alen Peternac",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 79,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 72
+    },
+    {
+      "name": "Biri Biri",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 79,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 68
+    },
+    {
+      "name": "Nando",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    }
+  ],
+  "Real Valladolid|1996": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 59,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Stiévanin",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 60,
+      "resistencia": 74,
+      "agresividad": 77,
+      "calidad": 73
+    },
+    {
+      "name": "Carballo",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 75,
+      "agresividad": 77,
+      "calidad": 68
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Celestini",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 66
+    },
+    {
+      "name": "Rubén Baraja",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 77,
+      "resistencia": 79,
+      "agresividad": 75,
+      "calidad": 76
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Edu",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Alen Peternac",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 75,
+      "calidad": 80
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 71
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Doro",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|1997": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Celestini",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 71,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Doro",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 66,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 63
+    },
+    {
+      "name": "Carballo",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 61,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 67
+    },
+    {
+      "name": "Rubén Baraja",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 76,
+      "calidad": 78
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 73,
+      "resistencia": 73,
+      "agresividad": 67,
+      "calidad": 66
+    },
+    {
+      "name": "Edu",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 69,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Alen Peternac",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 79,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 79
+    },
+    {
+      "name": "Onésimo",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 71,
+      "resistencia": 66,
+      "agresividad": 65,
+      "calidad": 70
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 79,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Txomin Fahardo",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    }
+  ],
+  "Real Valladolid|1998": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 57,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Celestini",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 71,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Doro",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 64
+    },
+    {
+      "name": "Víctor Fernández",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Rubén Baraja",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 79,
+      "resistencia": 81,
+      "agresividad": 77,
+      "calidad": 79
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Jiménez",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Yuri",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Alen Peternac",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 73,
+      "calidad": 78
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 79,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 68
+    },
+    {
+      "name": "Txomin Fahardo",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "Pandiani",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 66
+    }
+  ],
+  "Real Valladolid|1999": [
+    {
+      "name": "Juanmi",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 56,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 69
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Celestini",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 71,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Víctor Fernández",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Aitor Karanka",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Rubén Baraja",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 78,
+      "calidad": 80
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 69,
+      "calidad": 70
+    },
+    {
+      "name": "Yuri",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Estebaranz",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Quique Álvarez",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 79,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Pandiani",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Txomin Fahardo",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 65,
+      "calidad": 65
+    },
+    {
+      "name": "Chevantón",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 68
+    }
+  ],
+  "Real Valladolid|2000": [
+    {
+      "name": "Jacobo",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Aitor Karanka",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Víctor Fernández",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Celestini",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 71
+    },
+    {
+      "name": "Yuri",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Quique Álvarez",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Movilla",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Pandiani",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 73,
+      "agresividad": 75,
+      "calidad": 70
+    },
+    {
+      "name": "Chevantón",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 79,
+      "resistencia": 71,
+      "agresividad": 73,
+      "calidad": 70
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 67,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Óscar Rubio",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 75,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|2001": [
+    {
+      "name": "Jacobo",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 71
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Aitor Karanka",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Víctor Fernández",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Cáceres",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 71,
+      "calidad": 72
+    },
+    {
+      "name": "Movilla",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 71
+    },
+    {
+      "name": "Quique Álvarez",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Yuri",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Pandiani",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Chevantón",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 80,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Óscar Rubio",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 75,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 63
+    },
+    {
+      "name": "Mateo",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 64
+    }
+  ],
+  "Real Valladolid|2002": [
+    {
+      "name": "Jacobo",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 55,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 71
+    },
+    {
+      "name": "Marcos",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Cáceres",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Víctor Fernández",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Dani Mallo",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 62
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 71,
+      "calidad": 73
+    },
+    {
+      "name": "Movilla",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Quique Álvarez",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Sisi",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Pandiani",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Chevantón",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 81,
+      "resistencia": 72,
+      "agresividad": 75,
+      "calidad": 74
+    },
+    {
+      "name": "Mateo",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 73,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Nagore",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 77,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|2003": [
+    {
+      "name": "Jacobo",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 54,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 70
+    },
+    {
+      "name": "Cáceres",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Víctor Fernández",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Dani Mallo",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Nacho Novo",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 62
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 77,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Movilla",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 73,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Sisi",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Jandro",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Pandiani",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 73,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Chevantón",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 82,
+      "resistencia": 72,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Mateo",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 63
+    },
+    {
+      "name": "Iñaki Bea",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|2007": [
+    {
+      "name": "Sergio Asenjo",
+      "pos": "GK",
+      "age": 19,
+      "velocidad": 58,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Víctor",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Melli",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Javi Guerra",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Nacho Novo",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Pedro Ríos",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 62
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Sisi",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Jandro",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Pedro Munitis",
+      "pos": "AT",
+      "age": 33,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Bueno",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Rubén García",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Ibán Salvador",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Valladolid|2008": [
+    {
+      "name": "Sergio Asenjo",
+      "pos": "GK",
+      "age": 20,
+      "velocidad": 60,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Melli",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Javi Guerra",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Pedro Ríos",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Víctor",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 65
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 73,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Jandro",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Raúl Baena",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Masoud",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Álvaro Negredo",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 80
+    },
+    {
+      "name": "Pedro Munitis",
+      "pos": "AT",
+      "age": 34,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Bueno",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 67,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Rubén García",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 77,
+      "resistencia": 66,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Real Valladolid|2009": [
+    {
+      "name": "Sergio Asenjo",
+      "pos": "GK",
+      "age": 21,
+      "velocidad": 61,
+      "resistencia": 75,
+      "agresividad": 71,
+      "calidad": 76
+    },
+    {
+      "name": "Melli",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Javi Guerra",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Pedro Ríos",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Javier Baraja",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Borja Fernández",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 73
+    },
+    {
+      "name": "Míchel",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Jandro",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Raúl Baena",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 75,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 68
+    },
+    {
+      "name": "Masoud",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Álvaro Negredo",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 82
+    },
+    {
+      "name": "Pedro Munitis",
+      "pos": "AT",
+      "age": 35,
+      "velocidad": 72,
+      "resistencia": 66,
+      "agresividad": 71,
+      "calidad": 69
+    },
+    {
+      "name": "Bueno",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Marcos Marqués",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 63
+    }
+  ],
+  "Real Oviedo|1990": [
+    {
+      "name": "Ablanedo",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 58,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Álvarez",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Manjarín",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Rafa",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Lito",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Cholo Simeone",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 76,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 72
+    },
+    {
+      "name": "Carmelo",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Julio Dely Valdés",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 84,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Berto",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 60
+    }
+  ],
+  "Real Oviedo|1991": [
+    {
+      "name": "Ablanedo",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 57,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 71
+    },
+    {
+      "name": "Luis Enrique",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 82,
+      "resistencia": 84,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 71
+    },
+    {
+      "name": "Álvarez",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 65,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Manjarín",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Rafa",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Lito",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Carmelo",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Julio Dely Valdés",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 85,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 77
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 79,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Berto",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 62
+    }
+  ],
+  "Real Oviedo|1992": [
+    {
+      "name": "Ablanedo",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 56,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 71
+    },
+    {
+      "name": "Luis Enrique",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 83,
+      "resistencia": 85,
+      "agresividad": 82,
+      "calidad": 80
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Álvarez",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 75,
+      "agresividad": 77,
+      "calidad": 67
+    },
+    {
+      "name": "Manjarín",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Rafa",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 64,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "Lito",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Carmelo",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Julio Dely Valdés",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 86,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 78
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Berto",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 64
+    }
+  ],
+  "Real Oviedo|1993": [
+    {
+      "name": "Ablanedo",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 55,
+      "resistencia": 74,
+      "agresividad": 71,
+      "calidad": 70
+    },
+    {
+      "name": "Luis Enrique",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 84,
+      "resistencia": 86,
+      "agresividad": 82,
+      "calidad": 82
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 73
+    },
+    {
+      "name": "Manjarín",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Rafa",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 63,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 63
+    },
+    {
+      "name": "Lito",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Carmelo",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Julio Dely Valdés",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 86,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 79
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 77
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 65
+    },
+    {
+      "name": "Berto",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 65
+    }
+  ],
+  "Real Oviedo|1994": [
+    {
+      "name": "Ablanedo",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 54,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Manjarín",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Rafa",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 62,
+      "resistencia": 72,
+      "agresividad": 73,
+      "calidad": 63
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 64
+    },
+    {
+      "name": "Lito",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Carmelo",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 67,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 72,
+      "agresividad": 73,
+      "calidad": 78
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Berto",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Muñiz",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Oviedo|1995": [
+    {
+      "name": "Ablanedo",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 53,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Manjarín",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Cuéllar",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Carmelo",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 79,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 77
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Muñiz",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 63
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 62
+    }
+  ],
+  "Real Oviedo|1996": [
+    {
+      "name": "Miguel Ángel",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 66
+    },
+    {
+      "name": "Cuéllar",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Loureiro",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 75,
+      "resistencia": 74,
+      "agresividad": 71,
+      "calidad": 72
+    },
+    {
+      "name": "Iñaki",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Pedrín",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 78,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 75,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Muñiz",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 63
+    }
+  ],
+  "Real Oviedo|1997": [
+    {
+      "name": "Miguel Ángel",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 71,
+      "resistencia": 77,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Cuéllar",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Loureiro",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Solís",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 73
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 69,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Pedrín",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Iñaki Helguera",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 76,
+      "resistencia": 69,
+      "agresividad": 72,
+      "calidad": 75
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 66,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 77,
+      "resistencia": 66,
+      "agresividad": 65,
+      "calidad": 64
+    },
+    {
+      "name": "Muñiz",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 73,
+      "resistencia": 65,
+      "agresividad": 64,
+      "calidad": 63
+    }
+  ],
+  "Real Oviedo|1998": [
+    {
+      "name": "Miguel Ángel",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 55,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 73
+    },
+    {
+      "name": "Cuéllar",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Loureiro",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Aguilera",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Nino",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Pedrín",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Iñaki Helguera",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 73,
+      "calidad": 70
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 71,
+      "calidad": 74
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 77,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 65
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Valentín",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 65,
+      "agresividad": 65,
+      "calidad": 65
+    }
+  ],
+  "Real Oviedo|1999": [
+    {
+      "name": "Miguel Ángel",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 54,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 70
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 69,
+      "resistencia": 75,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Cuéllar",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Loureiro",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Aguilera",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 69,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Pedrín",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Iñaki Helguera",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 73,
+      "calidad": 71
+    },
+    {
+      "name": "Edu Moya",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 77,
+      "resistencia": 69,
+      "agresividad": 69,
+      "calidad": 69
+    },
+    {
+      "name": "Carlos",
+      "pos": "AT",
+      "age": 33,
+      "velocidad": 72,
+      "resistencia": 66,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    }
+  ],
+  "Real Oviedo|2000": [
+    {
+      "name": "Miguel Ángel",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 53,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Santi Denia",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 75,
+      "calidad": 71
+    },
+    {
+      "name": "Cuéllar",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Loureiro",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 65
+    },
+    {
+      "name": "Aguilera",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 65
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 75,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Iñaki Helguera",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Edu Moya",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Tapia",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Belenguer",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 69,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Luque",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 79,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 66
+    },
+    {
+      "name": "Cuelguas",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 65,
+      "agresividad": 63,
+      "calidad": 61
+    }
+  ],
+  "Tenerife|1990": [
+    {
+      "name": "Efraín Maroto",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Redondo",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "Ángel",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 64
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 18,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Femenías",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Vilarrubí",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    }
+  ],
+  "Tenerife|1991": [
+    {
+      "name": "Efraín Maroto",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Redondo",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 79,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 76
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 65
+    },
+    {
+      "name": "Ángel",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 64
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 75,
+      "resistencia": 79,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 71,
+      "calidad": 72
+    },
+    {
+      "name": "Femenías",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Vilarrubí",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Tenerife|1992": [
+    {
+      "name": "Efraín Maroto",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 57,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Redondo",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 80,
+      "resistencia": 82,
+      "agresividad": 76,
+      "calidad": 82
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 75,
+      "agresividad": 77,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 65
+    },
+    {
+      "name": "Ángel",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 64
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 75,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 75,
+      "resistencia": 79,
+      "agresividad": 78,
+      "calidad": 75
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Femenías",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 69,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 77,
+      "resistencia": 69,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Vilarrubí",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 66
+    }
+  ],
+  "Tenerife|1993": [
+    {
+      "name": "Efraín Maroto",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 56,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Redondo",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 82,
+      "resistencia": 84,
+      "agresividad": 78,
+      "calidad": 84
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 82,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 80
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 77,
+      "calidad": 70
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 69
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 64,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 65
+    },
+    {
+      "name": "Ángel",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 64
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 75,
+      "resistencia": 79,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 77,
+      "resistencia": 76,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Femenías",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Vilarrubí",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 66,
+      "agresividad": 65,
+      "calidad": 65
+    }
+  ],
+  "Tenerife|1994": [
+    {
+      "name": "Ojeda",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Redondo",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 83,
+      "resistencia": 85,
+      "agresividad": 79,
+      "calidad": 86
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 83,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 73,
+      "agresividad": 76,
+      "calidad": 69
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 73,
+      "calidad": 65
+    },
+    {
+      "name": "Pedro Martín",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 75,
+      "resistencia": 79,
+      "agresividad": 78,
+      "calidad": 77
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 77,
+      "agresividad": 73,
+      "calidad": 77
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 75,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Óscar",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Femenías",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 67,
+      "calidad": 64
+    }
+  ],
+  "Tenerife|1995": [
+    {
+      "name": "Ojeda",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 71
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 83,
+      "resistencia": 76,
+      "agresividad": 75,
+      "calidad": 83
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 72,
+      "agresividad": 75,
+      "calidad": 68
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Pedro Martín",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 64
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 77
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 77,
+      "resistencia": 76,
+      "agresividad": 73,
+      "calidad": 77
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 71,
+      "calidad": 67
+    },
+    {
+      "name": "Femenías",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Óscar",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Nayim",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 74
+    }
+  ],
+  "Tenerife|1996": [
+    {
+      "name": "Ojeda",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 55,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 75,
+      "calidad": 82
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 60,
+      "resistencia": 71,
+      "agresividad": 74,
+      "calidad": 67
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 69
+    },
+    {
+      "name": "Pedro Martín",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Cunde",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 61,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 63
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 73,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Nayim",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 67,
+      "calidad": 69
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 67,
+      "agresividad": 67,
+      "calidad": 68
+    },
+    {
+      "name": "Óscar",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Belenguer",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 64
+    }
+  ],
+  "Tenerife|1997": [
+    {
+      "name": "Ojeda",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 54,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 81,
+      "resistencia": 75,
+      "agresividad": 74,
+      "calidad": 81
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 67,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Pedro Martín",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Solana",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 59,
+      "resistencia": 70,
+      "agresividad": 73,
+      "calidad": 66
+    },
+    {
+      "name": "Dani",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 72,
+      "resistencia": 77,
+      "agresividad": 78,
+      "calidad": 75
+    },
+    {
+      "name": "Nayim",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 73,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 73
+    },
+    {
+      "name": "Caminero",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 75,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 75
+    },
+    {
+      "name": "Belenguer",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 67,
+      "calidad": 66
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 72,
+      "resistencia": 66,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 75,
+      "resistencia": 66,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Óscar",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Felipe",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 64,
+      "resistencia": 69,
+      "agresividad": 69,
+      "calidad": 65
+    }
+  ],
+  "Tenerife|1998": [
+    {
+      "name": "Ojeda",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 53,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 69
+    },
+    {
+      "name": "Pizzi",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 73,
+      "calidad": 80
+    },
+    {
+      "name": "Pedro Martín",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Dani",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Geli",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 73,
+      "calidad": 67
+    },
+    {
+      "name": "Héctor",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Mauro Silva",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 71,
+      "resistencia": 76,
+      "agresividad": 77,
+      "calidad": 74
+    },
+    {
+      "name": "Nayim",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Belenguer",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 67,
+      "calidad": 67
+    },
+    {
+      "name": "Fuentes",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Toño",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 70,
+      "resistencia": 65,
+      "agresividad": 65,
+      "calidad": 67
+    },
+    {
+      "name": "Óscar",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Juanele",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 65,
+      "agresividad": 65,
+      "calidad": 66
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Tenerife|2001": [
+    {
+      "name": "Dani Aranzubía",
+      "pos": "GK",
+      "age": 23,
+      "velocidad": 58,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Pedro Martín",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 65,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Dani",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Héctor",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Lequi",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 62
+    },
+    {
+      "name": "Belenguer",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Fuentes",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Medina",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Óscar",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 75,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Alfonso",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "De Los Santos",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Sergio Mora",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "Pernía",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 62
+    }
+  ],
+  "Tenerife|2009": [
+    {
+      "name": "Cristián Álvarez",
+      "pos": "GK",
+      "age": 24,
+      "velocidad": 60,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Ayoze",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Lequi",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 69,
+      "calidad": 62
+    },
+    {
+      "name": "Aitor Ocio",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Pernía",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Sergio Mora",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Ángel",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Arouna Koné",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Suso",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Éver Banega",
+      "pos": "MF",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Vitolo",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 80,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Alfaro",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "De Los Santos",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 70,
+      "resistencia": 64,
+      "agresividad": 64,
+      "calidad": 64
+    }
+  ],
+  "Sporting Gijón|1990": [
+    {
+      "name": "Ablanedo Jr",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 19,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 66
+    },
+    {
+      "name": "Maceda",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 76,
+      "agresividad": 80,
+      "calidad": 72
+    },
+    {
+      "name": "Ciriaco",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Prieto",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Joaquín",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Milan Luhový",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Cundi",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Emilio",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    }
+  ],
+  "Sporting Gijón|1991": [
+    {
+      "name": "Ablanedo Jr",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 73,
+      "resistencia": 75,
+      "agresividad": 77,
+      "calidad": 67
+    },
+    {
+      "name": "Maceda",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 63,
+      "resistencia": 75,
+      "agresividad": 80,
+      "calidad": 72
+    },
+    {
+      "name": "Ciriaco",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 65,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 75,
+      "resistencia": 77,
+      "agresividad": 71,
+      "calidad": 72
+    },
+    {
+      "name": "Prieto",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 75,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Joaquín",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Milan Luhový",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Cundi",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 67
+    },
+    {
+      "name": "Emilio",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    }
+  ],
+  "Sporting Gijón|1992": [
+    {
+      "name": "Ablanedo Jr",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 57,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 69
+    },
+    {
+      "name": "Maceda",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 61,
+      "resistencia": 74,
+      "agresividad": 79,
+      "calidad": 71
+    },
+    {
+      "name": "Ciriaco",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 73,
+      "agresividad": 74,
+      "calidad": 66
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 73
+    },
+    {
+      "name": "Prieto",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Joaquín",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 71,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Emilio",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Milan Luhový",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 79,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 77
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 75,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Cundi",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 67,
+      "calidad": 66
+    }
+  ],
+  "Sporting Gijón|1993": [
+    {
+      "name": "Ablanedo Jr",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 75,
+      "resistencia": 77,
+      "agresividad": 79,
+      "calidad": 71
+    },
+    {
+      "name": "Ciriaco",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 65
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Navas",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 79,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Prieto",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 67,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 67
+    },
+    {
+      "name": "Joaquín",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Emilio",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Cundi",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 67,
+      "agresividad": 67,
+      "calidad": 65
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    }
+  ],
+  "Sporting Gijón|1994": [
+    {
+      "name": "Ablanedo Jr",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 55,
+      "resistencia": 72,
+      "agresividad": 69,
+      "calidad": 68
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 73
+    },
+    {
+      "name": "Ciriaco",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 73,
+      "calidad": 64
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Navas",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 79,
+      "agresividad": 73,
+      "calidad": 75
+    },
+    {
+      "name": "Prieto",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Joaquín",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 67,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 79,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 69
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 73,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 77,
+      "resistencia": 67,
+      "agresividad": 65,
+      "calidad": 66
+    },
+    {
+      "name": "Cundi",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 66,
+      "agresividad": 66,
+      "calidad": 64
+    },
+    {
+      "name": "Esteban",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 64
+    }
+  ],
+  "Sporting Gijón|1995": [
+    {
+      "name": "Molina",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 77,
+      "resistencia": 79,
+      "agresividad": 81,
+      "calidad": 75
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Navas",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Camarasa",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 77,
+      "resistencia": 79,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Joaquín",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 65,
+      "resistencia": 70,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Esteban",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 73,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 66
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 79,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 68
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Capetillo",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "Cundi",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 64,
+      "agresividad": 65,
+      "calidad": 62
+    }
+  ],
+  "Sporting Gijón|1996": [
+    {
+      "name": "Molina",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 76
+    },
+    {
+      "name": "Navas",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Camarasa",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Gordillo",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 79,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Esteban",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 73,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 67
+    },
+    {
+      "name": "Reyes",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 79,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 69
+    },
+    {
+      "name": "Capetillo",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 65
+    },
+    {
+      "name": "Álvaro",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 69,
+      "agresividad": 69,
+      "calidad": 68
+    },
+    {
+      "name": "Ramón",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 63
+    }
+  ],
+  "Sporting Gijón|1997": [
+    {
+      "name": "Molina",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 57,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Iván Helguera",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 77
+    },
+    {
+      "name": "Navas",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Camarasa",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Amaya",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 62
+    },
+    {
+      "name": "Fran",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 75,
+      "resistencia": 78,
+      "agresividad": 73,
+      "calidad": 75
+    },
+    {
+      "name": "Losada",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 67,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Esteban",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 73,
+      "resistencia": 73,
+      "agresividad": 69,
+      "calidad": 67
+    },
+    {
+      "name": "Reyes",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Ramón",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 71,
+      "agresividad": 67,
+      "calidad": 64
+    },
+    {
+      "name": "Tino",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Javi Moreno",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 67,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Capetillo",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 65
+    },
+    {
+      "name": "Muñoz",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 64,
+      "agresividad": 62,
+      "calidad": 62
+    }
+  ],
+  "Sporting Gijón|2008": [
+    {
+      "name": "Juan Pablo",
+      "pos": "GK",
+      "age": 34,
+      "velocidad": 52,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Lora",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Canella",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "David Barral",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Molinero",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Diego Castro",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Carmona",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": " Alberto Lora",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Nacho Cases",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Stevie Grieve",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 64
+    },
+    {
+      "name": "Miño",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Mate",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Santi Cazorla",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 33,
+      "velocidad": 70,
+      "resistencia": 64,
+      "agresividad": 65,
+      "calidad": 66
+    }
+  ],
+  "Sporting Gijón|2009": [
+    {
+      "name": "Juan Pablo",
+      "pos": "GK",
+      "age": 35,
+      "velocidad": 51,
+      "resistencia": 71,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Lora",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Canella",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 71,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Molinero",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Vujadinovic",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Diego Castro",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 79,
+      "resistencia": 79,
+      "agresividad": 73,
+      "calidad": 78
+    },
+    {
+      "name": "Nacho Cases",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 73,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Carmona",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": " Alberto Lora",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Santi Cazorla",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 82,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Miño",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 77,
+      "resistencia": 71,
+      "agresividad": 71,
+      "calidad": 72
+    },
+    {
+      "name": "Mate",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 75,
+      "resistencia": 71,
+      "agresividad": 71,
+      "calidad": 70
+    },
+    {
+      "name": "Toché",
+      "pos": "AT",
+      "age": 34,
+      "velocidad": 68,
+      "resistencia": 63,
+      "agresividad": 64,
+      "calidad": 65
+    },
+    {
+      "name": "Isma",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 66,
+      "agresividad": 64,
+      "calidad": 64
+    }
+  ],
+  "Málaga|1999": [
+    {
+      "name": "Arnau",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Fernando Sanz",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Roteta",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Torrecilla",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Litos",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Reguera",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Manu",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Canobbio",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Posse",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 64
+    }
+  ],
+  "Málaga|2000": [
+    {
+      "name": "Arnau",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 55,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Fernando Sanz",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 65,
+      "resistencia": 73,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Roteta",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Torrecilla",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Litos",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 69
+    },
+    {
+      "name": "Reguera",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 81,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Catanha",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Manu",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Posse",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 65
+    }
+  ],
+  "Málaga|2001": [
+    {
+      "name": "Arnau",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 54,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Fernando Sanz",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 75,
+      "calidad": 70
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 71
+    },
+    {
+      "name": "Roteta",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Torrecilla",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Litos",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 73,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 70
+    },
+    {
+      "name": "Reguera",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 69,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Catanha",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 80
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 81,
+      "resistencia": 74,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Manu",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Posse",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 66,
+      "calidad": 66
+    }
+  ],
+  "Málaga|2002": [
+    {
+      "name": "Arnau",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 53,
+      "resistencia": 71,
+      "agresividad": 69,
+      "calidad": 71
+    },
+    {
+      "name": "Fernando Sanz",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 69
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Roteta",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 63,
+      "resistencia": 71,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Torrecilla",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Litos",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 71
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Saviola",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 86,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 82
+    },
+    {
+      "name": "Catanha",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 81,
+      "resistencia": 75,
+      "agresividad": 77,
+      "calidad": 78
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 80,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 76
+    },
+    {
+      "name": "Manu",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 75,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 76
+    }
+  ],
+  "Málaga|2003": [
+    {
+      "name": "Arnau",
+      "pos": "GK",
+      "age": 34,
+      "velocidad": 52,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Fernando Sanz",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 62,
+      "resistencia": 71,
+      "agresividad": 73,
+      "calidad": 68
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Torrecilla",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Juanmi",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 72
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Litos",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 67
+    },
+    {
+      "name": "Germán",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Dani",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 75
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 75,
+      "calidad": 76
+    },
+    {
+      "name": "Manu",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 68
+    }
+  ],
+  "Málaga|2004": [
+    {
+      "name": "Arnau",
+      "pos": "GK",
+      "age": 35,
+      "velocidad": 51,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Torrecilla",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 63,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Juanmi",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Civelli",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Sandro",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 70
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 75,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 72
+    },
+    {
+      "name": "Germán",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 69,
+      "agresividad": 69,
+      "calidad": 66
+    },
+    {
+      "name": "Navas",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Dani",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 79,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 77
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 77,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 76,
+      "resistencia": 71,
+      "agresividad": 72,
+      "calidad": 73
+    },
+    {
+      "name": "Morales",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 66
+    }
+  ],
+  "Málaga|2005": [
+    {
+      "name": "Moli",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Musampa",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 77,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Civelli",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 67
+    },
+    {
+      "name": "Juanmi",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 65
+    },
+    {
+      "name": "Moro",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Lacen",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 74,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 72
+    },
+    {
+      "name": "Germán",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 71,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Navas",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Willy",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 64,
+      "resistencia": 68,
+      "agresividad": 68,
+      "calidad": 65
+    },
+    {
+      "name": "Víctor Ruiz",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Dani",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 31,
+      "velocidad": 75,
+      "resistencia": 71,
+      "agresividad": 73,
+      "calidad": 72
+    },
+    {
+      "name": "Morales",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 79,
+      "resistencia": 69,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 73,
+      "resistencia": 69,
+      "agresividad": 71,
+      "calidad": 71
+    }
+  ],
+  "Málaga|2008": [
+    {
+      "name": "Iván Martínez",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Civelli",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Fernando Sanz",
+      "pos": "DF",
+      "age": 37,
+      "velocidad": 55,
+      "resistencia": 66,
+      "agresividad": 70,
+      "calidad": 62
+    },
+    {
+      "name": "Moro",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Álvaro Domínguez",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Apoño",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Navas",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 84,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Víctor Ruiz",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Rondón",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Morales",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 34,
+      "velocidad": 70,
+      "resistencia": 68,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Julio Baptista",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 78
+    },
+    {
+      "name": "Duda",
+      "pos": "AT",
+      "age": 35,
+      "velocidad": 70,
+      "resistencia": 66,
+      "agresividad": 69,
+      "calidad": 68
+    },
+    {
+      "name": "Van Nistelrooy",
+      "pos": "AT",
+      "age": 32,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 78,
+      "calidad": 82
+    }
+  ],
+  "Málaga|2009": [
+    {
+      "name": "Iván Martínez",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 59,
+      "resistencia": 75,
+      "agresividad": 71,
+      "calidad": 72
+    },
+    {
+      "name": "Civelli",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 73,
+      "agresividad": 72,
+      "calidad": 69
+    },
+    {
+      "name": "Álvaro Domínguez",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 71,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 65
+    },
+    {
+      "name": "Moro",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 63,
+      "resistencia": 71,
+      "agresividad": 70,
+      "calidad": 63
+    },
+    {
+      "name": "Lolo",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Apoño",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 69
+    },
+    {
+      "name": "Navas",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 86,
+      "resistencia": 80,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Víctor Ruiz",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 69
+    },
+    {
+      "name": "Rondón",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 73,
+      "agresividad": 68,
+      "calidad": 67
+    },
+    {
+      "name": "Morales",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 81,
+      "resistencia": 72,
+      "agresividad": 71,
+      "calidad": 73
+    },
+    {
+      "name": "Van Nistelrooy",
+      "pos": "AT",
+      "age": 33,
+      "velocidad": 72,
+      "resistencia": 73,
+      "agresividad": 78,
+      "calidad": 81
+    },
+    {
+      "name": "Julio Baptista",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 79,
+      "calidad": 78
+    },
+    {
+      "name": "Salva Ballesta",
+      "pos": "AT",
+      "age": 35,
+      "velocidad": 67,
+      "resistencia": 66,
+      "agresividad": 69,
+      "calidad": 66
+    },
+    {
+      "name": "Apoño Jr",
+      "pos": "MF",
+      "age": 20,
+      "velocidad": 72,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 62
+    }
+  ]
+}

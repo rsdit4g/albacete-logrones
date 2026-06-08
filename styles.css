@@ -1,12 +1,56 @@
 :root { color-scheme: dark; }
-body { margin: 0; font-family: system-ui, sans-serif; background: #0a0a12; color: #eee; }
-.disclaimer { font-size: 11px; opacity: .5; text-align: center; padding: 16px; }
+
+/* Metallic blue base with an irregular wavy white sheen (bg-wave.svg). */
+body {
+  margin: 0;
+  /* Template Gothic is commercial; "Yanone Kaffeesatz" is the free lookalike
+     (condensed humanist sans with the same quirky character). */
+  font-family: "Yanone Kaffeesatz", "Template Gothic", "Arial Narrow", system-ui, sans-serif;
+  font-weight: 500;
+  color: #eef3fb;
+  background-color: #0e2746;
+  background-image:
+    url("bg-wave.svg"),
+    linear-gradient(125deg, #07192f 0%, #103f72 27%, #3274be 50%, #103f72 73%, #07192f 100%);
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  min-height: 100vh;
+}
+.disclaimer { font-size: 11px; opacity: .8; text-align: center; padding: 16px; color: #d6e6ff; text-shadow: 0 1px 2px rgba(0,0,0,.55); }
 
 /* --- Setup screen --- */
 .screen { max-width: 520px; margin: 0 auto; padding: 32px 20px; }
-.brand { font-size: 34px; font-weight: 900; text-align: center; margin: 8px 0; }
-.brand span { color: #f5d040; }
-.tagline { text-align: center; opacity: .6; margin-bottom: 28px; }
+/* Funky display title — single uniform colour, Bungee font. */
+.brand {
+  font-family: "Bungee", "Template Gothic", cursive;
+  font-size: clamp(15px, 5.6vw, 40px);
+  font-weight: 400;
+  text-align: center;
+  margin: 8px 0 6px;
+  color: #ffd23f;
+  letter-spacing: 0;
+  line-height: 1.05;
+  white-space: nowrap;          /* keep "Albacete – Logroñés" on one line */
+  transform: rotate(-1.5deg);
+  text-shadow: 0 3px 0 rgba(0,0,0,.35), 0 0 22px rgba(255,210,63,.45);
+}
+.brand span { color: inherit; }
+.brand-sub {
+  font-family: "Bungee", "Template Gothic", cursive;
+  font-size: clamp(13px, 3.6vw, 18px);
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 16px;
+  color: #eef3fb;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 6px rgba(0,0,0,.45);
+}
+.tagline { text-align: center; opacity: .6; margin-bottom: 12px; }
+.setup-objective { text-align: center; font-size: 15px; margin: 0 0 26px; color: #ffe9a8; text-shadow: 0 1px 3px rgba(0,0,0,.5); }
+.setup-objective b { color: #ffd23f; }
 .field { display: block; margin: 14px 0; }
 .field span { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; opacity: .6; margin-bottom: 6px; }
 .field input { width: 100%; box-sizing: border-box; padding: 12px; font-size: 16px; border-radius: 10px; border: 1px solid #2a2a3a; background: #12121c; color: #fff; }
@@ -17,15 +61,36 @@ button.primary:disabled { opacity: .4; cursor: not-allowed; }
 /* --- Draft + pitch --- */
 .reels { text-align: center; margin-bottom: 16px; }
 .reels .draw { margin-top: 10px; font-weight: 700; opacity: .85; }
-.draft-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.screen.draft { max-width: 600px; }
+/* Player list on top, portrait pitch centered below */
+.draft-cols { display: flex; flex-direction: column; gap: 16px; }
 .player-list { display: flex; flex-direction: column; gap: 6px; max-height: 60vh; overflow:auto; }
 .player-row { display: flex; justify-content: space-between; padding: 10px 12px; border: 1px solid #2a2a3a; border-radius: 8px; background: #12121c; color: #eee; cursor: pointer; text-align: left; }
 .player-row:hover { border-color: #f5d040; }
 .ppos { opacity: .5; font-size: 12px; }
-.pitch { position: relative; background: linear-gradient(#13391f,#0e2c18); border-radius: 12px; aspect-ratio: 2/3; }
-.slot { position: absolute; transform: translate(-50%,-50%); width: 64px; text-align: center; }
-.slot-role { display:block; font-size:10px; opacity:.6; }
-.slot-name { display:block; font-size:11px; font-weight:700; min-height: 14px; }
+.pitch { position: relative; background: linear-gradient(180deg,#163d20 0%,#1a4a22 48%,#163d20 100%); border-radius: 10px; width: 380px; max-width: 100%; aspect-ratio: 2/3; margin: 0 auto; overflow: hidden; }
+.slot {
+  position: absolute; transform: translate(-50%,-50%);
+  /* % of pitch width so spacing scales with the pitch and never collides */
+  width: 20%; box-sizing: border-box; text-align: center;
+  background: rgba(6,16,10,.74);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 9px;
+  padding: 5px 3px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.45);
+  backdrop-filter: blur(1.5px);
+}
+/* Empty slots: compact chip, just the position letter (avoids crowding). */
+.slot:not(.filled) { width: 11%; padding: 4px 2px; }
+.slot.filled {
+  background: rgba(9,22,13,.9);
+  border-color: rgba(245,210,63,.55);
+  box-shadow: 0 0 0 1px rgba(245,210,63,.25), 0 3px 10px rgba(0,0,0,.55);
+}
+.slot-role, .slot-pos { display:block; font-size:12px; font-weight:800; color:#dfe9ff; opacity:.85; letter-spacing:.06em; }
+.slot.filled .slot-role, .slot.filled .slot-pos { color:#f5d040; opacity:1; }
+.slot-name { display:block; font-size:12px; font-weight:800; color:#fff; min-height: 14px; line-height: 1.18; }
+.slot-team { display:block; font-size:10px; font-weight:700; letter-spacing:.04em; color:#ffd23f; min-height:11px; }
 .slot.filled .slot-role { color: #f5d040; }
 .progress { text-align: center; margin-top: 14px; font-weight: 700; }
 
@@ -51,8 +116,39 @@ button.primary:disabled { opacity: .4; cursor: not-allowed; }
 .rs-sc .g { color:#f5d040; }
 .rs-sc .cl { opacity:.45; font-size:10px; }
 tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
-.rs-hon { font-size:12px; opacity:.85; }
+tr.rel td { background:#2a1414; color:#ff9b9b; }
+tr.rel.me td { background:#3a1414; color:#ffb3b3; }
+.rs-rellegend { font-size:10px; color:#ff9b9b; opacity:.65; margin-top:6px; }
+.rs-hon { font-size:12px; opacity:.85; line-height:1.7; }
+
+/* Relegation / Segunda banner variants */
+.rs-banner-down { background:#241a1a; border-color:#4a2f2f; }
+.rs-banner-down .rs-rank { color:#ff9b9b; }
+.rel-tag { color:#ff9b9b; font-weight:800; font-size:10px; letter-spacing:1px; }
+.rs-relnote { font-size:12px; color:#ff9b9b; opacity:.8; text-align:center; margin:8px 0 4px; }
 .results .primary { margin-top:18px; }
+
+/* Daily leaderboard */
+.rs-rank-box { margin-top:22px; padding-top:16px; border-top:1px solid #20202c; }
+.rs-rank-scope { color:#ffd23f; }
+.rs-rank-intro { font-size:12px; opacity:.7; text-align:center; margin:4px 0 12px; }
+.rs-rank-form { display:flex; gap:8px; align-items:stretch; max-width:420px; margin:0 auto; }
+.rs-rank-form input { flex:1; box-sizing:border-box; padding:12px; font-size:15px; border-radius:10px; border:1px solid #2a2a3a; background:#12121c; color:#fff; }
+.rs-rank-form .primary { margin-top:0; width:auto; white-space:nowrap; padding:12px 16px; }
+.rs-rank-tabs { display:flex; gap:6px; justify-content:center; margin:10px 0 12px; flex-wrap:wrap; }
+.rk-tab { padding:6px 12px; border-radius:8px; border:1px solid #2a2a3a; background:#12121c; color:#cfd6e6; font:inherit; font-size:12px; font-weight:700; cursor:pointer; }
+.rk-tab:hover { border-color:#3a78c2; }
+.rk-tab.on { background:#1d3a5e; border-color:#ffd23f; color:#ffd23f; }
+.rs-rank-tbl { width:100%; font-size:13px; border-collapse:collapse; }
+.rs-rank-tbl td { padding:5px 6px; border-bottom:1px solid #20202c; }
+.rs-rank-tbl .p { opacity:.5; width:32px; font-weight:700; }
+.rs-rank-tbl .cl { opacity:.5; font-size:10px; letter-spacing:.04em; }
+.rs-rank-tbl .pts { text-align:right; font-weight:800; color:#9be29b; }
+.rs-rank-tbl tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
+.rs-rank-tbl tr.me .pts { color:#caffca; }
+.rk-gap td { text-align:center; opacity:.35; letter-spacing:3px; }
+.rs-rank-pos { text-align:center; font-size:13px; margin-top:10px; }
+.rs-rank-pos b { color:#ffd23f; font-size:16px; }
 
 /* === v2 === */
 
@@ -62,6 +158,16 @@ tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
 .club-card:hover { border-color: #f5d040; background: #16161f; }
 .cc-name { font-weight: 800; font-size: 16px; }
 .cc-year { font-size: 12px; opacity: .55; }
+
+/* Play-mode picker (first screen) */
+.mode-grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
+.mode-card { display: flex; flex-direction: column; gap: 8px; padding: 20px; border: 1px solid #2a3a55; border-radius: 14px; background: rgba(10,22,40,.55); color: #eef3fb; cursor: pointer; text-align: left; transition: border-color .15s, background .15s, transform .1s; }
+.mode-card:hover { border-color: #ffd23f; background: rgba(16,34,60,.7); }
+.mode-card:active { transform: scale(.99); }
+.mode-name { font-family: "Bungee", "Template Gothic", cursive; font-size: 22px; color: #ffd23f; letter-spacing: .5px; }
+.mode-desc { font-size: 14px; line-height: 1.45; opacity: .82; }
+.mode-card-mald .mode-name { color: #7fc7ff; }
+@media (min-width: 520px) { .mode-grid { grid-template-columns: 1fr 1fr; } }
 
 /* Draft head */
 .draft-head { text-align: center; margin-bottom: 14px; }
@@ -79,31 +185,42 @@ tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
 .reel.spinning .reel-val { filter: blur(0.6px); opacity: .8; }
 .reel.locked { border-color: #f5d040; box-shadow: 0 0 0 1px #f5d04055; }
 .reel.locked .reel-val { color: #f5d040; }
-.spin-btn { max-width: 360px; margin: 0 auto 16px; display: block; }
+.spin-btn { max-width: 360px; margin: 0 auto 8px; display: block; }
+.spin-btn:disabled { opacity: .45; cursor: not-allowed; }
+.respin-hint { text-align: center; font-size: 12px; color: #cfe0ff; opacity: .8; margin: 0 0 16px; }
+.respin-hint b { color: #ffd23f; }
 
 /* Player rows */
 .player-row { align-items: center; gap: 10px; }
-.pr-pos { font-size: 10px; font-weight: 800; width: 26px; text-align: center; border-radius: 5px; padding: 3px 0; background: #23233a; }
+.pr-pos-cell { display: flex; justify-content: center; align-items: center; }
+.pr-pos { display: inline-block; font-size: 12px; font-weight: 800; min-width: 40px; text-align: center; border-radius: 7px; padding: 4px 8px; background: #23233a; letter-spacing: .04em; }
 .pr-pos-GK { background: #3a2f00; color: #f5d040; }
 .pr-pos-DF { background: #142a3a; color: #7fc7ff; }
 .pr-pos-MF { background: #1d2a1d; color: #9be29b; }
 .pr-pos-AT { background: #3a1d1d; color: #ff9b9b; }
 .pr-name { flex: 1; }
 .pr-media { font-weight: 800; opacity: .85; }
-.slot-pos { display: block; font-size: 10px; opacity: .6; }
-.slot.filled .slot-pos { color: #f5d040; }
 
 /* Five-year summary strip */
 .rs-summary { margin-top: 22px; padding-top: 16px; border-top: 1px solid #20202c; text-align: center; }
-.rs-verdict { font-size: 22px; font-weight: 900; letter-spacing: 2px; color: #f5d040; margin: 4px 0 12px; }
+.rs-verdict { font-size: 22px; font-weight: 900; letter-spacing: 2px; color: #f5d040; margin: 4px 0 6px; }
+.rs-score { font-size: 14px; color: #cfcfe0; margin: 0 0 14px; }
+.rs-score b { font-size: 26px; font-weight: 900; color: #9be29b; }
+.rs-score small { opacity: .55; font-size: 12px; margin-left: 4px; }
 .rs-pills { display: flex; gap: 8px; justify-content: center; }
 .rs-pill { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 56px; height: 62px; border-radius: 10px; background: #161622; border: 1px solid #2a2a3a; color: #eee; cursor: pointer; }
 .rs-pill b { font-size: 20px; font-weight: 900; }
 .rs-pill small { font-size: 10px; opacity: .55; margin-top: 2px; }
 .rs-pill.win { background: linear-gradient(160deg,#3a2f00,#1a1500); border-color: #c9a227; }
 .rs-pill.win b { color: #f5d040; }
+.rs-pill.down { background: linear-gradient(160deg,#2a1414,#1a0e0e); border-color: #7a2a2a; }
+.rs-pill.down b { color: #ff9b9b; }
 .rs-pill.cur { outline: 2px solid #6a6a8a; }
 .rs-summary-stats { font-size: 12px; opacity: .7; margin-top: 12px; }
+.rs-trophies { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; margin-top: 12px; }
+.rs-tr { display: inline-flex; align-items: center; gap: 6px; font-size: 16px; line-height: 1; }
+.rs-tr i { font-style: normal; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #cfe0ff; opacity: .8; }
+.rs-tr-none { font-size: 12px; opacity: .55; }
 
 /* Sharing */
 .rs-share { margin-top: 20px; text-align: center; }
@@ -113,3 +230,28 @@ tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
 .sh-fb { background: #1877f2; }
 .sh-x { background: #222; border: 1px solid #444; }
 .sh-ig { background: linear-gradient(45deg,#feda75,#d62976,#962fbf); }
+
+/* Year-first setup */
+.setup-heading { font-size: 0.8rem; color: #888; margin: 20px 0 10px; text-transform: uppercase; letter-spacing: 0.1em; }
+.setup-back { background: none; border: none; color: #888; cursor: pointer; font-size: 0.85rem; padding: 6px 0 10px; display: inline-flex; align-items: center; gap: 4px; }
+.setup-back:hover { color: #f5d040; }
+.year-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 6px; }
+.year-btn { background: #12121c; border: 1px solid #2a2a3a; border-radius: 8px; color: #e0e0f0; padding: 12px 6px; cursor: pointer; font-size: 0.85rem; font-weight: 700; transition: border-color 0.15s, background 0.15s; }
+.year-btn:hover { border-color: #f5d040; background: #1a1a28; }
+
+/* PC Football attribute table — CSS Grid rows */
+.player-list { max-height: none; overflow: visible; }
+.player-table { width: 100%; font-size: 0.98rem; }
+.pt-header { display: grid; padding: 5px 0 4px; border-bottom: 1px solid #3a557e; }
+.pt-header span { text-align: center; color: #aebfd8; font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; white-space: nowrap; overflow: hidden; }
+.pt-header span:first-child { text-align: left; padding-left: 6px; }
+.media-th { color: #c9a227 !important; font-weight: 800 !important; }
+.player-row { display: grid; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,.08); align-items: center; padding: 0; gap: 0; border-radius: 0; border-left: none; border-right: none; border-top: none; background: transparent; }
+.player-row:hover span { background: rgba(255,255,255,.08); }
+.player-row span { padding: 7px 0; vertical-align: middle; }
+.player-row .pr-name { padding-left: 6px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.pr-stat { text-align: center; color: #cdd8ec; font-variant-numeric: tabular-nums; }
+.pr-media { color: #f5d040 !important; font-weight: 800; }
+/* Disabled: position fully covered — visible but not selectable */
+.player-row.pr-disabled { opacity: 0.32; cursor: default; }
+.player-row.pr-disabled:hover span { background: transparent !important; }
