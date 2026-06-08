@@ -820,21 +820,21 @@ export function insertIntoTable(season, yourPts, yourName) {
 }
 
 // Plausible W/D/L/GF/GA consistent with points & points system, flavoured by strength.
+// Guarantees the invariant W*pointsForWin + D === points exactly (D is derived
+// from points and W, not estimated independently), and W + D + L === games.
 export function deriveRecord(points, games, pointsForWin, strength, rng) {
-  let W, D;
-  if (pointsForWin === 3) {
-    // points = 3W + D, with W+D <= games. Pick D from a small range, solve W.
-    D = Math.max(0, Math.min(games, Math.round((games * 0.22) + (rng() * 4 - 2))));
-    W = Math.round((points - D) / 3);
-  } else {
-    // 2pt era: points = 2W + D
-    D = Math.max(0, Math.min(games, Math.round((games * 0.26) + (rng() * 4 - 2))));
-    W = Math.round((points - D) / 2);
-  }
+  const drawRate = pointsForWin === 3 ? 0.22 : 0.26;
+  // Estimate a plausible draw count, then solve wins around it.
+  let D0 = Math.max(0, Math.min(games, Math.round(games * drawRate + (rng() * 4 - 2))));
+  let W = Math.round((points - D0) / pointsForWin);
   W = Math.max(0, Math.min(games, W));
-  let L = games - W - D;
-  if (L < 0) { D += L; L = 0; }            // clamp
+  // Force exact points: draws = points - wins*pointsForWin.
+  let D = points - W * pointsForWin;
+  while (D < 0 && W < games) { W += 1; D = points - W * pointsForWin; }
   D = Math.max(0, D);
+  let L = games - W - D;
+  if (L < 0) { D = Math.max(0, D + L); L = games - W - D; } // trim draws to fit games
+  if (L < 0) { W = games - D; L = 0; }                       // last resort
   // Goals: scale with strength.
   const gf = Math.round(games * (0.8 + strength / 100));
   const ga = Math.round(games * (1.6 - strength / 100));
