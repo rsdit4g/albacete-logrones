@@ -1,0 +1,23 @@
+// Real clubs appearing in the sample seasons. Codes are 3-letter.
+export const CLUBS = {
+  ALB: { name: "Albacete Balompié" },
+  LOG: { name: "CD Logroñés" },
+  RMA: { name: "Real Madrid" },
+  FCB: { name: "FC Barcelona" },
+  ATM: { name: "Atlético de Madrid" },
+  DEP: { name: "Deportivo de La Coruña" },
+  VAL: { name: "Valencia CF" },
+  RBE: { name: "Real Betis" },
+  SEV: { name: "Sevilla FC" },
+  ESP: { name: "RCD Espanyol" },
+  ATH: { name: "Athletic Club" },
+  RSO: { name: "Real Sociedad" },
+  ZAR: { name: "Real Zaragoza" },
+  CEL: { name: "RC Celta" },
+  OVI: { name: "Real Oviedo" },
+  RAC: { name: "Racing de Santander" },
+  VLL: { name: "Real Valladolid" },
+  TEN: { name: "CD Tenerife" },
+  COM: { name: "SD Compostela" },
+  SPG: { name: "Sporting de Gijón" },
+};
