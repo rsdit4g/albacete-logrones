@@ -16,12 +16,12 @@ function newSeed() {
 }
 
 function startGame() {
-  renderSetup(root, ({ teamName, startYear }) => {
+  renderSetup(root, ({ club, year }) => {
     const seed = newSeed();
     const draft = createDraft(createRng(seed));
-    renderDraft(root, draft, { SQUADS, COMBOS }, (finished) => {
-      const seasons = simulateFiveYears(finished.picks, startYear, { SEASONS }, seed, teamName);
-      renderResults(root, seasons, teamName, startGame);
+    renderDraft(root, club, year, draft, { SQUADS, COMBOS }, (finished) => {
+      const seasons = simulateFiveYears(finished.picks, year, { SEASONS }, seed, club);
+      renderResults(root, seasons, club, startGame);
     });
   });
 }

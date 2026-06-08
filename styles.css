@@ -53,3 +53,63 @@ button.primary:disabled { opacity: .4; cursor: not-allowed; }
 tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
 .rs-hon { font-size:12px; opacity:.85; }
 .results .primary { margin-top:18px; }
+
+/* === v2 === */
+
+/* Setup: club + season picker */
+.club-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 22px; }
+.club-card { display: flex; flex-direction: column; gap: 4px; padding: 16px; border: 1px solid #2a2a3a; border-radius: 12px; background: #12121c; color: #eee; cursor: pointer; text-align: left; }
+.club-card:hover { border-color: #f5d040; background: #16161f; }
+.cc-name { font-weight: 800; font-size: 16px; }
+.cc-year { font-size: 12px; opacity: .55; }
+
+/* Draft head */
+.draft-head { text-align: center; margin-bottom: 14px; }
+.dh-title { font-size: 18px; font-weight: 800; }
+.dh-title b { color: #fff; }
+.dh-year { color: #f5d040; }
+.dh-sub { font-size: 12px; opacity: .55; margin-top: 4px; }
+
+/* Spin reels */
+.reels { display: flex; gap: 12px; justify-content: center; margin-bottom: 12px; }
+.reel { flex: 1; max-width: 220px; background: #12121c; border: 1px solid #2a2a3a; border-radius: 12px; padding: 12px; text-align: center; overflow: hidden; }
+.reel-label { display: block; font-size: 10px; letter-spacing: 2px; opacity: .5; margin-bottom: 6px; }
+.reel-val { display: block; font-size: 18px; font-weight: 800; min-height: 22px; }
+.reel.spinning { border-color: #6a6a8a; }
+.reel.spinning .reel-val { filter: blur(0.6px); opacity: .8; }
+.reel.locked { border-color: #f5d040; box-shadow: 0 0 0 1px #f5d04055; }
+.reel.locked .reel-val { color: #f5d040; }
+.spin-btn { max-width: 360px; margin: 0 auto 16px; display: block; }
+
+/* Player rows */
+.player-row { align-items: center; gap: 10px; }
+.pr-pos { font-size: 10px; font-weight: 800; width: 26px; text-align: center; border-radius: 5px; padding: 3px 0; background: #23233a; }
+.pr-pos-GK { background: #3a2f00; color: #f5d040; }
+.pr-pos-DF { background: #142a3a; color: #7fc7ff; }
+.pr-pos-MF { background: #1d2a1d; color: #9be29b; }
+.pr-pos-AT { background: #3a1d1d; color: #ff9b9b; }
+.pr-name { flex: 1; }
+.pr-media { font-weight: 800; opacity: .85; }
+.slot-pos { display: block; font-size: 10px; opacity: .6; }
+.slot.filled .slot-pos { color: #f5d040; }
+
+/* Five-year summary strip */
+.rs-summary { margin-top: 22px; padding-top: 16px; border-top: 1px solid #20202c; text-align: center; }
+.rs-verdict { font-size: 22px; font-weight: 900; letter-spacing: 2px; color: #f5d040; margin: 4px 0 12px; }
+.rs-pills { display: flex; gap: 8px; justify-content: center; }
+.rs-pill { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 56px; height: 62px; border-radius: 10px; background: #161622; border: 1px solid #2a2a3a; color: #eee; cursor: pointer; }
+.rs-pill b { font-size: 20px; font-weight: 900; }
+.rs-pill small { font-size: 10px; opacity: .55; margin-top: 2px; }
+.rs-pill.win { background: linear-gradient(160deg,#3a2f00,#1a1500); border-color: #c9a227; }
+.rs-pill.win b { color: #f5d040; }
+.rs-pill.cur { outline: 2px solid #6a6a8a; }
+.rs-summary-stats { font-size: 12px; opacity: .7; margin-top: 12px; }
+
+/* Sharing */
+.rs-share { margin-top: 20px; text-align: center; }
+.rs-share-btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.sh { padding: 10px 16px; border: none; border-radius: 9px; font-weight: 700; font-size: 13px; color: #fff; cursor: pointer; }
+.sh-wa { background: #25d366; color: #06351a; }
+.sh-fb { background: #1877f2; }
+.sh-x { background: #222; border: 1px solid #444; }
+.sh-ig { background: linear-gradient(45deg,#feda75,#d62976,#962fbf); }
