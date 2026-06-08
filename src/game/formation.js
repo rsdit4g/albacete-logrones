@@ -1,31 +1,38 @@
-// 4-4-2. x/y are percentages on the pitch (y: 0=top/attack, 100=own goal).
+// 4-4-2 with simplified position buckets: GK / DF / MF / AT.
+// x/y are percentages on the pitch (y: 0 = attack/top, 100 = own goal).
 export const FORMATION_442 = [
-  { id: "GK",  role: "GK",  x: 50, y: 92, eligible: ["GK"] },
-  { id: "RB",  role: "RB",  x: 82, y: 70, eligible: ["RB","RWB"] },
-  { id: "CB1", role: "CB",  x: 60, y: 74, eligible: ["CB"] },
-  { id: "CB2", role: "CB",  x: 40, y: 74, eligible: ["CB"] },
-  { id: "LB",  role: "LB",  x: 18, y: 70, eligible: ["LB","LWB"] },
-  { id: "RM",  role: "RM",  x: 82, y: 44, eligible: ["RM","RW"] },
-  { id: "CM1", role: "CM",  x: 60, y: 48, eligible: ["CM","CDM","CAM"] },
-  { id: "CM2", role: "CM",  x: 40, y: 48, eligible: ["CM","CDM","CAM"] },
-  { id: "LM",  role: "LM",  x: 18, y: 44, eligible: ["LM","LW"] },
-  { id: "ST1", role: "ST",  x: 60, y: 16, eligible: ["ST","CF"] },
-  { id: "ST2", role: "ST",  x: 40, y: 16, eligible: ["ST","CF"] },
+  { id: "GK",  pos: "GK", x: 50, y: 92 },
+  { id: "DF1", pos: "DF", x: 83, y: 72 },
+  { id: "DF2", pos: "DF", x: 61, y: 76 },
+  { id: "DF3", pos: "DF", x: 39, y: 76 },
+  { id: "DF4", pos: "DF", x: 17, y: 72 },
+  { id: "MF1", pos: "MF", x: 83, y: 46 },
+  { id: "MF2", pos: "MF", x: 61, y: 50 },
+  { id: "MF3", pos: "MF", x: 39, y: 50 },
+  { id: "MF4", pos: "MF", x: 17, y: 46 },
+  { id: "AT1", pos: "AT", x: 61, y: 18 },
+  { id: "AT2", pos: "AT", x: 39, y: 18 },
 ];
 
-// Fit of a player (their listed positions) in a slot role.
-// 1.0  exact role match
-// 0.8  role's eligible alternatives (e.g. CF in ST slot)
-// 0.4  ineligible (out of position)
-export function positionFit(playerPositions, slotRole) {
-  const slot = FORMATION_442.find(s => s.role === slotRole) ||
-               FORMATION_442.find(s => s.eligible.includes(slotRole));
-  const eligible = slot ? slot.eligible : [slotRole];
-  if (playerPositions.includes(slotRole)) return 1;
-  if (playerPositions.some(p => eligible.includes(p))) return 0.8;
-  return 0.4;
+export const POSITIONS = ["GK", "DF", "MF", "AT"];
+
+// Fit of a player's bucket in a slot's bucket.
+// 1.0 exact bucket; 0.6 adjacent outfield line (DF↔MF, MF↔AT); 0.3 otherwise
+// (e.g. an outfielder in goal, or a keeper outfield).
+export function positionFit(playerPos, slotPos) {
+  if (playerPos === slotPos) return 1;
+  const adjacent = { DF: ["MF"], MF: ["DF", "AT"], AT: ["MF"] };
+  if (adjacent[slotPos] && adjacent[slotPos].includes(playerPos)) return 0.6;
+  return 0.3;
 }
 
 export function openSlots(filledIds) {
   return FORMATION_442.filter(s => !filledIds.includes(s.id));
+}
+
+// Count of open slots per position bucket — used to drive draft eligibility.
+export function openByPosition(filledIds) {
+  const counts = { GK: 0, DF: 0, MF: 0, AT: 0 };
+  for (const s of openSlots(filledIds)) counts[s.pos]++;
+  return counts;
 }

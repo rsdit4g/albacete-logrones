@@ -1,5 +1,5 @@
 import { createRng } from "./rng.js";
-import { teamStrength } from "./strength.js";
+import { teamStrength, playerRating } from "./strength.js";
 import { projectedOverall } from "./aging.js";
 
 // Map strength (0..100) to a points total scaled to the season's table.
@@ -13,19 +13,22 @@ export function projectedPoints(strength, season) {
   return Math.round(bottom + t * (span + 4));
 }
 
-// Insert your team into the real table by points; one real club drops off
-// the bottom so the table stays divisionSize long.
-export function insertIntoTable(season, yourPts, yourName) {
-  const rows = season.finalTable.map(r => ({ ...r, isYou: false }));
-  const you = { club: "__you", name: yourName, pts: yourPts, isYou: true };
+// Insert your team into the real table by points. You ARE a real club, so if
+// your club already appears in the table its real row is removed first (you
+// replace it). The table stays divisionSize long.
+export function insertIntoTable(season, yourPts, yourClub) {
+  const rows = season.finalTable
+    .filter(r => r.club !== yourClub)
+    .map(r => ({ ...r, isYou: false }));
+  const you = { club: yourClub, pts: yourPts, isYou: true };
   rows.push(you);
   rows.sort((a, b) => b.pts - a.pts);
   const trimmed = rows.slice(0, season.divisionSize);
-  const position = trimmed.findIndex(r => r.isYou) + 1;
-  // If your team was trimmed off (last), force it into the final place.
+  let position = trimmed.findIndex(r => r.isYou) + 1;
+  // If your team was trimmed off the bottom, force it into the final place.
   if (position === 0) {
     trimmed[trimmed.length - 1] = you;
-    return { table: trimmed, position: season.divisionSize };
+    position = season.divisionSize;
   }
   return { table: trimmed, position };
 }
@@ -55,26 +58,22 @@ export function deriveRecord(points, games, pointsForWin, strength, rng) {
   return { P: games, W, D, L, GF: gf, GA: Math.max(0, ga), Pts: points };
 }
 
-// Project the XI's strength `yearsElapsed` seasons from draft, applying aging.
+// Project the XI's strength `yearsElapsed` seasons from draft, aging each
+// player's composite rating along the age curve.
 function strengthInSeason(picks, yearsElapsed) {
-  const aged = picks.map(pk => ({
-    slotId: pk.slotId,
-    player: {
-      ...pk.player,
-      overall: projectedOverall(pk.player.overall, pk.player.age, yearsElapsed),
-    },
-  }));
-  return teamStrength(aged);
+  return teamStrength(picks, (pick) =>
+    projectedOverall(playerRating(pick.player), pick.player.age, yearsElapsed));
 }
 
-// Resolve a single season into a SeasonResult.
-export function simulateSeason(picks, season, year, yearsElapsed, rng, yourName) {
+// Resolve a single season into a SeasonResult. `yourClub` is the real club code
+// the player is managing (used to label rows and replace the real row).
+export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub) {
   const base = strengthInSeason(picks, yearsElapsed);
   // +/- variance up to ~4 strength points
   const strength = base + (rng() * 8 - 4);
   const games = (season.divisionSize - 1) * 2;
-  let pts = projectedPoints(strength, season);
-  const { table, position } = insertIntoTable(season, pts, yourName);
+  const pts = projectedPoints(strength, season);
+  const { table, position } = insertIntoTable(season, pts, yourClub);
   const record = deriveRecord(pts, games, season.pointsForWin, strength, rng);
 
   // Cups: probability from strength.
@@ -82,15 +81,15 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourName)
   if (position === 1) honours.push("La Liga");
   if (rng() < Math.max(0, (strength - 60) / 80)) honours.push("Copa del Rey");
 
-  // Top scorers: blend real list with your best forward (computed goals).
+  // Top scorers: blend the real list with your best attacker (computed goals).
   const topScorers = season.topScorers.map(s => ({ ...s, isYou: false }));
   const myForward = picks
     .map(pk => pk.player)
-    .filter(pl => pl.positions.some(p => ["ST", "CF"].includes(p)))
-    .sort((a, b) => b.overall - a.overall)[0];
+    .filter(pl => pl.pos === "AT")
+    .sort((a, b) => playerRating(b) - playerRating(a))[0];
   if (myForward) {
     const goals = Math.round(8 + (strength / 100) * 22 + (rng() * 6 - 3));
-    topScorers.push({ name: myForward.name, club: yourName, goals, isYou: true });
+    topScorers.push({ name: myForward.name, club: yourClub, goals, isYou: true });
   }
   topScorers.sort((a, b) => b.goals - a.goals);
 
@@ -99,7 +98,7 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourName)
 
 // Simulate five consecutive seasons from startYear. Seasons without data are
 // skipped-forward using the nearest available season's shape.
-export function simulateFiveYears(picks, startYear, { SEASONS }, seed, yourName = "Your XI") {
+export function simulateFiveYears(picks, startYear, { SEASONS }, seed, yourClub = "__you") {
   const rng = createRng(seed);
   const results = [];
   const years = Object.keys(SEASONS).map(Number).sort((a, b) => a - b);
@@ -109,7 +108,7 @@ export function simulateFiveYears(picks, startYear, { SEASONS }, seed, yourName 
     const season = SEASONS[year] ||
       SEASONS[years.reduce((best, y) =>
         Math.abs(y - year) < Math.abs(best - year) ? y : best, years[0])];
-    results.push(simulateSeason(picks, season, year, i, rng, yourName));
+    results.push(simulateSeason(picks, season, year, i, rng, yourClub));
   }
   return results;
 }

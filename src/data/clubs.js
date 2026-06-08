@@ -1,23 +1,11 @@
-// Real clubs appearing in the sample seasons. Codes are 3-letter.
-export const CLUBS = {
-  ALB: { name: "Albacete Balompié" },
-  LOG: { name: "CD Logroñés" },
-  RMA: { name: "Real Madrid" },
-  FCB: { name: "FC Barcelona" },
-  ATM: { name: "Atlético de Madrid" },
-  DEP: { name: "Deportivo de La Coruña" },
-  VAL: { name: "Valencia CF" },
-  RBE: { name: "Real Betis" },
-  SEV: { name: "Sevilla FC" },
-  ESP: { name: "RCD Espanyol" },
-  ATH: { name: "Athletic Club" },
-  RSO: { name: "Real Sociedad" },
-  ZAR: { name: "Real Zaragoza" },
-  CEL: { name: "RC Celta" },
-  OVI: { name: "Real Oviedo" },
-  RAC: { name: "Racing de Santander" },
-  VLL: { name: "Real Valladolid" },
-  TEN: { name: "CD Tenerife" },
-  COM: { name: "SD Compostela" },
-  SPG: { name: "Sporting de Gijón" },
-};
+import { REAL_SEASONS } from "./real-seasons.js";
+
+// Club display registry, derived from every club that appears in the real
+// tables. Keyed by full club name; value carries the display name. (Club names
+// are the canonical identifier used across seasons, squads, and the engine.)
+export const CLUBS = {};
+for (const season of REAL_SEASONS) {
+  for (const row of season.finalTable) {
+    if (!CLUBS[row.club]) CLUBS[row.club] = { name: row.club };
+  }
+}

@@ -1,25 +1,31 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { teamStrength } from "../src/engine/strength.js";
+import { playerRating, teamStrength } from "../src/engine/strength.js";
 
-const xi = (ovr) => Array.from({ length: 11 }, (_, i) => ({
-  slotId: "GK", // role irrelevant here; fit forced via positions
-  player: { overall: ovr, positions: ["GK"] },
-}));
+const uniform = (n) => ({ velocidad: n, resistencia: n, agresividad: n, calidad: n, media: n });
 
-test("strength scales with overall ratings", () => {
-  const weak = teamStrength(xi(60));
-  const strong = teamStrength(xi(90));
-  assert.ok(strong > weak);
+test("playerRating of uniform attributes equals that value", () => {
+  assert.equal(playerRating(uniform(80)), 80);
 });
 
-test("strength of an all-90 perfectly-fit XI is ~90", () => {
-  const s = teamStrength(xi(90));
-  assert.ok(Math.abs(s - 90) < 1, `got ${s}`);
+test("playerRating weights media at 80%", () => {
+  // media 90, others 50: 0.8*90 + 0.1*50 + 0.1*50 = 72 + 5 + 5 = 82
+  const r = playerRating({ velocidad: 50, resistencia: 50, agresividad: 50, calidad: 50, media: 90 });
+  assert.equal(r, 82);
 });
 
-test("out-of-position players lower strength", () => {
-  const fit = teamStrength([{ slotId: "ST1", player: { overall: 90, positions: ["ST"] } }]);
-  const unfit = teamStrength([{ slotId: "ST1", player: { overall: 90, positions: ["GK"] } }]);
+const xi = (n) => Array.from({ length: 11 }, () => ({ slotId: "GK", player: { ...uniform(n), pos: "GK" } }));
+
+test("teamStrength scales with ratings", () => {
+  assert.ok(teamStrength(xi(90)) > teamStrength(xi(60)));
+});
+
+test("perfectly-fit uniform XI strength equals the rating", () => {
+  assert.ok(Math.abs(teamStrength(xi(90)) - 90) < 1);
+});
+
+test("out-of-position lowers strength", () => {
+  const fit = teamStrength([{ slotId: "AT1", player: { ...uniform(90), pos: "AT" } }]);
+  const unfit = teamStrength([{ slotId: "AT1", player: { ...uniform(90), pos: "GK" } }]);
   assert.ok(unfit < fit);
 });
