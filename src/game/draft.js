@@ -15,20 +15,20 @@ export function spin(draft, combos) {
   return { club, year };
 }
 
-// Players from this squad eligible for at least one currently-open slot,
-// excluding already-drafted players. Sorted best-fit then overall.
+// Players from this squad whose bucket fits a currently-open slot, excluding
+// already-drafted players. Sorted best-fit then Media (overall).
 export function availableForOpenSlots(draft, SQUADS, club, year) {
   const squad = SQUADS[`${club}|${year}`] || [];
   const open = openSlots(filledIds(draft));
-  const openRoles = new Set(open.map(s => s.role));
+  const openPositions = new Set(open.map(s => s.pos));
   return squad
     .filter(pl => !draft.draftedKeys.has(playerKey(club, year, pl)))
     .map(pl => {
-      const bestFit = Math.max(...[...openRoles].map(r => positionFit(pl.positions, r)));
+      const bestFit = Math.max(...[...openPositions].map(p => positionFit(pl.pos, p)));
       return { player: pl, bestFit };
     })
-    .filter(x => x.bestFit > 0.4) // only show players that fit an open slot reasonably
-    .sort((a, b) => b.bestFit - a.bestFit || b.player.overall - a.player.overall)
+    .filter(x => x.bestFit >= 0.6) // matching or adjacent bucket to an open slot
+    .sort((a, b) => b.bestFit - a.bestFit || b.player.media - a.player.media)
     .map(x => x.player);
 }
 

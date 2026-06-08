@@ -1,6 +1,5 @@
-const VALID_POS = new Set([
-  "GK","RB","LB","CB","RWB","LWB","CDM","CM","CAM","RM","LM","RW","LW","CF","ST"
-]);
+const VALID_POS = new Set(["GK", "DF", "MF", "AT"]);
+const ATTRS = ["velocidad", "resistencia", "agresividad", "calidad", "media"];
 
 export function validateData({ CLUBS, SEASONS, SQUADS }) {
   const errors = [];
@@ -25,9 +24,10 @@ export function validateData({ CLUBS, SEASONS, SQUADS }) {
     if (!SEASONS[year]) errors.push(`squad ${key}: unknown year`);
     for (const p of squad) {
       if (!p.name) errors.push(`squad ${key}: player missing name`);
-      if (!Array.isArray(p.positions) || p.positions.some(x => !VALID_POS.has(x)))
-        errors.push(`squad ${key}: bad positions for ${p.name}`);
-      if (typeof p.overall !== "number") errors.push(`squad ${key}: overall for ${p.name}`);
+      if (!VALID_POS.has(p.pos)) errors.push(`squad ${key}: bad pos for ${p.name}`);
+      for (const a of ATTRS) {
+        if (typeof p[a] !== "number") errors.push(`squad ${key}: ${a} for ${p.name}`);
+      }
       if (typeof p.age !== "number") errors.push(`squad ${key}: age for ${p.name}`);
     }
   }
