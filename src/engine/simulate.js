@@ -44,8 +44,11 @@ export function deriveRecord(points, games, pointsForWin, strength, rng) {
   while (D < 0 && W < games) { W += 1; D = points - W * pointsForWin; }
   D = Math.max(0, D);
   let L = games - W - D;
-  if (L < 0) { D = Math.max(0, D + L); L = games - W - D; } // trim draws to fit games
-  if (L < 0) { W = games - D; L = 0; }                       // last resort
+  // If results overflow the game count (too many draws), convert draws into wins.
+  // Each win is worth pointsForWin points (= several draws), so one extra win frees
+  // game slots while preserving the exact points invariant W*pointsForWin + D = points.
+  while (L < 0 && D >= pointsForWin) { W += 1; D -= pointsForWin; L = games - W - D; }
+  if (L < 0) L = 0; // unreachable for realistic inputs; guard against impossible totals
   // Goals: scale with strength.
   const gf = Math.round(games * (0.8 + strength / 100));
   const ga = Math.round(games * (1.6 - strength / 100));
