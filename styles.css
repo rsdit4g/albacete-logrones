@@ -225,7 +225,8 @@ tr.rel.me td { background:#3a1414; color:#ffb3b3; }
 /* Sharing */
 .rs-share { margin-top: 20px; text-align: center; }
 .rs-share-btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
-.sh { padding: 10px 16px; border: none; border-radius: 9px; font-weight: 700; font-size: 13px; color: #fff; cursor: pointer; }
+.sh { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; border: none; border-radius: 9px; font-weight: 700; font-size: 13px; color: #fff; cursor: pointer; }
+.sh-ico { width: 18px; height: 18px; flex: 0 0 auto; }
 .sh-wa { background: #25d366; color: #06351a; }
 .sh-fb { background: #1877f2; }
 .sh-x { background: #222; border: 1px solid #444; }
