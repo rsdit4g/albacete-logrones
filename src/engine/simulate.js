@@ -109,7 +109,16 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub,
   for (const pick of picks) {
     const aged = projectedOverall(playerRating(pick.player), pick.player.age, yearsElapsed);
     const goals = projectedGoals(pick.player.pos, aged, strength, rng);
-    if (goals >= 3) {
+    if (goals < 3) continue;
+    // If this player is also in the real top-scorer list (you drafted someone
+    // who really scored that year), don't duplicate them — claim that row as
+    // yours and use the projected tally (consistent with your squad's context).
+    const dupe = topScorers.find(s => s.name === pick.player.name);
+    if (dupe) {
+      dupe.isYou = true;
+      dupe.club = yourClub;
+      dupe.goals = goals;
+    } else {
       topScorers.push({ name: pick.player.name, club: yourClub, goals, isYou: true });
     }
   }
