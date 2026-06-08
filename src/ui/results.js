@@ -100,6 +100,7 @@ export function renderResults(root, seasons, yourClub, onAgain) {
     g.fillText(SHARE_URL.replace("https://", ""), W / 2, 1000);
 
     c.toBlob((blob) => {
+      if (!blob) return; // browser declined to produce the image
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
       a.download = `${displayName.replace(/\s+/g, "-")}-5-temporadas.png`;

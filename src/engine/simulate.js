@@ -65,7 +65,7 @@ function strengthInSeason(picks, yearsElapsed) {
     projectedOverall(playerRating(pick.player), pick.player.age, yearsElapsed));
 }
 
-// Resolve a single season into a SeasonResult. `yourClub` is the real club code
+// Resolve a single season into a SeasonResult. `yourClub` is the real club name
 // the player is managing (used to label rows and replace the real row).
 export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub) {
   const base = strengthInSeason(picks, yearsElapsed);
