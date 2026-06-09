@@ -78,11 +78,25 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     return code === yourClub ? safeName : esc(CLUBS[code]?.name || code);
   }
 
+  // A punchy, scannable share message: a visual five-season arc (medals, drops,
+  // play-offs), the points %, the verdict, and any trophies.
   function shareText() {
-    const arc = seasons.map(s => s.inSegunda ? "2ª" : `${s.position}º`).join(" · ");
-    const honours = titles ? `, ${titles}× Liga` : "";
-    return `⚽ ${displayName} en Gol De Oro: ${arc} en 5 temporadas. ` +
-           `${pct}% de los puntos${honours} (${tier}). ¿Puedes mejorarlo? ${SHARE_URL}`;
+    const arc = seasons.map(s => {
+      if (s.inSegunda) return "🔻2ª";
+      if (s.position === 1) return "🥇";
+      if (s.relegated) return `🔻${s.position}`;
+      if (s.promocion) return `⇄${s.position}`;
+      return `${s.position}º`;
+    }).join(" ");
+    const trophies = [];
+    if (titles) trophies.push(`🏆${titles}× Liga`);
+    if (cups) trophies.push(`🏆${cups}× Copa`);
+    if (supercopas) trophies.push(`🏆${supercopas}× Supercopa`);
+    const trophyLine = trophies.length ? `\n${trophies.join(" · ")}` : "";
+    return `⚽ GOL DE ORO · ${displayName} (${modeLabel})\n`
+      + `${arc}  en 5 temporadas\n`
+      + `${pct}% de los puntos posibles — ${tier}${trophyLine}\n`
+      + `¿Puedes superar mi marca? ${SHARE_URL}`;
   }
 
   function openShare(network) {
@@ -92,8 +106,39 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       whatsapp: `https://wa.me/?text=${text}`,
       facebook: `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`,
       x: `https://twitter.com/intent/tweet?text=${text}`,
+      telegram: `https://t.me/share/url?url=${url}&text=${text}`,
     };
     window.open(links[network], "_blank", "noopener,noreferrer");
+  }
+
+  // Native share sheet on supported devices (mobile), with a clipboard fallback.
+  async function nativeShare(btn) {
+    const text = shareText();
+    if (navigator.share) {
+      try { await navigator.share({ title: "Gol De Oro", text, url: SHARE_URL }); }
+      catch { /* user dismissed */ }
+    } else {
+      copyShare(btn);
+    }
+  }
+
+  // Copy the share text to the clipboard, flashing confirmation on the button.
+  async function copyShare(btn) {
+    const text = shareText();
+    let ok = false;
+    try { await navigator.clipboard.writeText(text); ok = true; }
+    catch {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { ok = document.execCommand("copy"); } catch { ok = false; }
+      ta.remove();
+    }
+    if (btn) {
+      const prev = btn.innerHTML;
+      btn.innerHTML = ok ? "✅ ¡Copiado!" : "⚠️ Copia manual";
+      setTimeout(() => { btn.innerHTML = prev; }, 1600);
+    }
   }
 
   // Draw a square share card to a canvas and trigger a PNG download (Instagram).
@@ -259,10 +304,15 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
 
         <div class="rs-share">
           <div class="rs-h">Comparte tu resultado</div>
+          <div class="rs-share-main">
+            <button class="sh sh-native" id="shareBtn">📲 <span>Compartir</span></button>
+            <button class="sh sh-copy" id="copyBtn">📋 <span>Copiar</span></button>
+          </div>
           <div class="rs-share-btns">
             <button class="sh sh-wa" data-net="whatsapp">${ICONS.whatsapp}<span>WhatsApp</span></button>
-            <button class="sh sh-fb" data-net="facebook">${ICONS.facebook}<span>Facebook</span></button>
             <button class="sh sh-x" data-net="x">${ICONS.x}<span>X</span></button>
+            <button class="sh sh-tg" data-net="telegram"><span>Telegram</span></button>
+            <button class="sh sh-fb" data-net="facebook">${ICONS.facebook}<span>Facebook</span></button>
             <button class="sh sh-ig" id="igBtn">${ICONS.instagram}<span>Imagen</span></button>
           </div>
         </div>
@@ -276,6 +326,8 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       b.addEventListener("click", () => { idx = Number(b.dataset.i); paint(); }));
     root.querySelectorAll(".sh[data-net]").forEach(b =>
       b.addEventListener("click", () => openShare(b.dataset.net)));
+    root.querySelector("#shareBtn").addEventListener("click", (e) => nativeShare(e.currentTarget));
+    root.querySelector("#copyBtn").addEventListener("click", (e) => copyShare(e.currentTarget));
     root.querySelector("#igBtn").addEventListener("click", downloadImage);
     root.querySelector("#again").addEventListener("click", onAgain);
     const toggleReal = root.querySelector("#toggleReal");
