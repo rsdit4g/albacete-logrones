@@ -1,0 +1,99 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Gol De Oro — global daily rankings store.
+  Single DynamoDB table that backs the four "Ranking del día" boards
+  (overall, by club, by season, by club+season). Data model only —
+  no Lambda/API resources are defined here.
+
+Parameters:
+  Stage:
+    Type: String
+    Default: prod
+    AllowedValues: [dev, prod]
+    Description: Deployment stage; suffixes the table name.
+
+Resources:
+  RankingsTable:
+    Type: AWS::DynamoDB::Table
+    # Retain the table on stack delete so a redeploy never silently wipes
+    # the live boards. Flip to Delete for throwaway dev stacks if you prefer.
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      TableName: !Sub "gol-de-oro-rankings-${Stage}"
+
+      # On-demand: traffic is spiky and low (a hobby game), so we pay per
+      # request instead of provisioning/forecasting capacity.
+      BillingMode: PAY_PER_REQUEST
+
+      # TTL auto-deletes entries once their day has passed. The boards are
+      # scoped to "today" only, so nothing older needs to live in the table.
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+
+      # Point-in-time recovery is cheap insurance against accidental wipes.
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+
+      # Only key + index-key attributes are declared. Everything else
+      # (name, club, year, pct, ts, id, expiresAt) is schemaless.
+      AttributeDefinitions:
+        - AttributeName: PK        # DATE#<date>                       (overall board partition)
+          AttributeType: S
+        - AttributeName: SK        # rankKey: S<pct>#T<tsInv>#<id>     (sorts the board)
+          AttributeType: S
+        - AttributeName: GSI1PK    # DATE#<date>#CLUB#<club>           (club board partition)
+          AttributeType: S
+        - AttributeName: GSI2PK    # DATE#<date>#YEAR#<year>           (season board partition)
+          AttributeType: S
+        - AttributeName: GSI3PK    # DATE#<date>#CLUB#<club>#YEAR#<year> (club+season partition)
+          AttributeType: S
+
+      KeySchema:
+        - AttributeName: PK
+          KeyType: HASH
+        - AttributeName: SK
+          KeyType: RANGE
+
+      # All three GSIs reuse the same SK (rankKey) as their sort key, so a
+      # single ScanIndexForward=false query returns each board pre-sorted:
+      # highest pct first, earlier submission breaking ties.
+      GlobalSecondaryIndexes:
+        - IndexName: ClubDailyIndex
+          KeySchema:
+            - AttributeName: GSI1PK
+              KeyType: HASH
+            - AttributeName: SK
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: SeasonDailyIndex
+          KeySchema:
+            - AttributeName: GSI2PK
+              KeyType: HASH
+            - AttributeName: SK
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: ClubSeasonDailyIndex
+          KeySchema:
+            - AttributeName: GSI3PK
+              KeyType: HASH
+            - AttributeName: SK
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+
+Outputs:
+  RankingsTableName:
+    Description: DynamoDB table name for the rankings store.
+    Value: !Ref RankingsTable
+    Export:
+      Name: !Sub "${AWS::StackName}-RankingsTableName"
+  RankingsTableArn:
+    Description: DynamoDB table ARN (grant this to the API/Lambda layer later).
+    Value: !GetAtt RankingsTable.Arn
+    Export:
+      Name: !Sub "${AWS::StackName}-RankingsTableArn"
