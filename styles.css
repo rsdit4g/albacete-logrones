@@ -277,15 +277,7 @@ tr.rel.me td { background:#3a1414; color:#ffb3b3; }
 .player-row { display: grid; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,.08); align-items: center; padding: 0; gap: 0; border-radius: 0; border-left: none; border-right: none; border-top: none; background: transparent; }
 .player-row:hover span { background: rgba(255,255,255,.08); }
 .player-row span { padding: 7px 0; vertical-align: middle; }
-.player-row .pr-name { display: flex; flex-direction: column; justify-content: center; gap: 3px; padding-left: 6px; font-weight: 600; min-width: 0; white-space: normal; overflow: visible; }
-.pr-name-main { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-/* Start → end Media projection under each name (Clásico). */
-.pr-proj { display: inline-flex; align-items: center; gap: 4px; padding: 0 !important; }
-.player-row:hover .pr-proj { background: transparent !important; }
-.pr-proj .pj, .pr-proj .pj-arrow { font-style: normal; font-size: 10px; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; color: #8ea3c4; }
-.pr-proj .pj-arrow { opacity: .6; font-weight: 500; }
-.pr-proj.up .pj:last-of-type { color: #9be29b; }
-.pr-proj.down .pj:last-of-type { color: #ff9b9b; }
+.player-row .pr-name { padding-left: 6px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .pr-stat { text-align: center; color: #cdd8ec; font-variant-numeric: tabular-nums; }
 .pr-age { color: #79c0ff !important; font-weight: 700; }
 .pr-media { color: #f5d040 !important; font-weight: 800; }

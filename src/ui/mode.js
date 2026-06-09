@@ -15,6 +15,7 @@ export function renderModeSelect(root, onPick) {
           <li>Después una ruleta sortea un club y una temporada al azar. En cada sorteo eliges un jugador, hasta completar un 4-4-2 con 11 futbolistas.</li>
           <li>Tienes 2 giros extra en toda la partida por si un sorteo no te convence.</li>
           <li>Con tu once montado, el juego simula 5 temporadas insertando a tu equipo en clasificaciones históricas reales de La Liga.</li>
+          <li>La edad manda: con los años los jóvenes suben su media y los veteranos la pierden. La edad de cada jugador es tu pista, pero cuánto crece o cae tendrás que adivinarlo.</li>
           <li>Objetivo: lograr el máximo de puntos posible en esas 5 temporadas. O el mínimo, si te atreves.</li>
         </ol>
       </div>
