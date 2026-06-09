@@ -179,24 +179,31 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         </div>
         <div class="rs-relnote">Tu equipo descendió y no compite esta temporada en Primera.</div>
         ` : `
-        <div class="rs-banner${r.relegated ? " rs-banner-down" : ""}">
-          <div class="rs-rank">${ordinal(r.position)}${r.relegated ? " ↓" : ""}</div>
+        <div class="rs-banner${r.relegated ? " rs-banner-down" : (r.promocion ? " rs-banner-promo" : "")}">
+          <div class="rs-rank">${ordinal(r.position)}${r.relegated ? " ↓" : (r.promocion ? " ⇄" : "")}</div>
           <div class="rs-rec">
-            <b>${safeName}</b>${r.relegated ? " · <span class='rel-tag'>DESCENSO</span>" : ""}<br>
+            <b>${safeName}</b>${
+              r.relegated && r.promocion ? " · <span class='rel-tag'>PROMOCIÓN · DESCENSO</span>"
+              : r.relegated ? " · <span class='rel-tag'>DESCENSO</span>"
+              : r.promocion ? " · <span class='promo-tag'>PROMOCIÓN · SALVADO</span>" : ""}<br>
             P${rec.P} · ${rec.W}V ${rec.D}E ${rec.L}D · ${rec.GF}–${rec.GA} · <b>${rec.Pts} pts</b>
           </div>
         </div>
+        ${r.promocion ? `<div class="rs-relnote ${r.relegated ? "" : "rs-promonote"}">Jugaste la promoción${r.relegated ? " y caíste a Segunda." : " y mantuviste la categoría."}</div>` : ""}
 
         <div class="rs-grid">
           <div>
             <div class="rs-h">Clasificación final</div>
             <table class="rs-tbl">${r.table.map((row, i) => {
-              const relZone = i >= r.table.length - r.relegationSpots;
-              return `<tr class="${row.isYou ? "me" : ""} ${relZone ? "rel" : ""}"><td class="p">${i + 1}</td>
+              const directZone = i >= r.table.length - r.directSpots;
+              const promoZone = !directZone && r.promocionSpots > 0 &&
+                i >= r.table.length - r.directSpots - r.promocionSpots;
+              const cls = directZone ? "rel" : (promoZone ? "promo" : "");
+              return `<tr class="${row.isYou ? "me" : ""} ${cls}"><td class="p">${i + 1}</td>
                <td>${clubLabel(row.club)}</td><td class="pts">${row.pts}</td></tr>`;
             }).join("")}
             </table>
-            <div class="rs-rellegend">▼ Zona de descenso (${r.relegationSpots} últimos)</div>
+            <div class="rs-rellegend">▼ Descenso directo (${r.directSpots})${r.promocionSpots ? ` · <span class="promo-legend">Promoción (${r.promocionSpots})</span>` : ""}</div>
           </div>
           <div>
             <div class="rs-h">Máximos goleadores</div>
