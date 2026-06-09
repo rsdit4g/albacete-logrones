@@ -19,3 +19,17 @@ export function projectedOverall(baseOverall, baseAge, yearsLater) {
   }
   return Math.max(40, Math.min(99, Math.round(ovr)));
 }
+
+// A player's projected Media `yearsLater` seasons from the draft. This is the
+// single source of truth shared by the draft UI (the per-season projection it
+// shows) and the simulator (the rating it uses), so what you see when picking
+// is exactly what the player is worth in each of the following seasons.
+export function projectedMedia(player, yearsLater) {
+  return projectedOverall(player.media, player.age, yearsLater);
+}
+
+// The five-season Media trajectory for a player if drafted now: index 0 is the
+// first season (no aging) through index 4 (four years on).
+export function mediaTrajectory(player) {
+  return [0, 1, 2, 3, 4].map(y => projectedMedia(player, y));
+}

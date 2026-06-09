@@ -2,6 +2,7 @@ import { openSlots } from "../game/formation.js?v=13";
 import { CLUBS } from "../data/clubs.js?v=16";
 import { spin, allPlayersForSquad, draftPlayer, isComplete } from "../game/draft.js?v=13";
 import { pitchSlotsHTML } from "./pitch.js?v=1";
+import { mediaTrajectory } from "../engine/aging.js?v=3";
 
 const SEED_COUNT = 4;
 const POS_ORDER = { GK: 0, DF: 1, MF: 2, AT: 3 };
@@ -90,14 +91,27 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
     const COLS = maldiniano ? "1fr 80px" : "1fr 52px 40px 34px 34px 34px 34px 46px";
     const header = maldiniano
       ? `<span>Nombre</span><span>Pos</span>`
-      : `<span>Nombre</span><span>Pos</span><span>Edad</span><span>Vel</span><span>Res</span><span>Agr</span><span>Cal</span><span class="media-th">Media</span>`;
+      : `<span>Nombre</span><span>Pos</span><span class="age-th">Edad</span><span>Vel</span><span>Res</span><span>Agr</span><span>Cal</span><span class="media-th">Media</span>`;
     const statCells = (pl) => maldiniano ? "" : `
-            <span class="pr-stat">${pl.age}</span>
+            <span class="pr-stat pr-age">${pl.age}</span>
             <span class="pr-stat">${pl.velocidad}</span>
             <span class="pr-stat">${pl.resistencia}</span>
             <span class="pr-stat">${pl.agresividad}</span>
             <span class="pr-stat">${pl.calidad}</span>
             <span class="pr-stat pr-media">${pl.media}</span>`;
+
+    // Media at the start (season 1) and end (season 5) of the run, shown under
+    // each name in Clásico. These numbers ARE the values the simulator uses, so
+    // they match exactly what the player is worth then if you pick them.
+    const projLine = (pl) => {
+      if (maldiniano) return "";
+      const traj = mediaTrajectory(pl);
+      const start = traj[0], end = traj[traj.length - 1];
+      const cls = end > start ? "up" : end < start ? "down" : "flat";
+      return `<span class="pr-proj ${cls}" title="Media en la temporada 1 y en la 5 si lo fichas">`
+        + `<i class="pj">${start}</i><i class="pj-arrow">→</i><i class="pj">${end}</i></span>`;
+    };
+
     list.innerHTML = `
       <div class="player-table" role="table">
         <div class="pt-header" role="row" style="grid-template-columns:${COLS}">
@@ -105,7 +119,7 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
         </div>
         ${players.map((pl, i) => `
           <div class="player-row${pl.available ? "" : " pr-disabled"}" role="row" data-i="${i}" style="grid-template-columns:${COLS}">
-            <span class="pr-name">${pl.name}</span>
+            <span class="pr-name"><span class="pr-name-main">${pl.name}</span>${projLine(pl)}</span>
             <span class="pr-pos-cell"><span class="pr-pos pr-pos-${pl.pos}">${pl.pos}</span></span>${statCells(pl)}
           </div>`).join("")}
       </div>`;
