@@ -1,6 +1,6 @@
 import { createRng } from "./rng.js";
-import { teamStrength, playerRating } from "./strength.js";
-import { projectedOverall } from "./aging.js?v=2";
+import { teamStrength } from "./strength.js";
+import { projectedMedia } from "./aging.js?v=3";
 
 // Map strength (0..100) to a points total scaled to the season's table.
 // Strength 50 ~ mid-table; 100 ~ a few points above the real champion.
@@ -64,8 +64,7 @@ export function deriveRecord(points, games, pointsForWin, strength, rng) {
 // Project the XI's strength `yearsElapsed` seasons from draft, aging each
 // player's composite rating along the age curve.
 function strengthInSeason(picks, yearsElapsed) {
-  return teamStrength(picks, (pick) =>
-    projectedOverall(playerRating(pick.player), pick.player.age, yearsElapsed));
+  return teamStrength(picks, (pick) => projectedMedia(pick.player, yearsElapsed));
 }
 
 // Resolve a single season into a SeasonResult. `yourClub` is the real club name
@@ -107,7 +106,7 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub,
   // (aged) quality, and the squad's overall strength — so any of them can chart,
   // not just one striker. They then compete with the real scorers for the top 5.
   for (const pick of picks) {
-    const aged = projectedOverall(playerRating(pick.player), pick.player.age, yearsElapsed);
+    const aged = projectedMedia(pick.player, yearsElapsed);
     const goals = projectedGoals(pick.player.pos, aged, strength, rng);
     if (goals < 3) continue;
     // If this player is also in the real top-scorer list (you drafted someone
