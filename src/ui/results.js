@@ -45,7 +45,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
   const displayName = CLUBS[yourClub]?.name || yourClub;
   const safeName = esc(displayName);
   const startYear = seasons[0].year;
-  const modeLabel = mode === "maldiniano" ? "Maldiniano" : "Clásico";
+  const modeLabel = { maldiniano: "Maldiniano", miequipo: "Mi Equipo", "miequipo-random": "Mi Equipo Random" }[mode] || "Clásico";
 
   // Leaderboard state: filled once the player saves their run.
   let myEntry = null;

@@ -2,6 +2,7 @@ import { openSlots } from "../game/formation.js?v=13";
 import { CLUBS } from "../data/clubs.js?v=16";
 import { spin, allPlayersForSquad, draftPlayer, isComplete } from "../game/draft.js?v=13";
 import { pitchSlotsHTML } from "./pitch.js?v=2";
+import { randInt } from "../engine/rng.js";
 
 const SEED_COUNT = 4;
 const POS_ORDER = { GK: 0, DF: 1, MF: 2, AT: 3 };
@@ -12,20 +13,29 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
   let draw = null;
   let spinning = false;
   let reSpinsUsed = 0;
-  const maldiniano = mode === "maldiniano"; // hide player stats, show name + pos only
 
-  const inSeed = () => draftState.picks.length < SEED_COUNT;
+  const maldiniano = mode === "maldiniano";     // hide player stats, show name + pos only
+  const pickAll    = mode === "miequipo";        // pick all 11 from the start squad, no roulette
+  const auto       = mode === "miequipo-random"; // roulette auto-picks the whole 11
+
+  // "Seed" = picking by hand from the starting squad. In Mi Equipo that's the
+  // whole game (all 11 slots); in the auto mode there's no manual phase at all.
+  const seedCount = pickAll ? 11 : SEED_COUNT;
+  const inSeed = () => !auto && draftState.picks.length < seedCount;
   const clubName = (c) => CLUBS[c]?.name || c;
   const reSpinsLeft = () => MAX_RESPINS - reSpinsUsed;
 
   // Button label/state: "GIRAR" for a fresh pick, "VOLVER A GIRAR · N" while a
-  // draw is showing, disabled once both re-rolls are spent.
+  // draw is showing, disabled once both re-rolls are spent. In auto mode every
+  // press just fires the next pick, so there's no re-roll bookkeeping.
   function spinBtnText() {
+    if (auto) return spinning ? "GIRANDO…" : "GIRAR";
     if (!draw) return "GIRAR";
     const n = reSpinsLeft();
     return n > 0 ? `VOLVER A GIRAR · ${n} ${n === 1 ? "restante" : "restantes"}` : "SIN GIROS EXTRA";
   }
   function spinDisabled() {
+    if (auto) return spinning;
     return spinning || (!!draw && reSpinsLeft() <= 0);
   }
   function refreshSpinBtn() {
@@ -35,24 +45,37 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
     btn.disabled = spinDisabled();
   }
 
+  function headHTML() {
+    if (pickAll) {
+      return `<div class="dh-title">Monta tu once · <b>${clubName(startClub)}</b> <span class="dh-year">${startYear}</span></div>
+              <div class="dh-sub">Tu once — ${draftState.picks.length}/11 elegidos</div>`;
+    }
+    if (inSeed()) {
+      return `<div class="dh-title">Elige ${SEED_COUNT} de <b>${clubName(startClub)}</b> <span class="dh-year">${startYear}</span></div>
+              <div class="dh-sub">Tu base — ${draftState.picks.length}/${SEED_COUNT} elegidos</div>`;
+    }
+    if (auto) {
+      return `<div class="dh-title">La ruleta monta tu once</div>
+              <div class="dh-sub">${draftState.picks.length}/11 fichados · ${11 - draftState.picks.length} por fichar</div>`;
+    }
+    return `<div class="dh-title">Gira por el resto</div>
+            <div class="dh-sub">${draftState.picks.length}/11 fichados · ${11 - draftState.picks.length} por fichar</div>`;
+  }
+
   function paint() {
     const seed = inSeed();
     root.innerHTML = `
       <section class="screen draft">
-        <div class="draft-head">
-          ${seed
-            ? `<div class="dh-title">Elige ${SEED_COUNT} de <b>${clubName(startClub)}</b> <span class="dh-year">${startYear}</span></div>
-               <div class="dh-sub">Tu base — ${draftState.picks.length}/${SEED_COUNT} elegidos</div>`
-            : `<div class="dh-title">Gira por el resto</div>
-               <div class="dh-sub">${draftState.picks.length}/11 fichados · ${11 - draftState.picks.length} por fichar</div>`}
-        </div>
+        <div class="draft-head">${headHTML()}</div>
         ${seed ? "" : `
           <div class="reels" id="reels">
             <div class="reel" id="reelClub"><span class="reel-label">CLUB</span><span class="reel-val" id="reelClubVal">${draw ? clubName(draw.club) : "—"}</span></div>
             <div class="reel" id="reelYear"><span class="reel-label">TEMPORADA</span><span class="reel-val" id="reelYearVal">${draw ? draw.year : "—"}</span></div>
           </div>
           <button class="primary spin-btn" id="spinBtn" ${spinDisabled() ? "disabled" : ""}>${spinBtnText()}</button>
-          <div class="respin-hint">Solo puedes volver a girar <b>${MAX_RESPINS}</b> veces en toda la partida · te quedan <b>${reSpinsLeft()}</b></div>`}
+          ${auto
+            ? `<div class="respin-hint">La ruleta elige por ti · tú solo giras</div>`
+            : `<div class="respin-hint">Solo puedes volver a girar <b>${MAX_RESPINS}</b> veces en toda la partida · te quedan <b>${reSpinsLeft()}</b></div>`}`}
         <div class="draft-cols">
           <div class="player-list" id="playerList"></div>
           <div class="pitch" id="pitch"></div>
@@ -65,6 +88,13 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
 
   function paintList() {
     const list = root.querySelector("#playerList");
+
+    // Auto mode never offers a manual choice — just a running status line.
+    if (auto) {
+      list.innerHTML = `<p class="hint">Pulsa <b>GIRAR</b> y la ruleta sorteará un club, una temporada y un jugador para tu once. ${draftState.picks.length}/11 fichados.</p>`;
+      return;
+    }
+
     let club, year;
     if (inSeed()) { club = startClub; year = startYear; }
     else if (draw) { club = draw.club; year = draw.year; }
@@ -127,21 +157,14 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
     paint();
   }
 
-  // Two-stage dramatic spin: club reel locks first, then year.
-  // Cosmetic flicker uses Math.random; actual draw comes from seeded rng.
-  function doSpin() {
-    if (spinning) return;
-    // A spin while a draw is already showing is a re-roll — limited to MAX_RESPINS.
-    const isReroll = draw !== null;
-    if (isReroll && reSpinsLeft() <= 0) return;
-    if (isReroll) reSpinsUsed++;
-    spinning = true;
-    draw = spin(draftState, COMBOS);
-
+  // Two-stage dramatic reel animation: club locks first, then year. Cosmetic
+  // flicker uses Math.random; the real draw is supplied by the caller. Calls
+  // done() once both reels have locked.
+  function animateReels(target, done) {
     const clubEl = root.querySelector("#reelClubVal");
     const yearEl = root.querySelector("#reelYearVal");
     const btn = root.querySelector("#spinBtn");
-    btn.disabled = true;
+    if (btn) btn.disabled = true;
     clubEl.parentElement.classList.remove("locked");
     yearEl.parentElement.classList.remove("locked");
 
@@ -155,7 +178,7 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
 
     setTimeout(() => {
       clearInterval(clubFlick);
-      clubEl.textContent = clubName(draw.club);
+      clubEl.textContent = clubName(target.club);
       clubEl.parentElement.classList.remove("spinning");
       clubEl.parentElement.classList.add("locked");
 
@@ -166,17 +189,67 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
 
       setTimeout(() => {
         clearInterval(yearFlick);
-        yearEl.textContent = draw.year;
+        yearEl.textContent = target.year;
         yearEl.parentElement.classList.remove("spinning");
         yearEl.parentElement.classList.add("locked");
-        spinning = false;
-        refreshSpinBtn();
-        // Update the "te quedan N" hint after a re-roll is consumed.
-        const hint = root.querySelector(".respin-hint");
-        if (hint) hint.innerHTML = `Solo puedes volver a girar <b>${MAX_RESPINS}</b> veces en toda la partida · te quedan <b>${reSpinsLeft()}</b>`;
-        paintList();
+        done();
       }, 850);
     }, 1050);
+  }
+
+  function doSpin() {
+    if (spinning) return;
+    if (auto) { doAutoSpin(); return; }
+
+    // A spin while a draw is already showing is a re-roll — limited to MAX_RESPINS.
+    const isReroll = draw !== null;
+    if (isReroll && reSpinsLeft() <= 0) return;
+    if (isReroll) reSpinsUsed++;
+    spinning = true;
+    draw = spin(draftState, COMBOS);
+
+    animateReels(draw, () => {
+      spinning = false;
+      refreshSpinBtn();
+      // Update the "te quedan N" hint after a re-roll is consumed.
+      const hint = root.querySelector(".respin-hint");
+      if (hint) hint.innerHTML = `Solo puedes volver a girar <b>${MAX_RESPINS}</b> veces en toda la partida · te quedan <b>${reSpinsLeft()}</b>`;
+      paintList();
+    });
+  }
+
+  // Find a random [club, year] whose squad still has at least one player fitting
+  // an open slot, so the roulette never lands on a dead end. Returns the draw and
+  // the eligible candidate players.
+  function drawWithFit() {
+    const openPos = new Set(openSlots(draftState.picks.map(p => p.slotId)).map(s => s.pos));
+    for (let i = 0; i < 200; i++) {
+      const d = spin(draftState, COMBOS);
+      const cands = allPlayersForSquad(draftState, SQUADS, d.club, d.year)
+        .filter(p => openPos.has(p.pos));
+      if (cands.length) return { draw: d, cands };
+    }
+    return null;
+  }
+
+  // Mi Equipo Random: spin, then the roulette itself picks one fitting player.
+  function doAutoSpin() {
+    const picked = drawWithFit();
+    if (!picked) return; // every squad has all lines, so this is effectively unreachable
+    draw = picked.draw;
+    spinning = true;
+    refreshSpinBtn();
+
+    animateReels(draw, () => {
+      const open = openSlots(draftState.picks.map(p => p.slotId));
+      const player = picked.cands[randInt(draftState.rng, 0, picked.cands.length - 1)];
+      const slot = open.find(s => s.pos === player.pos);
+      draftState = draftPlayer(draftState, { club: draw.club, year: draw.year, player }, slot.id);
+      spinning = false;
+      draw = null;
+      if (isComplete(draftState)) { onComplete(draftState); return; }
+      paint();
+    });
   }
 
   function paintPitch() {

@@ -1,7 +1,9 @@
 // First screen: explain the game, then pick how you want to play.
-// Calls onPick("clasico" | "maldiniano"); onWiki opens the real-results page.
-//   Clásico    — the full game: every player's stats are visible.
-//   Maldiniano — same game, but you only see name + position. Scout blind.
+// Calls onPick(mode); onWiki opens the real-results page. Modes:
+//   Clásico            — the full game (4 fichados + ruleta), stats visible.
+//   Maldiniano         — same game, but you only see name + position. Scout blind.
+//   Mi Equipo          — no ruleta: you pick all 11 from one club + season.
+//   Mi Equipo Random   — no choosing: the ruleta assembles your 11 for you.
 export function renderModeSelect(root, onPick, onWiki) {
   root.innerHTML = `
     <section class="screen setup">
@@ -29,6 +31,14 @@ export function renderModeSelect(root, onPick, onWiki) {
         <button class="mode-card mode-card-mald" data-mode="maldiniano">
           <span class="mode-name">Maldiniano</span>
           <span class="mode-desc">Solo ves el nombre y la posición. Fichas a ciegas, como un viejo ojeador. El resto del juego es idéntico.</span>
+        </button>
+        <button class="mode-card mode-card-mine" data-mode="miequipo">
+          <span class="mode-name">Mi Equipo</span>
+          <span class="mode-desc">Sin ruleta. Eliges tú los 11 jugadores de un único club y temporada: tu plantilla, tu once. Después se simulan las 5 temporadas.</span>
+        </button>
+        <button class="mode-card mode-card-rand" data-mode="miequipo-random">
+          <span class="mode-name">Mi Equipo Random</span>
+          <span class="mode-desc">Sin elegir. La ruleta sortea por ti los 11 jugadores de clubes y temporadas al azar. Tú solo giras y rezas.</span>
         </button>
       </div>
 
