@@ -17,3 +17,20 @@ export function realClubResult(club, year) {
   if (i === -1) return null;
   return { position: i + 1, pts: season.finalTable[i].pts, of: season.finalTable.length };
 }
+
+// Every club that appears in Primera anywhere in the dataset — used to tell a
+// genuine Segunda season (club exists, just not in this year's top flight) apart
+// from "no data" (club outside the dataset's 1990–2009 window entirely).
+const KNOWN_CLUBS = new Set(REAL_SEASONS.flatMap(s => s.finalTable.map(r => r.club)));
+
+// Real-life status of a club in a season, for the head-to-head comparison:
+//   { inPrimera: true, position, pts, of }   — finished in the top flight
+//   { inPrimera: false, inSegunda: true }    — known club, but down in Segunda
+//   { inPrimera: false, inSegunda: false }   — no data (outside the window)
+export function realClubStatus(club, year) {
+  const r = realClubResult(club, year);
+  if (r) return { inPrimera: true, ...r };
+  // Year is covered by the dataset AND the club exists in it → it was in Segunda.
+  const inSegunda = !!BY_YEAR[year] && KNOWN_CLUBS.has(club);
+  return { inPrimera: false, inSegunda };
+}

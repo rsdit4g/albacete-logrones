@@ -83,17 +83,31 @@ test("every season result exposes relegation + Supercopa fields", () => {
   }
 });
 
-test("a relegated team plays out remaining years in Segunda with 0 points", () => {
+test("a Segunda season is always a 0-point placeholder", () => {
   const res = simulateFiveYears(weakXI, 1994, { SEASONS }, 7);
-  const firstDown = res.findIndex(r => r.relegated);
-  if (firstDown === -1) return; // not relegated this seed — nothing to assert
-  // Every season after the first relegation is a Segunda placeholder worth 0 pts.
-  for (let i = firstDown + 1; i < res.length; i++) {
-    assert.equal(res[i].inSegunda, true);
-    assert.equal(res[i].position, null);
-    assert.equal(res[i].record.Pts, 0);
-    assert.deepEqual(res[i].table, []);
+  // Every season actually spent in Segunda is a 0-point placeholder with no table,
+  // whether or not the side later wins promotion.
+  for (const r of res.filter(s => s.inSegunda)) {
+    assert.equal(r.position, null);
+    assert.equal(r.record.Pts, 0);
+    assert.deepEqual(r.table, []);
+    assert.equal(typeof r.ascended, "boolean");
   }
+});
+
+test("winning promotion in Segunda returns you to Primera next season", () => {
+  // Sweep seeds to find a run with a promotion, then assert the season after an
+  // `ascended` Segunda year is back in Primera (not in Segunda).
+  for (let seed = 0; seed < 60; seed++) {
+    const res = simulateFiveYears(weakXI, 1994, { SEASONS }, seed);
+    for (let i = 0; i < res.length - 1; i++) {
+      if (res[i].inSegunda && res[i].ascended) {
+        assert.equal(res[i + 1].inSegunda, false); // promoted → Primera next year
+        return;
+      }
+    }
+  }
+  assert.fail("no promotion occurred across 60 seeds — expected ~33%/season to surface one");
 });
 
 test("winning the league or cup triggers a Supercopa result", () => {

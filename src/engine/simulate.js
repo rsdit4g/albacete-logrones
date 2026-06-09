@@ -162,9 +162,11 @@ function supercopaResult(strength, rng) {
   return rng() < winProb ? "Campeón" : "Subcampeón";
 }
 
-// A placeholder result for a season spent in Segunda after relegation: no league
+// A placeholder result for a season spent in Segunda after relegation: no La Liga
 // table, 0 La Liga points, but the season still counts toward the 5-year maximum.
-function segundaSeason(year, season) {
+// `ascended` marks that the side won promotion this season and returns to Primera
+// next year.
+function segundaSeason(year, season, ascended = false) {
   const games = (season.divisionSize - 1) * 2;
   const directSpots = season.directSpots ?? (season.divisionSize >= 22 ? 4 : 3);
   const promocionSpots = season.promocionSpots ?? 0;
@@ -174,7 +176,7 @@ function segundaSeason(year, season) {
     honours: [], copaRound: null, supercopa: null,
     relegated: true, promocion: false, promocionSurvived: null,
     directSpots, promocionSpots, relegationSpots: directSpots + promocionSpots,
-    inSegunda: true,
+    inSegunda: true, ascended,
     pointsForWin: season.pointsForWin,
     table: [], topScorers: [],
   };
@@ -221,6 +223,10 @@ function rawGoals(pos, agedRating, teamStrength, rng) {
 // skipped-forward using the nearest available season's shape.
 // Form is a mean-reverting autocorrelated variable (ρ=0.5) so positions drift
 // gradually — big swings require sustained bad/good form across multiple years.
+// Each season spent in Segunda after relegation, the chance to win promotion
+// back to Primera for the following season.
+const PROMOTION_PROB = 0.33;
+
 export function simulateFiveYears(picks, startYear, { SEASONS }, seed, yourClub = "__you") {
   const rng = createRng(seed);
   const results = [];
@@ -236,10 +242,13 @@ export function simulateFiveYears(picks, startYear, { SEASONS }, seed, yourClub 
       SEASONS[years.reduce((best, y) =>
         Math.abs(y - year) < Math.abs(best - year) ? y : best, years[0])];
 
-    // Once relegated, the run is effectively over: remaining years are spent in
-    // Segunda with 0 La Liga points (still counted toward the 5-year maximum).
+    // Relegated sides spend the year in Segunda (0 La Liga points), but a
+    // dropped top-flight team is usually strong for the division, so each season
+    // it gets a PROMOTION_PROB shot at bouncing straight back to Primera next year.
     if (relegated) {
-      results.push(segundaSeason(year, season));
+      const promoted = rng() < PROMOTION_PROB;
+      results.push(segundaSeason(year, season, promoted));
+      if (promoted) relegated = false; // back in Primera for the following season
       continue;
     }
 

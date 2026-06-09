@@ -1,7 +1,7 @@
 import { CLUBS } from "../data/clubs.js?v=16";
 import { addRankingEntry, getDailyBoards, getAllTimeBoards } from "../game/leaderboard.js?v=24";
 import { pitchSlotsHTML, teamMedia, teamMediaEnd } from "./pitch.js?v=2";
-import { realClubResult } from "../game/real-results.js?v=1";
+import { realClubResult, realClubStatus } from "../game/real-results.js?v=2";
 
 // Deployment domain is unchanged; only the displayed brand is "Gol De Oro".
 const SHARE_URL = "https://albacete-logrones.io";
@@ -215,14 +215,16 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         <div class="rs-dots">${seasons.map((_, i) => `<i class="${i === idx ? "on" : ""}"></i>`).join("")}</div>
 
         ${r.inSegunda ? `
-        <div class="rs-banner rs-banner-down">
-          <div class="rs-rank">2ª</div>
+        <div class="rs-banner${r.ascended ? " rs-banner-promo" : " rs-banner-down"}">
+          <div class="rs-rank">2ª${r.ascended ? " ↑" : ""}</div>
           <div class="rs-rec">
-            <b>${safeName}</b><br>
-            En Segunda División tras el descenso · <b>0 pts</b> en La Liga
+            <b>${safeName}</b>${r.ascended ? " · <span class='promo-tag'>ASCENSO</span>" : ""}<br>
+            En Segunda División · <b>0 pts</b> en La Liga
           </div>
         </div>
-        <div class="rs-relnote">Tu equipo descendió y no compite esta temporada en Primera.</div>
+        <div class="rs-relnote${r.ascended ? " rs-promonote" : ""}">${r.ascended
+          ? "¡Lograste el ascenso! Tu equipo vuelve a Primera la próxima temporada."
+          : "Tu equipo está en Segunda y no compite esta temporada en Primera."}</div>
         ` : `
         <div class="rs-banner${r.relegated ? " rs-banner-down" : (r.promocion ? " rs-banner-promo" : "")}">
           <div class="rs-rank">${ordinal(r.position)}${r.relegated ? " ↓" : (r.promocion ? " ⇄" : "")}</div>
@@ -338,17 +340,33 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
   // --- Real-life comparison ----------------------------------------------
 
   // How your managed run compares to how the real club actually did those years.
+  // A season is "comparable" whenever the two can be ranked: both in Primera
+  // (lower position wins), or one in Primera and the other down in Segunda (the
+  // top-flight side wins). Two Segunda seasons, or years outside the dataset,
+  // can't be ranked and are skipped.
   function realComparisonSection() {
     const mineCell = (s) => s.inSegunda ? `2ª` : `${s.position}º · ${s.record.Pts}`;
     const realCell = (year) => {
-      const r = realClubResult(yourClub, year);
-      return r ? `${r.position}º · ${r.pts}` : `—`;
+      const st = realClubStatus(yourClub, year);
+      if (st.inPrimera) return `${st.position}º · ${st.pts}`;
+      return st.inSegunda ? `2ª` : `—`;
     };
-    // Count seasons where you finished above the real club (both in Primera).
+    // Decide a single season: returns true (you better), false (worse), or null
+    // (not comparable).
+    const outcome = (s) => {
+      const st = realClubStatus(yourClub, s.year);
+      const youUp = !s.inSegunda, realUp = st.inPrimera;
+      if (youUp && realUp) return s.position < st.position;     // both in Primera
+      if (youUp && st.inSegunda) return true;                    // you up, they went down
+      if (s.inSegunda && realUp) return false;                   // you down, they stayed up
+      return null;                                               // both down / no data
+    };
     let better = 0, comparable = 0;
     seasons.forEach((s) => {
-      const r = realClubResult(yourClub, s.year);
-      if (r && !s.inSegunda) { comparable++; if (s.position < r.position) better++; }
+      const o = outcome(s);
+      if (o === null) return;
+      comparable++;
+      if (o) better++;
     });
 
     const button = `<button id="toggleReal" class="rs-real-btn">${showReal ? "Ocultar comparación" : `Comparar con el ${safeName} real`}</button>`;
@@ -356,8 +374,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       return `<div class="rs-real-box"><div class="rs-h">¿Lo hiciste mejor que la historia?</div>${button}</div>`;
     }
     const rows = seasons.map((s) => {
-      const r = realClubResult(yourClub, s.year);
-      const win = r && !s.inSegunda && s.position < r.position;
+      const win = outcome(s) === true;
       return `
       <tr>
         <td class="yr">${seasonLabel(s.year)}</td>
@@ -376,7 +393,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
           ${rows}
         </table>
         <div class="rs-real-verdict">${verdict}</div>
-        <div class="rs-real-note">"—" = el club no jugó en Primera esa temporada.</div>
+        <div class="rs-real-note">"2ª" = en Segunda esa temporada (perder la categoría es peor que cualquier puesto en Primera) · "—" = sin datos.</div>
         ${button}
       </div>`;
   }
