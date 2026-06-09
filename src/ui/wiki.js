@@ -1,5 +1,6 @@
 import { REAL_SEASONS } from "../data/real-seasons.js";
 import { CLUBS } from "../data/clubs.js?v=16";
+import { relegationInfo } from "../game/relegation.js";
 
 // Escape text before interpolating into innerHTML.
 function esc(s) {
@@ -20,7 +21,7 @@ export function renderWiki(root, onBack, startYear) {
 
   function paint() {
     const s = seasons[idx];
-    const relSpots = s.divisionSize >= 22 ? 4 : 3;
+    const { direct, promocion } = relegationInfo(s.start);
     root.innerHTML = `
       <section class="screen wiki">
         <button class="setup-back" id="wikiBack">← Volver</button>
@@ -39,13 +40,15 @@ export function renderWiki(root, onBack, startYear) {
             <div class="rs-h">Clasificación final</div>
             <table class="rs-tbl">
               ${s.finalTable.map((row, i) => {
-                const relZone = i >= s.finalTable.length - relSpots;
+                const n = s.finalTable.length;
+                const directZone = i >= n - direct;
+                const promoZone = !directZone && promocion > 0 && i >= n - direct - promocion;
                 const champ = i === 0;
-                return `<tr class="${champ ? "me" : ""} ${relZone ? "rel" : ""}">
+                return `<tr class="${champ ? "me" : ""} ${directZone ? "rel" : (promoZone ? "promo" : "")}">
                   <td class="p">${i + 1}</td><td>${esc(clubName(row.club))}</td><td class="pts">${row.pts}</td></tr>`;
               }).join("")}
             </table>
-            <div class="rs-rellegend">▼ Descendieron los ${relSpots} últimos · ${s.pointsForWin} pts por victoria</div>
+            <div class="rs-rellegend">▼ Descenso directo: ${direct} últimos${promocion > 0 ? ` · <span class="promo-legend">Promoción: ${promocion}</span>` : ""} · ${s.pointsForWin} pts/victoria</div>
           </div>
           <div>
             <div class="rs-h">Máximos goleadores</div>

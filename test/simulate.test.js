@@ -5,6 +5,16 @@ import {
   projectedPoints, insertIntoTable, deriveRecord, simulateFiveYears,
 } from "../src/engine/simulate.js";
 import { SEASONS } from "../src/data/seasons.js";
+import { relegationInfo } from "../src/game/relegation.js";
+
+test("relegation structure matches the historical promoción", () => {
+  assert.deepEqual(relegationInfo(1994), { direct: 2, promocion: 2 }); // 20-team promoción era
+  assert.deepEqual(relegationInfo(1995), { direct: 2, promocion: 2 }); // 22-team, 1995-96
+  assert.deepEqual(relegationInfo(1996), { direct: 4, promocion: 1 }); // 22→20 reduction
+  assert.deepEqual(relegationInfo(1998), { direct: 2, promocion: 2 }); // last promoción season
+  assert.deepEqual(relegationInfo(1999), { direct: 3, promocion: 0 }); // promoción abolished
+  assert.deepEqual(relegationInfo(2005), { direct: 3, promocion: 0 });
+});
 
 const mkPlayer = (media, age, pos) => ({
   pos, age, velocidad: media, resistencia: media, agresividad: media, calidad: media, media,
@@ -63,7 +73,12 @@ test("every season result exposes relegation + Supercopa fields", () => {
   const res = simulateFiveYears(strongXI, 1994, { SEASONS }, 7);
   for (const r of res) {
     assert.equal(typeof r.relegated, "boolean");
-    assert.ok(r.relegationSpots === 3 || r.relegationSpots === 4);
+    assert.equal(typeof r.promocion, "boolean");
+    assert.ok(r.directSpots >= 2 && r.directSpots <= 4);
+    assert.ok(r.promocionSpots >= 0 && r.promocionSpots <= 2);
+    assert.equal(r.relegationSpots, r.directSpots + r.promocionSpots);
+    // A play-off team that wins stays up; a relegated team never "survived".
+    if (r.promocion && r.promocionSurvived) assert.equal(r.relegated, false);
     assert.ok(r.supercopa === null || r.supercopa === "Campeón" || r.supercopa === "Subcampeón");
   }
 });

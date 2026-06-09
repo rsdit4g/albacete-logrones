@@ -143,6 +143,14 @@ tr.me td { background:#1d2a1d; color:#9be29b; font-weight:700; }
 tr.rel td { background:#2a1414; color:#ff9b9b; }
 tr.rel.me td { background:#3a1414; color:#ffb3b3; }
 .rs-rellegend { font-size:10px; color:#ff9b9b; opacity:.65; margin-top:6px; }
+/* Promoción (relegation play-off) zone — amber, between safety and direct drop */
+tr.promo td { background:#2a2410; color:#ffd27a; }
+tr.promo.me td { background:#3a3214; color:#ffe2a6; }
+.promo-legend { color:#ffd27a; }
+.promo-tag { color:#ffd27a; font-weight:800; font-size:10px; letter-spacing:1px; }
+.rs-banner-promo { background:#24210f; border-color:#5a4a1f; }
+.rs-banner-promo .rs-rank { color:#ffd27a; }
+.rs-promonote { color:#ffd27a; }
 .rs-hon { font-size:12px; opacity:.85; line-height:1.7; }
 
 /* Relegation / Segunda banner variants */

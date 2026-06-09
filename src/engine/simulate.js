@@ -86,9 +86,23 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub,
   // Copa del Rey: every season produces a run, depth scaling with strength.
   const copaRound = copaRun(strength, rng);
 
-  // Relegation: bottom `relSpots` positions go down.
-  const relSpots = relegationSpots(season);
-  const relegated = position > season.divisionSize - relSpots;
+  // Relegation, with the historical promoción play-off where applicable.
+  // Bottom `directSpots` go down directly; the `promocionSpots` places just above
+  // play a two-legged tie vs a Segunda side (a La Liga side is usually, but not
+  // always, favoured — scaled by strength).
+  const directSpots = season.directSpots ?? (season.divisionSize >= 22 ? 4 : 3);
+  const promocionSpots = season.promocionSpots ?? 0;
+  const directCut = season.divisionSize - directSpots;   // pos > directCut → direct drop
+  const promoCut = directCut - promocionSpots;           // promoCut < pos ≤ directCut → play-off
+  let relegated = false, promocion = false, promocionSurvived = null;
+  if (position > directCut) {
+    relegated = true;
+  } else if (promocionSpots > 0 && position > promoCut) {
+    promocion = true;
+    const surviveProb = Math.max(0.3, Math.min(0.82, 0.5 + (strength - 64) / 120));
+    promocionSurvived = rng() < surviveProb;
+    relegated = !promocionSurvived;
+  }
 
   // Supercopa: contested if you won the league or the cup this season.
   let supercopa = null;
@@ -132,15 +146,13 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub,
 
   return {
     year, position, record, honours, copaRound, supercopa,
-    relegated, relegationSpots: relSpots, inSegunda: false,
+    relegated, promocion, promocionSurvived,
+    directSpots, promocionSpots,
+    relegationSpots: directSpots + promocionSpots, // total drop-zone size (legacy)
+    inSegunda: false,
     pointsForWin: season.pointsForWin,
     table, topScorers: topScorers.slice(0, 5),
   };
-}
-
-// Number of relegation places: 4 in the 22-team seasons (1995–97), else 3.
-function relegationSpots(season) {
-  return season.divisionSize >= 22 ? 4 : 3;
 }
 
 // Supercopa final: win probability scales with team strength (a strong side
@@ -154,11 +166,15 @@ function supercopaResult(strength, rng) {
 // table, 0 La Liga points, but the season still counts toward the 5-year maximum.
 function segundaSeason(year, season) {
   const games = (season.divisionSize - 1) * 2;
+  const directSpots = season.directSpots ?? (season.divisionSize >= 22 ? 4 : 3);
+  const promocionSpots = season.promocionSpots ?? 0;
   return {
     year, position: null,
     record: { P: games, W: 0, D: 0, L: games, GF: 0, GA: 0, Pts: 0 },
     honours: [], copaRound: null, supercopa: null,
-    relegated: true, relegationSpots: relegationSpots(season), inSegunda: true,
+    relegated: true, promocion: false, promocionSurvived: null,
+    directSpots, promocionSpots, relegationSpots: directSpots + promocionSpots,
+    inSegunda: true,
     pointsForWin: season.pointsForWin,
     table: [], topScorers: [],
   };
