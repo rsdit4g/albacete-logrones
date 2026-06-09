@@ -1,6 +1,6 @@
 import { CLUBS } from "../data/clubs.js?v=16";
 import { addRankingEntry, getDailyBoards } from "../game/leaderboard.js?v=23";
-import { pitchSlotsHTML, teamMedia } from "./pitch.js?v=1";
+import { pitchSlotsHTML, teamMedia, teamMediaEnd } from "./pitch.js?v=2";
 import { realClubResult } from "../game/real-results.js?v=1";
 
 // Deployment domain is unchanged; only the displayed brand is "Gol De Oro".
@@ -240,7 +240,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         </div>
 
         <div class="rs-squad">
-          <div class="rs-h">Tu once · Media del equipo <b class="rs-team-media">${teamMedia(picks)}</b></div>
+          <div class="rs-h">Tu once · Media del equipo <b class="rs-team-media">${teamMedia(picks)} → ${teamMediaEnd(picks)}</b></div>
           <div class="pitch rs-pitch">${pitchSlotsHTML(picks, { showMedia: true })}</div>
         </div>
 
