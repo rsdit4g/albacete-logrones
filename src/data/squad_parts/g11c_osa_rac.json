@@ -13,7 +13,13 @@
     {"name": "Urban", "pos": "MF", "age": 25, "velocidad": 73, "resistencia": 77, "agresividad": 74, "calidad": 73},
     {"name": "Sola", "pos": "AT", "age": 24, "velocidad": 78, "resistencia": 74, "agresividad": 72, "calidad": 74},
     {"name": "Unanua", "pos": "AT", "age": 26, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 73},
-    {"name": "Cholo", "pos": "AT", "age": 23, "velocidad": 77, "resistencia": 73, "agresividad": 70, "calidad": 71}
+    {"name": "Cholo", "pos": "AT", "age": 23, "velocidad": 77, "resistencia": 73, "agresividad": 70, "calidad": 71},
+    {"name": "Góngora", "pos": "DF", "age": 26, "velocidad": 69, "resistencia": 76, "agresividad": 74, "calidad": 69},
+    {"name": "Villanueva", "pos": "DF", "age": 23, "velocidad": 71, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Alcorta", "pos": "MF", "age": 25, "velocidad": 72, "resistencia": 77, "agresividad": 73, "calidad": 71},
+    {"name": "Pérez", "pos": "MF", "age": 24, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 70},
+    {"name": "Garmendia", "pos": "AT", "age": 22, "velocidad": 75, "resistencia": 71, "agresividad": 68, "calidad": 69},
+    {"name": "Indurain", "pos": "DF", "age": 27, "velocidad": 68, "resistencia": 75, "agresividad": 73, "calidad": 68}
   ],
   "Osasuna|1991": [
     {"name": "Roberto", "pos": "GK", "age": 28, "velocidad": 58, "resistencia": 75, "agresividad": 72, "calidad": 73},
@@ -29,7 +35,13 @@
     {"name": "Urban", "pos": "MF", "age": 26, "velocidad": 73, "resistencia": 77, "agresividad": 74, "calidad": 73},
     {"name": "Sola", "pos": "AT", "age": 25, "velocidad": 79, "resistencia": 74, "agresividad": 72, "calidad": 75},
     {"name": "Unanua", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 73},
-    {"name": "Cholo", "pos": "AT", "age": 24, "velocidad": 77, "resistencia": 73, "agresividad": 71, "calidad": 72}
+    {"name": "Cholo", "pos": "AT", "age": 24, "velocidad": 77, "resistencia": 73, "agresividad": 71, "calidad": 72},
+    {"name": "Góngora", "pos": "DF", "age": 27, "velocidad": 69, "resistencia": 76, "agresividad": 74, "calidad": 69},
+    {"name": "Villanueva", "pos": "DF", "age": 24, "velocidad": 71, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Alcorta", "pos": "MF", "age": 26, "velocidad": 72, "resistencia": 77, "agresividad": 73, "calidad": 71},
+    {"name": "Ziganda", "pos": "MF", "age": 23, "velocidad": 76, "resistencia": 78, "agresividad": 72, "calidad": 72},
+    {"name": "Garmendia", "pos": "AT", "age": 23, "velocidad": 75, "resistencia": 71, "agresividad": 68, "calidad": 70},
+    {"name": "Martín Domínguez", "pos": "MF", "age": 28, "velocidad": 71, "resistencia": 78, "agresividad": 73, "calidad": 72}
   ],
   "Osasuna|1992": [
     {"name": "Roberto", "pos": "GK", "age": 29, "velocidad": 58, "resistencia": 74, "agresividad": 72, "calidad": 72},
@@ -45,7 +57,13 @@
     {"name": "Kosecki", "pos": "MF", "age": 24, "velocidad": 76, "resistencia": 77, "agresividad": 73, "calidad": 74},
     {"name": "Urban", "pos": "AT", "age": 27, "velocidad": 74, "resistencia": 74, "agresividad": 72, "calidad": 73},
     {"name": "José Mari", "pos": "AT", "age": 22, "velocidad": 78, "resistencia": 73, "agresividad": 70, "calidad": 72},
-    {"name": "Angelov", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 71, "agresividad": 70, "calidad": 71}
+    {"name": "Angelov", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 71, "agresividad": 70, "calidad": 71},
+    {"name": "Góngora", "pos": "DF", "age": 28, "velocidad": 68, "resistencia": 75, "agresividad": 73, "calidad": 68},
+    {"name": "Villanueva", "pos": "DF", "age": 25, "velocidad": 71, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Alcorta", "pos": "MF", "age": 27, "velocidad": 71, "resistencia": 76, "agresividad": 72, "calidad": 70},
+    {"name": "Ziganda", "pos": "MF", "age": 24, "velocidad": 76, "resistencia": 78, "agresividad": 72, "calidad": 72},
+    {"name": "Garmendia", "pos": "AT", "age": 24, "velocidad": 75, "resistencia": 71, "agresividad": 68, "calidad": 70},
+    {"name": "Martín Domínguez", "pos": "MF", "age": 29, "velocidad": 70, "resistencia": 77, "agresividad": 72, "calidad": 71}
   ],
   "Osasuna|1993": [
     {"name": "Roberto", "pos": "GK", "age": 30, "velocidad": 57, "resistencia": 73, "agresividad": 71, "calidad": 71},
@@ -61,7 +79,13 @@
     {"name": "Sánchez Jara", "pos": "MF", "age": 24, "velocidad": 70, "resistencia": 74, "agresividad": 70, "calidad": 69},
     {"name": "Urban", "pos": "AT", "age": 28, "velocidad": 72, "resistencia": 72, "agresividad": 71, "calidad": 72},
     {"name": "Ziober", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 70, "agresividad": 70, "calidad": 71},
-    {"name": "Unanua", "pos": "AT", "age": 30, "velocidad": 72, "resistencia": 69, "agresividad": 68, "calidad": 70}
+    {"name": "Unanua", "pos": "AT", "age": 30, "velocidad": 72, "resistencia": 69, "agresividad": 68, "calidad": 70},
+    {"name": "Góngora", "pos": "DF", "age": 29, "velocidad": 67, "resistencia": 74, "agresividad": 72, "calidad": 67},
+    {"name": "Larrainzar", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 70, "agresividad": 66, "calidad": 66},
+    {"name": "Villanueva", "pos": "DF", "age": 26, "velocidad": 70, "resistencia": 73, "agresividad": 71, "calidad": 67},
+    {"name": "Alcorta", "pos": "MF", "age": 28, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 70},
+    {"name": "Ziganda", "pos": "MF", "age": 25, "velocidad": 75, "resistencia": 77, "agresividad": 71, "calidad": 71},
+    {"name": "Garmendia", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 70, "agresividad": 67, "calidad": 69}
   ],
   "Osasuna|2000": [
     {"name": "Sanzol", "pos": "GK", "age": 28, "velocidad": 57, "resistencia": 74, "agresividad": 71, "calidad": 71},
@@ -77,7 +101,13 @@
     {"name": "Antonio López", "pos": "DF", "age": 23, "velocidad": 73, "resistencia": 74, "agresividad": 74, "calidad": 71},
     {"name": "Elía", "pos": "AT", "age": 25, "velocidad": 77, "resistencia": 73, "agresividad": 70, "calidad": 73},
     {"name": "Aloisi", "pos": "AT", "age": 26, "velocidad": 75, "resistencia": 72, "agresividad": 71, "calidad": 73},
-    {"name": "Webó", "pos": "AT", "age": 19, "velocidad": 79, "resistencia": 72, "agresividad": 70, "calidad": 70}
+    {"name": "Webó", "pos": "AT", "age": 19, "velocidad": 79, "resistencia": 72, "agresividad": 70, "calidad": 70},
+    {"name": "Larrañaga", "pos": "GK", "age": 27, "velocidad": 55, "resistencia": 72, "agresividad": 69, "calidad": 69},
+    {"name": "Cejudo", "pos": "DF", "age": 22, "velocidad": 72, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Fernández", "pos": "DF", "age": 25, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Astrain", "pos": "MF", "age": 23, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 69},
+    {"name": "Latapy", "pos": "MF", "age": 28, "velocidad": 74, "resistencia": 76, "agresividad": 70, "calidad": 72},
+    {"name": "Nekounam", "pos": "MF", "age": 20, "velocidad": 71, "resistencia": 74, "agresividad": 70, "calidad": 68}
   ],
   "Osasuna|2001": [
     {"name": "Sanzol", "pos": "GK", "age": 29, "velocidad": 57, "resistencia": 74, "agresividad": 71, "calidad": 71},
@@ -93,7 +123,13 @@
     {"name": "Elía", "pos": "AT", "age": 26, "velocidad": 77, "resistencia": 73, "agresividad": 71, "calidad": 73},
     {"name": "Aloisi", "pos": "AT", "age": 27, "velocidad": 75, "resistencia": 71, "agresividad": 70, "calidad": 73},
     {"name": "Webó", "pos": "AT", "age": 20, "velocidad": 79, "resistencia": 73, "agresividad": 71, "calidad": 71},
-    {"name": "Morales", "pos": "AT", "age": 22, "velocidad": 76, "resistencia": 70, "agresividad": 69, "calidad": 70}
+    {"name": "Morales", "pos": "AT", "age": 22, "velocidad": 76, "resistencia": 70, "agresividad": 69, "calidad": 70},
+    {"name": "Larrañaga", "pos": "GK", "age": 28, "velocidad": 55, "resistencia": 72, "agresividad": 69, "calidad": 69},
+    {"name": "Cejudo", "pos": "DF", "age": 23, "velocidad": 72, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Fernández", "pos": "DF", "age": 26, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Astrain", "pos": "MF", "age": 24, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 69},
+    {"name": "Latapy", "pos": "MF", "age": 29, "velocidad": 73, "resistencia": 75, "agresividad": 69, "calidad": 71},
+    {"name": "Alfredo", "pos": "MF", "age": 25, "velocidad": 70, "resistencia": 74, "agresividad": 70, "calidad": 68}
   ],
   "Osasuna|2002": [
     {"name": "Sanzol", "pos": "GK", "age": 30, "velocidad": 56, "resistencia": 73, "agresividad": 70, "calidad": 70},
@@ -109,7 +145,13 @@
     {"name": "Elía", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72},
     {"name": "Webó", "pos": "AT", "age": 21, "velocidad": 80, "resistencia": 73, "agresividad": 71, "calidad": 72},
     {"name": "Morales", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 71, "agresividad": 69, "calidad": 70},
-    {"name": "Bakayoko", "pos": "AT", "age": 27, "velocidad": 78, "resistencia": 71, "agresividad": 70, "calidad": 71}
+    {"name": "Bakayoko", "pos": "AT", "age": 27, "velocidad": 78, "resistencia": 71, "agresividad": 70, "calidad": 71},
+    {"name": "Larrañaga", "pos": "GK", "age": 29, "velocidad": 55, "resistencia": 71, "agresividad": 68, "calidad": 68},
+    {"name": "Cejudo", "pos": "DF", "age": 24, "velocidad": 72, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Fernández", "pos": "DF", "age": 27, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Astrain", "pos": "MF", "age": 25, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 69},
+    {"name": "Corrales", "pos": "DF", "age": 24, "velocidad": 74, "resistencia": 76, "agresividad": 72, "calidad": 70},
+    {"name": "Alfredo", "pos": "MF", "age": 26, "velocidad": 70, "resistencia": 74, "agresividad": 70, "calidad": 68}
   ],
   "Osasuna|2003": [
     {"name": "Sanzol", "pos": "GK", "age": 31, "velocidad": 56, "resistencia": 72, "agresividad": 70, "calidad": 69},
@@ -125,7 +167,13 @@
     {"name": "Webó", "pos": "AT", "age": 22, "velocidad": 81, "resistencia": 74, "agresividad": 72, "calidad": 73},
     {"name": "Bakayoko", "pos": "AT", "age": 28, "velocidad": 78, "resistencia": 71, "agresividad": 70, "calidad": 71},
     {"name": "Morales", "pos": "AT", "age": 24, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 71},
-    {"name": "Aloisi", "pos": "AT", "age": 29, "velocidad": 73, "resistencia": 70, "agresividad": 70, "calidad": 71}
+    {"name": "Aloisi", "pos": "AT", "age": 29, "velocidad": 73, "resistencia": 70, "agresividad": 70, "calidad": 71},
+    {"name": "Larrañaga", "pos": "GK", "age": 30, "velocidad": 54, "resistencia": 71, "agresividad": 67, "calidad": 67},
+    {"name": "Cejudo", "pos": "DF", "age": 25, "velocidad": 72, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Fernández", "pos": "DF", "age": 28, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Astrain", "pos": "MF", "age": 26, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 69},
+    {"name": "Corrales", "pos": "DF", "age": 25, "velocidad": 74, "resistencia": 76, "agresividad": 72, "calidad": 71},
+    {"name": "Alfredo", "pos": "MF", "age": 27, "velocidad": 70, "resistencia": 74, "agresividad": 70, "calidad": 68}
   ],
   "Osasuna|2004": [
     {"name": "Elía", "pos": "GK", "age": 29, "velocidad": 57, "resistencia": 73, "agresividad": 70, "calidad": 70},
@@ -141,7 +189,13 @@
     {"name": "Webó", "pos": "AT", "age": 23, "velocidad": 82, "resistencia": 75, "agresividad": 73, "calidad": 74},
     {"name": "Aloisi", "pos": "AT", "age": 30, "velocidad": 72, "resistencia": 70, "agresividad": 70, "calidad": 72},
     {"name": "Morales", "pos": "AT", "age": 25, "velocidad": 76, "resistencia": 73, "agresividad": 70, "calidad": 72},
-    {"name": "Clavero", "pos": "DF", "age": 25, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 70}
+    {"name": "Clavero", "pos": "DF", "age": 25, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 70},
+    {"name": "Larrañaga", "pos": "GK", "age": 31, "velocidad": 54, "resistencia": 70, "agresividad": 67, "calidad": 67},
+    {"name": "Cejudo", "pos": "DF", "age": 26, "velocidad": 73, "resistencia": 75, "agresividad": 73, "calidad": 70},
+    {"name": "Astrain", "pos": "MF", "age": 27, "velocidad": 71, "resistencia": 76, "agresividad": 71, "calidad": 70},
+    {"name": "Nekounam", "pos": "MF", "age": 24, "velocidad": 72, "resistencia": 78, "agresividad": 73, "calidad": 72},
+    {"name": "Latapy", "pos": "MF", "age": 30, "velocidad": 73, "resistencia": 74, "agresividad": 68, "calidad": 71},
+    {"name": "Sanzol", "pos": "GK", "age": 32, "velocidad": 55, "resistencia": 71, "agresividad": 68, "calidad": 68}
   ],
   "Osasuna|2005": [
     {"name": "Cuéllar", "pos": "GK", "age": 24, "velocidad": 61, "resistencia": 77, "agresividad": 73, "calidad": 75},
@@ -157,7 +211,13 @@
     {"name": "Webó", "pos": "AT", "age": 24, "velocidad": 83, "resistencia": 76, "agresividad": 74, "calidad": 76},
     {"name": "Pandiani", "pos": "AT", "age": 30, "velocidad": 73, "resistencia": 74, "agresividad": 76, "calidad": 76},
     {"name": "Morales", "pos": "AT", "age": 26, "velocidad": 77, "resistencia": 74, "agresividad": 71, "calidad": 73},
-    {"name": "Soldado", "pos": "AT", "age": 21, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 73}
+    {"name": "Soldado", "pos": "AT", "age": 21, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 73},
+    {"name": "Larrañaga", "pos": "GK", "age": 32, "velocidad": 53, "resistencia": 70, "agresividad": 66, "calidad": 66},
+    {"name": "Cejudo", "pos": "DF", "age": 27, "velocidad": 73, "resistencia": 76, "agresividad": 73, "calidad": 71},
+    {"name": "Astrain", "pos": "MF", "age": 28, "velocidad": 71, "resistencia": 76, "agresividad": 71, "calidad": 70},
+    {"name": "Nekounam", "pos": "MF", "age": 25, "velocidad": 72, "resistencia": 79, "agresividad": 73, "calidad": 74},
+    {"name": "García Calvo", "pos": "DF", "age": 31, "velocidad": 65, "resistencia": 76, "agresividad": 80, "calidad": 73},
+    {"name": "Izquierdo", "pos": "DF", "age": 29, "velocidad": 70, "resistencia": 72, "agresividad": 70, "calidad": 67}
   ],
   "Osasuna|2006": [
     {"name": "Cuéllar", "pos": "GK", "age": 25, "velocidad": 62, "resistencia": 78, "agresividad": 74, "calidad": 76},
@@ -173,7 +233,13 @@
     {"name": "Webó", "pos": "AT", "age": 25, "velocidad": 84, "resistencia": 77, "agresividad": 74, "calidad": 77},
     {"name": "Soldado", "pos": "AT", "age": 22, "velocidad": 77, "resistencia": 73, "agresividad": 71, "calidad": 74},
     {"name": "Pandiani", "pos": "AT", "age": 31, "velocidad": 72, "resistencia": 73, "agresividad": 76, "calidad": 75},
-    {"name": "Valdo", "pos": "MF", "age": 32, "velocidad": 68, "resistencia": 73, "agresividad": 68, "calidad": 69}
+    {"name": "Valdo", "pos": "MF", "age": 32, "velocidad": 68, "resistencia": 73, "agresividad": 68, "calidad": 69},
+    {"name": "Larrañaga", "pos": "GK", "age": 33, "velocidad": 52, "resistencia": 69, "agresividad": 65, "calidad": 65},
+    {"name": "Cejudo", "pos": "DF", "age": 28, "velocidad": 73, "resistencia": 76, "agresividad": 73, "calidad": 71},
+    {"name": "Astrain", "pos": "MF", "age": 29, "velocidad": 70, "resistencia": 75, "agresividad": 70, "calidad": 69},
+    {"name": "Izquierdo", "pos": "DF", "age": 30, "velocidad": 68, "resistencia": 71, "agresividad": 69, "calidad": 66},
+    {"name": "García Calvo", "pos": "DF", "age": 32, "velocidad": 64, "resistencia": 76, "agresividad": 80, "calidad": 73},
+    {"name": "Raúl García", "pos": "MF", "age": 20, "velocidad": 77, "resistencia": 78, "agresividad": 74, "calidad": 74}
   ],
   "Osasuna|2007": [
     {"name": "Ricardo", "pos": "GK", "age": 29, "velocidad": 58, "resistencia": 77, "agresividad": 72, "calidad": 76},
@@ -189,7 +255,13 @@
     {"name": "Plašil", "pos": "MF", "age": 25, "velocidad": 73, "resistencia": 79, "agresividad": 73, "calidad": 74},
     {"name": "Webó", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 77},
     {"name": "Carlos Vela", "pos": "AT", "age": 19, "velocidad": 82, "resistencia": 72, "agresividad": 68, "calidad": 74},
-    {"name": "Juanfran", "pos": "MF", "age": 22, "velocidad": 79, "resistencia": 78, "agresividad": 74, "calidad": 74}
+    {"name": "Juanfran", "pos": "MF", "age": 22, "velocidad": 79, "resistencia": 78, "agresividad": 74, "calidad": 74},
+    {"name": "Larrañaga", "pos": "GK", "age": 34, "velocidad": 51, "resistencia": 68, "agresividad": 64, "calidad": 64},
+    {"name": "Cejudo", "pos": "DF", "age": 29, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 70},
+    {"name": "Astrain", "pos": "MF", "age": 30, "velocidad": 69, "resistencia": 74, "agresividad": 69, "calidad": 68},
+    {"name": "Sergio Fernández", "pos": "MF", "age": 27, "velocidad": 73, "resistencia": 77, "agresividad": 73, "calidad": 72},
+    {"name": "Izquierdo", "pos": "DF", "age": 31, "velocidad": 67, "resistencia": 70, "agresividad": 68, "calidad": 65},
+    {"name": "García Calvo", "pos": "DF", "age": 33, "velocidad": 63, "resistencia": 75, "agresividad": 79, "calidad": 72}
   ],
   "Osasuna|2008": [
     {"name": "Roberto", "pos": "GK", "age": 34, "velocidad": 54, "resistencia": 72, "agresividad": 70, "calidad": 70},
@@ -205,7 +277,13 @@
     {"name": "Raúl García", "pos": "MF", "age": 22, "velocidad": 78, "resistencia": 79, "agresividad": 75, "calidad": 76},
     {"name": "Webó", "pos": "AT", "age": 27, "velocidad": 83, "resistencia": 75, "agresividad": 74, "calidad": 76},
     {"name": "Llorente", "pos": "AT", "age": 24, "velocidad": 73, "resistencia": 74, "agresividad": 74, "calidad": 75},
-    {"name": "Pandiani", "pos": "AT", "age": 33, "velocidad": 68, "resistencia": 70, "agresividad": 74, "calidad": 72}
+    {"name": "Pandiani", "pos": "AT", "age": 33, "velocidad": 68, "resistencia": 70, "agresividad": 74, "calidad": 72},
+    {"name": "Larrañaga", "pos": "GK", "age": 35, "velocidad": 50, "resistencia": 67, "agresividad": 63, "calidad": 63},
+    {"name": "Cejudo", "pos": "DF", "age": 30, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 70},
+    {"name": "Sergio Fernández", "pos": "MF", "age": 28, "velocidad": 73, "resistencia": 77, "agresividad": 73, "calidad": 72},
+    {"name": "Astrain", "pos": "MF", "age": 31, "velocidad": 68, "resistencia": 73, "agresividad": 68, "calidad": 67},
+    {"name": "García Calvo", "pos": "DF", "age": 34, "velocidad": 62, "resistencia": 74, "agresividad": 78, "calidad": 71},
+    {"name": "Vuoso", "pos": "AT", "age": 27, "velocidad": 75, "resistencia": 72, "agresividad": 71, "calidad": 72}
   ],
   "Racing Santander|1993": [
     {"name": "Ceballos", "pos": "GK", "age": 29, "velocidad": 56, "resistencia": 74, "agresividad": 71, "calidad": 72},
@@ -221,7 +299,13 @@
     {"name": "Billabona", "pos": "MF", "age": 24, "velocidad": 73, "resistencia": 76, "agresividad": 72, "calidad": 71},
     {"name": "Radchenko", "pos": "AT", "age": 24, "velocidad": 80, "resistencia": 74, "agresividad": 70, "calidad": 76},
     {"name": "Mutiu", "pos": "AT", "age": 25, "velocidad": 77, "resistencia": 72, "agresividad": 71, "calidad": 72},
-    {"name": "Popov", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 71}
+    {"name": "Popov", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 71},
+    {"name": "Espeso", "pos": "GK", "age": 26, "velocidad": 54, "resistencia": 72, "agresividad": 69, "calidad": 70},
+    {"name": "Solana", "pos": "DF", "age": 23, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 69},
+    {"name": "Cañas", "pos": "DF", "age": 25, "velocidad": 71, "resistencia": 75, "agresividad": 73, "calidad": 69},
+    {"name": "Guerrero", "pos": "MF", "age": 21, "velocidad": 73, "resistencia": 74, "agresividad": 71, "calidad": 70},
+    {"name": "Abeijón", "pos": "MF", "age": 21, "velocidad": 71, "resistencia": 73, "agresividad": 70, "calidad": 69},
+    {"name": "Preciado", "pos": "DF", "age": 24, "velocidad": 69, "resistencia": 75, "agresividad": 74, "calidad": 68}
   ],
   "Racing Santander|1994": [
     {"name": "Ceballos", "pos": "GK", "age": 30, "velocidad": 56, "resistencia": 74, "agresividad": 71, "calidad": 72},
@@ -237,7 +321,13 @@
     {"name": "Pineda", "pos": "MF", "age": 27, "velocidad": 71, "resistencia": 76, "agresividad": 71, "calidad": 71},
     {"name": "Radchenko", "pos": "AT", "age": 25, "velocidad": 81, "resistencia": 75, "agresividad": 71, "calidad": 77},
     {"name": "Mutiu", "pos": "AT", "age": 26, "velocidad": 76, "resistencia": 71, "agresividad": 70, "calidad": 72},
-    {"name": "Esteban Torre", "pos": "MF", "age": 24, "velocidad": 71, "resistencia": 75, "agresividad": 72, "calidad": 70}
+    {"name": "Esteban Torre", "pos": "MF", "age": 24, "velocidad": 71, "resistencia": 75, "agresividad": 72, "calidad": 70},
+    {"name": "Espeso", "pos": "GK", "age": 27, "velocidad": 54, "resistencia": 72, "agresividad": 69, "calidad": 70},
+    {"name": "Solana", "pos": "DF", "age": 24, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 69},
+    {"name": "Cañas", "pos": "DF", "age": 26, "velocidad": 71, "resistencia": 75, "agresividad": 73, "calidad": 69},
+    {"name": "Guerrero", "pos": "MF", "age": 22, "velocidad": 73, "resistencia": 74, "agresividad": 71, "calidad": 70},
+    {"name": "Abeijón", "pos": "MF", "age": 22, "velocidad": 71, "resistencia": 73, "agresividad": 70, "calidad": 69},
+    {"name": "Preciado", "pos": "DF", "age": 25, "velocidad": 68, "resistencia": 75, "agresividad": 74, "calidad": 68}
   ],
   "Racing Santander|1995": [
     {"name": "Ceballos", "pos": "GK", "age": 31, "velocidad": 55, "resistencia": 73, "agresividad": 71, "calidad": 72},
@@ -275,7 +365,13 @@
     {"name": "Álvaro Cervera", "pos": "MF", "age": 28, "velocidad": 72, "resistencia": 76, "agresividad": 73, "calidad": 72},
     {"name": "Beschastnykh", "pos": "AT", "age": 23, "velocidad": 81, "resistencia": 75, "agresividad": 72, "calidad": 76},
     {"name": "Fayzulin", "pos": "AT", "age": 24, "velocidad": 78, "resistencia": 73, "agresividad": 70, "calidad": 72},
-    {"name": "Arpón", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 71, "agresividad": 69, "calidad": 70}
+    {"name": "Arpón", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 71, "agresividad": 69, "calidad": 70},
+    {"name": "Espeso", "pos": "GK", "age": 29, "velocidad": 54, "resistencia": 72, "agresividad": 68, "calidad": 69},
+    {"name": "Solana", "pos": "DF", "age": 27, "velocidad": 69, "resistencia": 73, "agresividad": 71, "calidad": 68},
+    {"name": "Cañas", "pos": "DF", "age": 29, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 68},
+    {"name": "Guerrero", "pos": "MF", "age": 25, "velocidad": 73, "resistencia": 74, "agresividad": 71, "calidad": 70},
+    {"name": "Abeijón", "pos": "MF", "age": 25, "velocidad": 71, "resistencia": 73, "agresividad": 70, "calidad": 69},
+    {"name": "Torrecilla", "pos": "DF", "age": 31, "velocidad": 65, "resistencia": 73, "agresividad": 71, "calidad": 67}
   ],
   "Racing Santander|1997": [
     {"name": "Ceballos", "pos": "GK", "age": 33, "velocidad": 54, "resistencia": 72, "agresividad": 70, "calidad": 70},
@@ -291,7 +387,13 @@
     {"name": "Abeijón", "pos": "MF", "age": 24, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 70},
     {"name": "Beschastnykh", "pos": "AT", "age": 24, "velocidad": 82, "resistencia": 76, "agresividad": 72, "calidad": 77},
     {"name": "Porfirio", "pos": "AT", "age": 26, "velocidad": 80, "resistencia": 73, "agresividad": 70, "calidad": 74},
-    {"name": "Conte", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 72, "agresividad": 70, "calidad": 72}
+    {"name": "Conte", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 72, "agresividad": 70, "calidad": 72},
+    {"name": "Espeso", "pos": "GK", "age": 30, "velocidad": 53, "resistencia": 71, "agresividad": 68, "calidad": 69},
+    {"name": "Solana", "pos": "DF", "age": 28, "velocidad": 69, "resistencia": 73, "agresividad": 71, "calidad": 68},
+    {"name": "Cañas", "pos": "DF", "age": 30, "velocidad": 69, "resistencia": 73, "agresividad": 71, "calidad": 67},
+    {"name": "Guerrero", "pos": "MF", "age": 26, "velocidad": 73, "resistencia": 74, "agresividad": 71, "calidad": 70},
+    {"name": "Abeijón", "pos": "MF", "age": 26, "velocidad": 70, "resistencia": 72, "agresividad": 70, "calidad": 69},
+    {"name": "Preciado", "pos": "DF", "age": 28, "velocidad": 67, "resistencia": 76, "agresividad": 76, "calidad": 70}
   ],
   "Racing Santander|1998": [
     {"name": "Grodås", "pos": "GK", "age": 32, "velocidad": 54, "resistencia": 73, "agresividad": 70, "calidad": 72},
@@ -307,7 +409,13 @@
     {"name": "Amavisca", "pos": "MF", "age": 26, "velocidad": 76, "resistencia": 77, "agresividad": 73, "calidad": 75},
     {"name": "Beschastnykh", "pos": "AT", "age": 25, "velocidad": 82, "resistencia": 76, "agresividad": 72, "calidad": 77},
     {"name": "Munitis", "pos": "AT", "age": 24, "velocidad": 83, "resistencia": 75, "agresividad": 71, "calidad": 75},
-    {"name": "Magallanes", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72}
+    {"name": "Magallanes", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72},
+    {"name": "Espeso", "pos": "GK", "age": 31, "velocidad": 53, "resistencia": 71, "agresividad": 68, "calidad": 69},
+    {"name": "Solana", "pos": "DF", "age": 29, "velocidad": 68, "resistencia": 73, "agresividad": 71, "calidad": 67},
+    {"name": "Cañas", "pos": "DF", "age": 31, "velocidad": 68, "resistencia": 72, "agresividad": 70, "calidad": 66},
+    {"name": "Guerrero", "pos": "MF", "age": 27, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 70},
+    {"name": "Preciado", "pos": "DF", "age": 29, "velocidad": 67, "resistencia": 76, "agresividad": 76, "calidad": 70},
+    {"name": "Manjarín", "pos": "MF", "age": 29, "velocidad": 69, "resistencia": 74, "agresividad": 71, "calidad": 72}
   ],
   "Racing Santander|1999": [
     {"name": "Grodås", "pos": "GK", "age": 33, "velocidad": 53, "resistencia": 72, "agresividad": 70, "calidad": 71},
@@ -323,7 +431,13 @@
     {"name": "Manjarín", "pos": "MF", "age": 30, "velocidad": 69, "resistencia": 74, "agresividad": 71, "calidad": 72},
     {"name": "Munitis", "pos": "AT", "age": 25, "velocidad": 84, "resistencia": 76, "agresividad": 72, "calidad": 76},
     {"name": "Beschastnykh", "pos": "AT", "age": 26, "velocidad": 82, "resistencia": 75, "agresividad": 72, "calidad": 76},
-    {"name": "Rushfeldt", "pos": "AT", "age": 28, "velocidad": 77, "resistencia": 73, "agresividad": 71, "calidad": 73}
+    {"name": "Rushfeldt", "pos": "AT", "age": 28, "velocidad": 77, "resistencia": 73, "agresividad": 71, "calidad": 73},
+    {"name": "Espeso", "pos": "GK", "age": 32, "velocidad": 52, "resistencia": 70, "agresividad": 67, "calidad": 68},
+    {"name": "Solana", "pos": "DF", "age": 30, "velocidad": 67, "resistencia": 72, "agresividad": 70, "calidad": 66},
+    {"name": "Cañas", "pos": "DF", "age": 32, "velocidad": 67, "resistencia": 71, "agresividad": 69, "calidad": 65},
+    {"name": "Guerrero", "pos": "MF", "age": 28, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 70},
+    {"name": "Preciado", "pos": "DF", "age": 30, "velocidad": 66, "resistencia": 75, "agresividad": 75, "calidad": 69},
+    {"name": "Manjarín", "pos": "MF", "age": 30, "velocidad": 68, "resistencia": 73, "agresividad": 70, "calidad": 71}
   ],
   "Racing Santander|2000": [
     {"name": "Grodås", "pos": "GK", "age": 34, "velocidad": 52, "resistencia": 71, "agresividad": 69, "calidad": 70},
@@ -339,7 +453,13 @@
     {"name": "Lemmens", "pos": "MF", "age": 26, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 70},
     {"name": "Munitis", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 76, "agresividad": 72, "calidad": 77},
     {"name": "Beschastnykh", "pos": "AT", "age": 27, "velocidad": 81, "resistencia": 74, "agresividad": 71, "calidad": 75},
-    {"name": "Rushfeldt", "pos": "AT", "age": 29, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72}
+    {"name": "Rushfeldt", "pos": "AT", "age": 29, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72},
+    {"name": "Espeso", "pos": "GK", "age": 33, "velocidad": 51, "resistencia": 69, "agresividad": 66, "calidad": 67},
+    {"name": "Solana", "pos": "DF", "age": 31, "velocidad": 67, "resistencia": 71, "agresividad": 69, "calidad": 65},
+    {"name": "Cañas", "pos": "DF", "age": 33, "velocidad": 66, "resistencia": 70, "agresividad": 68, "calidad": 64},
+    {"name": "Guerrero", "pos": "MF", "age": 29, "velocidad": 71, "resistencia": 73, "agresividad": 70, "calidad": 69},
+    {"name": "Preciado", "pos": "DF", "age": 31, "velocidad": 65, "resistencia": 75, "agresividad": 75, "calidad": 69},
+    {"name": "Dani Roiz", "pos": "MF", "age": 23, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 69}
   ],
   "Racing Santander|2002": [
     {"name": "Dutruel", "pos": "GK", "age": 33, "velocidad": 54, "resistencia": 72, "agresividad": 70, "calidad": 71},
@@ -355,7 +475,13 @@
     {"name": "Toño", "pos": "MF", "age": 22, "velocidad": 74, "resistencia": 76, "agresividad": 72, "calidad": 71},
     {"name": "Munitis", "pos": "AT", "age": 28, "velocidad": 83, "resistencia": 75, "agresividad": 71, "calidad": 76},
     {"name": "Salva", "pos": "AT", "age": 29, "velocidad": 75, "resistencia": 72, "agresividad": 71, "calidad": 73},
-    {"name": "Shustikov", "pos": "AT", "age": 29, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72}
+    {"name": "Shustikov", "pos": "AT", "age": 29, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 72},
+    {"name": "Espeso", "pos": "GK", "age": 34, "velocidad": 50, "resistencia": 68, "agresividad": 65, "calidad": 66},
+    {"name": "Solana", "pos": "DF", "age": 32, "velocidad": 66, "resistencia": 70, "agresividad": 68, "calidad": 64},
+    {"name": "Toño García", "pos": "MF", "age": 22, "velocidad": 74, "resistencia": 75, "agresividad": 71, "calidad": 70},
+    {"name": "Guerrero", "pos": "MF", "age": 30, "velocidad": 70, "resistencia": 72, "agresividad": 70, "calidad": 69},
+    {"name": "Preciado", "pos": "DF", "age": 32, "velocidad": 65, "resistencia": 74, "agresividad": 75, "calidad": 68},
+    {"name": "Álvarez", "pos": "DF", "age": 23, "velocidad": 72, "resistencia": 75, "agresividad": 73, "calidad": 70}
   ],
   "Racing Santander|2003": [
     {"name": "Dutruel", "pos": "GK", "age": 34, "velocidad": 53, "resistencia": 71, "agresividad": 69, "calidad": 70},
@@ -371,7 +497,13 @@
     {"name": "Zigić", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 73, "agresividad": 74, "calidad": 72},
     {"name": "Munitis", "pos": "AT", "age": 29, "velocidad": 82, "resistencia": 74, "agresividad": 70, "calidad": 75},
     {"name": "Salva", "pos": "AT", "age": 30, "velocidad": 74, "resistencia": 71, "agresividad": 70, "calidad": 72},
-    {"name": "Novo", "pos": "MF", "age": 26, "velocidad": 73, "resistencia": 75, "agresividad": 72, "calidad": 71}
+    {"name": "Novo", "pos": "MF", "age": 26, "velocidad": 73, "resistencia": 75, "agresividad": 72, "calidad": 71},
+    {"name": "Espeso", "pos": "GK", "age": 35, "velocidad": 49, "resistencia": 67, "agresividad": 64, "calidad": 65},
+    {"name": "Toño García", "pos": "MF", "age": 23, "velocidad": 74, "resistencia": 75, "agresividad": 71, "calidad": 70},
+    {"name": "Guerrero", "pos": "MF", "age": 31, "velocidad": 69, "resistencia": 71, "agresividad": 69, "calidad": 68},
+    {"name": "Preciado", "pos": "DF", "age": 33, "velocidad": 64, "resistencia": 73, "agresividad": 74, "calidad": 67},
+    {"name": "Álvarez", "pos": "DF", "age": 24, "velocidad": 72, "resistencia": 75, "agresividad": 73, "calidad": 71},
+    {"name": "Zigić", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 72, "agresividad": 73, "calidad": 72}
   ],
   "Racing Santander|2004": [
     {"name": "Toño", "pos": "GK", "age": 24, "velocidad": 61, "resistencia": 75, "agresividad": 72, "calidad": 72},
@@ -387,7 +519,13 @@
     {"name": "Munitis", "pos": "AT", "age": 30, "velocidad": 81, "resistencia": 73, "agresividad": 70, "calidad": 74},
     {"name": "Zigić", "pos": "AT", "age": 24, "velocidad": 72, "resistencia": 73, "agresividad": 74, "calidad": 73},
     {"name": "Salva", "pos": "AT", "age": 31, "velocidad": 72, "resistencia": 70, "agresividad": 70, "calidad": 71},
-    {"name": "Josetxo Figueras", "pos": "DF", "age": 26, "velocidad": 71, "resistencia": 75, "agresividad": 73, "calidad": 70}
+    {"name": "Josetxo Figueras", "pos": "DF", "age": 26, "velocidad": 71, "resistencia": 75, "agresividad": 73, "calidad": 70},
+    {"name": "Toño García", "pos": "MF", "age": 24, "velocidad": 74, "resistencia": 76, "agresividad": 71, "calidad": 70},
+    {"name": "Guerrero", "pos": "MF", "age": 32, "velocidad": 68, "resistencia": 71, "agresividad": 68, "calidad": 67},
+    {"name": "Pinchi", "pos": "MF", "age": 27, "velocidad": 73, "resistencia": 74, "agresividad": 71, "calidad": 71},
+    {"name": "Solana", "pos": "DF", "age": 34, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 62},
+    {"name": "Savio", "pos": "MF", "age": 28, "velocidad": 78, "resistencia": 74, "agresividad": 69, "calidad": 73},
+    {"name": "Espeso", "pos": "GK", "age": 36, "velocidad": 48, "resistencia": 66, "agresividad": 63, "calidad": 64}
   ],
   "Racing Santander|2005": [
     {"name": "Toño", "pos": "GK", "age": 25, "velocidad": 62, "resistencia": 76, "agresividad": 73, "calidad": 73},
@@ -403,7 +541,13 @@
     {"name": "Munitis", "pos": "AT", "age": 31, "velocidad": 80, "resistencia": 72, "agresividad": 70, "calidad": 73},
     {"name": "Zigić", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 73, "agresividad": 74, "calidad": 73},
     {"name": "Salva", "pos": "AT", "age": 32, "velocidad": 70, "resistencia": 69, "agresividad": 69, "calidad": 70},
-    {"name": "Amavisca", "pos": "MF", "age": 33, "velocidad": 66, "resistencia": 70, "agresividad": 68, "calidad": 69}
+    {"name": "Amavisca", "pos": "MF", "age": 33, "velocidad": 66, "resistencia": 70, "agresividad": 68, "calidad": 69},
+    {"name": "Héctor", "pos": "DF", "age": 22, "velocidad": 73, "resistencia": 75, "agresividad": 73, "calidad": 70},
+    {"name": "Pinchi", "pos": "MF", "age": 28, "velocidad": 73, "resistencia": 74, "agresividad": 71, "calidad": 71},
+    {"name": "Savio", "pos": "MF", "age": 29, "velocidad": 77, "resistencia": 74, "agresividad": 69, "calidad": 73},
+    {"name": "González", "pos": "DF", "age": 24, "velocidad": 72, "resistencia": 75, "agresividad": 73, "calidad": 70},
+    {"name": "Pinilla", "pos": "AT", "age": 22, "velocidad": 75, "resistencia": 72, "agresividad": 72, "calidad": 70},
+    {"name": "Iñigo", "pos": "DF", "age": 21, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 68}
   ],
   "Racing Santander|2006": [
     {"name": "Toño", "pos": "GK", "age": 26, "velocidad": 63, "resistencia": 77, "agresividad": 73, "calidad": 74},
@@ -419,7 +563,13 @@
     {"name": "Munitis", "pos": "AT", "age": 32, "velocidad": 78, "resistencia": 71, "agresividad": 69, "calidad": 72},
     {"name": "Zigić", "pos": "AT", "age": 26, "velocidad": 72, "resistencia": 73, "agresividad": 74, "calidad": 73},
     {"name": "Chamot", "pos": "DF", "age": 38, "velocidad": 57, "resistencia": 68, "agresividad": 73, "calidad": 66},
-    {"name": "Piscu", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 71, "agresividad": 70, "calidad": 70}
+    {"name": "Piscu", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 71, "agresividad": 70, "calidad": 70},
+    {"name": "Héctor", "pos": "DF", "age": 23, "velocidad": 74, "resistencia": 76, "agresividad": 73, "calidad": 71},
+    {"name": "Pinchi", "pos": "MF", "age": 29, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 71},
+    {"name": "González", "pos": "DF", "age": 25, "velocidad": 72, "resistencia": 75, "agresividad": 73, "calidad": 70},
+    {"name": "Pinilla", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 72, "agresividad": 72, "calidad": 71},
+    {"name": "Iñigo", "pos": "DF", "age": 22, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 69},
+    {"name": "Sergio García", "pos": "MF", "age": 23, "velocidad": 76, "resistencia": 76, "agresividad": 72, "calidad": 73}
   ],
   "Racing Santander|2007": [
     {"name": "Toño", "pos": "GK", "age": 27, "velocidad": 63, "resistencia": 77, "agresividad": 74, "calidad": 75},
@@ -435,7 +585,13 @@
     {"name": "Munitis", "pos": "AT", "age": 33, "velocidad": 76, "resistencia": 70, "agresividad": 68, "calidad": 71},
     {"name": "Zigić", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 74, "agresividad": 75, "calidad": 74},
     {"name": "Aduriz", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 73, "agresividad": 73, "calidad": 74},
-    {"name": "Pinchi", "pos": "MF", "age": 30, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 71}
+    {"name": "Pinchi", "pos": "MF", "age": 30, "velocidad": 72, "resistencia": 74, "agresividad": 71, "calidad": 71},
+    {"name": "Héctor", "pos": "DF", "age": 24, "velocidad": 74, "resistencia": 76, "agresividad": 74, "calidad": 72},
+    {"name": "González", "pos": "DF", "age": 26, "velocidad": 72, "resistencia": 75, "agresividad": 73, "calidad": 70},
+    {"name": "Iñigo", "pos": "DF", "age": 23, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 69},
+    {"name": "Pinilla", "pos": "AT", "age": 24, "velocidad": 76, "resistencia": 73, "agresividad": 73, "calidad": 72},
+    {"name": "Llera", "pos": "DF", "age": 26, "velocidad": 71, "resistencia": 76, "agresividad": 74, "calidad": 70},
+    {"name": "Cañas", "pos": "MF", "age": 24, "velocidad": 73, "resistencia": 75, "agresividad": 71, "calidad": 70}
   ],
   "Racing Santander|2008": [
     {"name": "Toño", "pos": "GK", "age": 28, "velocidad": 63, "resistencia": 77, "agresividad": 74, "calidad": 75},
