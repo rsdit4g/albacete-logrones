@@ -456,7 +456,7 @@
     {"name": "Soria", "pos": "DF", "age": 26, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 60},
     {"name": "Montoya", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
     {"name": "Villalba", "pos": "AT", "age": 27, "velocidad": 66, "resistencia": 62, "agresividad": 64, "calidad": 62},
-    {"name": "Karl Heinz Schneider", "pos": "AT", "age": 22, "velocidad": 96, "resistencia": 84, "agresividad": 80, "calidad": 88}
+    {"name": "Karl Heinz Schneider", "pos": "AT", "age": 22, "velocidad": 99, "resistencia": 99, "agresividad": 99, "calidad": 99}
   ],
 
   "Numancia|2000": [

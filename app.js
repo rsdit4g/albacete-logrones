@@ -6,7 +6,7 @@ import { renderWiki } from "./src/ui/wiki.js?v=2";
 import { createDraft } from "./src/game/draft.js";
 import { createRng } from "./src/engine/rng.js";
 import { simulateFiveYears } from "./src/engine/simulate.js?v=38";
-import { SQUADS } from "./src/data/squads.js?v=31";
+import { SQUADS } from "./src/data/squads.js?v=32";
 import { COMBOS } from "./src/data/combos.js?v=31";
 import { SEASONS } from "./src/data/seasons.js";
 

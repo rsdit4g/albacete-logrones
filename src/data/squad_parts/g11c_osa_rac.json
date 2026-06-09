@@ -349,7 +349,7 @@
     {"name": "Colsa", "pos": "MF", "age": 24, "velocidad": 70, "resistencia": 72, "agresividad": 68, "calidad": 66},
     {"name": "Munitis", "pos": "MF", "age": 25, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 68},
     {"name": "Óscar", "pos": "AT", "age": 28, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 66},
-    {"name": "Pierre Sugita", "pos": "AT", "age": 16, "velocidad": 88, "resistencia": 74, "agresividad": 72, "calidad": 80}
+    {"name": "Pierre Sugita", "pos": "AT", "age": 16, "velocidad": 99, "resistencia": 99, "agresividad": 99, "calidad": 99}
   ],
   "Racing Santander|1996": [
     {"name": "Ceballos", "pos": "GK", "age": 32, "velocidad": 55, "resistencia": 73, "agresividad": 70, "calidad": 71},

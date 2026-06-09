@@ -244,7 +244,7 @@ export const SQUADS = {
     p("Juárez", "MF", 27, 66, 68, 66, 60),
     p("Catanha", "AT", 23, 76, 70, 70, 68),
     p("Morales Alb", "DF", 30, 62, 68, 68, 58),
-    p("Benji Price", "GK", 18, 70, 92, 88, 94),
+    p("Benji Price", "GK", 18, 99, 99, 99, 99),
   ],
   // Albacete 1995–96
   "Albacete|1995": [
@@ -1417,7 +1417,7 @@ export const SQUADS = {
     p("Rubén da Silva", "AT", 25, 66, 63, 63, 62),
     p("Moreno", "AT", 26, 63, 64, 63, 59),
     p("Armando", "AT", 28, 63, 64, 65, 59),
-    p("Oliver Atom", "AT", 16, 96, 72, 68, 88),
+    p("Oliver Atom", "AT", 16, 99, 99, 99, 99),
   ],
   // CD Logroñés 1992–93
   "CD Logroñés|1992": [
@@ -1578,7 +1578,7 @@ export const SQUADS = {
     p("Valcarce", "MF", 26, 68, 72, 69, 66),
     p("Penedo", "DF", 29, 67, 74, 72, 66),
     p("Toni", "MF", 24, 70, 73, 68, 65),
-    p("Mark Lenders", "GK", 17, 68, 90, 86, 88),
+    p("Mark Lenders", "GK", 17, 99, 99, 99, 99),
   ],
   // Celta Vigo 1995–96
   "Celta Vigo|1995": [
@@ -1900,7 +1900,7 @@ export const SQUADS = {
     p("Blanco", "MF", 26, 68, 70, 68, 64),
     p("Lago", "AT", 28, 70, 68, 66, 62),
     p("Sánchez A", "DF", 25, 66, 72, 72, 60),
-    p("Castolo", "AT", 24, 88, 78, 86, 82),
+    p("Castolo", "AT", 24, 99, 99, 99, 99),
   ],
   // Compostela 1997–98
   "Compostela|1997": [
@@ -4292,7 +4292,7 @@ export const SQUADS = {
     p("Soria", "DF", 26, 64, 68, 66, 60),
     p("Montoya", "MF", 24, 66, 66, 62, 60),
     p("Villalba", "AT", 27, 66, 62, 64, 62),
-    p("Karl Heinz Schneider", "AT", 22, 96, 84, 80, 88),
+    p("Karl Heinz Schneider", "AT", 22, 99, 99, 99, 99),
   ],
   // Numancia 2000–01
   "Numancia|2000": [
@@ -4752,7 +4752,7 @@ export const SQUADS = {
     p("Colsa", "MF", 24, 70, 72, 68, 66),
     p("Munitis", "MF", 25, 76, 72, 70, 68),
     p("Óscar", "AT", 28, 72, 66, 68, 66),
-    p("Pierre Sugita", "AT", 16, 88, 74, 72, 80),
+    p("Pierre Sugita", "AT", 16, 99, 99, 99, 99),
   ],
   // Racing Santander 1996–97
   "Racing Santander|1996": [
@@ -6178,7 +6178,7 @@ export const SQUADS = {
     p("Jesús Fernández", "AT", 28, 72, 68, 66, 66),
     p("Sánchez", "MF", 26, 70, 74, 70, 66),
     p("Arpón", "MF", 29, 70, 73, 70, 66),
-    p("Taro Misaki", "MF", 16, 92, 78, 68, 86),
+    p("Taro Misaki", "MF", 16, 99, 99, 99, 99),
   ],
   // Real Oviedo 1993–94
   "Real Oviedo|1993": [
@@ -8179,7 +8179,7 @@ export const SQUADS = {
     p("Llorente J.", "AT", 30, 71, 70, 68, 70),
     p("Ferreira", "MF", 28, 70, 73, 70, 66),
     p("Menéndez", "DF", 30, 63, 73, 72, 64),
-    p("Hyuga Kojiro", "AT", 17, 82, 88, 94, 86),
+    p("Hyuga Kojiro", "AT", 17, 99, 99, 99, 99),
   ],
   // Sporting Gijón 1994–95
   "Sporting Gijón|1994": [

@@ -63,7 +63,7 @@
     {"name": "Valcarce", "pos": "MF", "age": 26, "velocidad": 68, "resistencia": 72, "agresividad": 69, "calidad": 66},
     {"name": "Penedo", "pos": "DF", "age": 29, "velocidad": 67, "resistencia": 74, "agresividad": 72, "calidad": 66},
     {"name": "Toni", "pos": "MF", "age": 24, "velocidad": 70, "resistencia": 73, "agresividad": 68, "calidad": 65},
-    {"name": "Mark Lenders", "pos": "GK", "age": 17, "velocidad": 68, "resistencia": 90, "agresividad": 86, "calidad": 88}
+    {"name": "Mark Lenders", "pos": "GK", "age": 17, "velocidad": 99, "resistencia": 99, "agresividad": 99, "calidad": 99}
   ],
   "Celta Vigo|1995": [
     {"name": "Prats", "pos": "GK", "age": 27, "velocidad": 56, "resistencia": 69, "agresividad": 65, "calidad": 66},
