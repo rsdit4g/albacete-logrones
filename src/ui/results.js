@@ -2,9 +2,15 @@ import { CLUBS } from "../data/clubs.js?v=16";
 import { addRankingEntry, getDailyBoards, getAllTimeBoards } from "../game/leaderboard.js?v=24";
 import { pitchSlotsHTML, teamMedia, teamMediaEnd } from "./pitch.js?v=2";
 import { realClubResult, realClubStatus } from "../game/real-results.js?v=2";
+import { FORMATION_442 } from "../game/formation.js";
+import { projectedMedia } from "../engine/aging.js?v=3";
 
-// Deployment domain is unchanged; only the displayed brand is "Gol De Oro".
-const SHARE_URL = "https://albacete-logrones.io";
+// Share the page where the game is actually hosted — derived from the live URL
+// so it's always correct regardless of domain. (Falls back for non-browser use.)
+const SHARE_URL = (typeof location !== "undefined" && location.origin
+  ? (location.origin + location.pathname).replace(/index\.html$/, "").replace(/\/+$/, "/")
+  : "https://albacete-logrones.io");
+const SHARE_HOST = SHARE_URL.replace(/^https?:\/\//, "").replace(/\/$/, "");
 
 // Brand glyphs (inline SVG, fill uses each button's text colour) for the share row.
 const ICONS = {
@@ -78,48 +84,35 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     return code === yourClub ? safeName : esc(CLUBS[code]?.name || code);
   }
 
-  // A punchy, scannable share message: a visual five-season arc (medals, drops,
-  // play-offs), the points %, the verdict, and any trophies.
-  function shareText() {
-    const arc = seasons.map(s => {
-      if (s.inSegunda) return "🔻2ª";
+  // The five-season arc as a quick emoji line (🥇 título · ↑ ascenso · 🔻 Segunda).
+  function arcLine() {
+    return seasons.map(s => {
+      if (s.inSegunda) return s.ascended ? "🔻↑" : "🔻";
       if (s.position === 1) return "🥇";
       if (s.relegated) return `🔻${s.position}`;
-      if (s.promocion) return `⇄${s.position}`;
       return `${s.position}º`;
     }).join(" ");
-    const trophies = [];
-    if (titles) trophies.push(`🏆${titles}× Liga`);
-    if (cups) trophies.push(`🏆${cups}× Copa`);
-    if (supercopas) trophies.push(`🏆${supercopas}× Supercopa`);
-    const trophyLine = trophies.length ? `\n${trophies.join(" · ")}` : "";
-    return `⚽ GOL DE ORO · ${displayName} (${modeLabel})\n`
-      + `${arc}  en 5 temporadas\n`
-      + `${pct}% de los puntos posibles — ${tier}${trophyLine}\n`
-      + `¿Puedes superar mi marca? ${SHARE_URL}`;
   }
 
-  function openShare(network) {
-    const text = encodeURIComponent(shareText());
-    const url = encodeURIComponent(SHARE_URL);
-    const links = {
-      whatsapp: `https://wa.me/?text=${text}`,
-      facebook: `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${text}`,
-      x: `https://twitter.com/intent/tweet?text=${text}`,
-      telegram: `https://t.me/share/url?url=${url}&text=${text}`,
-    };
-    window.open(links[network], "_blank", "noopener,noreferrer");
+  // A short, simple share message: club, the five-season arc, points %, trophies.
+  function shareText() {
+    const t = [];
+    if (titles) t.push(`${titles}× Liga`);
+    if (cups) t.push(`${cups}× Copa`);
+    const trophyLine = t.length ? ` · ${t.join(" · ")}` : "";
+    return `⚽ Gol De Oro · ${displayName}\n`
+      + `${arcLine()}\n`
+      + `${pct}% de los puntos en 5 temporadas${trophyLine}\n`
+      + `Juega: ${SHARE_URL}`;
   }
 
-  // Native share sheet on supported devices (mobile), with a clipboard fallback.
-  async function nativeShare(btn) {
-    const text = shareText();
-    if (navigator.share) {
-      try { await navigator.share({ title: "Gol De Oro", text, url: SHARE_URL }); }
-      catch { /* user dismissed */ }
-    } else {
-      copyShare(btn);
-    }
+  // Flash a confirmation label on a button, then restore it.
+  function flash(btn, msg) {
+    if (!btn) return;
+    const prev = btn.dataset.label || btn.innerHTML;
+    btn.dataset.label = prev;
+    btn.innerHTML = msg;
+    setTimeout(() => { btn.innerHTML = btn.dataset.label; }, 1600);
   }
 
   // Copy the share text to the clipboard, flashing confirmation on the button.
@@ -134,69 +127,157 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       try { ok = document.execCommand("copy"); } catch { ok = false; }
       ta.remove();
     }
-    if (btn) {
-      const prev = btn.innerHTML;
-      btn.innerHTML = ok ? "✅ ¡Copiado!" : "⚠️ Copia manual";
-      setTimeout(() => { btn.innerHTML = prev; }, 1600);
-    }
+    flash(btn, ok ? "✅ ¡Copiado!" : "⚠️ Copia manual");
   }
 
-  // Draw a square share card to a canvas and trigger a PNG download (Instagram).
-  function downloadImage() {
-    const W = 1080, H = 1080;
+  // ---- Share image: pitch + players + five-season results, as a JPG ----------
+
+  // Draw a portrait share card: header, the five-season arc, the 4-4-2 pitch with
+  // every player, and a results footer. Returns the canvas.
+  function buildShareCanvas() {
+    const W = 1080, H = 1500;
     const c = document.createElement("canvas");
     c.width = W; c.height = H;
     const g = c.getContext("2d");
-    g.fillStyle = "#0a0a12"; g.fillRect(0, 0, W, H);
-    g.fillStyle = "#f5d040";
-    g.font = "800 40px Inter, system-ui, sans-serif";
     g.textAlign = "center";
-    g.fillText("GOL DE ORO", W / 2, 120);
-    g.fillStyle = "#fff";
-    g.font = "900 84px Inter, system-ui, sans-serif";
-    g.fillText(displayName, W / 2, 240);
-    g.fillStyle = "#9be29b";
-    g.font = "800 30px Inter, system-ui, sans-serif";
-    g.fillText(tier, W / 2, 300);
-    // five position pills
-    const pillW = 170, gap = 24, totalW = 5 * pillW + 4 * gap;
+
+    // Background.
+    g.fillStyle = "#0a0a12"; g.fillRect(0, 0, W, H);
+
+    // Header.
+    g.fillStyle = "#f5d040"; g.font = "800 38px Inter, system-ui, sans-serif";
+    g.fillText("GOL DE ORO", W / 2, 78);
+    g.fillStyle = "#fff"; g.font = "900 76px Inter, system-ui, sans-serif";
+    g.fillText(displayName, W / 2, 158);
+    g.fillStyle = "#9be29b"; g.font = "800 30px Inter, system-ui, sans-serif";
+    g.fillText(`${tier} · ${pct}% de los puntos`, W / 2, 208);
+
+    // Five season pills.
+    const pillW = 178, gap = 16, totalW = 5 * pillW + 4 * gap;
     let x = (W - totalW) / 2;
-    const y = 430, ph = 210;
+    const py = 250, ph = 128;
     seasons.forEach((s) => {
       const champ = s.position === 1;
       const down = s.inSegunda || s.relegated;
       g.fillStyle = champ ? "#3a2f00" : down ? "#2a1414" : "#161622";
       g.strokeStyle = champ ? "#f5d040" : down ? "#7a2a2a" : "#2a2a3a";
       g.lineWidth = 3;
-      roundRect(g, x, y, pillW, ph, 18); g.fill(); g.stroke();
+      roundRect(g, x, py, pillW, ph, 16); g.fill(); g.stroke();
       g.fillStyle = champ ? "#f5d040" : down ? "#ff9b9b" : "#fff";
-      g.font = "900 76px Inter, system-ui, sans-serif";
-      g.textAlign = "center";
-      g.fillText(s.inSegunda ? "2ª" : String(s.position), x + pillW / 2, y + 110);
-      g.fillStyle = "#9aa";
-      g.font = "600 26px Inter, system-ui, sans-serif";
-      g.fillText(`'${String(s.year % 100).padStart(2, "0")}`, x + pillW / 2, y + 160);
+      g.font = "900 52px Inter, system-ui, sans-serif";
+      g.fillText(s.inSegunda ? "2ª" : String(s.position), x + pillW / 2, py + 64);
+      g.fillStyle = "#9aa"; g.font = "600 24px Inter, system-ui, sans-serif";
+      g.fillText(`'${String(s.year % 100).padStart(2, "0")}`, x + pillW / 2, py + 102);
       x += pillW + gap;
     });
-    g.fillStyle = "#f5d040";
-    g.font = "800 52px Inter, system-ui, sans-serif";
-    g.fillText(`${pct}% de los puntos posibles`, W / 2, 740);
-    g.fillStyle = "#cfcfe0";
-    g.font = "600 34px Inter, system-ui, sans-serif";
-    const bestTxt = best != null ? `Mejor: ${best}º` : "Descendido";
-    g.fillText(`${bestTxt}   ·   ${titles}× Liga   ·   ${cups}× Copa`, W / 2, 800);
-    g.fillStyle = "#666";
-    g.font = "600 30px Inter, system-ui, sans-serif";
-    g.fillText(SHARE_URL.replace("https://", ""), W / 2, 1000);
 
-    c.toBlob((blob) => {
-      if (!blob) return; // browser declined to produce the image
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob);
-      a.download = `${displayName.replace(/\s+/g, "-")}-5-temporadas.png`;
-      a.click();
-      URL.revokeObjectURL(a.href);
+    // Pitch with the XI.
+    drawPitch(g, 70, 410, W - 140, 880);
+
+    // Footer.
+    g.fillStyle = "#cfcfe0"; g.font = "600 32px Inter, system-ui, sans-serif";
+    const bestTxt = best != null ? `Mejor puesto: ${best}º` : "Descendido";
+    const trophies = [`${titles}× Liga`, `${cups}× Copa`].join("   ·   ");
+    g.fillText(`${bestTxt}   ·   ${trophies}`, W / 2, H - 70);
+    g.fillStyle = "#6a6a80"; g.font = "600 28px Inter, system-ui, sans-serif";
+    g.fillText(SHARE_HOST, W / 2, H - 28);
+    return c;
+  }
+
+  // Draw the green field and the 11 players (name + start→end media) at their
+  // 4-4-2 positions. The formation y runs 0 (attack) → 92 (own goal), so the
+  // keeper sits at the bottom and the strikers at the top.
+  function drawPitch(g, ox, oy, w, h) {
+    g.save();
+    // Turf + stripes.
+    g.fillStyle = "#0f7a34"; roundRect(g, ox, oy, w, h, 20); g.fill();
+    g.save(); roundRect(g, ox, oy, w, h, 20); g.clip();
+    for (let i = 0; i < 8; i++) {
+      g.fillStyle = i % 2 ? "#0d6e2f" : "#108239";
+      g.fillRect(ox, oy + (h / 8) * i, w, h / 8);
+    }
+    // Markings.
+    g.strokeStyle = "rgba(255,255,255,.5)"; g.lineWidth = 3;
+    g.strokeRect(ox + 8, oy + 8, w - 16, h - 16);
+    g.beginPath(); g.moveTo(ox + 8, oy + h / 2); g.lineTo(ox + w - 8, oy + h / 2); g.stroke();
+    g.beginPath(); g.arc(ox + w / 2, oy + h / 2, 64, 0, Math.PI * 2); g.stroke();
+    const boxW = w * 0.5, boxH = h * 0.13;
+    g.strokeRect(ox + (w - boxW) / 2, oy + 8, boxW, boxH);          // top box
+    g.strokeRect(ox + (w - boxW) / 2, oy + h - 8 - boxH, boxW, boxH); // bottom box
+    g.restore();
+
+    // Players.
+    FORMATION_442.forEach((slot) => {
+      const pick = picks.find(p => p.slotId === slot.id);
+      if (!pick) return;
+      const cx = ox + (slot.x / 100) * w;
+      const cy = oy + (slot.y / 100) * h;
+      // Token.
+      g.beginPath(); g.arc(cx, cy, 30, 0, Math.PI * 2);
+      g.fillStyle = "#f5d040"; g.fill();
+      g.lineWidth = 3; g.strokeStyle = "#0a0a12"; g.stroke();
+      g.fillStyle = "#0a0a12"; g.font = "800 22px Inter, system-ui, sans-serif";
+      g.textAlign = "center"; g.textBaseline = "middle";
+      g.fillText(slot.pos, cx, cy + 1);
+      g.textBaseline = "alphabetic";
+      // Name + media below the token, on a dark plate for legibility.
+      const begin = pick.player.media;
+      const end = projectedMedia(pick.player, 4);
+      const label = `${pick.player.name}  ${begin}→${end}`;
+      g.font = "700 24px Inter, system-ui, sans-serif";
+      const tw = Math.min(g.measureText(label).width + 20, w - 12);
+      g.fillStyle = "rgba(0,0,0,.55)";
+      roundRect(g, cx - tw / 2, cy + 38, tw, 34, 8); g.fill();
+      g.fillStyle = "#fff";
+      g.fillText(label, cx, cy + 62);
     });
+    g.restore();
+  }
+
+  // Promisified canvas → Blob.
+  function canvasBlob(canvas, type = "image/jpeg", quality = 0.92) {
+    return new Promise((res) => canvas.toBlob(res, type, quality));
+  }
+
+  function triggerDownload(blob, name) {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  // Download the share image as a JPG.
+  async function downloadImage(btn) {
+    const blob = await canvasBlob(buildShareCanvas());
+    if (!blob) return;
+    triggerDownload(blob, `${displayName.replace(/\s+/g, "-")}-gol-de-oro.jpg`);
+    flash(btn, "✅ Imagen guardada");
+  }
+
+  // Share the JPG (pitch + players + results) via the native sheet — which on
+  // mobile includes WhatsApp. Falls back to downloading the image (and, when
+  // asked, opening WhatsApp web with the text) on browsers without file sharing.
+  async function shareImage(btn, { whatsapp = false } = {}) {
+    const text = shareText();
+    let file = null;
+    try {
+      const blob = await canvasBlob(buildShareCanvas());
+      if (blob) file = new File([blob], `${displayName.replace(/\s+/g, "-")}-gol-de-oro.jpg`, { type: "image/jpeg" });
+    } catch { /* canvas unavailable */ }
+
+    if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
+      try { await navigator.share({ files: [file], text, title: "Gol De Oro" }); }
+      catch { /* user dismissed */ }
+      return;
+    }
+    // Fallback: hand over the image as a download, then open WhatsApp web with
+    // the text so it can be attached manually.
+    if (file) triggerDownload(file, file.name);
+    if (whatsapp) {
+      window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
+    }
+    flash(btn, file ? "✅ Imagen guardada" : "⚠️ No disponible");
   }
 
   function paint() {
@@ -307,16 +388,14 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         <div class="rs-share">
           <div class="rs-h">Comparte tu resultado</div>
           <div class="rs-share-main">
+            <button class="sh sh-wa" id="waBtn">${ICONS.whatsapp}<span>WhatsApp</span></button>
             <button class="sh sh-native" id="shareBtn">📲 <span>Compartir</span></button>
-            <button class="sh sh-copy" id="copyBtn">📋 <span>Copiar</span></button>
           </div>
           <div class="rs-share-btns">
-            <button class="sh sh-wa" data-net="whatsapp">${ICONS.whatsapp}<span>WhatsApp</span></button>
-            <button class="sh sh-x" data-net="x">${ICONS.x}<span>X</span></button>
-            <button class="sh sh-tg" data-net="telegram"><span>Telegram</span></button>
-            <button class="sh sh-fb" data-net="facebook">${ICONS.facebook}<span>Facebook</span></button>
-            <button class="sh sh-ig" id="igBtn">${ICONS.instagram}<span>Imagen</span></button>
+            <button class="sh sh-ig" id="igBtn">🖼️ <span>Descargar imagen</span></button>
+            <button class="sh sh-copy" id="copyBtn">📋 <span>Copiar texto</span></button>
           </div>
+          <p class="rs-share-note">La imagen incluye tu alineación y los resultados de las 5 temporadas.</p>
         </div>
 
         <button id="again" class="primary">Construir otro XI</button>
@@ -326,11 +405,10 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     root.querySelector("#next").addEventListener("click", () => { if (idx < seasons.length - 1) { idx++; paint(); } });
     root.querySelectorAll(".rs-pill").forEach(b =>
       b.addEventListener("click", () => { idx = Number(b.dataset.i); paint(); }));
-    root.querySelectorAll(".sh[data-net]").forEach(b =>
-      b.addEventListener("click", () => openShare(b.dataset.net)));
-    root.querySelector("#shareBtn").addEventListener("click", (e) => nativeShare(e.currentTarget));
+    root.querySelector("#waBtn").addEventListener("click", (e) => shareImage(e.currentTarget, { whatsapp: true }));
+    root.querySelector("#shareBtn").addEventListener("click", (e) => shareImage(e.currentTarget));
     root.querySelector("#copyBtn").addEventListener("click", (e) => copyShare(e.currentTarget));
-    root.querySelector("#igBtn").addEventListener("click", downloadImage);
+    root.querySelector("#igBtn").addEventListener("click", (e) => downloadImage(e.currentTarget));
     root.querySelector("#again").addEventListener("click", onAgain);
     const toggleReal = root.querySelector("#toggleReal");
     if (toggleReal) toggleReal.addEventListener("click", () => { showReal = !showReal; paint(); });

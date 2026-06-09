@@ -199,14 +199,20 @@ tr.promo.me td { background:#3a3214; color:#ffe2a6; }
 .mode-card { display: flex; flex-direction: column; gap: 8px; padding: 20px; border: 1px solid #2a3a55; border-radius: 14px; background: rgba(10,22,40,.55); color: #eef3fb; cursor: pointer; text-align: left; transition: border-color .15s, background .15s, transform .1s; }
 .mode-card:hover { border-color: #ffd23f; background: rgba(16,34,60,.7); }
 .mode-card:active { transform: scale(.99); }
-.mode-name { font-family: "Bungee", "Template Gothic", cursive; font-size: 22px; color: #ffd23f; letter-spacing: .5px; }
-.mode-tag { font-size: 12px; font-weight: 600; letter-spacing: .3px; text-transform: uppercase; color: #ffd23f; opacity: .9; }
-.mode-desc { font-size: 14px; line-height: 1.45; opacity: .82; }
-.mode-intro { font-size: 14px; line-height: 1.5; opacity: .8; margin: 6px 0 0; }
-.mode-card-mald .mode-name, .mode-card-mald .mode-tag { color: #7fc7ff; }
-.mode-card-mine .mode-name, .mode-card-mine .mode-tag { color: #6ee7a0; }
-.mode-card-rand .mode-name, .mode-card-rand .mode-tag { color: #ff9e6e; }
+.mode-name { font-family: "Bungee", "Template Gothic", cursive; font-size: 20px; color: #ffd23f; letter-spacing: .5px; }
+.mode-desc { font-size: 13.5px; line-height: 1.4; opacity: .8; }
+.mode-card-mald .mode-name { color: #7fc7ff; }
+.mode-card-mine .mode-name { color: #6ee7a0; }
+.mode-card-rand .mode-name { color: #ff9e6e; }
 @media (min-width: 520px) { .mode-grid { grid-template-columns: 1fr 1fr; } }
+
+/* Mode families: the roulette game vs Mi Equipo */
+.mode-group { margin-top: 14px; padding: 12px; border: 1px solid #21314c; border-radius: 16px; background: rgba(8,18,34,.4); }
+.mode-group + .mode-group { margin-top: 16px; }
+.mode-group-head { margin: 2px 4px 4px; }
+.mode-group-title { font-family: "Bungee", cursive; font-size: 15px; letter-spacing: .5px; color: #eef3fb; margin: 0; }
+.mode-group-desc { font-size: 13px; opacity: .72; margin: 3px 0 0; line-height: 1.4; }
+.mode-group .mode-grid { margin-top: 10px; }
 
 /* Draft head */
 .draft-head { text-align: center; margin-bottom: 14px; }
@@ -303,6 +309,7 @@ tr.promo.me td { background:#3a3214; color:#ffe2a6; }
 .sh-fb { background: #1877f2; }
 .sh-x { background: #222; border: 1px solid #444; }
 .sh-ig { background: linear-gradient(45deg,#feda75,#d62976,#962fbf); }
+.rs-share-note { font-size: 12px; color: #8a8aa0; margin: 10px 0 0; line-height: 1.4; }
 
 /* Year-first setup */
 .setup-heading { font-size: 0.8rem; color: #888; margin: 20px 0 10px; text-transform: uppercase; letter-spacing: 0.1em; }
