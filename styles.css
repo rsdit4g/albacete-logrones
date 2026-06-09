@@ -314,7 +314,7 @@ tr.promo.me td { background:#3a3214; color:#ffe2a6; }
 .rs-share-btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
 .sh { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; border: none; border-radius: 9px; font-weight: 700; font-size: 13px; color: #fff; cursor: pointer; }
 .sh-ico { width: 18px; height: 18px; flex: 0 0 auto; }
-.sh-wa { background: #25d366; color: #06351a; }
+.sh-wa { background: #25d366; color: #fff; }
 .sh-fb { background: #1877f2; }
 .sh-x { background: #222; border: 1px solid #444; }
 .sh-ig { background: linear-gradient(45deg,#feda75,#d62976,#962fbf); }

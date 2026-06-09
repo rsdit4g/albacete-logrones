@@ -132,8 +132,17 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
 
   // ---- Share image: pitch + players + five-season results, as a JPG ----------
 
-  // Draw a portrait share card: header, the five-season arc, the 4-4-2 pitch with
-  // every player, and a results footer. Returns the canvas.
+  // Truncate text to fit a max width, adding an ellipsis.
+  function fitText(g, text, maxW) {
+    if (g.measureText(text).width <= maxW) return text;
+    let t = text;
+    while (t.length > 1 && g.measureText(t + "…").width > maxW) t = t.slice(0, -1);
+    return t + "…";
+  }
+
+  // Draw a portrait share card styled like the results screen: brand wordmark,
+  // club + verdict, the five-season arc, the 4-4-2 pitch with every player, the
+  // team-media swing, and a footer. Returns the canvas.
   function buildShareCanvas() {
     const W = 1080, H = 1500;
     const c = document.createElement("canvas");
@@ -141,97 +150,121 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     const g = c.getContext("2d");
     g.textAlign = "center";
 
-    // Background.
-    g.fillStyle = "#0a0a12"; g.fillRect(0, 0, W, H);
+    // Background — the app's dark navy.
+    const bg = g.createLinearGradient(0, 0, 0, H);
+    bg.addColorStop(0, "#0c1426"); bg.addColorStop(1, "#070a12");
+    g.fillStyle = bg; g.fillRect(0, 0, W, H);
 
-    // Header.
-    g.fillStyle = "#f5d040"; g.font = "800 38px Inter, system-ui, sans-serif";
-    g.fillText("GOL DE ORO", W / 2, 78);
-    g.fillStyle = "#fff"; g.font = "900 76px Inter, system-ui, sans-serif";
-    g.fillText(displayName, W / 2, 158);
+    // Brand wordmark (Bungee, slightly rotated like the on-screen logo).
+    g.save();
+    g.translate(W / 2, 84); g.rotate(-1.5 * Math.PI / 180);
+    g.fillStyle = "#ffd23f"; g.font = '400 56px "Bungee", Inter, system-ui, sans-serif';
+    g.fillText("GOL DE ORO", 0, 0);
+    g.restore();
+
+    // Club + verdict.
+    g.fillStyle = "#fff"; g.font = "900 64px Inter, system-ui, sans-serif";
+    g.fillText(fitText(g, displayName, W - 100), W / 2, 168);
     g.fillStyle = "#9be29b"; g.font = "800 30px Inter, system-ui, sans-serif";
-    g.fillText(`${tier} · ${pct}% de los puntos`, W / 2, 208);
+    g.fillText(`${tier} · ${pct}% de los puntos posibles`, W / 2, 214);
 
-    // Five season pills.
+    // Five season pills (champ gold / down red / normal navy), like the screen.
     const pillW = 178, gap = 16, totalW = 5 * pillW + 4 * gap;
     let x = (W - totalW) / 2;
-    const py = 250, ph = 128;
+    const py = 246, ph = 120;
     seasons.forEach((s) => {
       const champ = s.position === 1;
       const down = s.inSegunda || s.relegated;
-      g.fillStyle = champ ? "#3a2f00" : down ? "#2a1414" : "#161622";
-      g.strokeStyle = champ ? "#f5d040" : down ? "#7a2a2a" : "#2a2a3a";
+      g.fillStyle = champ ? "#3a2f00" : down ? "#241a1a" : "#161622";
+      g.strokeStyle = champ ? "#f5d040" : down ? "#4a2f2f" : "#2a2a3a";
       g.lineWidth = 3;
       roundRect(g, x, py, pillW, ph, 16); g.fill(); g.stroke();
       g.fillStyle = champ ? "#f5d040" : down ? "#ff9b9b" : "#fff";
-      g.font = "900 52px Inter, system-ui, sans-serif";
-      g.fillText(s.inSegunda ? "2ª" : String(s.position), x + pillW / 2, py + 64);
+      g.font = "900 50px Inter, system-ui, sans-serif";
+      g.fillText(s.inSegunda ? "2ª" : String(s.position), x + pillW / 2, py + 62);
       g.fillStyle = "#9aa"; g.font = "600 24px Inter, system-ui, sans-serif";
-      g.fillText(`'${String(s.year % 100).padStart(2, "0")}`, x + pillW / 2, py + 102);
+      g.fillText(`'${String(s.year % 100).padStart(2, "0")}`, x + pillW / 2, py + 98);
       x += pillW + gap;
     });
 
     // Pitch with the XI.
-    drawPitch(g, 70, 410, W - 140, 880);
+    drawPitch(g, 70, 404, W - 140, 858);
+
+    // Team media swing (start of run → projected at season 5).
+    const tm0 = teamMedia(picks), tm1 = teamMediaEnd(picks);
+    g.textAlign = "center"; g.fillStyle = "#cdd9ee";
+    g.font = "700 30px Inter, system-ui, sans-serif";
+    g.fillText(`Media del equipo  ${tm0} → ${tm1}`, W / 2, 1322);
 
     // Footer.
-    g.fillStyle = "#cfcfe0"; g.font = "600 32px Inter, system-ui, sans-serif";
+    g.fillStyle = "#cfcfe0"; g.font = "600 30px Inter, system-ui, sans-serif";
     const bestTxt = best != null ? `Mejor puesto: ${best}º` : "Descendido";
-    const trophies = [`${titles}× Liga`, `${cups}× Copa`].join("   ·   ");
-    g.fillText(`${bestTxt}   ·   ${trophies}`, W / 2, H - 70);
+    g.fillText(`${bestTxt}   ·   ${titles}× Liga   ·   ${cups}× Copa`, W / 2, 1396);
     g.fillStyle = "#6a6a80"; g.font = "600 28px Inter, system-ui, sans-serif";
-    g.fillText(SHARE_HOST, W / 2, H - 28);
+    g.fillText(SHARE_HOST, W / 2, 1452);
     return c;
   }
 
-  // Draw the green field and the 11 players (name + start→end media) at their
-  // 4-4-2 positions. The formation y runs 0 (attack) → 92 (own goal), so the
-  // keeper sits at the bottom and the strikers at the top.
+  // Draw the green field and the 11 player cards at their 4-4-2 positions, mirroring
+  // the on-screen pitch. The formation y runs 0 (attack/top) → 92 (own goal), so
+  // the keeper sits at the bottom and the strikers at the top.
   function drawPitch(g, ox, oy, w, h) {
     g.save();
-    // Turf + stripes.
-    g.fillStyle = "#0f7a34"; roundRect(g, ox, oy, w, h, 20); g.fill();
-    g.save(); roundRect(g, ox, oy, w, h, 20); g.clip();
+    // Turf gradient + stripes (matches the on-screen .pitch).
+    const turf = g.createLinearGradient(0, oy, 0, oy + h);
+    turf.addColorStop(0, "#163d20"); turf.addColorStop(0.5, "#1a4a22"); turf.addColorStop(1, "#163d20");
+    g.fillStyle = turf; roundRect(g, ox, oy, w, h, 18); g.fill();
+    g.save(); roundRect(g, ox, oy, w, h, 18); g.clip();
     for (let i = 0; i < 8; i++) {
-      g.fillStyle = i % 2 ? "#0d6e2f" : "#108239";
+      g.fillStyle = i % 2 ? "rgba(255,255,255,.018)" : "rgba(0,0,0,.05)";
       g.fillRect(ox, oy + (h / 8) * i, w, h / 8);
     }
     // Markings.
-    g.strokeStyle = "rgba(255,255,255,.5)"; g.lineWidth = 3;
-    g.strokeRect(ox + 8, oy + 8, w - 16, h - 16);
-    g.beginPath(); g.moveTo(ox + 8, oy + h / 2); g.lineTo(ox + w - 8, oy + h / 2); g.stroke();
-    g.beginPath(); g.arc(ox + w / 2, oy + h / 2, 64, 0, Math.PI * 2); g.stroke();
-    const boxW = w * 0.5, boxH = h * 0.13;
-    g.strokeRect(ox + (w - boxW) / 2, oy + 8, boxW, boxH);          // top box
-    g.strokeRect(ox + (w - boxW) / 2, oy + h - 8 - boxH, boxW, boxH); // bottom box
+    g.strokeStyle = "rgba(255,255,255,.32)"; g.lineWidth = 3;
+    g.strokeRect(ox + 10, oy + 10, w - 20, h - 20);
+    g.beginPath(); g.moveTo(ox + 10, oy + h / 2); g.lineTo(ox + w - 10, oy + h / 2); g.stroke();
+    g.beginPath(); g.arc(ox + w / 2, oy + h / 2, 70, 0, Math.PI * 2); g.stroke();
+    const boxW = w * 0.5, boxH = h * 0.12;
+    g.strokeRect(ox + (w - boxW) / 2, oy + 10, boxW, boxH);            // top box
+    g.strokeRect(ox + (w - boxW) / 2, oy + h - 10 - boxH, boxW, boxH); // bottom box
     g.restore();
 
-    // Players.
     FORMATION_442.forEach((slot) => {
       const pick = picks.find(p => p.slotId === slot.id);
-      if (!pick) return;
       const cx = ox + (slot.x / 100) * w;
       const cy = oy + (slot.y / 100) * h;
-      // Token.
-      g.beginPath(); g.arc(cx, cy, 30, 0, Math.PI * 2);
-      g.fillStyle = "#f5d040"; g.fill();
-      g.lineWidth = 3; g.strokeStyle = "#0a0a12"; g.stroke();
-      g.fillStyle = "#0a0a12"; g.font = "800 22px Inter, system-ui, sans-serif";
-      g.textAlign = "center"; g.textBaseline = "middle";
-      g.fillText(slot.pos, cx, cy + 1);
-      g.textBaseline = "alphabetic";
-      // Name + media below the token, on a dark plate for legibility.
-      const begin = pick.player.media;
-      const end = projectedMedia(pick.player, 4);
-      const label = `${pick.player.name}  ${begin}→${end}`;
-      g.font = "700 24px Inter, system-ui, sans-serif";
-      const tw = Math.min(g.measureText(label).width + 20, w - 12);
-      g.fillStyle = "rgba(0,0,0,.55)";
-      roundRect(g, cx - tw / 2, cy + 38, tw, 34, 8); g.fill();
-      g.fillStyle = "#fff";
-      g.fillText(label, cx, cy + 62);
+      if (pick) drawSlotCard(g, cx, cy, slot, pick, w);
     });
     g.restore();
+  }
+
+  // One player card: dark plate + gold border, POS (gold), name (white),
+  // club + year (gold), and the begin→end media pill coloured up/down/flat.
+  function drawSlotCard(g, cx, cy, slot, pick, pitchW) {
+    const cardW = Math.min(Math.max(pitchW * 0.205, 150), 192);
+    const cardH = 108;
+    const x = cx - cardW / 2, y = cy - cardH / 2;
+    g.textAlign = "center"; g.textBaseline = "alphabetic";
+    g.fillStyle = "rgba(9,22,13,.92)";
+    g.strokeStyle = "rgba(245,210,63,.55)"; g.lineWidth = 2;
+    roundRect(g, x, y, cardW, cardH, 12); g.fill(); g.stroke();
+
+    g.fillStyle = "#f5d040"; g.font = "800 18px Inter, system-ui, sans-serif";
+    g.fillText(slot.pos, cx, y + 24);
+    g.fillStyle = "#fff"; g.font = "800 22px Inter, system-ui, sans-serif";
+    g.fillText(fitText(g, pick.player.name, cardW - 16), cx, y + 50);
+    g.fillStyle = "#ffd23f"; g.font = "700 15px Inter, system-ui, sans-serif";
+    g.fillText(`${clubAbbr(pick.club)} ${yy(pick.year)}`, cx, y + 70);
+
+    const begin = pick.player.media, end = projectedMedia(pick.player, 4);
+    const col = end > begin ? "#9be29b" : end < begin ? "#ff9b9b" : "#f5d040";
+    const fill = end > begin ? "rgba(155,226,155,.16)" : end < begin ? "rgba(255,155,155,.14)" : "rgba(245,210,63,.16)";
+    const txt = `${begin} → ${end}`;
+    g.font = "800 16px Inter, system-ui, sans-serif";
+    const pw = g.measureText(txt).width + 22, ph = 26, pyy = y + cardH - 32;
+    g.fillStyle = fill; g.strokeStyle = col; g.lineWidth = 1.5;
+    roundRect(g, cx - pw / 2, pyy, pw, ph, 13); g.fill(); g.stroke();
+    g.fillStyle = col; g.fillText(txt, cx, pyy + 18);
   }
 
   // Promisified canvas → Blob.
@@ -247,8 +280,15 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     URL.revokeObjectURL(a.href);
   }
 
+  // Wait for web fonts so the canvas renders with Bungee/Inter, not a fallback.
+  async function fontsReady() {
+    try { if (document.fonts && document.fonts.ready) await document.fonts.ready; }
+    catch { /* ignore */ }
+  }
+
   // Download the share image as a JPG.
   async function downloadImage(btn) {
+    await fontsReady();
     const blob = await canvasBlob(buildShareCanvas());
     if (!blob) return;
     triggerDownload(blob, `${displayName.replace(/\s+/g, "-")}-gol-de-oro.jpg`);
@@ -262,6 +302,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     const text = shareText();
     let file = null;
     try {
+      await fontsReady();
       const blob = await canvasBlob(buildShareCanvas());
       if (blob) file = new File([blob], `${displayName.replace(/\s+/g, "-")}-gol-de-oro.jpg`, { type: "image/jpeg" });
     } catch { /* canvas unavailable */ }
