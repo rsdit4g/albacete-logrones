@@ -253,7 +253,13 @@
     {"name": "Marcos", "pos": "MF", "age": 22, "velocidad": 74, "resistencia": 75, "agresividad": 72, "calidad": 71},
     {"name": "Radchenko", "pos": "AT", "age": 26, "velocidad": 81, "resistencia": 75, "agresividad": 71, "calidad": 77},
     {"name": "Beschastnykh", "pos": "AT", "age": 22, "velocidad": 80, "resistencia": 75, "agresividad": 72, "calidad": 76},
-    {"name": "Zalazar", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 71, "agresividad": 70, "calidad": 71}
+    {"name": "Zalazar", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 71, "agresividad": 70, "calidad": 71},
+    {"name": "Crespo", "pos": "GK", "age": 29, "velocidad": 54, "resistencia": 72, "agresividad": 68, "calidad": 66},
+    {"name": "Llabrés", "pos": "DF", "age": 27, "velocidad": 68, "resistencia": 70, "agresividad": 70, "calidad": 64},
+    {"name": "Colsa", "pos": "MF", "age": 24, "velocidad": 70, "resistencia": 72, "agresividad": 68, "calidad": 66},
+    {"name": "Munitis", "pos": "MF", "age": 25, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 68},
+    {"name": "Óscar", "pos": "AT", "age": 28, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 66},
+    {"name": "Pierre Sugita", "pos": "AT", "age": 16, "velocidad": 88, "resistencia": 74, "agresividad": 72, "calidad": 80}
   ],
   "Racing Santander|1996": [
     {"name": "Ceballos", "pos": "GK", "age": 32, "velocidad": 55, "resistencia": 73, "agresividad": 70, "calidad": 71},

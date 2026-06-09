@@ -13,7 +13,13 @@
     {"name": "Ratković", "pos": "MF", "age": 26, "velocidad": 70, "resistencia": 74, "agresividad": 72, "calidad": 69},
     {"name": "Gudelj", "pos": "AT", "age": 28, "velocidad": 72, "resistencia": 71, "agresividad": 73, "calidad": 72},
     {"name": "Salva", "pos": "AT", "age": 22, "velocidad": 75, "resistencia": 70, "agresividad": 68, "calidad": 71},
-    {"name": "Urzaiz", "pos": "AT", "age": 20, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 68}
+    {"name": "Urzaiz", "pos": "AT", "age": 20, "velocidad": 76, "resistencia": 72, "agresividad": 70, "calidad": 68},
+    {"name": "Pato", "pos": "GK", "age": 27, "velocidad": 58, "resistencia": 70, "agresividad": 65, "calidad": 66},
+    {"name": "Emilio", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 71, "agresividad": 70, "calidad": 70},
+    {"name": "Valcarce", "pos": "MF", "age": 24, "velocidad": 68, "resistencia": 72, "agresividad": 69, "calidad": 66},
+    {"name": "Giovanella", "pos": "DF", "age": 24, "velocidad": 69, "resistencia": 73, "agresividad": 70, "calidad": 67},
+    {"name": "Penedo", "pos": "DF", "age": 27, "velocidad": 67, "resistencia": 74, "agresividad": 72, "calidad": 66},
+    {"name": "Toni", "pos": "MF", "age": 22, "velocidad": 70, "resistencia": 73, "agresividad": 68, "calidad": 65}
   ],
   "Celta Vigo|1993": [
     {"name": "Cañizares", "pos": "GK", "age": 23, "velocidad": 63, "resistencia": 75, "agresividad": 71, "calidad": 80},
@@ -30,7 +36,12 @@
     {"name": "Salillas", "pos": "MF", "age": 25, "velocidad": 66, "resistencia": 70, "agresividad": 67, "calidad": 65},
     {"name": "Gudelj", "pos": "AT", "age": 29, "velocidad": 71, "resistencia": 70, "agresividad": 73, "calidad": 72},
     {"name": "Salva", "pos": "AT", "age": 23, "velocidad": 74, "resistencia": 70, "agresividad": 68, "calidad": 72},
-    {"name": "Losada", "pos": "AT", "age": 25, "velocidad": 70, "resistencia": 68, "agresividad": 67, "calidad": 66}
+    {"name": "Losada", "pos": "AT", "age": 25, "velocidad": 70, "resistencia": 68, "agresividad": 67, "calidad": 66},
+    {"name": "Pato", "pos": "GK", "age": 28, "velocidad": 58, "resistencia": 70, "agresividad": 65, "calidad": 66},
+    {"name": "Emilio", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 71, "agresividad": 70, "calidad": 70},
+    {"name": "Valcarce", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 72, "agresividad": 69, "calidad": 66},
+    {"name": "Penedo", "pos": "DF", "age": 28, "velocidad": 67, "resistencia": 74, "agresividad": 72, "calidad": 66},
+    {"name": "Toni", "pos": "MF", "age": 23, "velocidad": 70, "resistencia": 73, "agresividad": 68, "calidad": 65}
   ],
   "Celta Vigo|1994": [
     {"name": "Villanueva", "pos": "GK", "age": 35, "velocidad": 48, "resistencia": 61, "agresividad": 60, "calidad": 59},
@@ -46,7 +57,13 @@
     {"name": "Gudelj", "pos": "MF", "age": 30, "velocidad": 68, "resistencia": 70, "agresividad": 72, "calidad": 70},
     {"name": "Vicente", "pos": "MF", "age": 27, "velocidad": 67, "resistencia": 71, "agresividad": 68, "calidad": 66},
     {"name": "Juan Sánchez", "pos": "AT", "age": 22, "velocidad": 76, "resistencia": 70, "agresividad": 67, "calidad": 70},
-    {"name": "Losada", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 68, "agresividad": 67, "calidad": 66}
+    {"name": "Losada", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 68, "agresividad": 67, "calidad": 66},
+    {"name": "Pato", "pos": "GK", "age": 29, "velocidad": 58, "resistencia": 70, "agresividad": 65, "calidad": 67},
+    {"name": "Emilio", "pos": "AT", "age": 27, "velocidad": 74, "resistencia": 71, "agresividad": 70, "calidad": 70},
+    {"name": "Valcarce", "pos": "MF", "age": 26, "velocidad": 68, "resistencia": 72, "agresividad": 69, "calidad": 66},
+    {"name": "Penedo", "pos": "DF", "age": 29, "velocidad": 67, "resistencia": 74, "agresividad": 72, "calidad": 66},
+    {"name": "Toni", "pos": "MF", "age": 24, "velocidad": 70, "resistencia": 73, "agresividad": 68, "calidad": 65},
+    {"name": "Mark Lenders", "pos": "GK", "age": 17, "velocidad": 68, "resistencia": 90, "agresividad": 86, "calidad": 88}
   ],
   "Celta Vigo|1995": [
     {"name": "Prats", "pos": "GK", "age": 27, "velocidad": 56, "resistencia": 69, "agresividad": 65, "calidad": 66},
@@ -62,7 +79,13 @@
     {"name": "Bajčetić", "pos": "MF", "age": 26, "velocidad": 68, "resistencia": 73, "agresividad": 72, "calidad": 67},
     {"name": "Gudelj", "pos": "MF", "age": 31, "velocidad": 64, "resistencia": 68, "agresividad": 70, "calidad": 68},
     {"name": "Juan Sánchez", "pos": "AT", "age": 23, "velocidad": 77, "resistencia": 71, "agresividad": 67, "calidad": 71},
-    {"name": "Milojević", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 70, "agresividad": 72, "calidad": 69}
+    {"name": "Milojević", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 70, "agresividad": 72, "calidad": 69},
+    {"name": "Pato", "pos": "GK", "age": 30, "velocidad": 57, "resistencia": 69, "agresividad": 65, "calidad": 66},
+    {"name": "Emilio", "pos": "AT", "age": 28, "velocidad": 73, "resistencia": 70, "agresividad": 69, "calidad": 69},
+    {"name": "Valcarce", "pos": "MF", "age": 27, "velocidad": 67, "resistencia": 72, "agresividad": 69, "calidad": 65},
+    {"name": "Giovanella", "pos": "DF", "age": 27, "velocidad": 69, "resistencia": 73, "agresividad": 71, "calidad": 68},
+    {"name": "Penedo", "pos": "DF", "age": 30, "velocidad": 66, "resistencia": 73, "agresividad": 72, "calidad": 65},
+    {"name": "Toni", "pos": "MF", "age": 25, "velocidad": 70, "resistencia": 73, "agresividad": 68, "calidad": 65}
   ],
   "Celta Vigo|1996": [
     {"name": "Dutruel", "pos": "GK", "age": 25, "velocidad": 60, "resistencia": 72, "agresividad": 68, "calidad": 72},
@@ -79,7 +102,12 @@
     {"name": "Revivo", "pos": "MF", "age": 24, "velocidad": 82, "resistencia": 77, "agresividad": 73, "calidad": 80},
     {"name": "Juan Sánchez", "pos": "AT", "age": 24, "velocidad": 78, "resistencia": 71, "agresividad": 68, "calidad": 72},
     {"name": "Diezma", "pos": "AT", "age": 27, "velocidad": 71, "resistencia": 70, "agresividad": 68, "calidad": 68},
-    {"name": "Del Solar", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 70, "agresividad": 67, "calidad": 68}
+    {"name": "Del Solar", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 70, "agresividad": 67, "calidad": 68},
+    {"name": "Pato", "pos": "GK", "age": 31, "velocidad": 56, "resistencia": 68, "agresividad": 64, "calidad": 65},
+    {"name": "Emilio", "pos": "AT", "age": 29, "velocidad": 72, "resistencia": 69, "agresividad": 69, "calidad": 68},
+    {"name": "Valcarce", "pos": "MF", "age": 28, "velocidad": 66, "resistencia": 71, "agresividad": 68, "calidad": 64},
+    {"name": "Toni", "pos": "MF", "age": 26, "velocidad": 69, "resistencia": 72, "agresividad": 68, "calidad": 64},
+    {"name": "Penedo", "pos": "DF", "age": 31, "velocidad": 65, "resistencia": 72, "agresividad": 71, "calidad": 64}
   ],
   "Celta Vigo|1997": [
     {"name": "Dutruel", "pos": "GK", "age": 26, "velocidad": 61, "resistencia": 73, "agresividad": 68, "calidad": 73},
@@ -95,7 +123,13 @@
     {"name": "Revivo", "pos": "MF", "age": 25, "velocidad": 83, "resistencia": 78, "agresividad": 73, "calidad": 82},
     {"name": "Giovanella", "pos": "MF", "age": 27, "velocidad": 70, "resistencia": 79, "agresividad": 75, "calidad": 73},
     {"name": "Juan Sánchez", "pos": "AT", "age": 25, "velocidad": 78, "resistencia": 72, "agresividad": 68, "calidad": 73},
-    {"name": "Ito", "pos": "AT", "age": 27, "velocidad": 74, "resistencia": 70, "agresividad": 67, "calidad": 69}
+    {"name": "Ito", "pos": "AT", "age": 27, "velocidad": 74, "resistencia": 70, "agresividad": 67, "calidad": 69},
+    {"name": "Pato", "pos": "GK", "age": 32, "velocidad": 55, "resistencia": 67, "agresividad": 64, "calidad": 64},
+    {"name": "Emilio", "pos": "AT", "age": 30, "velocidad": 71, "resistencia": 69, "agresividad": 68, "calidad": 67},
+    {"name": "Giannikos", "pos": "DF", "age": 27, "velocidad": 68, "resistencia": 73, "agresividad": 72, "calidad": 66},
+    {"name": "Valcarce", "pos": "MF", "age": 29, "velocidad": 65, "resistencia": 70, "agresividad": 67, "calidad": 63},
+    {"name": "Penedo", "pos": "DF", "age": 32, "velocidad": 64, "resistencia": 71, "agresividad": 71, "calidad": 63},
+    {"name": "Santi", "pos": "GK", "age": 24, "velocidad": 60, "resistencia": 68, "agresividad": 64, "calidad": 65}
   ],
   "Celta Vigo|1998": [
     {"name": "Dutruel", "pos": "GK", "age": 27, "velocidad": 62, "resistencia": 74, "agresividad": 69, "calidad": 74},
@@ -111,7 +145,13 @@
     {"name": "Karpin", "pos": "MF", "age": 29, "velocidad": 80, "resistencia": 82, "agresividad": 76, "calidad": 83},
     {"name": "Revivo", "pos": "MF", "age": 26, "velocidad": 83, "resistencia": 78, "agresividad": 73, "calidad": 82},
     {"name": "Penev", "pos": "AT", "age": 32, "velocidad": 74, "resistencia": 72, "agresividad": 74, "calidad": 80},
-    {"name": "Juan Sánchez", "pos": "AT", "age": 26, "velocidad": 77, "resistencia": 71, "agresividad": 68, "calidad": 73}
+    {"name": "Juan Sánchez", "pos": "AT", "age": 26, "velocidad": 77, "resistencia": 71, "agresividad": 68, "calidad": 73},
+    {"name": "Pato", "pos": "GK", "age": 33, "velocidad": 54, "resistencia": 66, "agresividad": 63, "calidad": 63},
+    {"name": "Emilio", "pos": "AT", "age": 31, "velocidad": 70, "resistencia": 68, "agresividad": 68, "calidad": 66},
+    {"name": "Giovanella", "pos": "DF", "age": 30, "velocidad": 67, "resistencia": 75, "agresividad": 73, "calidad": 69},
+    {"name": "Santi", "pos": "GK", "age": 25, "velocidad": 61, "resistencia": 69, "agresividad": 65, "calidad": 66},
+    {"name": "Giannikos", "pos": "DF", "age": 28, "velocidad": 67, "resistencia": 73, "agresividad": 72, "calidad": 65},
+    {"name": "Sergio", "pos": "DF", "age": 23, "velocidad": 71, "resistencia": 74, "agresividad": 70, "calidad": 66}
   ],
   "Celta Vigo|1999": [
     {"name": "Cavallero", "pos": "GK", "age": 25, "velocidad": 64, "resistencia": 76, "agresividad": 72, "calidad": 78},
@@ -127,7 +167,13 @@
     {"name": "Giovanella", "pos": "MF", "age": 29, "velocidad": 69, "resistencia": 78, "agresividad": 74, "calidad": 73},
     {"name": "Gustavo López", "pos": "MF", "age": 26, "velocidad": 81, "resistencia": 78, "agresividad": 70, "calidad": 77},
     {"name": "McCarthy", "pos": "AT", "age": 21, "velocidad": 82, "resistencia": 80, "agresividad": 76, "calidad": 78},
-    {"name": "Juan Sánchez", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 70, "agresividad": 67, "calidad": 72}
+    {"name": "Juan Sánchez", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 70, "agresividad": 67, "calidad": 72},
+    {"name": "Santi", "pos": "GK", "age": 26, "velocidad": 61, "resistencia": 70, "agresividad": 65, "calidad": 67},
+    {"name": "Revivo", "pos": "MF", "age": 29, "velocidad": 82, "resistencia": 77, "agresividad": 72, "calidad": 81},
+    {"name": "Emilio", "pos": "AT", "age": 32, "velocidad": 69, "resistencia": 67, "agresividad": 67, "calidad": 65},
+    {"name": "Sergio", "pos": "DF", "age": 24, "velocidad": 72, "resistencia": 75, "agresividad": 71, "calidad": 67},
+    {"name": "Penev", "pos": "AT", "age": 33, "velocidad": 72, "resistencia": 70, "agresividad": 73, "calidad": 78},
+    {"name": "Nené", "pos": "MF", "age": 24, "velocidad": 72, "resistencia": 74, "agresividad": 68, "calidad": 68}
   ],
   "Celta Vigo|2000": [
     {"name": "Cavallero", "pos": "GK", "age": 26, "velocidad": 65, "resistencia": 77, "agresividad": 72, "calidad": 80},
@@ -143,7 +189,13 @@
     {"name": "Gustavo López", "pos": "MF", "age": 27, "velocidad": 82, "resistencia": 79, "agresividad": 70, "calidad": 78},
     {"name": "Catanha", "pos": "AT", "age": 28, "velocidad": 80, "resistencia": 78, "agresividad": 74, "calidad": 76},
     {"name": "McCarthy", "pos": "AT", "age": 22, "velocidad": 83, "resistencia": 80, "agresividad": 76, "calidad": 79},
-    {"name": "Doriva", "pos": "MF", "age": 26, "velocidad": 72, "resistencia": 78, "agresividad": 74, "calidad": 71}
+    {"name": "Doriva", "pos": "MF", "age": 26, "velocidad": 72, "resistencia": 78, "agresividad": 74, "calidad": 71},
+    {"name": "Santi", "pos": "GK", "age": 27, "velocidad": 62, "resistencia": 71, "agresividad": 66, "calidad": 68},
+    {"name": "Makélélé", "pos": "MF", "age": 27, "velocidad": 84, "resistencia": 88, "agresividad": 84, "calidad": 87},
+    {"name": "Sylvinho", "pos": "DF", "age": 26, "velocidad": 84, "resistencia": 81, "agresividad": 73, "calidad": 78},
+    {"name": "Revivo", "pos": "MF", "age": 30, "velocidad": 81, "resistencia": 76, "agresividad": 71, "calidad": 80},
+    {"name": "Sergio Fernández", "pos": "DF", "age": 23, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 68},
+    {"name": "Óscar García", "pos": "MF", "age": 26, "velocidad": 74, "resistencia": 76, "agresividad": 70, "calidad": 72}
   ],
   "Celta Vigo|2001": [
     {"name": "Cavallero", "pos": "GK", "age": 27, "velocidad": 66, "resistencia": 78, "agresividad": 73, "calidad": 82},
@@ -159,7 +211,13 @@
     {"name": "Giovanella", "pos": "MF", "age": 31, "velocidad": 67, "resistencia": 77, "agresividad": 73, "calidad": 73},
     {"name": "Gustavo López", "pos": "MF", "age": 28, "velocidad": 82, "resistencia": 79, "agresividad": 70, "calidad": 78},
     {"name": "Catanha", "pos": "AT", "age": 29, "velocidad": 80, "resistencia": 79, "agresividad": 74, "calidad": 78},
-    {"name": "Edú", "pos": "AT", "age": 22, "velocidad": 80, "resistencia": 75, "agresividad": 71, "calidad": 74}
+    {"name": "Edú", "pos": "AT", "age": 22, "velocidad": 80, "resistencia": 75, "agresividad": 71, "calidad": 74},
+    {"name": "Santi", "pos": "GK", "age": 28, "velocidad": 62, "resistencia": 72, "agresividad": 66, "calidad": 69},
+    {"name": "Makélélé", "pos": "MF", "age": 28, "velocidad": 84, "resistencia": 88, "agresividad": 84, "calidad": 87},
+    {"name": "McCarthy", "pos": "AT", "age": 23, "velocidad": 83, "resistencia": 80, "agresividad": 76, "calidad": 79},
+    {"name": "Velasco", "pos": "DF", "age": 26, "velocidad": 72, "resistencia": 75, "agresividad": 72, "calidad": 68},
+    {"name": "Doriva", "pos": "MF", "age": 27, "velocidad": 72, "resistencia": 78, "agresividad": 74, "calidad": 71},
+    {"name": "Óscar García", "pos": "MF", "age": 27, "velocidad": 73, "resistencia": 75, "agresividad": 70, "calidad": 71}
   ],
   "Celta Vigo|2002": [
     {"name": "Cavallero", "pos": "GK", "age": 28, "velocidad": 66, "resistencia": 79, "agresividad": 73, "calidad": 84},
@@ -175,7 +233,13 @@
     {"name": "Gustavo López", "pos": "MF", "age": 29, "velocidad": 81, "resistencia": 79, "agresividad": 70, "calidad": 79},
     {"name": "Catanha", "pos": "AT", "age": 30, "velocidad": 79, "resistencia": 78, "agresividad": 74, "calidad": 79},
     {"name": "McCarthy", "pos": "AT", "age": 24, "velocidad": 83, "resistencia": 80, "agresividad": 76, "calidad": 80},
-    {"name": "Vágner", "pos": "AT", "age": 25, "velocidad": 78, "resistencia": 74, "agresividad": 71, "calidad": 72}
+    {"name": "Vágner", "pos": "AT", "age": 25, "velocidad": 78, "resistencia": 74, "agresividad": 71, "calidad": 72},
+    {"name": "Santi", "pos": "GK", "age": 29, "velocidad": 62, "resistencia": 73, "agresividad": 67, "calidad": 70},
+    {"name": "Makélélé", "pos": "MF", "age": 29, "velocidad": 84, "resistencia": 88, "agresividad": 84, "calidad": 87},
+    {"name": "Velasco", "pos": "DF", "age": 27, "velocidad": 71, "resistencia": 74, "agresividad": 72, "calidad": 67},
+    {"name": "Doriva", "pos": "MF", "age": 28, "velocidad": 72, "resistencia": 78, "agresividad": 74, "calidad": 71},
+    {"name": "Óscar García", "pos": "MF", "age": 28, "velocidad": 73, "resistencia": 75, "agresividad": 70, "calidad": 72},
+    {"name": "Karpin", "pos": "MF", "age": 33, "velocidad": 75, "resistencia": 78, "agresividad": 73, "calidad": 80}
   ],
   "Celta Vigo|2003": [
     {"name": "Cavallero", "pos": "GK", "age": 29, "velocidad": 65, "resistencia": 79, "agresividad": 73, "calidad": 83},
@@ -191,7 +255,13 @@
     {"name": "Gustavo López", "pos": "MF", "age": 30, "velocidad": 80, "resistencia": 78, "agresividad": 69, "calidad": 78},
     {"name": "Milošević", "pos": "AT", "age": 30, "velocidad": 74, "resistencia": 76, "agresividad": 80, "calidad": 79},
     {"name": "Catanha", "pos": "AT", "age": 31, "velocidad": 77, "resistencia": 76, "agresividad": 73, "calidad": 77},
-    {"name": "Méndez", "pos": "DF", "age": 24, "velocidad": 71, "resistencia": 73, "agresividad": 73, "calidad": 67}
+    {"name": "Méndez", "pos": "DF", "age": 24, "velocidad": 71, "resistencia": 73, "agresividad": 73, "calidad": 67},
+    {"name": "Santi", "pos": "GK", "age": 30, "velocidad": 62, "resistencia": 73, "agresividad": 67, "calidad": 71},
+    {"name": "McCarthy", "pos": "AT", "age": 25, "velocidad": 83, "resistencia": 80, "agresividad": 76, "calidad": 80},
+    {"name": "Lequi", "pos": "MF", "age": 26, "velocidad": 72, "resistencia": 76, "agresividad": 72, "calidad": 69},
+    {"name": "Doriva", "pos": "MF", "age": 29, "velocidad": 71, "resistencia": 77, "agresividad": 73, "calidad": 70},
+    {"name": "Sergio Fernández", "pos": "DF", "age": 26, "velocidad": 71, "resistencia": 75, "agresividad": 72, "calidad": 69},
+    {"name": "Óscar García", "pos": "MF", "age": 29, "velocidad": 73, "resistencia": 74, "agresividad": 69, "calidad": 71}
   ],
   "Celta Vigo|2005": [
     {"name": "Pinto", "pos": "GK", "age": 29, "velocidad": 63, "resistencia": 76, "agresividad": 68, "calidad": 79},
@@ -207,6 +277,34 @@
     {"name": "David Silva", "pos": "MF", "age": 19, "velocidad": 85, "resistencia": 76, "agresividad": 65, "calidad": 82},
     {"name": "Giovanella", "pos": "MF", "age": 35, "velocidad": 60, "resistencia": 72, "agresividad": 70, "calidad": 68},
     {"name": "Baiano", "pos": "AT", "age": 26, "velocidad": 79, "resistencia": 78, "agresividad": 73, "calidad": 76},
-    {"name": "Canobbio", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 72, "agresividad": 69, "calidad": 70}
+    {"name": "Canobbio", "pos": "AT", "age": 25, "velocidad": 75, "resistencia": 72, "agresividad": 69, "calidad": 70},
+    {"name": "Santi", "pos": "GK", "age": 32, "velocidad": 61, "resistencia": 73, "agresividad": 67, "calidad": 71},
+    {"name": "Mostovoi", "pos": "MF", "age": 37, "velocidad": 65, "resistencia": 67, "agresividad": 66, "calidad": 78},
+    {"name": "McCarthy", "pos": "AT", "age": 27, "velocidad": 82, "resistencia": 79, "agresividad": 75, "calidad": 79},
+    {"name": "Borja", "pos": "AT", "age": 21, "velocidad": 75, "resistencia": 71, "agresividad": 67, "calidad": 67},
+    {"name": "Juanfran", "pos": "DF", "age": 28, "velocidad": 72, "resistencia": 75, "agresividad": 71, "calidad": 69},
+    {"name": "Velasco", "pos": "DF", "age": 30, "velocidad": 70, "resistencia": 73, "agresividad": 71, "calidad": 66}
+  ],
+  "Celta Vigo|2006": [
+    {"name": "Pinto", "pos": "GK", "age": 30, "velocidad": 63, "resistencia": 76, "agresividad": 68, "calidad": 79},
+    {"name": "Esteban", "pos": "GK", "age": 34, "velocidad": 55, "resistencia": 69, "agresividad": 65, "calidad": 71},
+    {"name": "Ángel", "pos": "DF", "age": 31, "velocidad": 67, "resistencia": 74, "agresividad": 75, "calidad": 69},
+    {"name": "Placente", "pos": "DF", "age": 29, "velocidad": 77, "resistencia": 79, "agresividad": 74, "calidad": 73},
+    {"name": "José Enrique", "pos": "DF", "age": 21, "velocidad": 83, "resistencia": 78, "agresividad": 71, "calidad": 73},
+    {"name": "Sergio Fernández", "pos": "DF", "age": 29, "velocidad": 69, "resistencia": 73, "agresividad": 71, "calidad": 67},
+    {"name": "Velasco", "pos": "DF", "age": 31, "velocidad": 69, "resistencia": 72, "agresividad": 71, "calidad": 65},
+    {"name": "Oubiña", "pos": "MF", "age": 24, "velocidad": 73, "resistencia": 81, "agresividad": 76, "calidad": 73},
+    {"name": "Iriney", "pos": "MF", "age": 25, "velocidad": 73, "resistencia": 81, "agresividad": 75, "calidad": 72},
+    {"name": "Gustavo López", "pos": "MF", "age": 33, "velocidad": 75, "resistencia": 75, "agresividad": 67, "calidad": 74},
+    {"name": "David Silva", "pos": "MF", "age": 20, "velocidad": 86, "resistencia": 77, "agresividad": 65, "calidad": 84},
+    {"name": "Lequi", "pos": "MF", "age": 29, "velocidad": 71, "resistencia": 75, "agresividad": 71, "calidad": 69},
+    {"name": "McCarthy", "pos": "AT", "age": 28, "velocidad": 82, "resistencia": 79, "agresividad": 75, "calidad": 79},
+    {"name": "Baiano", "pos": "DF", "age": 28, "velocidad": 73, "resistencia": 76, "agresividad": 74, "calidad": 70},
+    {"name": "Borja", "pos": "AT", "age": 22, "velocidad": 76, "resistencia": 72, "agresividad": 68, "calidad": 68},
+    {"name": "Santi", "pos": "GK", "age": 33, "velocidad": 60, "resistencia": 72, "agresividad": 66, "calidad": 70},
+    {"name": "Juanfran", "pos": "DF", "age": 29, "velocidad": 71, "resistencia": 74, "agresividad": 70, "calidad": 68},
+    {"name": "Canobbio", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 71, "agresividad": 68, "calidad": 69},
+    {"name": "Nené", "pos": "MF", "age": 31, "velocidad": 70, "resistencia": 72, "agresividad": 67, "calidad": 67},
+    {"name": "Mostovoi", "pos": "MF", "age": 38, "velocidad": 62, "resistencia": 65, "agresividad": 65, "calidad": 76}
   ]
 }
