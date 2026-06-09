@@ -47,17 +47,32 @@ function buildBoard(entries, me) {
   return { sorted, myRank, total: sorted.length };
 }
 
-// Four scoped boards for today's runs: overall, same club, same season, and the
-// same club+season. `me` is the entry returned by addRankingEntry. All boards
-// are scoped to the player's own mode so Clásico and Maldiniano rank separately.
+// Break a pool of entries into the four scopes: overall, same team (club), same
+// season (year), and the same team+season. Every breakdown the game shows comes
+// from this — combined with the mode/date filters applied by the callers, the
+// store is queryable by mode, date, team and year.
+function scopedBoards(entries, me) {
+  return {
+    all: buildBoard(entries, me),
+    club: buildBoard(entries.filter(e => e.club === me.club), me),
+    season: buildBoard(entries.filter(e => e.year === me.year), me),
+    clubSeason: buildBoard(entries.filter(e => e.club === me.club && e.year === me.year), me),
+  };
+}
+
+// Today's runs, scoped to the player's own mode (Clásico/Maldiniano rank apart).
 export function getDailyBoards(me) {
   const myMode = me.mode || "clasico";
-  let all = loadAll().filter(e => e.date === me.date && (e.mode || "clasico") === myMode);
-  if (!all.some(e => isSame(e, me))) all = [...all, me]; // storage-disabled fallback
-  return {
-    all: buildBoard(all, me),
-    club: buildBoard(all.filter(e => e.club === me.club), me),
-    season: buildBoard(all.filter(e => e.year === me.year), me),
-    clubSeason: buildBoard(all.filter(e => e.club === me.club && e.year === me.year), me),
-  };
+  let pool = loadAll().filter(e => e.date === me.date && (e.mode || "clasico") === myMode);
+  if (!pool.some(e => isSame(e, me))) pool = [...pool, me]; // storage-disabled fallback
+  return scopedBoards(pool, me);
+}
+
+// All-time runs (every date), scoped to the player's own mode. The "best players
+// of all time" board, broken down by the same team/season scopes as the daily one.
+export function getAllTimeBoards(me) {
+  const myMode = me.mode || "clasico";
+  let pool = loadAll().filter(e => (e.mode || "clasico") === myMode);
+  if (!pool.some(e => isSame(e, me))) pool = [...pool, me];
+  return scopedBoards(pool, me);
 }
