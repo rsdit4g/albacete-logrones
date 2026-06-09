@@ -1,5 +1,6 @@
 import { FORMATION_442 } from "../game/formation.js";
 import { CLUBS } from "../data/clubs.js";
+import { projectedMedia } from "../engine/aging.js?v=3";
 
 // Shared 4-4-2 pitch markup, reused by the draft screen and the results screen.
 // FIFA standard dimensions: 68m wide × 105m tall → viewBox="0 0 68 105".
@@ -38,21 +39,35 @@ const clubAbbr = (c) => CLUBS[c]?.abbr || c.slice(0, 3).toUpperCase();
 const yy = (year) => `'${String(year % 100).padStart(2, "0")}`;
 
 // Returns the inner HTML (SVG + slots) for a pitch given the current picks.
-// When `showMedia` is true, each filled slot also shows the player's overall.
+// When `showMedia` is true, each filled slot shows the player's Media at the
+// start (season 1) and end (season 5) of the run, e.g. 70→75.
 export function pitchSlotsHTML(picks, { showMedia = false } = {}) {
   return PITCH_SVG + FORMATION_442.map(slot => {
     const pick = picks.find(p => p.slotId === slot.id);
+    let mediaCell = "";
+    if (showMedia && pick) {
+      const begin = pick.player.media;
+      const end = projectedMedia(pick.player, 4);
+      const cls = end > begin ? "up" : end < begin ? "down" : "flat";
+      mediaCell = `<span class="slot-media ${cls}"><b>${begin}</b><i>→</i><b>${end}</b></span>`;
+    }
     return `<div class="slot ${pick ? "filled" : ""}" style="left:${slot.x}%; top:${slot.y}%">
       <span class="slot-pos">${slot.pos}</span>
       <span class="slot-name">${pick ? pick.player.name : ""}</span>
       <span class="slot-team">${pick ? `${clubAbbr(pick.club)} ${yy(pick.year)}` : ""}</span>
-      ${showMedia && pick ? `<span class="slot-media">${pick.player.media}</span>` : ""}
+      ${mediaCell}
     </div>`;
   }).join("");
 }
 
-// Average media (overall) of the picked XI, rounded.
+// Average media (overall) of the picked XI at the start of the run, rounded.
 export function teamMedia(picks) {
   if (!picks.length) return 0;
   return Math.round(picks.reduce((a, p) => a + p.player.media, 0) / picks.length);
+}
+
+// Average projected media of the XI at the end of the run (season 5), rounded.
+export function teamMediaEnd(picks) {
+  if (!picks.length) return 0;
+  return Math.round(picks.reduce((a, p) => a + projectedMedia(p.player, 4), 0) / picks.length);
 }

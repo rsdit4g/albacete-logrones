@@ -158,17 +158,22 @@ function segundaSeason(year, season) {
 }
 
 // Copa del Rey rounds, shallowest → deepest. "Campeón" is winning the cup.
+// A longer ladder (more rounds) makes the title harder to reach.
 export const COPA_ROUNDS = [
-  "Dieciseisavos", "Octavos", "Cuartos", "Semifinales", "Final", "Campeón",
+  "Primera ronda", "Treintaidosavos", "Dieciseisavos", "Octavos",
+  "Cuartos", "Semifinales", "Final", "Campeón",
 ];
 
 // Resolve how far your team goes in the Copa. Depth scales with strength, with
 // random noise so a strong side can still get knocked out early (and a weak one
 // occasionally goes on a run). Returns one of COPA_ROUNDS.
+// Winning is deliberately hard: even an elite side averages a semifinal exit, so
+// lifting the cup needs both quality AND a kind draw — deep runs are common,
+// trophies are rare.
 function copaRun(strength, rng) {
   const t = (strength - 20) / 80;            // 0 (weak) .. 1 (elite)
   const noise = rng() * 0.7 - 0.35;          // ±0.35 cup-draw luck
-  const score = Math.max(0, Math.min(1, t * 0.85 + noise));
+  const score = Math.max(0, Math.min(1, t * 0.72 + noise - 0.02));
   const idx = Math.round(score * (COPA_ROUNDS.length - 1));
   return COPA_ROUNDS[idx];
 }

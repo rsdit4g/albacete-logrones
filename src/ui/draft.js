@@ -1,7 +1,7 @@
 import { openSlots } from "../game/formation.js?v=13";
 import { CLUBS } from "../data/clubs.js?v=16";
 import { spin, allPlayersForSquad, draftPlayer, isComplete } from "../game/draft.js?v=13";
-import { pitchSlotsHTML } from "./pitch.js?v=1";
+import { pitchSlotsHTML } from "./pitch.js?v=2";
 
 const SEED_COUNT = 4;
 const POS_ORDER = { GK: 0, DF: 1, MF: 2, AT: 3 };
