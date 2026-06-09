@@ -1,7 +1,7 @@
-import { renderModeSelect } from "./src/ui/mode.js?v=32";
-import { renderSetup } from "./src/ui/setup.js?v=31";
-import { renderDraft } from "./src/ui/draft.js?v=32";
-import { renderResults } from "./src/ui/results.js?v=33";
+import { renderModeSelect } from "./src/ui/mode.js?v=33";
+import { renderSetup } from "./src/ui/setup.js?v=32";
+import { renderDraft } from "./src/ui/draft.js?v=33";
+import { renderResults } from "./src/ui/results.js?v=34";
 import { createDraft } from "./src/game/draft.js";
 import { createRng } from "./src/engine/rng.js";
 import { simulateFiveYears } from "./src/engine/simulate.js?v=34";
@@ -24,10 +24,14 @@ function startGame() {
       const draft = createDraft(createRng(seed));
       renderDraft(root, club, year, draft, { SQUADS, COMBOS, mode }, (finished) => {
         const seasons = simulateFiveYears(finished.picks, year, { SEASONS }, seed, club);
-        renderResults(root, seasons, club, startGame);
+        renderResults(root, seasons, club, finished.picks, startGame);
       });
     });
   });
 }
+
+// A restart control that lives outside #app, so it stays available on every screen.
+const restartBtn = document.getElementById("restartBtn");
+if (restartBtn) restartBtn.addEventListener("click", startGame);
 
 startGame();

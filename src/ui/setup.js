@@ -13,7 +13,7 @@ export function renderSetup(root, onDone) {
   function showYears() {
     root.innerHTML = `
       <section class="screen setup">
-        <h1 class="brand">Albacete <span>–</span> Logroñés</h1>
+        <h1 class="brand">Gol De <span>Oro</span></h1>
         <h2 class="brand-sub">Crea tu dinastía</h2>
         <p class="tagline">Elige una temporada y club para empezar, podrás seleccionar hasta cuatro jugadores de esa plantilla. Después la ruleta te dará selecciones aleatorias de equipos y año para elegir uno cada vez.</p>
         <p class="setup-objective"><b>Objetivo:</b> conseguir el máximo número de puntos posible en cinco temporadas… ¡o el mínimo!</p>
@@ -35,7 +35,7 @@ export function renderSetup(root, onDone) {
 
     root.innerHTML = `
       <section class="screen setup">
-        <h1 class="brand">Albacete <span>–</span> Logroñés</h1>
+        <h1 class="brand">Gol De <span>Oro</span></h1>
         <button class="setup-back" id="backBtn">← Temporadas</button>
         <h2 class="setup-heading">Elige tu club · ${seasonLabel(year)}</h2>
         <div class="club-grid">
