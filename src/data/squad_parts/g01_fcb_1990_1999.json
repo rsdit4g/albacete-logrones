@@ -14,7 +14,12 @@
     {"name": "Hristo Stoichkov", "pos": "AT", "age": 24, "velocidad": 86, "resistencia": 82, "agresividad": 86, "calidad": 88},
     {"name": "Michael Laudrup", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 80, "agresividad": 72, "calidad": 90},
     {"name": "Julio Salinas", "pos": "AT", "age": 27, "velocidad": 82, "resistencia": 78, "agresividad": 80, "calidad": 80},
-    {"name": "Txiki Begiristain", "pos": "AT", "age": 25, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 82}
+    {"name": "Txiki Begiristain", "pos": "AT", "age": 25, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 82},
+    {"name": "Jon Andoni Goikoetxea", "pos": "MF", "age": 24, "velocidad": 82, "resistencia": 80, "agresividad": 78, "calidad": 80},
+    {"name": "José Ramón Alexanko", "pos": "DF", "age": 34, "velocidad": 62, "resistencia": 80, "agresividad": 84, "calidad": 76},
+    {"name": "Julio Alberto", "pos": "DF", "age": 32, "velocidad": 76, "resistencia": 78, "agresividad": 80, "calidad": 72},
+    {"name": "Urbano", "pos": "DF", "age": 22, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Genar Angoy", "pos": "GK", "age": 23, "velocidad": 54, "resistencia": 76, "agresividad": 70, "calidad": 74}
   ],
   "FC Barcelona|1991": [
     {"name": "Andoni Zubizarreta", "pos": "GK", "age": 30, "velocidad": 56, "resistencia": 84, "agresividad": 76, "calidad": 88},
@@ -31,7 +36,12 @@
     {"name": "Hristo Stoichkov", "pos": "AT", "age": 25, "velocidad": 88, "resistencia": 84, "agresividad": 88, "calidad": 90},
     {"name": "Michael Laudrup", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 80, "agresividad": 72, "calidad": 92},
     {"name": "Julio Salinas", "pos": "AT", "age": 28, "velocidad": 82, "resistencia": 78, "agresividad": 80, "calidad": 80},
-    {"name": "Txiki Begiristain", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 82}
+    {"name": "Txiki Begiristain", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 82},
+    {"name": "Jon Andoni Goikoetxea", "pos": "MF", "age": 25, "velocidad": 82, "resistencia": 80, "agresividad": 78, "calidad": 80},
+    {"name": "José Ramón Alexanko", "pos": "DF", "age": 35, "velocidad": 60, "resistencia": 78, "agresividad": 84, "calidad": 76},
+    {"name": "Urbano", "pos": "DF", "age": 23, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Genar Angoy", "pos": "GK", "age": 24, "velocidad": 54, "resistencia": 76, "agresividad": 70, "calidad": 74},
+    {"name": "Miguel Soler", "pos": "DF", "age": 26, "velocidad": 80, "resistencia": 80, "agresividad": 78, "calidad": 72}
   ],
   "FC Barcelona|1992": [
     {"name": "Andoni Zubizarreta", "pos": "GK", "age": 31, "velocidad": 56, "resistencia": 84, "agresividad": 76, "calidad": 88},
@@ -48,7 +58,12 @@
     {"name": "Hristo Stoichkov", "pos": "AT", "age": 26, "velocidad": 88, "resistencia": 84, "agresividad": 90, "calidad": 90},
     {"name": "Michael Laudrup", "pos": "AT", "age": 28, "velocidad": 86, "resistencia": 82, "agresividad": 72, "calidad": 92},
     {"name": "Julio Salinas", "pos": "AT", "age": 29, "velocidad": 82, "resistencia": 78, "agresividad": 80, "calidad": 80},
-    {"name": "Txiki Begiristain", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 82}
+    {"name": "Txiki Begiristain", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 76, "agresividad": 74, "calidad": 82},
+    {"name": "Jon Andoni Goikoetxea", "pos": "MF", "age": 26, "velocidad": 80, "resistencia": 80, "agresividad": 78, "calidad": 80},
+    {"name": "Miguel Soler", "pos": "DF", "age": 27, "velocidad": 80, "resistencia": 80, "agresividad": 78, "calidad": 72},
+    {"name": "Urbano", "pos": "DF", "age": 24, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Richard Witschge", "pos": "MF", "age": 23, "velocidad": 74, "resistencia": 78, "agresividad": 72, "calidad": 82},
+    {"name": "José Ramón Alexanko", "pos": "DF", "age": 36, "velocidad": 58, "resistencia": 76, "agresividad": 82, "calidad": 74}
   ],
   "FC Barcelona|1993": [
     {"name": "Andoni Zubizarreta", "pos": "GK", "age": 32, "velocidad": 56, "resistencia": 82, "agresividad": 76, "calidad": 86},
@@ -65,7 +80,12 @@
     {"name": "Romário", "pos": "AT", "age": 27, "velocidad": 92, "resistencia": 82, "agresividad": 82, "calidad": 96},
     {"name": "Michael Laudrup", "pos": "AT", "age": 29, "velocidad": 84, "resistencia": 80, "agresividad": 72, "calidad": 90},
     {"name": "Julio Salinas", "pos": "AT", "age": 30, "velocidad": 80, "resistencia": 76, "agresividad": 80, "calidad": 78},
-    {"name": "Txiki Begiristain", "pos": "AT", "age": 28, "velocidad": 82, "resistencia": 74, "agresividad": 72, "calidad": 82}
+    {"name": "Txiki Begiristain", "pos": "AT", "age": 28, "velocidad": 82, "resistencia": 74, "agresividad": 72, "calidad": 82},
+    {"name": "Jon Andoni Goikoetxea", "pos": "MF", "age": 27, "velocidad": 78, "resistencia": 78, "agresividad": 78, "calidad": 80},
+    {"name": "Richard Witschge", "pos": "MF", "age": 24, "velocidad": 74, "resistencia": 78, "agresividad": 72, "calidad": 82},
+    {"name": "Urbano", "pos": "DF", "age": 25, "velocidad": 74, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Genar Angoy", "pos": "GK", "age": 26, "velocidad": 54, "resistencia": 78, "agresividad": 72, "calidad": 76},
+    {"name": "Igor Korneev", "pos": "AT", "age": 26, "velocidad": 80, "resistencia": 78, "agresividad": 76, "calidad": 82}
   ],
   "FC Barcelona|1994": [
     {"name": "Andoni Zubizarreta", "pos": "GK", "age": 33, "velocidad": 54, "resistencia": 82, "agresividad": 76, "calidad": 86},
@@ -82,7 +102,12 @@
     {"name": "Romário", "pos": "AT", "age": 28, "velocidad": 90, "resistencia": 80, "agresividad": 82, "calidad": 94},
     {"name": "Iván de la Peña", "pos": "MF", "age": 18, "velocidad": 74, "resistencia": 74, "agresividad": 66, "calidad": 82},
     {"name": "Txiki Begiristain", "pos": "AT", "age": 29, "velocidad": 82, "resistencia": 74, "agresividad": 72, "calidad": 80},
-    {"name": "Jordi Cruyff", "pos": "AT", "age": 22, "velocidad": 82, "resistencia": 76, "agresividad": 72, "calidad": 78}
+    {"name": "Jordi Cruyff", "pos": "AT", "age": 22, "velocidad": 82, "resistencia": 76, "agresividad": 72, "calidad": 78},
+    {"name": "Abelardo Fernández", "pos": "DF", "age": 24, "velocidad": 72, "resistencia": 84, "agresividad": 86, "calidad": 80},
+    {"name": "Igor Korneev", "pos": "AT", "age": 27, "velocidad": 80, "resistencia": 78, "agresividad": 76, "calidad": 82},
+    {"name": "Iván Iglesias", "pos": "MF", "age": 20, "velocidad": 76, "resistencia": 80, "agresividad": 78, "calidad": 74},
+    {"name": "Genar Angoy", "pos": "GK", "age": 27, "velocidad": 54, "resistencia": 78, "agresividad": 72, "calidad": 76},
+    {"name": "Eusebio Sacristán", "pos": "MF", "age": 31, "velocidad": 72, "resistencia": 80, "agresividad": 76, "calidad": 80}
   ],
   "FC Barcelona|1995": [
     {"name": "Andoni Zubizarreta", "pos": "GK", "age": 34, "velocidad": 54, "resistencia": 80, "agresividad": 74, "calidad": 84},
@@ -100,7 +125,11 @@
     {"name": "Hristo Stoichkov", "pos": "AT", "age": 29, "velocidad": 86, "resistencia": 82, "agresividad": 88, "calidad": 88},
     {"name": "Juan Antonio Pizzi", "pos": "AT", "age": 26, "velocidad": 82, "resistencia": 80, "agresividad": 78, "calidad": 82},
     {"name": "Jordi Cruyff", "pos": "AT", "age": 23, "velocidad": 82, "resistencia": 76, "agresividad": 72, "calidad": 78},
-    {"name": "Ronaldo", "pos": "AT", "age": 19, "velocidad": 96, "resistencia": 86, "agresividad": 80, "calidad": 94}
+    {"name": "Ronaldo", "pos": "AT", "age": 19, "velocidad": 96, "resistencia": 86, "agresividad": 80, "calidad": 94},
+    {"name": "Abelardo Fernández", "pos": "DF", "age": 25, "velocidad": 72, "resistencia": 84, "agresividad": 86, "calidad": 80},
+    {"name": "Jon Andoni Bakero", "pos": "MF", "age": 33, "velocidad": 66, "resistencia": 78, "agresividad": 76, "calidad": 78},
+    {"name": "Óscar García", "pos": "MF", "age": 22, "velocidad": 78, "resistencia": 78, "agresividad": 74, "calidad": 78},
+    {"name": "Albert Celades", "pos": "MF", "age": 21, "velocidad": 74, "resistencia": 82, "agresividad": 80, "calidad": 76}
   ],
   "FC Barcelona|1996": [
     {"name": "Vitor Baía", "pos": "GK", "age": 27, "velocidad": 56, "resistencia": 82, "agresividad": 76, "calidad": 88},
@@ -117,7 +146,12 @@
     {"name": "Luis Figo", "pos": "AT", "age": 24, "velocidad": 92, "resistencia": 84, "agresividad": 82, "calidad": 90},
     {"name": "Ronaldo", "pos": "AT", "age": 20, "velocidad": 99, "resistencia": 90, "agresividad": 84, "calidad": 98},
     {"name": "Luis Enrique", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 84, "agresividad": 84, "calidad": 84},
-    {"name": "Juan Antonio Pizzi", "pos": "AT", "age": 27, "velocidad": 82, "resistencia": 78, "agresividad": 78, "calidad": 80}
+    {"name": "Juan Antonio Pizzi", "pos": "AT", "age": 27, "velocidad": 82, "resistencia": 78, "agresividad": 78, "calidad": 80},
+    {"name": "Abelardo Fernández", "pos": "DF", "age": 26, "velocidad": 72, "resistencia": 84, "agresividad": 86, "calidad": 80},
+    {"name": "Fernando Couto", "pos": "DF", "age": 27, "velocidad": 74, "resistencia": 84, "agresividad": 86, "calidad": 80},
+    {"name": "Albert Celades", "pos": "MF", "age": 22, "velocidad": 74, "resistencia": 82, "agresividad": 80, "calidad": 76},
+    {"name": "Miguel Ángel Nadal", "pos": "DF", "age": 29, "velocidad": 74, "resistencia": 86, "agresividad": 90, "calidad": 74},
+    {"name": "Hristo Stoichkov", "pos": "AT", "age": 30, "velocidad": 80, "resistencia": 80, "agresividad": 86, "calidad": 86}
   ],
   "FC Barcelona|1997": [
     {"name": "Vitor Baía", "pos": "GK", "age": 28, "velocidad": 56, "resistencia": 82, "agresividad": 76, "calidad": 88},
@@ -134,7 +168,12 @@
     {"name": "Luis Figo", "pos": "AT", "age": 25, "velocidad": 92, "resistencia": 84, "agresividad": 82, "calidad": 90},
     {"name": "Luis Enrique", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 84, "agresividad": 84, "calidad": 84},
     {"name": "Sonny Anderson", "pos": "AT", "age": 27, "velocidad": 86, "resistencia": 78, "agresividad": 80, "calidad": 82},
-    {"name": "Juan Antonio Pizzi", "pos": "AT", "age": 28, "velocidad": 80, "resistencia": 78, "agresividad": 76, "calidad": 78}
+    {"name": "Juan Antonio Pizzi", "pos": "AT", "age": 28, "velocidad": 80, "resistencia": 78, "agresividad": 76, "calidad": 78},
+    {"name": "Fernando Couto", "pos": "DF", "age": 28, "velocidad": 74, "resistencia": 84, "agresividad": 86, "calidad": 80},
+    {"name": "Abelardo Fernández", "pos": "DF", "age": 27, "velocidad": 72, "resistencia": 84, "agresividad": 86, "calidad": 80},
+    {"name": "Hristo Stoichkov", "pos": "AT", "age": 31, "velocidad": 78, "resistencia": 78, "agresividad": 84, "calidad": 84},
+    {"name": "Christophe Dugarry", "pos": "AT", "age": 25, "velocidad": 82, "resistencia": 78, "agresividad": 80, "calidad": 80},
+    {"name": "Iván de la Peña", "pos": "MF", "age": 21, "velocidad": 78, "resistencia": 76, "agresividad": 68, "calidad": 86}
   ],
   "FC Barcelona|1998": [
     {"name": "Ruud Hesp", "pos": "GK", "age": 31, "velocidad": 54, "resistencia": 80, "agresividad": 74, "calidad": 84},
@@ -151,7 +190,12 @@
     {"name": "Luis Figo", "pos": "AT", "age": 26, "velocidad": 92, "resistencia": 84, "agresividad": 82, "calidad": 90},
     {"name": "Luis Enrique", "pos": "AT", "age": 28, "velocidad": 84, "resistencia": 84, "agresividad": 84, "calidad": 84},
     {"name": "Patrick Kluivert", "pos": "AT", "age": 22, "velocidad": 86, "resistencia": 80, "agresividad": 82, "calidad": 84},
-    {"name": "Sonny Anderson", "pos": "AT", "age": 28, "velocidad": 84, "resistencia": 76, "agresividad": 80, "calidad": 80}
+    {"name": "Sonny Anderson", "pos": "AT", "age": 28, "velocidad": 84, "resistencia": 76, "agresividad": 80, "calidad": 80},
+    {"name": "Ronald de Boer", "pos": "MF", "age": 28, "velocidad": 78, "resistencia": 82, "agresividad": 80, "calidad": 82},
+    {"name": "Abelardo Fernández", "pos": "DF", "age": 28, "velocidad": 70, "resistencia": 82, "agresividad": 86, "calidad": 80},
+    {"name": "Xavi Hernández", "pos": "MF", "age": 18, "velocidad": 70, "resistencia": 80, "agresividad": 74, "calidad": 82},
+    {"name": "Boudewijn Zenden", "pos": "MF", "age": 22, "velocidad": 88, "resistencia": 82, "agresividad": 78, "calidad": 82},
+    {"name": "Roger García", "pos": "MF", "age": 22, "velocidad": 76, "resistencia": 78, "agresividad": 74, "calidad": 78}
   ],
   "FC Barcelona|1999": [
     {"name": "Ruud Hesp", "pos": "GK", "age": 32, "velocidad": 54, "resistencia": 80, "agresividad": 74, "calidad": 82},
@@ -168,6 +212,11 @@
     {"name": "Luis Enrique", "pos": "AT", "age": 29, "velocidad": 82, "resistencia": 82, "agresividad": 84, "calidad": 82},
     {"name": "Patrick Kluivert", "pos": "AT", "age": 23, "velocidad": 88, "resistencia": 82, "agresividad": 84, "calidad": 86},
     {"name": "Simão Sabrosa", "pos": "AT", "age": 21, "velocidad": 88, "resistencia": 76, "agresividad": 72, "calidad": 82},
-    {"name": "Gabri", "pos": "MF", "age": 21, "velocidad": 74, "resistencia": 78, "agresividad": 76, "calidad": 72}
+    {"name": "Gabri", "pos": "MF", "age": 21, "velocidad": 74, "resistencia": 78, "agresividad": 76, "calidad": 72},
+    {"name": "Ronald de Boer", "pos": "MF", "age": 29, "velocidad": 78, "resistencia": 82, "agresividad": 80, "calidad": 82},
+    {"name": "Boudewijn Zenden", "pos": "MF", "age": 23, "velocidad": 88, "resistencia": 82, "agresividad": 78, "calidad": 82},
+    {"name": "Xavi Hernández", "pos": "MF", "age": 19, "velocidad": 72, "resistencia": 82, "agresividad": 76, "calidad": 84},
+    {"name": "Abelardo Fernández", "pos": "DF", "age": 29, "velocidad": 68, "resistencia": 82, "agresividad": 86, "calidad": 80},
+    {"name": "Jari Litmanen", "pos": "AT", "age": 28, "velocidad": 78, "resistencia": 80, "agresividad": 76, "calidad": 90}
   ]
 }
