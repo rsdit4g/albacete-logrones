@@ -51,6 +51,9 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
   const displayName = CLUBS[yourClub]?.name || yourClub;
   const safeName = esc(displayName);
   const startYear = seasons[0].year;
+  // Team identity carries its squad vintage, e.g. "Albacete 1994".
+  const nameYear = `${displayName} ${startYear}`;
+  const safeNameYear = `${safeName} ${startYear}`;
   const modeLabel = { maldiniano: "Maldiniano", miequipo: "Mi Equipo", "miequipo-random": "Mi Equipo Random" }[mode] || "Clásico";
 
   // Leaderboard state: filled once the player saves their run.
@@ -100,7 +103,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
     if (titles) t.push(`${titles}× Liga`);
     if (cups) t.push(`${cups}× Copa`);
     const trophyLine = t.length ? ` · ${t.join(" · ")}` : "";
-    return `⚽ Gol De Oro · ${displayName}\n`
+    return `⚽ Gol De Oro · ${nameYear}\n`
       + `${arcLine()}\n`
       + `${pct}% de los puntos en 5 temporadas${trophyLine}\n`
       + `Juega: ${SHARE_URL}`;
@@ -144,10 +147,13 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
   // club + verdict, the five-season arc, the 4-4-2 pitch with every player, the
   // team-media swing, and a footer. Returns the canvas.
   function buildShareCanvas() {
-    const W = 1080, H = 1500;
+    // Logical layout is 1080×1500; render at 2× so it stays sharp after the
+    // messaging app re-compresses the photo. All drawing uses logical units.
+    const W = 1080, H = 1500, SCALE = 2;
     const c = document.createElement("canvas");
-    c.width = W; c.height = H;
+    c.width = W * SCALE; c.height = H * SCALE;
     const g = c.getContext("2d");
+    g.scale(SCALE, SCALE);
     g.textAlign = "center";
 
     // Background — the app's dark navy.
@@ -164,7 +170,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
 
     // Club + verdict.
     g.fillStyle = "#fff"; g.font = "900 64px Inter, system-ui, sans-serif";
-    g.fillText(fitText(g, displayName, W - 100), W / 2, 168);
+    g.fillText(fitText(g, nameYear, W - 100), W / 2, 168);
     g.fillStyle = "#9be29b"; g.font = "800 30px Inter, system-ui, sans-serif";
     g.fillText(`${tier} · ${pct}% de los puntos posibles`, W / 2, 214);
 
@@ -268,7 +274,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
   }
 
   // Promisified canvas → Blob.
-  function canvasBlob(canvas, type = "image/jpeg", quality = 0.92) {
+  function canvasBlob(canvas, type = "image/jpeg", quality = 0.95) {
     return new Promise((res) => canvas.toBlob(res, type, quality));
   }
 
@@ -330,7 +336,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
           <button id="prev" ${idx === 0 ? "disabled" : ""}>◀</button>
           <div class="rs-title">
             <b>${r.year} / ${String((r.year + 1) % 100).padStart(2, "0")}</b>
-            <small>${safeName.toUpperCase()} · TEMPORADA ${idx + 1} DE 5</small>
+            <small>${safeNameYear.toUpperCase()} · TEMPORADA ${idx + 1} DE 5</small>
           </div>
           <button id="next" ${idx === seasons.length - 1 ? "disabled" : ""}>▶</button>
         </div>
@@ -340,7 +346,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         <div class="rs-banner${r.ascended ? " rs-banner-promo" : " rs-banner-down"}">
           <div class="rs-rank">2ª${r.ascended ? " ↑" : ""}</div>
           <div class="rs-rec">
-            <b>${safeName}</b>${r.ascended ? " · <span class='promo-tag'>ASCENSO</span>" : ""}<br>
+            <b>${safeNameYear}</b>${r.ascended ? " · <span class='promo-tag'>ASCENSO</span>" : ""}<br>
             En Segunda División · <b>0 pts</b> en La Liga
           </div>
         </div>
@@ -351,7 +357,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         <div class="rs-banner${r.relegated ? " rs-banner-down" : (r.promocion ? " rs-banner-promo" : "")}">
           <div class="rs-rank">${ordinal(r.position)}${r.relegated ? " ↓" : (r.promocion ? " ⇄" : "")}</div>
           <div class="rs-rec">
-            <b>${safeName}</b>${
+            <b>${safeNameYear}</b>${
               r.relegated && r.promocion ? " · <span class='rel-tag'>PROMOCIÓN · DESCENSO</span>"
               : r.relegated ? " · <span class='rel-tag'>DESCENSO</span>"
               : r.promocion ? " · <span class='promo-tag'>PROMOCIÓN · SALVADO</span>" : ""}<br>
