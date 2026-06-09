@@ -7,9 +7,11 @@ export function renderModeSelect(root, onPick, onWiki) {
       <h1 class="brand">Gol De <span>Oro</span></h1>
       <h2 class="brand-sub">Crea tu dinastía</h2>
 
-      <p class="tagline">Eliges un club y una temporada, montas tu once y el juego simula 5 temporadas en La Liga real. Con los años los jóvenes mejoran y los veteranos bajan. Objetivo: el máximo de puntos posible… o el mínimo.</p>
+      <p class="tagline">Eliges un club y una temporada y montas tu <b>once ideal</b>.<br>
+      El juego simula <b>5 temporadas</b> en La Liga real: los jóvenes crecen, los veteranos caen.<br>
+      Tu meta: <b>el máximo de puntos posible</b>… o el mínimo, si te atreves.</p>
 
-      <h2 class="setup-heading">Elige modo de juego</h2>
+      <h2 class="setup-heading">Elige tu modo de juego</h2>
 
       <div class="mode-group">
         <div class="mode-group-head">
