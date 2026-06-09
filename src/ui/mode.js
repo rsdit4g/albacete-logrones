@@ -5,10 +5,10 @@ export function renderModeSelect(root, onPick, onWiki) {
   root.innerHTML = `
     <section class="screen setup">
       <h1 class="brand">Gol De <span>Oro</span></h1>
-      <h2 class="brand-sub">Simula 5 temporadas reales de liga retro</h2>
+      <h2 class="brand-sub">Crea tu dinastía</h2>
 
       <p class="tagline">Eliges un club y una temporada y montas tu <b>once ideal</b>.<br>
-      Los jóvenes crecen, los veteranos caen.<br>
+      Compite <b>5 temporadas de liga retro</b>: los jóvenes crecen, los veteranos caen.<br>
       Tu meta: <b>el máximo de puntos posible</b>… o el mínimo, si te atreves.</p>
 
       <h2 class="setup-heading">Elige tu modo de juego</h2>
