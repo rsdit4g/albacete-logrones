@@ -1,8 +1,8 @@
 // First screen: explain the game, then pick how you want to play.
-// Calls onPick("clasico" | "maldiniano").
+// Calls onPick("clasico" | "maldiniano"); onWiki opens the real-results page.
 //   Clásico    — the full game: every player's stats are visible.
 //   Maldiniano — same game, but you only see name + position. Scout blind.
-export function renderModeSelect(root, onPick) {
+export function renderModeSelect(root, onPick, onWiki) {
   root.innerHTML = `
     <section class="screen setup">
       <h1 class="brand">Gol De <span>Oro</span></h1>
@@ -31,8 +31,12 @@ export function renderModeSelect(root, onPick) {
           <span class="mode-desc">Solo ves el nombre y la posición. Fichas a ciegas, como un viejo ojeador. El resto del juego es idéntico.</span>
         </button>
       </div>
+
+      <button class="wiki-link" id="wikiLink">📚 Histórico real · resultados de cada temporada</button>
     </section>`;
 
   root.querySelectorAll(".mode-card").forEach(b =>
     b.addEventListener("click", () => onPick(b.dataset.mode)));
+  const wikiLink = root.querySelector("#wikiLink");
+  if (wikiLink && onWiki) wikiLink.addEventListener("click", onWiki);
 }
