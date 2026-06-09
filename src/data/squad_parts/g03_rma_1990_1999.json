@@ -14,7 +14,12 @@
     {"name": "Hugo Sánchez", "pos": "AT", "age": 32, "velocidad": 84, "resistencia": 76, "agresividad": 80, "calidad": 90},
     {"name": "Emilio Butragueño", "pos": "AT", "age": 27, "velocidad": 78, "resistencia": 80, "agresividad": 80, "calidad": 86},
     {"name": "Iván Zamorano", "pos": "AT", "age": 23, "velocidad": 82, "resistencia": 82, "agresividad": 84, "calidad": 82},
-    {"name": "Míchel Esteban", "pos": "DF", "age": 26, "velocidad": 70, "resistencia": 82, "agresividad": 80, "calidad": 70}
+    {"name": "Míchel Esteban", "pos": "DF", "age": 26, "velocidad": 70, "resistencia": 82, "agresividad": 80, "calidad": 70},
+    {"name": "Gheorghe Hagi", "pos": "AT", "age": 25, "velocidad": 82, "resistencia": 80, "agresividad": 78, "calidad": 88},
+    {"name": "Predrag Spasić", "pos": "DF", "age": 25, "velocidad": 74, "resistencia": 82, "agresividad": 82, "calidad": 72},
+    {"name": "Miguel Tendillo", "pos": "DF", "age": 28, "velocidad": 68, "resistencia": 80, "agresividad": 82, "calidad": 72},
+    {"name": "Julen Lopetegui", "pos": "GK", "age": 24, "velocidad": 54, "resistencia": 78, "agresividad": 70, "calidad": 74},
+    {"name": "Paco Llorente", "pos": "AT", "age": 25, "velocidad": 86, "resistencia": 80, "agresividad": 76, "calidad": 76}
   ],
   "Real Madrid|1991": [
     {"name": "Francisco Buyo", "pos": "GK", "age": 33, "velocidad": 54, "resistencia": 82, "agresividad": 74, "calidad": 84},
@@ -31,7 +36,12 @@
     {"name": "Iván Zamorano", "pos": "AT", "age": 24, "velocidad": 82, "resistencia": 82, "agresividad": 86, "calidad": 84},
     {"name": "Quique Flores", "pos": "DF", "age": 26, "velocidad": 72, "resistencia": 80, "agresividad": 78, "calidad": 72},
     {"name": "Míchel Esteban", "pos": "DF", "age": 27, "velocidad": 70, "resistencia": 80, "agresividad": 78, "calidad": 70},
-    {"name": "Pedro Munitis", "pos": "MF", "age": 20, "velocidad": 86, "resistencia": 74, "agresividad": 72, "calidad": 74}
+    {"name": "Pedro Munitis", "pos": "MF", "age": 20, "velocidad": 86, "resistencia": 74, "agresividad": 72, "calidad": 74},
+    {"name": "Robert Prosinečki", "pos": "MF", "age": 22, "velocidad": 76, "resistencia": 78, "agresividad": 72, "calidad": 86},
+    {"name": "Luis Enrique", "pos": "MF", "age": 21, "velocidad": 84, "resistencia": 82, "agresividad": 82, "calidad": 80},
+    {"name": "Gheorghe Hagi", "pos": "AT", "age": 26, "velocidad": 82, "resistencia": 80, "agresividad": 78, "calidad": 88},
+    {"name": "Predrag Spasić", "pos": "DF", "age": 26, "velocidad": 74, "resistencia": 82, "agresividad": 82, "calidad": 72},
+    {"name": "Francisco Villarroya", "pos": "DF", "age": 25, "velocidad": 78, "resistencia": 80, "agresividad": 78, "calidad": 72}
   ],
   "Real Madrid|1992": [
     {"name": "Francisco Buyo", "pos": "GK", "age": 34, "velocidad": 54, "resistencia": 80, "agresividad": 74, "calidad": 84},
@@ -48,7 +58,12 @@
     {"name": "Iván Zamorano", "pos": "AT", "age": 25, "velocidad": 84, "resistencia": 84, "agresividad": 88, "calidad": 86},
     {"name": "Emilio Butragueño", "pos": "AT", "age": 29, "velocidad": 74, "resistencia": 76, "agresividad": 78, "calidad": 82},
     {"name": "Luis Enrique", "pos": "MF", "age": 22, "velocidad": 84, "resistencia": 82, "agresividad": 82, "calidad": 80},
-    {"name": "Lasa", "pos": "DF", "age": 25, "velocidad": 76, "resistencia": 80, "agresividad": 76, "calidad": 70}
+    {"name": "Lasa", "pos": "DF", "age": 25, "velocidad": 76, "resistencia": 80, "agresividad": 76, "calidad": 70},
+    {"name": "Robert Prosinečki", "pos": "MF", "age": 23, "velocidad": 76, "resistencia": 78, "agresividad": 72, "calidad": 86},
+    {"name": "Nando", "pos": "DF", "age": 28, "velocidad": 74, "resistencia": 80, "agresividad": 80, "calidad": 72},
+    {"name": "Juan Ramón Rocha", "pos": "DF", "age": 26, "velocidad": 72, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Paco Llorente", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 78, "agresividad": 76, "calidad": 76},
+    {"name": "Juan Esnáider", "pos": "AT", "age": 19, "velocidad": 82, "resistencia": 76, "agresividad": 76, "calidad": 78}
   ],
   "Real Madrid|1993": [
     {"name": "Francisco Buyo", "pos": "GK", "age": 35, "velocidad": 52, "resistencia": 78, "agresividad": 74, "calidad": 82},
@@ -65,7 +80,12 @@
     {"name": "Iván Zamorano", "pos": "AT", "age": 26, "velocidad": 84, "resistencia": 84, "agresividad": 88, "calidad": 87},
     {"name": "Emilio Butragueño", "pos": "AT", "age": 30, "velocidad": 72, "resistencia": 74, "agresividad": 76, "calidad": 80},
     {"name": "Lasa", "pos": "DF", "age": 26, "velocidad": 76, "resistencia": 80, "agresividad": 76, "calidad": 70},
-    {"name": "Martín Vázquez", "pos": "MF", "age": 27, "velocidad": 78, "resistencia": 76, "agresividad": 72, "calidad": 82}
+    {"name": "Martín Vázquez", "pos": "MF", "age": 27, "velocidad": 78, "resistencia": 76, "agresividad": 72, "calidad": 82},
+    {"name": "Rafael Alkorta", "pos": "DF", "age": 25, "velocidad": 74, "resistencia": 84, "agresividad": 84, "calidad": 76},
+    {"name": "Robert Prosinečki", "pos": "MF", "age": 24, "velocidad": 76, "resistencia": 76, "agresividad": 72, "calidad": 86},
+    {"name": "Peter Dubovský", "pos": "AT", "age": 21, "velocidad": 82, "resistencia": 78, "agresividad": 76, "calidad": 82},
+    {"name": "Nando", "pos": "DF", "age": 29, "velocidad": 72, "resistencia": 80, "agresividad": 80, "calidad": 72},
+    {"name": "Paco Llorente", "pos": "AT", "age": 28, "velocidad": 82, "resistencia": 76, "agresividad": 76, "calidad": 74}
   ],
   "Real Madrid|1994": [
     {"name": "Francisco Buyo", "pos": "GK", "age": 36, "velocidad": 52, "resistencia": 76, "agresividad": 72, "calidad": 80},
@@ -82,7 +102,12 @@
     {"name": "Iván Zamorano", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 86, "agresividad": 90, "calidad": 87},
     {"name": "Emilio Butragueño", "pos": "AT", "age": 31, "velocidad": 70, "resistencia": 72, "agresividad": 74, "calidad": 78},
     {"name": "Quique Flores", "pos": "DF", "age": 29, "velocidad": 70, "resistencia": 78, "agresividad": 80, "calidad": 70},
-    {"name": "Raúl González", "pos": "AT", "age": 17, "velocidad": 78, "resistencia": 76, "agresividad": 76, "calidad": 80}
+    {"name": "Raúl González", "pos": "AT", "age": 17, "velocidad": 78, "resistencia": 76, "agresividad": 76, "calidad": 80},
+    {"name": "Rafael Alkorta", "pos": "DF", "age": 26, "velocidad": 74, "resistencia": 84, "agresividad": 84, "calidad": 76},
+    {"name": "Santiago Cañizares", "pos": "GK", "age": 25, "velocidad": 58, "resistencia": 82, "agresividad": 76, "calidad": 82},
+    {"name": "Manuel Contreras", "pos": "DF", "age": 23, "velocidad": 76, "resistencia": 80, "agresividad": 78, "calidad": 70},
+    {"name": "Peter Dubovský", "pos": "AT", "age": 22, "velocidad": 82, "resistencia": 78, "agresividad": 76, "calidad": 80},
+    {"name": "Alfonso Pérez", "pos": "AT", "age": 21, "velocidad": 84, "resistencia": 82, "agresividad": 80, "calidad": 82}
   ],
   "Real Madrid|1995": [
     {"name": "Francisco Buyo", "pos": "GK", "age": 37, "velocidad": 50, "resistencia": 74, "agresividad": 70, "calidad": 78},
@@ -99,7 +124,12 @@
     {"name": "Davor Šuker", "pos": "AT", "age": 27, "velocidad": 82, "resistencia": 78, "agresividad": 76, "calidad": 86},
     {"name": "Raúl González", "pos": "AT", "age": 18, "velocidad": 82, "resistencia": 80, "agresividad": 80, "calidad": 84},
     {"name": "Michael Laudrup", "pos": "AT", "age": 31, "velocidad": 78, "resistencia": 76, "agresividad": 68, "calidad": 88},
-    {"name": "Quique Flores", "pos": "DF", "age": 30, "velocidad": 68, "resistencia": 76, "agresividad": 78, "calidad": 68}
+    {"name": "Quique Flores", "pos": "DF", "age": 30, "velocidad": 68, "resistencia": 76, "agresividad": 78, "calidad": 68},
+    {"name": "Rafael Alkorta", "pos": "DF", "age": 27, "velocidad": 72, "resistencia": 84, "agresividad": 84, "calidad": 76},
+    {"name": "Santiago Cañizares", "pos": "GK", "age": 26, "velocidad": 58, "resistencia": 82, "agresividad": 78, "calidad": 84},
+    {"name": "Fernando Sanz", "pos": "DF", "age": 21, "velocidad": 70, "resistencia": 80, "agresividad": 80, "calidad": 72},
+    {"name": "Álvaro Benito", "pos": "MF", "age": 19, "velocidad": 80, "resistencia": 78, "agresividad": 74, "calidad": 78},
+    {"name": "Manuel Contreras", "pos": "DF", "age": 25, "velocidad": 76, "resistencia": 80, "agresividad": 78, "calidad": 70}
   ],
   "Real Madrid|1996": [
     {"name": "Bodo Illgner", "pos": "GK", "age": 30, "velocidad": 56, "resistencia": 82, "agresividad": 76, "calidad": 86},
@@ -116,7 +146,12 @@
     {"name": "Davor Šuker", "pos": "AT", "age": 28, "velocidad": 84, "resistencia": 80, "agresividad": 80, "calidad": 90},
     {"name": "Predrag Mijatović", "pos": "AT", "age": 27, "velocidad": 84, "resistencia": 80, "agresividad": 80, "calidad": 88},
     {"name": "Fernando Morientes", "pos": "AT", "age": 21, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 80},
-    {"name": "Míchel Sanchís Jr", "pos": "DF", "age": 22, "velocidad": 72, "resistencia": 78, "agresividad": 76, "calidad": 68}
+    {"name": "Míchel Sanchís Jr", "pos": "DF", "age": 22, "velocidad": 72, "resistencia": 78, "agresividad": 76, "calidad": 68},
+    {"name": "Santiago Cañizares", "pos": "GK", "age": 27, "velocidad": 58, "resistencia": 84, "agresividad": 78, "calidad": 84},
+    {"name": "Christian Panucci", "pos": "DF", "age": 23, "velocidad": 82, "resistencia": 84, "agresividad": 82, "calidad": 80},
+    {"name": "Fernando Sanz", "pos": "DF", "age": 22, "velocidad": 70, "resistencia": 80, "agresividad": 80, "calidad": 72},
+    {"name": "Álvaro Benito", "pos": "MF", "age": 20, "velocidad": 80, "resistencia": 78, "agresividad": 74, "calidad": 78},
+    {"name": "Víctor Sánchez", "pos": "MF", "age": 20, "velocidad": 84, "resistencia": 80, "agresividad": 74, "calidad": 78}
   ],
   "Real Madrid|1997": [
     {"name": "Bodo Illgner", "pos": "GK", "age": 31, "velocidad": 56, "resistencia": 82, "agresividad": 76, "calidad": 86},
@@ -133,7 +168,12 @@
     {"name": "Davor Šuker", "pos": "AT", "age": 29, "velocidad": 84, "resistencia": 80, "agresividad": 80, "calidad": 90},
     {"name": "Predrag Mijatović", "pos": "AT", "age": 28, "velocidad": 84, "resistencia": 80, "agresividad": 80, "calidad": 88},
     {"name": "Fernando Morientes", "pos": "AT", "age": 22, "velocidad": 78, "resistencia": 82, "agresividad": 82, "calidad": 82},
-    {"name": "Lasa", "pos": "DF", "age": 30, "velocidad": 74, "resistencia": 78, "agresividad": 76, "calidad": 68}
+    {"name": "Lasa", "pos": "DF", "age": 30, "velocidad": 74, "resistencia": 78, "agresividad": 76, "calidad": 68},
+    {"name": "Santiago Cañizares", "pos": "GK", "age": 28, "velocidad": 58, "resistencia": 84, "agresividad": 78, "calidad": 84},
+    {"name": "Christian Panucci", "pos": "DF", "age": 24, "velocidad": 82, "resistencia": 84, "agresividad": 82, "calidad": 80},
+    {"name": "Aitor Karanka", "pos": "DF", "age": 24, "velocidad": 70, "resistencia": 82, "agresividad": 82, "calidad": 74},
+    {"name": "Guti", "pos": "MF", "age": 21, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 84},
+    {"name": "Fernando Sanz", "pos": "DF", "age": 23, "velocidad": 70, "resistencia": 80, "agresividad": 80, "calidad": 72}
   ],
   "Real Madrid|1998": [
     {"name": "Bodo Illgner", "pos": "GK", "age": 32, "velocidad": 54, "resistencia": 80, "agresividad": 74, "calidad": 84},
@@ -150,7 +190,12 @@
     {"name": "Fernando Morientes", "pos": "AT", "age": 23, "velocidad": 78, "resistencia": 84, "agresividad": 82, "calidad": 82},
     {"name": "Davor Šuker", "pos": "AT", "age": 30, "velocidad": 82, "resistencia": 78, "agresividad": 78, "calidad": 88},
     {"name": "Predrag Mijatović", "pos": "AT", "age": 29, "velocidad": 82, "resistencia": 78, "agresividad": 78, "calidad": 86},
-    {"name": "Santi Denia", "pos": "DF", "age": 27, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70}
+    {"name": "Santi Denia", "pos": "DF", "age": 27, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Christian Panucci", "pos": "DF", "age": 25, "velocidad": 82, "resistencia": 84, "agresividad": 82, "calidad": 80},
+    {"name": "Iván Campo", "pos": "DF", "age": 24, "velocidad": 72, "resistencia": 82, "agresividad": 84, "calidad": 74},
+    {"name": "Robert Jarni", "pos": "MF", "age": 30, "velocidad": 80, "resistencia": 82, "agresividad": 80, "calidad": 80},
+    {"name": "Aitor Karanka", "pos": "DF", "age": 25, "velocidad": 70, "resistencia": 82, "agresividad": 82, "calidad": 74},
+    {"name": "Guti", "pos": "MF", "age": 22, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 84}
   ],
   "Real Madrid|1999": [
     {"name": "Iker Casillas", "pos": "GK", "age": 18, "velocidad": 58, "resistencia": 78, "agresividad": 74, "calidad": 84},
@@ -167,6 +212,11 @@
     {"name": "Fernando Morientes", "pos": "AT", "age": 24, "velocidad": 78, "resistencia": 84, "agresividad": 82, "calidad": 84},
     {"name": "Nicolas Anelka", "pos": "AT", "age": 20, "velocidad": 92, "resistencia": 82, "agresividad": 78, "calidad": 84},
     {"name": "Savio Bortolini", "pos": "MF", "age": 23, "velocidad": 88, "resistencia": 76, "agresividad": 74, "calidad": 78},
-    {"name": "Santi Denia", "pos": "DF", "age": 28, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70}
+    {"name": "Santi Denia", "pos": "DF", "age": 28, "velocidad": 76, "resistencia": 80, "agresividad": 80, "calidad": 70},
+    {"name": "Míchel Salgado", "pos": "DF", "age": 24, "velocidad": 84, "resistencia": 84, "agresividad": 84, "calidad": 76},
+    {"name": "Iván Campo", "pos": "DF", "age": 25, "velocidad": 72, "resistencia": 82, "agresividad": 84, "calidad": 74},
+    {"name": "Aitor Karanka", "pos": "DF", "age": 26, "velocidad": 70, "resistencia": 82, "agresividad": 82, "calidad": 74},
+    {"name": "Geremi", "pos": "MF", "age": 21, "velocidad": 82, "resistencia": 84, "agresividad": 80, "calidad": 76},
+    {"name": "Christian Karembeu", "pos": "MF", "age": 29, "velocidad": 82, "resistencia": 84, "agresividad": 82, "calidad": 76}
   ]
 }
