@@ -1,4 +1,4 @@
-import { renderModeSelect } from "./src/ui/mode.js?v=36";
+import { renderModeSelect } from "./src/ui/mode.js?v=37";
 import { renderSetup } from "./src/ui/setup.js?v=32";
 import { renderDraft } from "./src/ui/draft.js?v=37";
 import { renderResults } from "./src/ui/results.js?v=40";

@@ -200,10 +200,12 @@ tr.promo.me td { background:#3a3214; color:#ffe2a6; }
 .mode-card:hover { border-color: #ffd23f; background: rgba(16,34,60,.7); }
 .mode-card:active { transform: scale(.99); }
 .mode-name { font-family: "Bungee", "Template Gothic", cursive; font-size: 22px; color: #ffd23f; letter-spacing: .5px; }
+.mode-tag { font-size: 12px; font-weight: 600; letter-spacing: .3px; text-transform: uppercase; color: #ffd23f; opacity: .9; }
 .mode-desc { font-size: 14px; line-height: 1.45; opacity: .82; }
-.mode-card-mald .mode-name { color: #7fc7ff; }
-.mode-card-mine .mode-name { color: #6ee7a0; }
-.mode-card-rand .mode-name { color: #ff9e6e; }
+.mode-intro { font-size: 14px; line-height: 1.5; opacity: .8; margin: 6px 0 0; }
+.mode-card-mald .mode-name, .mode-card-mald .mode-tag { color: #7fc7ff; }
+.mode-card-mine .mode-name, .mode-card-mine .mode-tag { color: #6ee7a0; }
+.mode-card-rand .mode-name, .mode-card-rand .mode-tag { color: #ff9e6e; }
 @media (min-width: 520px) { .mode-grid { grid-template-columns: 1fr 1fr; } }
 
 /* Draft head */
