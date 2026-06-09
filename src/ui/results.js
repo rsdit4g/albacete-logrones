@@ -1,5 +1,5 @@
 import { CLUBS } from "../data/clubs.js?v=16";
-import { addRankingEntry, getDailyBoards } from "../game/leaderboard.js?v=23";
+import { addRankingEntry, getDailyBoards, getAllTimeBoards } from "../game/leaderboard.js?v=24";
 import { pitchSlotsHTML, teamMedia, teamMediaEnd } from "./pitch.js?v=2";
 import { realClubResult } from "../game/real-results.js?v=1";
 
@@ -49,9 +49,11 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
 
   // Leaderboard state: filled once the player saves their run.
   let myEntry = null;
-  let boards = null;
-  let rankTab = "all";
-  let showReal = false; // real-life comparison toggle
+  let dayBoards = null;   // today's runs
+  let allBoards = null;   // all-time runs
+  let rankRange = "day";  // "day" | "all"
+  let rankTab = "all";    // "all" | "club" | "season" | "clubSeason"
+  let showReal = false;   // real-life comparison toggle
 
   const clubAbbr = (c) => CLUBS[c]?.abbr || c.slice(0, 3).toUpperCase();
   const yy = (year) => `'${String(year % 100).padStart(2, "0")}`;
@@ -320,20 +322,24 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       </div>`;
   }
 
-  // --- Daily leaderboard --------------------------------------------------
+  // --- Leaderboard (daily + all-time) -------------------------------------
 
   function rankingSection() {
     if (!myEntry) {
       return `
         <div class="rs-rank-box">
-          <div class="rs-h">Ranking del día · <span class="rs-rank-scope">${modeLabel}</span></div>
-          <p class="rs-rank-intro">Añade tu nombre y compite con las partidas de hoy en modo <b>${modeLabel}</b>.</p>
+          <div class="rs-h">Ranking · <span class="rs-rank-scope">${modeLabel}</span></div>
+          <p class="rs-rank-intro">Añade tu nombre y entra en el ranking del día y el histórico de hoy en modo <b>${modeLabel}</b>.</p>
           <div class="rs-rank-form">
             <input id="playerName" maxlength="20" placeholder="Tu nombre" autocomplete="off" />
             <button id="saveRank" class="primary">Entrar al ranking</button>
           </div>
         </div>`;
     }
+    const ranges = [
+      { key: "day", label: "Hoy" },
+      { key: "all", label: "Histórico" },
+    ];
     const tabs = [
       { key: "all", label: "General" },
       { key: "club", label: clubAbbr(yourClub) },
@@ -346,10 +352,14 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       season: seasonLabel(startYear),
       clubSeason: `${displayName} · ${seasonLabel(startYear)}`,
     }[rankTab];
-    const board = boards[rankTab];
+    const rangeTitle = rankRange === "day" ? "Hoy" : "Histórico";
+    const board = (rankRange === "day" ? dayBoards : allBoards)[rankTab];
     return `
       <div class="rs-rank-box">
-        <div class="rs-h">Ranking del día · <span class="rs-rank-scope">${modeLabel}</span> · <span class="rs-rank-scope">${esc(scopeTitle)}</span></div>
+        <div class="rs-h">Ranking · <span class="rs-rank-scope">${modeLabel}</span> · <span class="rs-rank-scope">${rangeTitle}</span> · <span class="rs-rank-scope">${esc(scopeTitle)}</span></div>
+        <div class="rs-rank-tabs rs-rank-ranges">
+          ${ranges.map(r => `<button class="rk-tab rk-range ${r.key === rankRange ? "on" : ""}" data-range="${r.key}">${r.label}</button>`).join("")}
+        </div>
         <div class="rs-rank-tabs">
           ${tabs.map(t => `<button class="rk-tab ${t.key === rankTab ? "on" : ""}" data-tab="${t.key}">${esc(t.label)}</button>`).join("")}
         </div>
@@ -386,7 +396,8 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       const submit = () => {
         const name = root.querySelector("#playerName").value.trim();
         myEntry = addRankingEntry({ name, club: yourClub, year: startYear, pct, mode });
-        boards = getDailyBoards(myEntry);
+        dayBoards = getDailyBoards(myEntry);
+        allBoards = getAllTimeBoards(myEntry);
         paint();
       };
       saveBtn.addEventListener("click", submit);
@@ -394,7 +405,9 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         if (e.key === "Enter") submit();
       });
     }
-    root.querySelectorAll(".rk-tab").forEach(b =>
+    root.querySelectorAll(".rk-range").forEach(b =>
+      b.addEventListener("click", () => { rankRange = b.dataset.range; paint(); }));
+    root.querySelectorAll(".rk-tab[data-tab]").forEach(b =>
       b.addEventListener("click", () => { rankTab = b.dataset.tab; paint(); }));
   }
   paint();
