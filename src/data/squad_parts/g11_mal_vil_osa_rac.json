@@ -125,6 +125,60 @@
       "resistencia": 74,
       "agresividad": 72,
       "calidad": 66
+    },
+    {
+      "name": "Roa",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 57,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 76
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Amor",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Arteaga",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Juan Carlos",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
     }
   ],
   "Mallorca|1998": [
@@ -253,6 +307,60 @@
       "resistencia": 74,
       "agresividad": 72,
       "calidad": 74
+    },
+    {
+      "name": "Roa",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 57,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 78
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Amor",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Arteaga",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 69,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 68
     }
   ],
   "Mallorca|1999": [
@@ -381,6 +489,60 @@
       "resistencia": 72,
       "agresividad": 74,
       "calidad": 76
+    },
+    {
+      "name": "Roa",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 57,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 78
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 72
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 77,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Amor",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Arteaga",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 66
     }
   ],
   "Mallorca|2000": [
@@ -509,6 +671,60 @@
       "resistencia": 76,
       "agresividad": 74,
       "calidad": 70
+    },
+    {
+      "name": "Roa",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 69,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Dani",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 74,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Arteaga",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 67,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 64
     }
   ],
   "Mallorca|2001": [
@@ -637,6 +853,60 @@
       "resistencia": 76,
       "agresividad": 74,
       "calidad": 70
+    },
+    {
+      "name": "Roa",
+      "pos": "GK",
+      "age": 34,
+      "velocidad": 55,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Prso",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Arteaga",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 65,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 62
     }
   ],
   "Mallorca|2002": [
@@ -765,6 +1035,60 @@
       "resistencia": 76,
       "agresividad": 74,
       "calidad": 76
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Campano",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 57,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Prso",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 68
+    },
+    {
+      "name": "Arteaga",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 63,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 62
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
     }
   ],
   "Mallorca|2003": [
@@ -893,6 +1217,60 @@
       "resistencia": 76,
       "agresividad": 72,
       "calidad": 74
+    },
+    {
+      "name": "Leo Biagini",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Campano",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 57,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Prso",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "Cortés",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 66
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
     }
   ],
   "Mallorca|2004": [
@@ -1021,6 +1399,60 @@
       "resistencia": 76,
       "agresividad": 72,
       "calidad": 68
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 77,
+      "resistencia": 75,
+      "agresividad": 73,
+      "calidad": 78
+    },
+    {
+      "name": "Cortés",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Arizmendi",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Campano",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Cobo",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 64
     }
   ],
   "Mallorca|2005": [
@@ -1149,6 +1581,60 @@
       "resistencia": 78,
       "agresividad": 78,
       "calidad": 72
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 77
+    },
+    {
+      "name": "Cortés",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Arizmendi",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Campano",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 55,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Mesina",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 66
     }
   ],
   "Mallorca|2006": [
@@ -1277,6 +1763,60 @@
       "resistencia": 76,
       "agresividad": 72,
       "calidad": 74
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 75,
+      "resistencia": 73,
+      "agresividad": 71,
+      "calidad": 76
+    },
+    {
+      "name": "Arizmendi",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Campano",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 54,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 70
+    },
+    {
+      "name": "Mesina",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 69,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 66
+    },
+    {
+      "name": "Ramis",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 67
     }
   ],
   "Mallorca|2007": [
@@ -1405,6 +1945,60 @@
       "resistencia": 76,
       "agresividad": 74,
       "calidad": 70
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Arizmendi",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Darder",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 70
+    },
+    {
+      "name": "Mesina",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 64
+    },
+    {
+      "name": "Webo",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 72
     }
   ],
   "Mallorca|2008": [
@@ -1533,6 +2127,60 @@
       "resistencia": 72,
       "agresividad": 70,
       "calidad": 68
+    },
+    {
+      "name": "Ibagaza",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 73,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "Arizmendi",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 79,
+      "resistencia": 73,
+      "agresividad": 73,
+      "calidad": 73
+    },
+    {
+      "name": "Nino",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Ramis",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 73,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Darder",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 56,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Webo",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 82,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 74
     }
   ]
 }

@@ -125,6 +125,60 @@
       "resistencia": 76,
       "agresividad": 76,
       "calidad": 76
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Larrea",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 78,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "Urrutia",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
     }
   ],
   "Athletic Club|1991": [
@@ -253,6 +307,60 @@
       "resistencia": 78,
       "agresividad": 78,
       "calidad": 74
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "MF",
+      "age": 18,
+      "velocidad": 80,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Urrutia",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
     }
   ],
   "Athletic Club|1992": [
@@ -381,6 +489,60 @@
       "resistencia": 78,
       "agresividad": 86,
       "calidad": 72
+    },
+    {
+      "name": "Larrañaga",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Julen Guerrero",
+      "pos": "MF",
+      "age": 19,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "Urrutia",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
     }
   ],
   "Athletic Club|1993": [
@@ -509,6 +671,60 @@
       "resistencia": 78,
       "agresividad": 76,
       "calidad": 74
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 66
+    },
+    {
+      "name": "Urrutia",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Celaya",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 20,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 64
     }
   ],
   "Athletic Club|1994": [
@@ -637,6 +853,60 @@
       "resistencia": 74,
       "agresividad": 72,
       "calidad": 76
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 66
+    },
+    {
+      "name": "Celaya",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "Urrutia",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 21,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 64
     }
   ],
   "Athletic Club|1995": [
@@ -765,6 +1035,60 @@
       "resistencia": 76,
       "agresividad": 70,
       "calidad": 74
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 76
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Celaya",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 74
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 66
+    },
+    {
+      "name": "Urrutia",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
     }
   ],
   "Athletic Club|1996": [
@@ -893,6 +1217,60 @@
       "resistencia": 76,
       "agresividad": 76,
       "calidad": 74
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Urruticoechea MF",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 23,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 66
+    },
+    {
+      "name": "Celaya",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
     }
   ],
   "Athletic Club|1997": [
@@ -1021,6 +1399,60 @@
       "resistencia": 74,
       "agresividad": 74,
       "calidad": 70
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Óscar Vales",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Urruticoechea MF",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 66,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "De la Fuente",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
     }
   ],
   "Athletic Club|1998": [
@@ -1149,6 +1581,60 @@
       "resistencia": 78,
       "agresividad": 76,
       "calidad": 70
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Óscar",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Iraola",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 66
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 64,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 68
     }
   ],
   "Athletic Club|1999": [
@@ -1277,6 +1763,60 @@
       "resistencia": 76,
       "agresividad": 78,
       "calidad": 64
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 80,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 19,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 68
+    },
+    {
+      "name": "Bikandi",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Ormaetxea",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
     }
   ],
   "Athletic Club|2000": [
@@ -1405,6 +1945,60 @@
       "resistencia": 74,
       "agresividad": 76,
       "calidad": 72
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 20,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Ormaetxea",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
     }
   ],
   "Athletic Club|2001": [
@@ -1533,6 +2127,60 @@
       "resistencia": 78,
       "agresividad": 74,
       "calidad": 72
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 31,
+      "velocidad": 54,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 72
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 74,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 70
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Etxeberría J.",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 76,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Ormaetxea",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
     }
   ],
   "Athletic Club|2002": [
@@ -1661,6 +2309,60 @@
       "resistencia": 78,
       "agresividad": 74,
       "calidad": 72
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 32,
+      "velocidad": 54,
+      "resistencia": 74,
+      "agresividad": 68,
+      "calidad": 72
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 70
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 21,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 68
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Ormaetxea",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 68
     }
   ],
   "Athletic Club|2003": [
@@ -1789,6 +2491,60 @@
       "resistencia": 78,
       "agresividad": 74,
       "calidad": 74
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 33,
+      "velocidad": 52,
+      "resistencia": 72,
+      "agresividad": 66,
+      "calidad": 70
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 70
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Ormaetxea",
+      "pos": "MF",
+      "age": 29,
+      "velocidad": 70,
+      "resistencia": 72,
+      "agresividad": 70,
+      "calidad": 66
     }
   ],
   "Athletic Club|2004": [
@@ -1917,6 +2673,60 @@
       "resistencia": 72,
       "agresividad": 70,
       "calidad": 64
+    },
+    {
+      "name": "Urquiaga",
+      "pos": "GK",
+      "age": 34,
+      "velocidad": 52,
+      "resistencia": 70,
+      "agresividad": 64,
+      "calidad": 68
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 74
+    },
+    {
+      "name": "Fernando Llorente",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 76,
+      "calidad": 72
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 66,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 30,
+      "velocidad": 68,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 72
     }
   ],
   "Athletic Club|2005": [
@@ -2045,6 +2855,60 @@
       "resistencia": 74,
       "agresividad": 72,
       "calidad": 66
+    },
+    {
+      "name": "Armando",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 76
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 64,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 66
+    },
+    {
+      "name": "Susaeta",
+      "pos": "MF",
+      "age": 17,
+      "velocidad": 80,
+      "resistencia": 70,
+      "agresividad": 68,
+      "calidad": 68
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 74,
+      "agresividad": 70,
+      "calidad": 70
     }
   ],
   "Athletic Club|2006": [
@@ -2173,6 +3037,60 @@
       "resistencia": 80,
       "agresividad": 82,
       "calidad": 70
+    },
+    {
+      "name": "Armando",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 76
+    },
+    {
+      "name": "Toquero",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 82,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 34,
+      "velocidad": 62,
+      "resistencia": 74,
+      "agresividad": 76,
+      "calidad": 64
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 66,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 66
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 32,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 68,
+      "calidad": 68
     }
   ],
   "Athletic Club|2007": [
@@ -2301,6 +3219,60 @@
       "resistencia": 76,
       "agresividad": 74,
       "calidad": 72
+    },
+    {
+      "name": "Armando",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 58,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 64,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 64
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 35,
+      "velocidad": 60,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 62
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 33,
+      "velocidad": 62,
+      "resistencia": 70,
+      "agresividad": 66,
+      "calidad": 66
+    },
+    {
+      "name": "Muniain",
+      "pos": "AT",
+      "age": 14,
+      "velocidad": 80,
+      "resistencia": 64,
+      "agresividad": 64,
+      "calidad": 66
     }
   ],
   "Athletic Club|2008": [
@@ -2429,6 +3401,60 @@
       "resistencia": 74,
       "agresividad": 72,
       "calidad": 76
+    },
+    {
+      "name": "Armando",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 58,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 76
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 78,
+      "resistencia": 80,
+      "agresividad": 80,
+      "calidad": 78
+    },
+    {
+      "name": "Sarriugarte",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 64,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 62
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 34,
+      "velocidad": 60,
+      "resistencia": 68,
+      "agresividad": 64,
+      "calidad": 64
+    },
+    {
+      "name": "San José",
+      "pos": "DF",
+      "age": 36,
+      "velocidad": 58,
+      "resistencia": 70,
+      "agresividad": 72,
+      "calidad": 60
     }
   ],
   "Athletic Club|2009": [
@@ -2557,6 +3583,60 @@
       "resistencia": 72,
       "agresividad": 70,
       "calidad": 74
+    },
+    {
+      "name": "Amorebieta",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 68,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Armando",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 56,
+      "resistencia": 76,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Aduriz",
+      "pos": "AT",
+      "age": 29,
+      "velocidad": 78,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 80
+    },
+    {
+      "name": "Sarriugarte",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 70
+    },
+    {
+      "name": "Gabilondo",
+      "pos": "DF",
+      "age": 33,
+      "velocidad": 62,
+      "resistencia": 70,
+      "agresividad": 70,
+      "calidad": 60
+    },
+    {
+      "name": "Valverde Etxebarri",
+      "pos": "MF",
+      "age": 35,
+      "velocidad": 58,
+      "resistencia": 66,
+      "agresividad": 62,
+      "calidad": 62
     }
   ],
   "Espanyol|1990": [
@@ -2685,6 +3765,60 @@
       "resistencia": 78,
       "agresividad": 76,
       "calidad": 68
+    },
+    {
+      "name": "Paco Flores",
+      "pos": "GK",
+      "age": 28,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Soler",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Aguado",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Alfaro",
+      "pos": "AT",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Jarque Sr",
+      "pos": "DF",
+      "age": 22,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 76,
+      "calidad": 66
+    },
+    {
+      "name": "Busquets",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
     }
   ],
   "Espanyol|1991": [
@@ -2813,6 +3947,60 @@
       "resistencia": 78,
       "agresividad": 76,
       "calidad": 68
+    },
+    {
+      "name": "Paco Flores",
+      "pos": "GK",
+      "age": 29,
+      "velocidad": 56,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Soler",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Aguado",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Alfaro",
+      "pos": "AT",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Busquets",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
     }
   ],
   "Espanyol|1992": [
@@ -2941,6 +4129,60 @@
       "resistencia": 70,
       "agresividad": 70,
       "calidad": 72
+    },
+    {
+      "name": "Paco Flores",
+      "pos": "GK",
+      "age": 30,
+      "velocidad": 54,
+      "resistencia": 78,
+      "agresividad": 70,
+      "calidad": 74
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Aguado",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Alfaro",
+      "pos": "AT",
+      "age": 28,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 74
+    },
+    {
+      "name": "Jarque Sr",
+      "pos": "DF",
+      "age": 24,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Busquets",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 70
     }
   ],
   "Espanyol|1994": [
@@ -3069,6 +4311,60 @@
       "resistencia": 72,
       "agresividad": 76,
       "calidad": 72
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 68,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Aguado",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Alfaro",
+      "pos": "AT",
+      "age": 30,
+      "velocidad": 74,
+      "resistencia": 72,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 22,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Seba",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Jarque Sr",
+      "pos": "DF",
+      "age": 26,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
     }
   ],
   "Espanyol|1995": [
@@ -3197,6 +4493,60 @@
       "resistencia": 76,
       "agresividad": 74,
       "calidad": 72
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 66,
+      "resistencia": 78,
+      "agresividad": 80,
+      "calidad": 68
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 76,
+      "resistencia": 76,
+      "agresividad": 74,
+      "calidad": 78
+    },
+    {
+      "name": "Seba",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Litos",
+      "pos": "DF",
+      "age": 28,
+      "velocidad": 66,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Jofre",
+      "pos": "AT",
+      "age": 22,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Jarque Sr",
+      "pos": "DF",
+      "age": 27,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
     }
   ],
   "Espanyol|1996": [
@@ -3325,6 +4675,60 @@
       "resistencia": 78,
       "agresividad": 78,
       "calidad": 68
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 80
+    },
+    {
+      "name": "Seba",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 74,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Litos",
+      "pos": "DF",
+      "age": 29,
+      "velocidad": 64,
+      "resistencia": 80,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Jofre",
+      "pos": "AT",
+      "age": 23,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Morales",
+      "pos": "AT",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 74,
+      "agresividad": 74,
+      "calidad": 72
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 64,
+      "resistencia": 76,
+      "agresividad": 78,
+      "calidad": 66
     }
   ],
   "Espanyol|1997": [
@@ -3452,6 +4856,60 @@
       "velocidad": 56,
       "resistencia": 72,
       "agresividad": 80,
+      "calidad": 64
+    },
+    {
+      "name": "Molina",
+      "pos": "GK",
+      "age": 25,
+      "velocidad": 58,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 78
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 25,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 80
+    },
+    {
+      "name": "Seba",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 72,
+      "resistencia": 78,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Litos",
+      "pos": "DF",
+      "age": 30,
+      "velocidad": 62,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 68
+    },
+    {
+      "name": "Jofre",
+      "pos": "AT",
+      "age": 24,
+      "velocidad": 78,
+      "resistencia": 74,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 62,
+      "resistencia": 74,
+      "agresividad": 76,
       "calidad": 64
     }
   ],
@@ -3581,6 +5039,60 @@
       "resistencia": 80,
       "agresividad": 80,
       "calidad": 72
+    },
+    {
+      "name": "Molina",
+      "pos": "GK",
+      "age": 26,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 26,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Litos",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 60,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 66
+    },
+    {
+      "name": "Seba",
+      "pos": "MF",
+      "age": 28,
+      "velocidad": 72,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 72
+    },
+    {
+      "name": "Xavi Luque",
+      "pos": "MF",
+      "age": 23,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 74
+    },
+    {
+      "name": "Tomás",
+      "pos": "DF",
+      "age": 32,
+      "velocidad": 60,
+      "resistencia": 72,
+      "agresividad": 74,
+      "calidad": 62
     }
   ],
   "Espanyol|1999": [
@@ -3709,6 +5221,60 @@
       "resistencia": 76,
       "agresividad": 72,
       "calidad": 76
+    },
+    {
+      "name": "Molina",
+      "pos": "GK",
+      "age": 27,
+      "velocidad": 58,
+      "resistencia": 80,
+      "agresividad": 72,
+      "calidad": 80
+    },
+    {
+      "name": "Óscar García",
+      "pos": "MF",
+      "age": 27,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 74,
+      "calidad": 82
+    },
+    {
+      "name": "Poyet",
+      "pos": "MF",
+      "age": 31,
+      "velocidad": 76,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 82
+    },
+    {
+      "name": "Rafa Alkorta",
+      "pos": "DF",
+      "age": 31,
+      "velocidad": 66,
+      "resistencia": 78,
+      "agresividad": 82,
+      "calidad": 70
+    },
+    {
+      "name": "Soldevilla Jr",
+      "pos": "DF",
+      "age": 25,
+      "velocidad": 70,
+      "resistencia": 78,
+      "agresividad": 78,
+      "calidad": 68
+    },
+    {
+      "name": "Xavi Luque",
+      "pos": "MF",
+      "age": 24,
+      "velocidad": 74,
+      "resistencia": 76,
+      "agresividad": 72,
+      "calidad": 74
     }
   ]
 }
