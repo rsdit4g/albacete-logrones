@@ -1,6 +1,6 @@
 import { createRng } from "./rng.js";
 import { teamStrength, playerRating } from "./strength.js";
-import { projectedOverall } from "./aging.js";
+import { projectedOverall } from "./aging.js?v=2";
 
 // Map strength (0..100) to a points total scaled to the season's table.
 // Strength 50 ~ mid-table; 100 ~ a few points above the real champion.

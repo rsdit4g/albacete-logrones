@@ -87,11 +87,12 @@ export function renderDraft(root, startClub, startYear, draftState, { SQUADS, CO
     }
 
     // Maldiniano mode hides all stat columns — only Nombre + Pos.
-    const COLS = maldiniano ? "1fr 80px" : "1fr 52px 34px 34px 34px 34px 46px";
+    const COLS = maldiniano ? "1fr 80px" : "1fr 52px 40px 34px 34px 34px 34px 46px";
     const header = maldiniano
       ? `<span>Nombre</span><span>Pos</span>`
-      : `<span>Nombre</span><span>Pos</span><span>Vel</span><span>Res</span><span>Agr</span><span>Cal</span><span class="media-th">Media</span>`;
+      : `<span>Nombre</span><span>Pos</span><span>Edad</span><span>Vel</span><span>Res</span><span>Agr</span><span>Cal</span><span class="media-th">Media</span>`;
     const statCells = (pl) => maldiniano ? "" : `
+            <span class="pr-stat">${pl.age}</span>
             <span class="pr-stat">${pl.velocidad}</span>
             <span class="pr-stat">${pl.resistencia}</span>
             <span class="pr-stat">${pl.agresividad}</span>
