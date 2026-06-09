@@ -1,5 +1,5 @@
 import { CLUBS } from "../data/clubs.js?v=16";
-import { addRankingEntry, getDailyBoards, getAllTimeBoards } from "../game/leaderboard.js?v=24";
+import { addRankingEntry, getDailyBoards, getAllTimeBoards } from "../game/leaderboard.js?v=25";
 import { pitchSlotsHTML, teamMedia, teamMediaEnd } from "./pitch.js?v=2";
 import { realClubResult, realClubStatus } from "../game/real-results.js?v=2";
 import { FORMATION_442 } from "../game/formation.js";
@@ -58,11 +58,18 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
 
   // Leaderboard state: filled once the player saves their run.
   let myEntry = null;
-  let dayBoards = null;   // today's runs
-  let allBoards = null;   // all-time runs
   let rankRange = "day";  // "day" | "all"
   let rankTab = "all";    // "all" | "club" | "season" | "clubSeason"
+  let rankMode = mode || "clasico"; // which mode's board you're viewing
   let showReal = false;   // real-life comparison toggle
+
+  const MODE_TABS = [
+    { key: "clasico", label: "Clásico" },
+    { key: "maldiniano", label: "Maldiniano" },
+    { key: "miequipo", label: "Mi Equipo" },
+    { key: "miequipo-random", label: "Random" },
+  ];
+  const modeLabelOf = (m) => ({ maldiniano: "Maldiniano", miequipo: "Mi Equipo", "miequipo-random": "Mi Equipo Random" }[m] || "Clásico");
 
   const clubAbbr = (c) => CLUBS[c]?.abbr || c.slice(0, 3).toUpperCase();
   const yy = (year) => `'${String(year % 100).padStart(2, "0")}`;
@@ -554,10 +561,19 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       clubSeason: `${displayName} · ${seasonLabel(startYear)}`,
     }[rankTab];
     const rangeTitle = rankRange === "day" ? "Hoy" : "Histórico";
-    const board = (rankRange === "day" ? dayBoards : allBoards)[rankTab];
+    // Boards for the mode currently being viewed (recomputed so switching modes
+    // re-queries the store).
+    const boards = rankRange === "day"
+      ? getDailyBoards(myEntry, rankMode)
+      : getAllTimeBoards(myEntry, rankMode);
+    const board = boards[rankTab];
+    const viewingMine = rankMode === (myEntry.mode || "clasico");
     return `
       <div class="rs-rank-box">
-        <div class="rs-h">Ranking · <span class="rs-rank-scope">${modeLabel}</span> · <span class="rs-rank-scope">${rangeTitle}</span> · <span class="rs-rank-scope">${esc(scopeTitle)}</span></div>
+        <div class="rs-h">Ranking · <span class="rs-rank-scope">${esc(modeLabelOf(rankMode))}</span> · <span class="rs-rank-scope">${rangeTitle}</span> · <span class="rs-rank-scope">${esc(scopeTitle)}</span></div>
+        <div class="rs-rank-tabs rs-rank-modes">
+          ${MODE_TABS.map(m => `<button class="rk-tab rk-mode ${m.key === rankMode ? "on" : ""}" data-mode="${m.key}">${esc(m.label)}</button>`).join("")}
+        </div>
         <div class="rs-rank-tabs rs-rank-ranges">
           ${ranges.map(r => `<button class="rk-tab rk-range ${r.key === rankRange ? "on" : ""}" data-range="${r.key}">${r.label}</button>`).join("")}
         </div>
@@ -565,7 +581,9 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
           ${tabs.map(t => `<button class="rk-tab ${t.key === rankTab ? "on" : ""}" data-tab="${t.key}">${esc(t.label)}</button>`).join("")}
         </div>
         <table class="rs-rank-tbl">${boardRows(board)}</table>
-        <div class="rs-rank-pos">Tu posición: <b>${board.myRank}º</b> de ${board.total}</div>
+        ${viewingMine
+          ? `<div class="rs-rank-pos">Tu posición: <b>${board.myRank}º</b> de ${board.total}</div>`
+          : `<div class="rs-rank-pos">Viendo el ranking de <b>${esc(modeLabelOf(rankMode))}</b>${board.total ? ` · ${board.total} ${board.total === 1 ? "partida" : "partidas"}` : " · sin partidas aún"}</div>`}
       </div>`;
   }
 
@@ -597,8 +615,7 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
       const submit = () => {
         const name = root.querySelector("#playerName").value.trim();
         myEntry = addRankingEntry({ name, club: yourClub, year: startYear, pct, mode });
-        dayBoards = getDailyBoards(myEntry);
-        allBoards = getAllTimeBoards(myEntry);
+        rankMode = myEntry.mode || "clasico"; // land on your own mode's board
         paint();
       };
       saveBtn.addEventListener("click", submit);
@@ -606,6 +623,8 @@ export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
         if (e.key === "Enter") submit();
       });
     }
+    root.querySelectorAll(".rk-mode").forEach(b =>
+      b.addEventListener("click", () => { rankMode = b.dataset.mode; paint(); }));
     root.querySelectorAll(".rk-range").forEach(b =>
       b.addEventListener("click", () => { rankRange = b.dataset.range; paint(); }));
     root.querySelectorAll(".rk-tab[data-tab]").forEach(b =>

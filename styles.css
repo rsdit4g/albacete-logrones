@@ -183,6 +183,9 @@ tr.promo.me td { background:#3a3214; color:#ffe2a6; }
 .rk-tab { padding:6px 12px; border-radius:8px; border:1px solid #2a2a3a; background:#12121c; color:#cfd6e6; font:inherit; font-size:12px; font-weight:700; cursor:pointer; }
 .rk-tab:hover { border-color:#3a78c2; }
 .rk-tab.on { background:#1d3a5e; border-color:#ffd23f; color:#ffd23f; }
+.rs-rank-modes { margin:10px 0 4px; padding-bottom:12px; border-bottom:1px solid #20202c; }
+.rk-mode { background:#0e1626; }
+.rk-mode.on { background:#24210f; border-color:#ffd23f; color:#ffd23f; }
 .rs-rank-tbl { width:100%; font-size:13px; border-collapse:collapse; }
 .rs-rank-tbl td { padding:5px 6px; border-bottom:1px solid #20202c; }
 .rs-rank-tbl .p { opacity:.5; width:32px; font-weight:700; }

@@ -1,7 +1,7 @@
 import { renderModeSelect } from "./src/ui/mode.js?v=42";
 import { renderSetup } from "./src/ui/setup.js?v=32";
 import { renderDraft } from "./src/ui/draft.js?v=37";
-import { renderResults } from "./src/ui/results.js?v=44";
+import { renderResults } from "./src/ui/results.js?v=45";
 import { renderWiki } from "./src/ui/wiki.js?v=2";
 import { createDraft } from "./src/game/draft.js";
 import { createRng } from "./src/engine/rng.js";

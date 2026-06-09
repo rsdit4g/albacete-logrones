@@ -60,19 +60,18 @@ function scopedBoards(entries, me) {
   };
 }
 
-// Today's runs, scoped to the player's own mode (Clásico/Maldiniano rank apart).
-export function getDailyBoards(me) {
-  const myMode = me.mode || "clasico";
-  let pool = loadAll().filter(e => e.date === me.date && (e.mode || "clasico") === myMode);
-  if (!pool.some(e => isSame(e, me))) pool = [...pool, me]; // storage-disabled fallback
+// Today's runs, scoped to one mode. Defaults to the player's own mode, but a
+// `viewMode` can be passed to browse another mode's board. The player's own entry
+// is only injected into the pool when viewing their own mode.
+export function getDailyBoards(me, viewMode = me.mode || "clasico") {
+  let pool = loadAll().filter(e => e.date === me.date && (e.mode || "clasico") === viewMode);
+  if (viewMode === (me.mode || "clasico") && !pool.some(e => isSame(e, me))) pool = [...pool, me];
   return scopedBoards(pool, me);
 }
 
-// All-time runs (every date), scoped to the player's own mode. The "best players
-// of all time" board, broken down by the same team/season scopes as the daily one.
-export function getAllTimeBoards(me) {
-  const myMode = me.mode || "clasico";
-  let pool = loadAll().filter(e => (e.mode || "clasico") === myMode);
-  if (!pool.some(e => isSame(e, me))) pool = [...pool, me];
+// All-time runs (every date), scoped to one mode (defaults to the player's own).
+export function getAllTimeBoards(me, viewMode = me.mode || "clasico") {
+  let pool = loadAll().filter(e => (e.mode || "clasico") === viewMode);
+  if (viewMode === (me.mode || "clasico") && !pool.some(e => isSame(e, me))) pool = [...pool, me];
   return scopedBoards(pool, me);
 }
