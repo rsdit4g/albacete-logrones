@@ -287,6 +287,11 @@ tr.promo.me td { background:#3a3214; color:#ffe2a6; }
 
 /* Sharing */
 .rs-share { margin-top: 20px; text-align: center; }
+.rs-share-main { display: flex; gap: 8px; justify-content: center; margin-bottom: 10px; }
+.rs-share-main .sh { flex: 1; max-width: 200px; font-size: 15px; padding: 13px 16px; }
+.sh-native { background: #f5d040; color: #1a1500; }
+.sh-copy { background: #1d3a5e; color: #eaf2ff; border: 1px solid #3a78c2; }
+.sh-tg { background: #2aabee; }
 .rs-share-btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
 .sh { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 16px; border: none; border-radius: 9px; font-weight: 700; font-size: 13px; color: #fff; cursor: pointer; }
 .sh-ico { width: 18px; height: 18px; flex: 0 0 auto; }
