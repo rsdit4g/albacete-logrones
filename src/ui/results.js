@@ -1,6 +1,8 @@
 import { CLUBS } from "../data/clubs.js?v=16";
 import { addRankingEntry, getDailyBoards } from "../game/leaderboard.js?v=22";
+import { pitchSlotsHTML, teamMedia } from "./pitch.js?v=1";
 
+// Deployment domain is unchanged; only the displayed brand is "Gol De Oro".
 const SHARE_URL = "https://albacete-logrones.io";
 
 // Brand glyphs (inline SVG, fill uses each button's text colour) for the share row.
@@ -37,7 +39,7 @@ function verdictTier(pct, titles, relegatedEver) {
 
 // Renders the season-by-season results + a five-year summary + sharing.
 // `yourClub` is the real club name the player managed.
-export function renderResults(root, seasons, yourClub, onAgain) {
+export function renderResults(root, seasons, yourClub, picks, onAgain) {
   let idx = 0;
   const displayName = CLUBS[yourClub]?.name || yourClub;
   const safeName = esc(displayName);
@@ -74,7 +76,7 @@ export function renderResults(root, seasons, yourClub, onAgain) {
   function shareText() {
     const arc = seasons.map(s => s.inSegunda ? "2ª" : `${s.position}º`).join(" · ");
     const honours = titles ? `, ${titles}× Liga` : "";
-    return `⚽ ${displayName} en Albacete–Logroñés: ${arc} en 5 temporadas. ` +
+    return `⚽ ${displayName} en Gol De Oro: ${arc} en 5 temporadas. ` +
            `${pct}% de los puntos${honours} (${tier}). ¿Puedes mejorarlo? ${SHARE_URL}`;
   }
 
@@ -99,7 +101,7 @@ export function renderResults(root, seasons, yourClub, onAgain) {
     g.fillStyle = "#f5d040";
     g.font = "800 40px Inter, system-ui, sans-serif";
     g.textAlign = "center";
-    g.fillText("ALBACETE – LOGROÑÉS", W / 2, 120);
+    g.fillText("GOL DE ORO", W / 2, 120);
     g.fillStyle = "#fff";
     g.font = "900 84px Inter, system-ui, sans-serif";
     g.fillText(displayName, W / 2, 240);
@@ -232,6 +234,11 @@ export function renderResults(root, seasons, yourClub, onAgain) {
             ${supercopas ? `<span class="rs-tr"><i>Supercopa</i> ${"🏆".repeat(supercopas)}</span>` : ""}
             ${(titles + cups + supercopas) === 0 ? `<span class="rs-tr-none">Sin títulos en 5 temporadas</span>` : ""}
           </div>
+        </div>
+
+        <div class="rs-squad">
+          <div class="rs-h">Tu once · Media del equipo <b class="rs-team-media">${teamMedia(picks)}</b></div>
+          <div class="pitch rs-pitch">${pitchSlotsHTML(picks, { showMedia: true })}</div>
         </div>
 
         ${rankingSection()}
