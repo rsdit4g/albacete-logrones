@@ -31,16 +31,16 @@ export function renderModeSelect(root, onPick, onWiki) {
       <div class="mode-group">
         <div class="mode-group-head">
           <h3 class="mode-group-title">Mi Equipo</h3>
-          <p class="mode-group-desc">Tu once de un solo club y temporada, sin ruleta.</p>
+          <p class="mode-group-desc">Montas el once completo de golpe, sin fichar 4 y girar.</p>
         </div>
         <div class="mode-grid">
           <button class="mode-card mode-card-mine" data-mode="miequipo">
             <span class="mode-name">Mi Equipo</span>
-            <span class="mode-desc">Eliges tú los 11 jugadores.</span>
+            <span class="mode-desc">Sin ruleta: eliges tú los 11 de un único club y temporada.</span>
           </button>
           <button class="mode-card mode-card-rand" data-mode="miequipo-random">
             <span class="mode-name">Mi Equipo Random</span>
-            <span class="mode-desc">La ruleta elige los 11 por ti, al azar.</span>
+            <span class="mode-desc">La ruleta sortea los 11 por ti, de clubes y años al azar.</span>
           </button>
         </div>
       </div>
