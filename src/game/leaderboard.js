@@ -25,8 +25,10 @@ function today() {
 }
 
 // Persist a finished run. Returns the stored entry (carries a unique ts).
-export function addRankingEntry({ name, club, year, pct }) {
-  const entry = { name: name || "Anónimo", club, year, pct, date: today(), ts: Date.now() };
+// `mode` ("clasico" | "maldiniano") scopes the ranking so the two play modes
+// compete on separate boards.
+export function addRankingEntry({ name, club, year, pct, mode }) {
+  const entry = { name: name || "Anónimo", club, year, pct, mode: mode || "clasico", date: today(), ts: Date.now() };
   const list = loadAll();
   list.push(entry);
   saveAll(list);
@@ -46,9 +48,11 @@ function buildBoard(entries, me) {
 }
 
 // Four scoped boards for today's runs: overall, same club, same season, and the
-// same club+season. `me` is the entry returned by addRankingEntry.
+// same club+season. `me` is the entry returned by addRankingEntry. All boards
+// are scoped to the player's own mode so Clásico and Maldiniano rank separately.
 export function getDailyBoards(me) {
-  let all = loadAll().filter(e => e.date === me.date);
+  const myMode = me.mode || "clasico";
+  let all = loadAll().filter(e => e.date === me.date && (e.mode || "clasico") === myMode);
   if (!all.some(e => isSame(e, me))) all = [...all, me]; // storage-disabled fallback
   return {
     all: buildBoard(all, me),

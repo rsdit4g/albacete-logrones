@@ -248,6 +248,28 @@ tr.rel.me td { background:#3a1414; color:#ffb3b3; }
 .rs-team-media { color: #f5d040; font-size: 14px; }
 .rs-pitch { margin-top: 10px; }
 
+/* Real-life comparison (results screen) */
+.rs-real-box { margin-top: 22px; padding-top: 16px; border-top: 1px solid #20202c; text-align: center; }
+.rs-real-btn { margin: 6px auto 0; display: inline-block; padding: 11px 18px; border-radius: 10px; border: 1px solid rgba(245,210,63,.5); background: rgba(10,22,40,.55); color: #ffd23f; font: inherit; font-weight: 700; cursor: pointer; }
+.rs-real-btn:hover { background: rgba(16,34,60,.7); border-color: #ffd23f; }
+.rs-real-tbl { width: 100%; max-width: 440px; margin: 6px auto 0; font-size: 13px; border-collapse: collapse; }
+.rs-real-tbl td { padding: 6px 8px; border-bottom: 1px solid #20202c; text-align: center; }
+.rs-real-tbl tr.hd td { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; opacity: .5; }
+.rs-real-tbl .yr { text-align: left; opacity: .8; }
+.rs-real-tbl .real { color: #cfcfe0; }
+.rs-real-tbl td.win { color: #9be29b; font-weight: 800; }
+.rs-real-verdict { font-size: 14px; margin: 12px 0 2px; color: #eef3fb; }
+.rs-real-verdict b { color: #ffd23f; font-size: 18px; }
+.rs-real-note { font-size: 11px; opacity: .5; margin-bottom: 10px; }
+
+/* Wiki (real results) entry link + season jump bar */
+.wiki-link { display: block; width: 100%; margin-top: 18px; padding: 12px; border-radius: 10px; border: 1px dashed rgba(245,210,63,.45); background: transparent; color: #ffd23f; font: inherit; font-weight: 700; cursor: pointer; }
+.wiki-link:hover { background: rgba(16,34,60,.5); border-style: solid; }
+.wiki-jump { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 18px; }
+.wk-yr { padding: 6px 10px; border-radius: 8px; border: 1px solid #2a2a3a; background: #12121c; color: #cfd6e6; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; }
+.wk-yr:hover { border-color: #3a78c2; }
+.wk-yr.on { background: #1d3a5e; border-color: #ffd23f; color: #ffd23f; }
+
 /* Sharing */
 .rs-share { margin-top: 20px; text-align: center; }
 .rs-share-btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }

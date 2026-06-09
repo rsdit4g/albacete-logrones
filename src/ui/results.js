@@ -1,6 +1,7 @@
 import { CLUBS } from "../data/clubs.js?v=16";
-import { addRankingEntry, getDailyBoards } from "../game/leaderboard.js?v=22";
+import { addRankingEntry, getDailyBoards } from "../game/leaderboard.js?v=23";
 import { pitchSlotsHTML, teamMedia } from "./pitch.js?v=1";
+import { realClubResult } from "../game/real-results.js?v=1";
 
 // Deployment domain is unchanged; only the displayed brand is "Gol De Oro".
 const SHARE_URL = "https://albacete-logrones.io";
@@ -39,16 +40,18 @@ function verdictTier(pct, titles, relegatedEver) {
 
 // Renders the season-by-season results + a five-year summary + sharing.
 // `yourClub` is the real club name the player managed.
-export function renderResults(root, seasons, yourClub, picks, onAgain) {
+export function renderResults(root, seasons, yourClub, picks, mode, onAgain) {
   let idx = 0;
   const displayName = CLUBS[yourClub]?.name || yourClub;
   const safeName = esc(displayName);
   const startYear = seasons[0].year;
+  const modeLabel = mode === "maldiniano" ? "Maldiniano" : "Clásico";
 
   // Leaderboard state: filled once the player saves their run.
   let myEntry = null;
   let boards = null;
   let rankTab = "all";
+  let showReal = false; // real-life comparison toggle
 
   const clubAbbr = (c) => CLUBS[c]?.abbr || c.slice(0, 3).toUpperCase();
   const yy = (year) => `'${String(year % 100).padStart(2, "0")}`;
@@ -241,6 +244,8 @@ export function renderResults(root, seasons, yourClub, picks, onAgain) {
           <div class="pitch rs-pitch">${pitchSlotsHTML(picks, { showMedia: true })}</div>
         </div>
 
+        ${realComparisonSection()}
+
         ${rankingSection()}
 
         <div class="rs-share">
@@ -264,7 +269,55 @@ export function renderResults(root, seasons, yourClub, picks, onAgain) {
       b.addEventListener("click", () => openShare(b.dataset.net)));
     root.querySelector("#igBtn").addEventListener("click", downloadImage);
     root.querySelector("#again").addEventListener("click", onAgain);
+    const toggleReal = root.querySelector("#toggleReal");
+    if (toggleReal) toggleReal.addEventListener("click", () => { showReal = !showReal; paint(); });
     wireRanking();
+  }
+
+  // --- Real-life comparison ----------------------------------------------
+
+  // How your managed run compares to how the real club actually did those years.
+  function realComparisonSection() {
+    const mineCell = (s) => s.inSegunda ? `2ª` : `${s.position}º · ${s.record.Pts}`;
+    const realCell = (year) => {
+      const r = realClubResult(yourClub, year);
+      return r ? `${r.position}º · ${r.pts}` : `—`;
+    };
+    // Count seasons where you finished above the real club (both in Primera).
+    let better = 0, comparable = 0;
+    seasons.forEach((s) => {
+      const r = realClubResult(yourClub, s.year);
+      if (r && !s.inSegunda) { comparable++; if (s.position < r.position) better++; }
+    });
+
+    const button = `<button id="toggleReal" class="rs-real-btn">${showReal ? "Ocultar comparación" : `Comparar con el ${safeName} real`}</button>`;
+    if (!showReal) {
+      return `<div class="rs-real-box"><div class="rs-h">¿Lo hiciste mejor que la historia?</div>${button}</div>`;
+    }
+    const rows = seasons.map((s) => {
+      const r = realClubResult(yourClub, s.year);
+      const win = r && !s.inSegunda && s.position < r.position;
+      return `
+      <tr>
+        <td class="yr">${seasonLabel(s.year)}</td>
+        <td class="${win ? "win" : ""}">${mineCell(s)}</td>
+        <td class="real">${realCell(s.year)}</td>
+      </tr>`;
+    }).join("");
+    const verdict = comparable === 0
+      ? `Sin temporadas comparables: el ${safeName} real no estuvo en Primera esos años.`
+      : `Superaste al ${safeName} real en <b>${better}</b> de ${comparable} ${comparable === 1 ? "temporada comparable" : "temporadas comparables"}.`;
+    return `
+      <div class="rs-real-box">
+        <div class="rs-h">Tú vs el ${safeName} real</div>
+        <table class="rs-real-tbl">
+          <tr class="hd"><td>Temporada</td><td>Tú · pts</td><td>Real · pts</td></tr>
+          ${rows}
+        </table>
+        <div class="rs-real-verdict">${verdict}</div>
+        <div class="rs-real-note">"—" = el club no jugó en Primera esa temporada.</div>
+        ${button}
+      </div>`;
   }
 
   // --- Daily leaderboard --------------------------------------------------
@@ -273,8 +326,8 @@ export function renderResults(root, seasons, yourClub, picks, onAgain) {
     if (!myEntry) {
       return `
         <div class="rs-rank-box">
-          <div class="rs-h">Ranking del día</div>
-          <p class="rs-rank-intro">Añade tu nombre y compite con todas las partidas de hoy.</p>
+          <div class="rs-h">Ranking del día · <span class="rs-rank-scope">${modeLabel}</span></div>
+          <p class="rs-rank-intro">Añade tu nombre y compite con las partidas de hoy en modo <b>${modeLabel}</b>.</p>
           <div class="rs-rank-form">
             <input id="playerName" maxlength="20" placeholder="Tu nombre" autocomplete="off" />
             <button id="saveRank" class="primary">Entrar al ranking</button>
@@ -296,7 +349,7 @@ export function renderResults(root, seasons, yourClub, picks, onAgain) {
     const board = boards[rankTab];
     return `
       <div class="rs-rank-box">
-        <div class="rs-h">Ranking del día · <span class="rs-rank-scope">${esc(scopeTitle)}</span></div>
+        <div class="rs-h">Ranking del día · <span class="rs-rank-scope">${modeLabel}</span> · <span class="rs-rank-scope">${esc(scopeTitle)}</span></div>
         <div class="rs-rank-tabs">
           ${tabs.map(t => `<button class="rk-tab ${t.key === rankTab ? "on" : ""}" data-tab="${t.key}">${esc(t.label)}</button>`).join("")}
         </div>
@@ -332,7 +385,7 @@ export function renderResults(root, seasons, yourClub, picks, onAgain) {
     if (saveBtn) {
       const submit = () => {
         const name = root.querySelector("#playerName").value.trim();
-        myEntry = addRankingEntry({ name, club: yourClub, year: startYear, pct });
+        myEntry = addRankingEntry({ name, club: yourClub, year: startYear, pct, mode });
         boards = getDailyBoards(myEntry);
         paint();
       };
