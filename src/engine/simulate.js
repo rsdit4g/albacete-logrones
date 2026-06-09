@@ -102,25 +102,32 @@ export function simulateSeason(picks, season, year, yearsElapsed, rng, yourClub,
     goals: Math.max(6, sc.goals + Math.round(rng() * 8 - 4)),
     isYou: false,
   }));
-  // EVERY one of your players gets a projected tally from their position, their
-  // (aged) quality, and the squad's overall strength — so any of them can chart,
-  // not just one striker. They then compete with the real scorers for the top 5.
-  for (const pick of picks) {
-    const aged = projectedMedia(pick.player, yearsElapsed);
-    const goals = projectedGoals(pick.player.pos, aged, strength, rng);
-    if (goals < 3) continue;
-    // If this player is also in the real top-scorer list (you drafted someone
-    // who really scored that year), don't duplicate them — claim that row as
-    // yours and use the projected tally (consistent with your squad's context).
-    const dupe = topScorers.find(s => s.name === pick.player.name);
+  // Your players' goal tallies. Compute each player's raw expected goals, then
+  // damp everyone except your single best scorer so goals concentrate in one (or
+  // at most two) players — like real life, where a team almost never has several
+  // men all topping the charts. Without this, drafting two elite strikers gave
+  // two implausibly huge tallies.
+  const myGoals = picks.map(pick => ({
+    pick,
+    raw: rawGoals(pick.player.pos, projectedMedia(pick.player, yearsElapsed), strength, rng),
+  }));
+  myGoals.sort((a, b) => b.raw - a.raw);
+  const SCORER_DAMP = [1.0, 0.62, 0.42, 0.3, 0.22]; // by rank within your XI
+  myGoals.forEach((g, rank) => {
+    const goals = Math.round(g.raw * (SCORER_DAMP[Math.min(rank, SCORER_DAMP.length - 1)] ?? 0.2));
+    if (goals < 3) return;
+    const name = g.pick.player.name;
+    // If you drafted someone who really scored that year, claim that row rather
+    // than duplicating them, using the projected tally for your squad's context.
+    const dupe = topScorers.find(s => s.name === name);
     if (dupe) {
       dupe.isYou = true;
       dupe.club = yourClub;
       dupe.goals = goals;
     } else {
-      topScorers.push({ name: pick.player.name, club: yourClub, goals, isYou: true });
+      topScorers.push({ name, club: yourClub, goals, isYou: true });
     }
-  }
+  });
   topScorers.sort((a, b) => b.goals - a.goals);
 
   return {
@@ -178,22 +185,20 @@ function copaRun(strength, rng) {
   return COPA_ROUNDS[idx];
 }
 
-// How much each position contributes to goals (strikers most, keepers ~never).
-const POS_GOAL_WEIGHT = { AT: 1.0, MF: 0.42, DF: 0.13, GK: 0.02 };
+// How much each position contributes to goals (strikers most, keepers never).
+const POS_GOAL_WEIGHT = { AT: 1.0, MF: 0.38, DF: 0.10, GK: 0 };
 
-// Projected league goals for one of your players in a season, driven by:
-//   • position    — strikers score, midfielders chip in, defenders rarely
-//   • quality      — the player's (aged) rating; calidad/finishing is baked into it
-//   • squad strength — a stronger side creates more chances to convert
-// A small ±12% wobble keeps seasons from being identical without being random.
-// An elite striker on a top side lands ~26–30; a good midfielder ~8–12; a
-// defender ~1–3; weak players score little and won't trouble the real scorers.
-function projectedGoals(pos, agedRating, teamStrength, rng) {
+// Raw expected league goals for one of your players before the per-team scorer
+// damping above. Driven by position, the player's (aged) quality, and squad
+// strength. Tuned conservatively: an elite striker's RAW lands ~24–27 (and only
+// the team's top scorer keeps it; others are damped), a good midfielder ~7–10,
+// a defender ~1–3. Returns a float; the caller rounds after damping.
+function rawGoals(pos, agedRating, teamStrength, rng) {
   const posW = POS_GOAL_WEIGHT[pos] ?? 0.1;
-  const quality = Math.max(0, Math.min(1.2, (agedRating - 50) / 45)); // 50→0, 95→1.0
-  const squad = 0.7 + Math.max(0, Math.min(1, (teamStrength - 64) / 30)) * 0.6; // 0.7..1.3
-  const wobble = 0.88 + rng() * 0.24; // ±12%
-  return Math.max(0, Math.round(24 * posW * quality * squad * wobble));
+  const quality = Math.max(0, Math.min(1, (agedRating - 55) / 40)); // 55→0, 95→1.0
+  const squad = 0.75 + Math.max(0, Math.min(1, (teamStrength - 66) / 28)) * 0.5; // 0.75..1.25
+  const wobble = 0.85 + rng() * 0.3; // ±15%
+  return Math.max(0, 22 * posW * quality * squad * wobble);
 }
 
 // Simulate five consecutive seasons from startYear. Seasons without data are
