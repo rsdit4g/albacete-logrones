@@ -14,7 +14,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 23, "velocidad": 84, "resistencia": 86, "agresividad": 84, "calidad": 91},
     {"name": "Morientes",      "pos": "AT", "age": 24, "velocidad": 78, "resistencia": 84, "agresividad": 82, "calidad": 82},
     {"name": "Anelka",         "pos": "AT", "age": 21, "velocidad": 92, "resistencia": 80, "agresividad": 74, "calidad": 82},
-    {"name": "Karanka",        "pos": "DF", "age": 27, "velocidad": 72, "resistencia": 80, "agresividad": 80, "calidad": 72}
+    {"name": "Karanka",        "pos": "DF", "age": 27, "velocidad": 72, "resistencia": 80, "agresividad": 80, "calidad": 72},
+    {"name": "Zidane",         "pos": "MF", "age": 28, "velocidad": 82, "resistencia": 86, "agresividad": 80, "calidad": 99},
+    {"name": "Makélélé",       "pos": "MF", "age": 27, "velocidad": 72, "resistencia": 88, "agresividad": 86, "calidad": 80},
+    {"name": "Geremi",         "pos": "MF", "age": 21, "velocidad": 82, "resistencia": 82, "agresividad": 78, "calidad": 74},
+    {"name": "Celades",        "pos": "MF", "age": 26, "velocidad": 74, "resistencia": 80, "agresividad": 76, "calidad": 74},
+    {"name": "Raúl Bravo",     "pos": "DF", "age": 20, "velocidad": 78, "resistencia": 78, "agresividad": 76, "calidad": 68}
   ],
 
   "Real Madrid|2001": [
@@ -32,7 +37,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 24, "velocidad": 84, "resistencia": 86, "agresividad": 84, "calidad": 91},
     {"name": "Morientes",      "pos": "AT", "age": 25, "velocidad": 78, "resistencia": 84, "agresividad": 82, "calidad": 82},
     {"name": "Solari",         "pos": "MF", "age": 25, "velocidad": 82, "resistencia": 78, "agresividad": 74, "calidad": 78},
-    {"name": "Flávio Conceição","pos": "MF", "age": 27, "velocidad": 74, "resistencia": 80, "agresividad": 80, "calidad": 74}
+    {"name": "Flávio Conceição","pos": "MF", "age": 27, "velocidad": 74, "resistencia": 80, "agresividad": 80, "calidad": 74},
+    {"name": "Geremi",         "pos": "MF", "age": 22, "velocidad": 82, "resistencia": 82, "agresividad": 78, "calidad": 74},
+    {"name": "Celades",        "pos": "MF", "age": 27, "velocidad": 72, "resistencia": 78, "agresividad": 74, "calidad": 72},
+    {"name": "Raúl Bravo",     "pos": "DF", "age": 21, "velocidad": 78, "resistencia": 78, "agresividad": 76, "calidad": 70},
+    {"name": "Borja Fernández","pos": "MF", "age": 21, "velocidad": 74, "resistencia": 76, "agresividad": 72, "calidad": 68},
+    {"name": "Iván Campo",     "pos": "DF", "age": 28, "velocidad": 70, "resistencia": 80, "agresividad": 82, "calidad": 72}
   ],
 
   "Real Madrid|2002": [
@@ -50,7 +60,12 @@
     {"name": "Ronaldo",        "pos": "AT", "age": 26, "velocidad": 94, "resistencia": 88, "agresividad": 82, "calidad": 92},
     {"name": "Morientes",      "pos": "AT", "age": 26, "velocidad": 76, "resistencia": 84, "agresividad": 82, "calidad": 80},
     {"name": "Solari",         "pos": "MF", "age": 26, "velocidad": 82, "resistencia": 78, "agresividad": 74, "calidad": 76},
-    {"name": "Cambiasso",      "pos": "MF", "age": 22, "velocidad": 70, "resistencia": 82, "agresividad": 80, "calidad": 76}
+    {"name": "Cambiasso",      "pos": "MF", "age": 22, "velocidad": 70, "resistencia": 82, "agresividad": 80, "calidad": 76},
+    {"name": "Geremi",         "pos": "MF", "age": 23, "velocidad": 82, "resistencia": 82, "agresividad": 80, "calidad": 74},
+    {"name": "Raúl Bravo",     "pos": "DF", "age": 22, "velocidad": 78, "resistencia": 78, "agresividad": 76, "calidad": 70},
+    {"name": "Portillo",       "pos": "MF", "age": 24, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 72},
+    {"name": "Gravesen",       "pos": "MF", "age": 26, "velocidad": 68, "resistencia": 84, "agresividad": 86, "calidad": 74},
+    {"name": "Flávio Conceição","pos": "MF", "age": 28, "velocidad": 72, "resistencia": 78, "agresividad": 78, "calidad": 72}
   ],
 
   "Real Madrid|2003": [
@@ -68,7 +83,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 26, "velocidad": 82, "resistencia": 84, "agresividad": 82, "calidad": 89},
     {"name": "Ronaldo",        "pos": "AT", "age": 27, "velocidad": 92, "resistencia": 84, "agresividad": 80, "calidad": 90},
     {"name": "Owen",           "pos": "AT", "age": 23, "velocidad": 92, "resistencia": 80, "agresividad": 76, "calidad": 84},
-    {"name": "Solari",         "pos": "MF", "age": 27, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 74}
+    {"name": "Solari",         "pos": "MF", "age": 27, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 74},
+    {"name": "Cambiasso",      "pos": "MF", "age": 23, "velocidad": 70, "resistencia": 82, "agresividad": 80, "calidad": 76},
+    {"name": "Geremi",         "pos": "MF", "age": 24, "velocidad": 82, "resistencia": 82, "agresividad": 80, "calidad": 74},
+    {"name": "Raúl Bravo",     "pos": "DF", "age": 23, "velocidad": 78, "resistencia": 78, "agresividad": 76, "calidad": 70},
+    {"name": "Portillo",       "pos": "MF", "age": 25, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 72},
+    {"name": "Míchel Salgado", "pos": "DF", "age": 29, "velocidad": 78, "resistencia": 78, "agresividad": 78, "calidad": 70}
   ],
 
   "Real Madrid|2004": [
@@ -86,7 +106,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 27, "velocidad": 82, "resistencia": 82, "agresividad": 80, "calidad": 88},
     {"name": "Ronaldo",        "pos": "AT", "age": 28, "velocidad": 90, "resistencia": 80, "agresividad": 78, "calidad": 88},
     {"name": "Owen",           "pos": "AT", "age": 24, "velocidad": 90, "resistencia": 80, "agresividad": 78, "calidad": 86},
-    {"name": "Gravesen",       "pos": "MF", "age": 28, "velocidad": 68, "resistencia": 84, "agresividad": 86, "calidad": 72}
+    {"name": "Gravesen",       "pos": "MF", "age": 28, "velocidad": 68, "resistencia": 84, "agresividad": 86, "calidad": 72},
+    {"name": "Robinho",        "pos": "AT", "age": 20, "velocidad": 96, "resistencia": 74, "agresividad": 68, "calidad": 82},
+    {"name": "Morientes",      "pos": "AT", "age": 28, "velocidad": 74, "resistencia": 80, "agresividad": 78, "calidad": 78},
+    {"name": "Pavón",          "pos": "DF", "age": 23, "velocidad": 82, "resistencia": 78, "agresividad": 76, "calidad": 68},
+    {"name": "Portillo",       "pos": "MF", "age": 26, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 72},
+    {"name": "Solari",         "pos": "MF", "age": 28, "velocidad": 78, "resistencia": 74, "agresividad": 70, "calidad": 72}
   ],
 
   "Real Madrid|2005": [
@@ -104,7 +129,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 28, "velocidad": 80, "resistencia": 80, "agresividad": 80, "calidad": 87},
     {"name": "Ronaldo",        "pos": "AT", "age": 29, "velocidad": 86, "resistencia": 76, "agresividad": 76, "calidad": 86},
     {"name": "Robinho",        "pos": "AT", "age": 21, "velocidad": 96, "resistencia": 76, "agresividad": 70, "calidad": 84},
-    {"name": "Van Nistelrooy", "pos": "AT", "age": 29, "velocidad": 80, "resistencia": 82, "agresividad": 82, "calidad": 88}
+    {"name": "Van Nistelrooy", "pos": "AT", "age": 29, "velocidad": 80, "resistencia": 82, "agresividad": 82, "calidad": 88},
+    {"name": "Diarra",         "pos": "MF", "age": 21, "velocidad": 74, "resistencia": 82, "agresividad": 82, "calidad": 70},
+    {"name": "Metzelder",      "pos": "DF", "age": 25, "velocidad": 70, "resistencia": 80, "agresividad": 82, "calidad": 74},
+    {"name": "Julio Baptista", "pos": "MF", "age": 24, "velocidad": 80, "resistencia": 84, "agresividad": 82, "calidad": 78},
+    {"name": "Reyes",          "pos": "MF", "age": 21, "velocidad": 86, "resistencia": 78, "agresividad": 74, "calidad": 80},
+    {"name": "Raúl Bravo",     "pos": "DF", "age": 25, "velocidad": 78, "resistencia": 78, "agresividad": 76, "calidad": 70}
   ],
 
   "Real Madrid|2006": [
@@ -122,7 +152,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 29, "velocidad": 76, "resistencia": 78, "agresividad": 76, "calidad": 84},
     {"name": "Van Nistelrooy", "pos": "AT", "age": 30, "velocidad": 80, "resistencia": 82, "agresividad": 82, "calidad": 88},
     {"name": "Robinho",        "pos": "AT", "age": 22, "velocidad": 96, "resistencia": 78, "agresividad": 72, "calidad": 86},
-    {"name": "Higuaín",        "pos": "AT", "age": 18, "velocidad": 78, "resistencia": 76, "agresividad": 76, "calidad": 76}
+    {"name": "Higuaín",        "pos": "AT", "age": 18, "velocidad": 78, "resistencia": 76, "agresividad": 76, "calidad": 76},
+    {"name": "Diarra",         "pos": "MF", "age": 22, "velocidad": 74, "resistencia": 84, "agresividad": 84, "calidad": 72},
+    {"name": "Cannavaro",      "pos": "DF", "age": 33, "velocidad": 74, "resistencia": 84, "agresividad": 88, "calidad": 82},
+    {"name": "Julio Baptista", "pos": "MF", "age": 25, "velocidad": 80, "resistencia": 84, "agresividad": 82, "calidad": 78},
+    {"name": "Reyes",          "pos": "MF", "age": 22, "velocidad": 86, "resistencia": 78, "agresividad": 74, "calidad": 80},
+    {"name": "Metzelder",      "pos": "DF", "age": 26, "velocidad": 70, "resistencia": 80, "agresividad": 82, "calidad": 74}
   ],
 
   "Real Madrid|2007": [
@@ -140,7 +175,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 30, "velocidad": 74, "resistencia": 76, "agresividad": 74, "calidad": 82},
     {"name": "Van Nistelrooy", "pos": "AT", "age": 31, "velocidad": 80, "resistencia": 82, "agresividad": 82, "calidad": 88},
     {"name": "Higuaín",        "pos": "AT", "age": 19, "velocidad": 82, "resistencia": 78, "agresividad": 80, "calidad": 82},
-    {"name": "Diarra",         "pos": "MF", "age": 24, "velocidad": 74, "resistencia": 84, "agresividad": 84, "calidad": 72}
+    {"name": "Diarra",         "pos": "MF", "age": 24, "velocidad": 74, "resistencia": 84, "agresividad": 84, "calidad": 72},
+    {"name": "Arbeloa",        "pos": "DF", "age": 24, "velocidad": 80, "resistencia": 80, "agresividad": 76, "calidad": 70},
+    {"name": "Cannavaro",      "pos": "DF", "age": 34, "velocidad": 72, "resistencia": 82, "agresividad": 86, "calidad": 80},
+    {"name": "Julio Baptista", "pos": "MF", "age": 26, "velocidad": 80, "resistencia": 84, "agresividad": 82, "calidad": 76},
+    {"name": "Reyes",          "pos": "MF", "age": 23, "velocidad": 86, "resistencia": 78, "agresividad": 74, "calidad": 78},
+    {"name": "Roberto Carlos", "pos": "DF", "age": 34, "velocidad": 80, "resistencia": 76, "agresividad": 72, "calidad": 74}
   ],
 
   "Real Madrid|2008": [
@@ -158,7 +198,12 @@
     {"name": "Raúl",           "pos": "AT", "age": 31, "velocidad": 72, "resistencia": 74, "agresividad": 72, "calidad": 80},
     {"name": "Higuaín",        "pos": "AT", "age": 20, "velocidad": 84, "resistencia": 82, "agresividad": 84, "calidad": 84},
     {"name": "Robinho",        "pos": "AT", "age": 24, "velocidad": 96, "resistencia": 78, "agresividad": 70, "calidad": 84},
-    {"name": "Diarra",         "pos": "MF", "age": 25, "velocidad": 76, "resistencia": 86, "agresividad": 88, "calidad": 78}
+    {"name": "Diarra",         "pos": "MF", "age": 25, "velocidad": 76, "resistencia": 86, "agresividad": 88, "calidad": 78},
+    {"name": "Arbeloa",        "pos": "DF", "age": 25, "velocidad": 80, "resistencia": 80, "agresividad": 76, "calidad": 72},
+    {"name": "Cannavaro",      "pos": "DF", "age": 35, "velocidad": 70, "resistencia": 80, "agresividad": 84, "calidad": 78},
+    {"name": "Huntelaar",      "pos": "AT", "age": 24, "velocidad": 82, "resistencia": 80, "agresividad": 80, "calidad": 82},
+    {"name": "Fernando Gago",  "pos": "MF", "age": 22, "velocidad": 72, "resistencia": 82, "agresividad": 78, "calidad": 80},
+    {"name": "Sergio Canales", "pos": "MF", "age": 17, "velocidad": 78, "resistencia": 72, "agresividad": 68, "calidad": 72}
   ],
 
   "Real Madrid|2009": [
@@ -176,6 +221,11 @@
     {"name": "Cristiano Ronaldo","pos": "AT", "age": 24, "velocidad": 96, "resistencia": 88, "agresividad": 84, "calidad": 94},
     {"name": "Higuaín",        "pos": "AT", "age": 21, "velocidad": 84, "resistencia": 82, "agresividad": 84, "calidad": 84},
     {"name": "Benzema",        "pos": "AT", "age": 21, "velocidad": 84, "resistencia": 80, "agresividad": 78, "calidad": 88},
-    {"name": "Raúl",           "pos": "AT", "age": 32, "velocidad": 68, "resistencia": 72, "agresividad": 70, "calidad": 78}
+    {"name": "Raúl",           "pos": "AT", "age": 32, "velocidad": 68, "resistencia": 72, "agresividad": 70, "calidad": 78},
+    {"name": "Sneijder",       "pos": "MF", "age": 25, "velocidad": 78, "resistencia": 82, "agresividad": 80, "calidad": 90},
+    {"name": "Granero",        "pos": "MF", "age": 22, "velocidad": 74, "resistencia": 78, "agresividad": 74, "calidad": 76},
+    {"name": "Fernando Gago",  "pos": "MF", "age": 23, "velocidad": 72, "resistencia": 84, "agresividad": 80, "calidad": 82},
+    {"name": "Garay",          "pos": "DF", "age": 23, "velocidad": 72, "resistencia": 82, "agresividad": 82, "calidad": 74},
+    {"name": "Huntelaar",      "pos": "AT", "age": 25, "velocidad": 82, "resistencia": 80, "agresividad": 80, "calidad": 84}
   ]
 }
