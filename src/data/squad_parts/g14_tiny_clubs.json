@@ -14,7 +14,12 @@
     {"name": "Sergio Palomino", "pos": "MF", "age": 24, "velocidad": 68, "resistencia": 68, "agresividad": 62, "calidad": 60},
     {"name": "Tomás Herrero", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 64, "agresividad": 68, "calidad": 66},
     {"name": "Luis Moreno", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Marcos Aguado", "pos": "AT", "age": 23, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62}
+    {"name": "Marcos Aguado", "pos": "AT", "age": 23, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62},
+    {"name": "Diego Navarro", "pos": "GK", "age": 27, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Javier Morales", "pos": "DF", "age": 24, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Luis Espinosa", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Fernando Cuesta", "pos": "MF", "age": 22, "velocidad": 66, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Tomás Pizarro", "pos": "AT", "age": 21, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 56}
   ],
 
   "Real Burgos|1991": [
@@ -32,7 +37,12 @@
     {"name": "Sergio Palomino", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 68, "agresividad": 62, "calidad": 60},
     {"name": "Tomás Herrero", "pos": "AT", "age": 28, "velocidad": 70, "resistencia": 62, "agresividad": 68, "calidad": 66},
     {"name": "Luis Moreno", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Marcos Aguado", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62}
+    {"name": "Marcos Aguado", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62},
+    {"name": "Diego Navarro", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Javier Morales", "pos": "DF", "age": 25, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Luis Espinosa", "pos": "DF", "age": 27, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Fernando Cuesta", "pos": "MF", "age": 23, "velocidad": 66, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Tomás Pizarro", "pos": "AT", "age": 22, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 58}
   ],
 
   "Real Burgos|1992": [
@@ -50,7 +60,12 @@
     {"name": "Germán Calvo", "pos": "MF", "age": 22, "velocidad": 66, "resistencia": 64, "agresividad": 60, "calidad": 58},
     {"name": "Tomás Herrero", "pos": "AT", "age": 29, "velocidad": 68, "resistencia": 60, "agresividad": 66, "calidad": 64},
     {"name": "Luis Moreno", "pos": "AT", "age": 27, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62},
-    {"name": "Marcos Aguado", "pos": "AT", "age": 25, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 60}
+    {"name": "Marcos Aguado", "pos": "AT", "age": 25, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 60},
+    {"name": "Diego Navarro", "pos": "GK", "age": 29, "velocidad": 52, "resistencia": 64, "agresividad": 62, "calidad": 58},
+    {"name": "Javier Morales", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 64, "agresividad": 64, "calidad": 58},
+    {"name": "Luis Espinosa", "pos": "DF", "age": 28, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Fernando Cuesta", "pos": "MF", "age": 24, "velocidad": 64, "resistencia": 62, "agresividad": 60, "calidad": 58},
+    {"name": "Tomás Pizarro", "pos": "AT", "age": 23, "velocidad": 64, "resistencia": 58, "agresividad": 60, "calidad": 56}
   ],
 
   "Castellón|1990": [
@@ -68,7 +83,12 @@
     {"name": "Néstor Ibáñez", "pos": "MF", "age": 27, "velocidad": 66, "resistencia": 68, "agresividad": 64, "calidad": 62},
     {"name": "Enrique Edo", "pos": "AT", "age": 24, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
     {"name": "Jesús Montañés", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 66},
-    {"name": "Fernando Royo", "pos": "AT", "age": 22, "velocidad": 74, "resistencia": 60, "agresividad": 62, "calidad": 62}
+    {"name": "Fernando Royo", "pos": "AT", "age": 22, "velocidad": 74, "resistencia": 60, "agresividad": 62, "calidad": 62},
+    {"name": "Pedro Álvarez", "pos": "GK", "age": 29, "velocidad": 54, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Manuel Pérez", "pos": "DF", "age": 25, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Antonio Roca", "pos": "MF", "age": 26, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Jesús Bosch", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 64, "agresividad": 62, "calidad": 58},
+    {"name": "Carlos Forment", "pos": "AT", "age": 22, "velocidad": 68, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Cádiz CF|1990": [
@@ -86,7 +106,12 @@
     {"name": "Alfonso Dueñas", "pos": "MF", "age": 27, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 64},
     {"name": "Emilio Bernal", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
     {"name": "Andrés Machado", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 62, "agresividad": 66, "calidad": 66},
-    {"name": "Rafa Cobo", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 60, "agresividad": 62, "calidad": 62}
+    {"name": "Rafa Cobo", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 60, "agresividad": 62, "calidad": 62},
+    {"name": "Felipe Ortega", "pos": "GK", "age": 29, "velocidad": 54, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Tomás Ponce", "pos": "DF", "age": 24, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Luis Reyes", "pos": "DF", "age": 27, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Paco Solano", "pos": "MF", "age": 25, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Daniel Cruz", "pos": "AT", "age": 23, "velocidad": 68, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Cádiz CF|1991": [
@@ -104,7 +129,12 @@
     {"name": "Juan Valera", "pos": "MF", "age": 22, "velocidad": 68, "resistencia": 64, "agresividad": 62, "calidad": 60},
     {"name": "Emilio Bernal", "pos": "AT", "age": 26, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
     {"name": "Andrés Machado", "pos": "AT", "age": 28, "velocidad": 68, "resistencia": 62, "agresividad": 66, "calidad": 66},
-    {"name": "Rafa Cobo", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 62, "agresividad": 62, "calidad": 62}
+    {"name": "Rafa Cobo", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 62, "agresividad": 62, "calidad": 62},
+    {"name": "Felipe Ortega", "pos": "GK", "age": 30, "velocidad": 52, "resistencia": 66, "agresividad": 64, "calidad": 62},
+    {"name": "Tomás Ponce", "pos": "DF", "age": 25, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Luis Reyes", "pos": "DF", "age": 28, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Paco Solano", "pos": "MF", "age": 26, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Daniel Cruz", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Cádiz CF|1992": [
@@ -122,7 +152,12 @@
     {"name": "Claudio Solano", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 64, "agresividad": 62, "calidad": 60},
     {"name": "Emilio Bernal", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 66},
     {"name": "Andrés Machado", "pos": "AT", "age": 29, "velocidad": 66, "resistencia": 60, "agresividad": 64, "calidad": 64},
-    {"name": "Fran Moya", "pos": "AT", "age": 23, "velocidad": 70, "resistencia": 58, "agresividad": 60, "calidad": 60}
+    {"name": "Fran Moya", "pos": "AT", "age": 23, "velocidad": 70, "resistencia": 58, "agresividad": 60, "calidad": 60},
+    {"name": "Felipe Ortega", "pos": "GK", "age": 31, "velocidad": 52, "resistencia": 64, "agresividad": 62, "calidad": 60},
+    {"name": "Tomás Ponce", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Luis Reyes", "pos": "DF", "age": 29, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Paco Solano", "pos": "MF", "age": 27, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Daniel Cruz", "pos": "AT", "age": 25, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 56}
   ],
 
   "Cádiz CF|2005": [
@@ -140,7 +175,12 @@
     {"name": "Roberto Vaca", "pos": "MF", "age": 22, "velocidad": 72, "resistencia": 66, "agresividad": 62, "calidad": 62},
     {"name": "Diego Osorno", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 66, "agresividad": 68, "calidad": 70},
     {"name": "Javier Feria", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
-    {"name": "Nicolás Romero", "pos": "AT", "age": 23, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 66}
+    {"name": "Nicolás Romero", "pos": "AT", "age": 23, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 66},
+    {"name": "Pena", "pos": "GK", "age": 28, "velocidad": 56, "resistencia": 68, "agresividad": 64, "calidad": 64},
+    {"name": "Espinosa", "pos": "DF", "age": 26, "velocidad": 66, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Cala", "pos": "DF", "age": 21, "velocidad": 68, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Molero", "pos": "MF", "age": 24, "velocidad": 68, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Ramos", "pos": "AT", "age": 22, "velocidad": 70, "resistencia": 62, "agresividad": 62, "calidad": 60}
   ],
 
   "Mérida|1995": [
@@ -158,7 +198,12 @@
     {"name": "Sébastien Muamba", "pos": "MF", "age": 24, "velocidad": 72, "resistencia": 70, "agresividad": 70, "calidad": 64},
     {"name": "Ernesto Leal", "pos": "AT", "age": 26, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 66},
     {"name": "Carlos Garrido", "pos": "AT", "age": 23, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Vicente Ortiz", "pos": "AT", "age": 28, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 66}
+    {"name": "Vicente Ortiz", "pos": "AT", "age": 28, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 66},
+    {"name": "Felipe Dorado", "pos": "GK", "age": 26, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Reyes", "pos": "DF", "age": 24, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Cáceres", "pos": "DF", "age": 27, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Pedraza", "pos": "MF", "age": 23, "velocidad": 66, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Molano", "pos": "AT", "age": 25, "velocidad": 66, "resistencia": 60, "agresividad": 62, "calidad": 58}
   ],
 
   "Mérida|1997": [
@@ -176,7 +221,12 @@
     {"name": "Tomás Vargas", "pos": "MF", "age": 26, "velocidad": 66, "resistencia": 66, "agresividad": 64, "calidad": 62},
     {"name": "Javi Moreno", "pos": "AT", "age": 24, "velocidad": 76, "resistencia": 72, "agresividad": 72, "calidad": 72},
     {"name": "Ernesto Leal", "pos": "AT", "age": 28, "velocidad": 70, "resistencia": 62, "agresividad": 66, "calidad": 64},
-    {"name": "Vicente Ortiz", "pos": "AT", "age": 30, "velocidad": 66, "resistencia": 60, "agresividad": 62, "calidad": 64}
+    {"name": "Vicente Ortiz", "pos": "AT", "age": 30, "velocidad": 66, "resistencia": 60, "agresividad": 62, "calidad": 64},
+    {"name": "Felipe Dorado", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Reyes", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Cáceres", "pos": "DF", "age": 29, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Pedraza", "pos": "MF", "age": 25, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Molano", "pos": "AT", "age": 27, "velocidad": 64, "resistencia": 60, "agresividad": 60, "calidad": 56}
   ],
 
   "Salamanca|1995": [
@@ -194,7 +244,12 @@
     {"name": "Berto Molinero", "pos": "MF", "age": 27, "velocidad": 66, "resistencia": 68, "agresividad": 64, "calidad": 62},
     {"name": "Roberto Sánchez", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
     {"name": "Toño Pereira", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Carlos Buján", "pos": "AT", "age": 22, "velocidad": 74, "resistencia": 60, "agresividad": 62, "calidad": 62}
+    {"name": "Carlos Buján", "pos": "AT", "age": 22, "velocidad": 74, "resistencia": 60, "agresividad": 62, "calidad": 62},
+    {"name": "Marcos", "pos": "GK", "age": 26, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Lorenzo", "pos": "DF", "age": 25, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Núñez", "pos": "DF", "age": 27, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Gálvez", "pos": "MF", "age": 23, "velocidad": 66, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Pizarro", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 60, "agresividad": 62, "calidad": 58}
   ],
 
   "Salamanca|1997": [
@@ -212,7 +267,12 @@
     {"name": "Marcelo Batista", "pos": "MF", "age": 25, "velocidad": 70, "resistencia": 68, "agresividad": 68, "calidad": 66},
     {"name": "Roberto Sánchez", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
     {"name": "Toño Pereira", "pos": "AT", "age": 29, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Carlos Buján", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 64}
+    {"name": "Carlos Buján", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 64},
+    {"name": "Marcos", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Lorenzo", "pos": "DF", "age": 27, "velocidad": 62, "resistencia": 66, "agresividad": 62, "calidad": 58},
+    {"name": "Núñez", "pos": "DF", "age": 29, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Gálvez", "pos": "MF", "age": 25, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Pizarro", "pos": "AT", "age": 26, "velocidad": 64, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Salamanca|1998": [
@@ -230,7 +290,12 @@
     {"name": "Joaquín Belda", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 64, "agresividad": 62, "calidad": 60},
     {"name": "Roberto Sánchez", "pos": "AT", "age": 28, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 66},
     {"name": "Carlos Buján", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 62, "agresividad": 62, "calidad": 62},
-    {"name": "Mirko Petric", "pos": "AT", "age": 23, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64}
+    {"name": "Mirko Petric", "pos": "AT", "age": 23, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64},
+    {"name": "Marcos", "pos": "GK", "age": 29, "velocidad": 52, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Lorenzo", "pos": "DF", "age": 28, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Núñez", "pos": "DF", "age": 30, "velocidad": 58, "resistencia": 62, "agresividad": 60, "calidad": 54},
+    {"name": "Gálvez", "pos": "MF", "age": 26, "velocidad": 62, "resistencia": 62, "agresividad": 60, "calidad": 56},
+    {"name": "Pizarro", "pos": "AT", "age": 27, "velocidad": 62, "resistencia": 58, "agresividad": 58, "calidad": 56}
   ],
 
   "Extremadura|1996": [
@@ -248,7 +313,12 @@
     {"name": "Ibrahima Kouyaté", "pos": "MF", "age": 24, "velocidad": 72, "resistencia": 68, "agresividad": 66, "calidad": 62},
     {"name": "Patricio Lara", "pos": "AT", "age": 26, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 62},
     {"name": "Diego Carvajal", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 60, "agresividad": 62, "calidad": 62},
-    {"name": "Marcos Olmedo", "pos": "AT", "age": 22, "velocidad": 68, "resistencia": 58, "agresividad": 60, "calidad": 60}
+    {"name": "Marcos Olmedo", "pos": "AT", "age": 22, "velocidad": 68, "resistencia": 58, "agresividad": 60, "calidad": 60},
+    {"name": "Navarro", "pos": "GK", "age": 25, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 58},
+    {"name": "Ríos", "pos": "DF", "age": 23, "velocidad": 64, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Fernández", "pos": "DF", "age": 22, "velocidad": 64, "resistencia": 62, "agresividad": 60, "calidad": 56},
+    {"name": "Castaño", "pos": "MF", "age": 26, "velocidad": 66, "resistencia": 64, "agresividad": 62, "calidad": 58},
+    {"name": "Pantoja", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 56}
   ],
 
   "Extremadura|1998": [
@@ -266,7 +336,12 @@
     {"name": "Álvaro Navas", "pos": "MF", "age": 23, "velocidad": 68, "resistencia": 64, "agresividad": 62, "calidad": 58},
     {"name": "Patricio Lara", "pos": "AT", "age": 28, "velocidad": 66, "resistencia": 60, "agresividad": 64, "calidad": 60},
     {"name": "Diego Carvajal", "pos": "AT", "age": 26, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 60},
-    {"name": "Marcos Olmedo", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 58, "agresividad": 60, "calidad": 60}
+    {"name": "Marcos Olmedo", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 58, "agresividad": 60, "calidad": 60},
+    {"name": "Navarro", "pos": "GK", "age": 27, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 58},
+    {"name": "Ríos", "pos": "DF", "age": 25, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Fernández", "pos": "DF", "age": 24, "velocidad": 62, "resistencia": 62, "agresividad": 60, "calidad": 56},
+    {"name": "Castaño", "pos": "MF", "age": 28, "velocidad": 64, "resistencia": 64, "agresividad": 62, "calidad": 58},
+    {"name": "Pantoja", "pos": "AT", "age": 26, "velocidad": 64, "resistencia": 58, "agresividad": 60, "calidad": 56}
   ],
 
   "Hércules|1996": [
@@ -284,7 +359,12 @@
     {"name": "Javier Planelles", "pos": "MF", "age": 23, "velocidad": 68, "resistencia": 66, "agresividad": 62, "calidad": 62},
     {"name": "Pedro Payá", "pos": "AT", "age": 26, "velocidad": 72, "resistencia": 64, "agresividad": 68, "calidad": 68},
     {"name": "Jaime Ferrándiz", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 62, "agresividad": 66, "calidad": 66},
-    {"name": "Dario Rodríguez", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 66}
+    {"name": "Dario Rodríguez", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 62, "agresividad": 64, "calidad": 66},
+    {"name": "Moya", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Ripoll", "pos": "DF", "age": 25, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Mas", "pos": "DF", "age": 23, "velocidad": 64, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Escrivá", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 64, "agresividad": 62, "calidad": 60},
+    {"name": "Piñol", "pos": "AT", "age": 26, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 60}
   ],
 
   "Lleida|1993": [
@@ -302,7 +382,12 @@
     {"name": "Robert Garriga", "pos": "MF", "age": 23, "velocidad": 68, "resistencia": 64, "agresividad": 60, "calidad": 60},
     {"name": "Miquel Soro", "pos": "AT", "age": 25, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 62},
     {"name": "Andreu Ferrer", "pos": "AT", "age": 27, "velocidad": 66, "resistencia": 60, "agresividad": 62, "calidad": 62},
-    {"name": "Toni Casals", "pos": "AT", "age": 22, "velocidad": 70, "resistencia": 58, "agresividad": 60, "calidad": 60}
+    {"name": "Toni Casals", "pos": "AT", "age": 22, "velocidad": 70, "resistencia": 58, "agresividad": 60, "calidad": 60},
+    {"name": "Giralt", "pos": "GK", "age": 27, "velocidad": 52, "resistencia": 66, "agresividad": 62, "calidad": 58},
+    {"name": "Noguera", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Balcells", "pos": "DF", "age": 23, "velocidad": 62, "resistencia": 62, "agresividad": 60, "calidad": 54},
+    {"name": "Farré", "pos": "MF", "age": 25, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Solà", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 58, "agresividad": 60, "calidad": 56}
   ],
 
   "Las Palmas|2000": [
@@ -320,7 +405,12 @@
     {"name": "Óscar Clemente", "pos": "MF", "age": 28, "velocidad": 66, "resistencia": 70, "agresividad": 66, "calidad": 64},
     {"name": "Sandro Ramírez", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 70, "agresividad": 68, "calidad": 70},
     {"name": "Juan Carlos Valerón", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 68, "agresividad": 62, "calidad": 72},
-    {"name": "Moisés García", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 66}
+    {"name": "Moisés García", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 66},
+    {"name": "Araujo", "pos": "GK", "age": 29, "velocidad": 56, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Cabrera", "pos": "DF", "age": 27, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Pérez O.", "pos": "DF", "age": 26, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Páez", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Ramos C.", "pos": "AT", "age": 23, "velocidad": 68, "resistencia": 62, "agresividad": 62, "calidad": 58}
   ],
 
   "Las Palmas|2001": [
@@ -338,7 +428,12 @@
     {"name": "Óscar Clemente", "pos": "MF", "age": 29, "velocidad": 64, "resistencia": 68, "agresividad": 64, "calidad": 62},
     {"name": "Sandro Ramírez", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 68, "agresividad": 68, "calidad": 70},
     {"name": "Moisés García", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 64, "agresividad": 64, "calidad": 64},
-    {"name": "Iván Suárez", "pos": "AT", "age": 22, "velocidad": 68, "resistencia": 62, "agresividad": 62, "calidad": 62}
+    {"name": "Iván Suárez", "pos": "AT", "age": 22, "velocidad": 68, "resistencia": 62, "agresividad": 62, "calidad": 62},
+    {"name": "Araujo", "pos": "GK", "age": 30, "velocidad": 56, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Cabrera", "pos": "DF", "age": 28, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Pérez O.", "pos": "DF", "age": 27, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Páez", "pos": "MF", "age": 26, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Ramos C.", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 60, "agresividad": 60, "calidad": 56}
   ],
 
   "Numancia|1999": [
@@ -356,7 +451,12 @@
     {"name": "Bernardo Morales", "pos": "MF", "age": 27, "velocidad": 66, "resistencia": 70, "agresividad": 66, "calidad": 64},
     {"name": "Néstor Alonso", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 70},
     {"name": "Eduardo Guerrero", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 68},
-    {"name": "Carlos Pozo", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 62, "agresividad": 64, "calidad": 64}
+    {"name": "Carlos Pozo", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 62, "agresividad": 64, "calidad": 64},
+    {"name": "Hernández", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Soria", "pos": "DF", "age": 26, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Montoya", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Villalba", "pos": "AT", "age": 27, "velocidad": 66, "resistencia": 62, "agresividad": 64, "calidad": 62},
+    {"name": "Karl Heinz Schneider", "pos": "AT", "age": 22, "velocidad": 96, "resistencia": 84, "agresividad": 80, "calidad": 88}
   ],
 
   "Numancia|2000": [
@@ -374,7 +474,12 @@
     {"name": "Bernardo Morales", "pos": "MF", "age": 28, "velocidad": 64, "resistencia": 68, "agresividad": 64, "calidad": 62},
     {"name": "Néstor Alonso", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 68},
     {"name": "Eduardo Guerrero", "pos": "AT", "age": 28, "velocidad": 68, "resistencia": 62, "agresividad": 66, "calidad": 66},
-    {"name": "Carlos Pozo", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 62, "agresividad": 62, "calidad": 62}
+    {"name": "Carlos Pozo", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 62, "agresividad": 62, "calidad": 62},
+    {"name": "Hernández", "pos": "GK", "age": 29, "velocidad": 54, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Soria", "pos": "DF", "age": 27, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 60},
+    {"name": "Estrada", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Montoya", "pos": "MF", "age": 25, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Villalba", "pos": "AT", "age": 28, "velocidad": 64, "resistencia": 60, "agresividad": 62, "calidad": 60}
   ],
 
   "Numancia|2004": [
@@ -392,7 +497,12 @@
     {"name": "David Barral", "pos": "MF", "age": 23, "velocidad": 72, "resistencia": 66, "agresividad": 64, "calidad": 66},
     {"name": "Gonzalo Colsa", "pos": "AT", "age": 24, "velocidad": 72, "resistencia": 66, "agresividad": 66, "calidad": 70},
     {"name": "Roberto Lago", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 68},
-    {"name": "Rubén Gracia", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 62, "agresividad": 62, "calidad": 64}
+    {"name": "Rubén Gracia", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 62, "agresividad": 62, "calidad": 64},
+    {"name": "Aguado", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Ruiz", "pos": "DF", "age": 26, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Ortega", "pos": "DF", "age": 25, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Merino", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Barral", "pos": "AT", "age": 26, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 62}
   ],
 
   "Numancia|2008": [
@@ -410,7 +520,12 @@
     {"name": "Koffi Djidji", "pos": "MF", "age": 23, "velocidad": 74, "resistencia": 70, "agresividad": 68, "calidad": 64},
     {"name": "Óscar Díez", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 66, "agresividad": 68, "calidad": 70},
     {"name": "Sergio Lozano", "pos": "AT", "age": 26, "velocidad": 72, "resistencia": 64, "agresividad": 66, "calidad": 68},
-    {"name": "Marco Torrecilla", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64}
+    {"name": "Marco Torrecilla", "pos": "AT", "age": 24, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64},
+    {"name": "Aguado", "pos": "GK", "age": 32, "velocidad": 52, "resistencia": 64, "agresividad": 62, "calidad": 60},
+    {"name": "Ruiz", "pos": "DF", "age": 30, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 58},
+    {"name": "Ortega", "pos": "DF", "age": 29, "velocidad": 60, "resistencia": 62, "agresividad": 62, "calidad": 56},
+    {"name": "Merino", "pos": "MF", "age": 28, "velocidad": 62, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Barral", "pos": "AT", "age": 30, "velocidad": 64, "resistencia": 60, "agresividad": 62, "calidad": 58}
   ],
 
   "Recreativo Huelva|2002": [
@@ -428,7 +543,12 @@
     {"name": "Diego Baena", "pos": "MF", "age": 24, "velocidad": 68, "resistencia": 68, "agresividad": 64, "calidad": 64},
     {"name": "Eduardo Dóniga", "pos": "AT", "age": 26, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 70},
     {"name": "Amara Traoré", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 64, "agresividad": 68, "calidad": 68},
-    {"name": "Felipe Melo", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 62, "agresividad": 66, "calidad": 64}
+    {"name": "Felipe Melo", "pos": "AT", "age": 22, "velocidad": 72, "resistencia": 62, "agresividad": 66, "calidad": 64},
+    {"name": "Soto", "pos": "GK", "age": 27, "velocidad": 56, "resistencia": 68, "agresividad": 64, "calidad": 62},
+    {"name": "Romero", "pos": "DF", "age": 26, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Blanco", "pos": "DF", "age": 24, "velocidad": 64, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Tejada", "pos": "MF", "age": 25, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Vallejo", "pos": "AT", "age": 27, "velocidad": 66, "resistencia": 62, "agresividad": 64, "calidad": 60}
   ],
 
   "Recreativo Huelva|2006": [
@@ -446,7 +566,12 @@
     {"name": "Alejandro Alfaro", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 68, "agresividad": 66, "calidad": 66},
     {"name": "Adrián Colunga", "pos": "AT", "age": 25, "velocidad": 74, "resistencia": 68, "agresividad": 70, "calidad": 72},
     {"name": "Javier Arizmendi", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 70},
-    {"name": "Diego Forlán", "pos": "AT", "age": 26, "velocidad": 76, "resistencia": 68, "agresividad": 70, "calidad": 74}
+    {"name": "Diego Forlán", "pos": "AT", "age": 26, "velocidad": 76, "resistencia": 68, "agresividad": 70, "calidad": 74},
+    {"name": "Armenteros", "pos": "AT", "age": 23, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 62},
+    {"name": "Leal J.", "pos": "DF", "age": 27, "velocidad": 64, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Vico", "pos": "MF", "age": 25, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 62},
+    {"name": "Albín", "pos": "MF", "age": 26, "velocidad": 66, "resistencia": 66, "agresividad": 62, "calidad": 62},
+    {"name": "Kike", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 62, "agresividad": 62, "calidad": 60}
   ],
 
   "Recreativo Huelva|2007": [
@@ -465,7 +590,11 @@
     {"name": "Adrián Colunga", "pos": "AT", "age": 26, "velocidad": 74, "resistencia": 68, "agresividad": 70, "calidad": 74},
     {"name": "Javier Arizmendi", "pos": "AT", "age": 28, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 70},
     {"name": "Nkufo Blaise", "pos": "AT", "age": 27, "velocidad": 76, "resistencia": 68, "agresividad": 68, "calidad": 72},
-    {"name": "Miku Fedor", "pos": "AT", "age": 23, "velocidad": 74, "resistencia": 64, "agresividad": 64, "calidad": 68}
+    {"name": "Miku Fedor", "pos": "AT", "age": 23, "velocidad": 74, "resistencia": 64, "agresividad": 64, "calidad": 68},
+    {"name": "Martínez", "pos": "DF", "age": 26, "velocidad": 64, "resistencia": 70, "agresividad": 68, "calidad": 62},
+    {"name": "Roncaglia", "pos": "DF", "age": 22, "velocidad": 68, "resistencia": 70, "agresividad": 68, "calidad": 62},
+    {"name": "Puñal", "pos": "MF", "age": 31, "velocidad": 64, "resistencia": 70, "agresividad": 68, "calidad": 64},
+    {"name": "Colunga", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 66}
   ],
 
   "Recreativo Huelva|2008": [
@@ -483,7 +612,12 @@
     {"name": "Fabio Santos", "pos": "MF", "age": 26, "velocidad": 68, "resistencia": 68, "agresividad": 68, "calidad": 64},
     {"name": "Adrián Colunga", "pos": "AT", "age": 27, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 70},
     {"name": "Javier Arizmendi", "pos": "AT", "age": 29, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 68},
-    {"name": "Miku Fedor", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 64, "agresividad": 64, "calidad": 68}
+    {"name": "Miku Fedor", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 64, "agresividad": 64, "calidad": 68},
+    {"name": "Soto", "pos": "GK", "age": 33, "velocidad": 52, "resistencia": 64, "agresividad": 62, "calidad": 60},
+    {"name": "Roncaglia", "pos": "DF", "age": 23, "velocidad": 66, "resistencia": 68, "agresividad": 66, "calidad": 60},
+    {"name": "Leal J.", "pos": "DF", "age": 30, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Puñal", "pos": "MF", "age": 32, "velocidad": 62, "resistencia": 68, "agresividad": 66, "calidad": 62},
+    {"name": "Colunga", "pos": "AT", "age": 28, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 64}
   ],
 
   "Murcia|2003": [
@@ -501,7 +635,12 @@
     {"name": "Emeka Okafor", "pos": "MF", "age": 24, "velocidad": 70, "resistencia": 66, "agresividad": 66, "calidad": 62},
     {"name": "Antonio Guayre", "pos": "AT", "age": 25, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64},
     {"name": "Rafael Morales", "pos": "AT", "age": 27, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62},
-    {"name": "Israel Puerto", "pos": "AT", "age": 23, "velocidad": 68, "resistencia": 60, "agresividad": 60, "calidad": 60}
+    {"name": "Israel Puerto", "pos": "AT", "age": 23, "velocidad": 68, "resistencia": 60, "agresividad": 60, "calidad": 60},
+    {"name": "Velasco", "pos": "GK", "age": 27, "velocidad": 52, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Pérez Bernal", "pos": "DF", "age": 24, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Tudela", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Serrano J.", "pos": "MF", "age": 25, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Gallardo F.", "pos": "AT", "age": 22, "velocidad": 66, "resistencia": 58, "agresividad": 58, "calidad": 56}
   ],
 
   "Murcia|2007": [
@@ -519,7 +658,12 @@
     {"name": "Iñigo Vélez", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 68, "agresividad": 64, "calidad": 64},
     {"name": "Ighli Vannucchi", "pos": "AT", "age": 25, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 66},
     {"name": "Reguero Flores", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 66},
-    {"name": "Wilfried Sanou", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 64, "agresividad": 66, "calidad": 66}
+    {"name": "Wilfried Sanou", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 64, "agresividad": 66, "calidad": 66},
+    {"name": "Ortiz M.", "pos": "GK", "age": 28, "velocidad": 52, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Sáez", "pos": "DF", "age": 25, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Caro", "pos": "DF", "age": 27, "velocidad": 60, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Bautista", "pos": "MF", "age": 24, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Pérez Pardo", "pos": "AT", "age": 26, "velocidad": 66, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Levante|2004": [
@@ -537,7 +681,12 @@
     {"name": "Chechu Dorado", "pos": "MF", "age": 27, "velocidad": 68, "resistencia": 70, "agresividad": 68, "calidad": 64},
     {"name": "Mónico García", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 68},
     {"name": "David Rodríguez", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 66},
-    {"name": "Rubén Suárez", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 62, "agresividad": 64, "calidad": 64}
+    {"name": "Rubén Suárez", "pos": "AT", "age": 23, "velocidad": 72, "resistencia": 62, "agresividad": 64, "calidad": 64},
+    {"name": "Torró", "pos": "GK", "age": 26, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Campos", "pos": "DF", "age": 24, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Genis", "pos": "DF", "age": 23, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Roca V.", "pos": "MF", "age": 25, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Lluís", "pos": "AT", "age": 22, "velocidad": 66, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Levante|2006": [
@@ -555,7 +704,12 @@
     {"name": "Baba Diawara", "pos": "MF", "age": 24, "velocidad": 74, "resistencia": 70, "agresividad": 68, "calidad": 66},
     {"name": "Mónico García", "pos": "AT", "age": 27, "velocidad": 70, "resistencia": 66, "agresividad": 66, "calidad": 66},
     {"name": "David Rodríguez", "pos": "AT", "age": 29, "velocidad": 68, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Julio Baptista", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 68, "agresividad": 70, "calidad": 70}
+    {"name": "Julio Baptista", "pos": "AT", "age": 24, "velocidad": 74, "resistencia": 68, "agresividad": 70, "calidad": 70},
+    {"name": "Torró", "pos": "GK", "age": 28, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Campos", "pos": "DF", "age": 26, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Genis", "pos": "DF", "age": 25, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Roca V.", "pos": "MF", "age": 27, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Lluís", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ],
 
   "Levante|2007": [
@@ -573,7 +727,12 @@
     {"name": "Germán Montoya", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 68, "agresividad": 66, "calidad": 64},
     {"name": "Mónico García", "pos": "AT", "age": 28, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 66},
     {"name": "Manucho da Silva", "pos": "AT", "age": 25, "velocidad": 72, "resistencia": 66, "agresividad": 68, "calidad": 68},
-    {"name": "Arouna Koné", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 66, "agresividad": 68, "calidad": 68}
+    {"name": "Arouna Koné", "pos": "AT", "age": 23, "velocidad": 76, "resistencia": 66, "agresividad": 68, "calidad": 68},
+    {"name": "Sánchez R.", "pos": "GK", "age": 27, "velocidad": 54, "resistencia": 68, "agresividad": 62, "calidad": 60},
+    {"name": "Muñiz", "pos": "DF", "age": 25, "velocidad": 62, "resistencia": 66, "agresividad": 64, "calidad": 58},
+    {"name": "Carreño", "pos": "DF", "age": 23, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Heredia", "pos": "MF", "age": 26, "velocidad": 64, "resistencia": 66, "agresividad": 62, "calidad": 60},
+    {"name": "Calleja L.", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 62, "agresividad": 62, "calidad": 58}
   ],
 
   "Gimnàstic|2006": [
@@ -591,7 +750,12 @@
     {"name": "Matías Ezequiel", "pos": "MF", "age": 25, "velocidad": 68, "resistencia": 66, "agresividad": 64, "calidad": 62},
     {"name": "Toni Mora", "pos": "AT", "age": 26, "velocidad": 66, "resistencia": 62, "agresividad": 62, "calidad": 62},
     {"name": "Iván Ballesta", "pos": "AT", "age": 24, "velocidad": 68, "resistencia": 60, "agresividad": 62, "calidad": 62},
-    {"name": "Sandro Nkufo", "pos": "AT", "age": 22, "velocidad": 70, "resistencia": 60, "agresividad": 62, "calidad": 62}
+    {"name": "Sandro Nkufo", "pos": "AT", "age": 22, "velocidad": 70, "resistencia": 60, "agresividad": 62, "calidad": 62},
+    {"name": "Brugué", "pos": "GK", "age": 26, "velocidad": 52, "resistencia": 64, "agresividad": 60, "calidad": 56},
+    {"name": "Rovira", "pos": "DF", "age": 25, "velocidad": 60, "resistencia": 62, "agresividad": 60, "calidad": 54},
+    {"name": "Maset", "pos": "DF", "age": 24, "velocidad": 60, "resistencia": 62, "agresividad": 60, "calidad": 54},
+    {"name": "Abelló", "pos": "MF", "age": 23, "velocidad": 62, "resistencia": 62, "agresividad": 58, "calidad": 56},
+    {"name": "Ribas", "pos": "AT", "age": 22, "velocidad": 64, "resistencia": 58, "agresividad": 58, "calidad": 54}
   ],
 
   "Xerez|2009": [
@@ -609,6 +773,11 @@
     {"name": "Andrés Fernández", "pos": "MF", "age": 24, "velocidad": 66, "resistencia": 68, "agresividad": 62, "calidad": 62},
     {"name": "Dani Torres", "pos": "AT", "age": 26, "velocidad": 70, "resistencia": 64, "agresividad": 66, "calidad": 66},
     {"name": "Xisco Nadal", "pos": "AT", "age": 25, "velocidad": 70, "resistencia": 62, "agresividad": 64, "calidad": 64},
-    {"name": "Fernando Llorente", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 64, "agresividad": 68, "calidad": 66}
+    {"name": "Fernando Llorente", "pos": "AT", "age": 24, "velocidad": 66, "resistencia": 64, "agresividad": 68, "calidad": 66},
+    {"name": "Gallardo P.", "pos": "GK", "age": 27, "velocidad": 54, "resistencia": 66, "agresividad": 62, "calidad": 58},
+    {"name": "Polo", "pos": "DF", "age": 25, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Oliva", "pos": "DF", "age": 24, "velocidad": 62, "resistencia": 64, "agresividad": 62, "calidad": 56},
+    {"name": "Cerro", "pos": "MF", "age": 26, "velocidad": 64, "resistencia": 64, "agresividad": 60, "calidad": 58},
+    {"name": "Caro J.", "pos": "AT", "age": 23, "velocidad": 66, "resistencia": 60, "agresividad": 60, "calidad": 58}
   ]
 }
